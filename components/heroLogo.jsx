@@ -6,7 +6,7 @@ import Image from 'next/image';
 export const HeroLogo = () => {
     return (
         <div className="z-20">
-            <Tilt options={{ scale: 1, max: 15, perspective: 1000, easing: "cubic-bezier(.17,.67,.83,.67)", speed: 500 }}>
+            <Tilt options={{ scale: 1.05, max: 15, perspective: 1000, easing: "cubic-bezier(.17,.67,.83,.67)", speed: 500 }}>
                 <Image
                     src="/inventeLogo.svg"
                     alt="Invente"
