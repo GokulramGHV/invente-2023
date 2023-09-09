@@ -16,19 +16,19 @@ export default function Countdown() {
       className={`${space_grotesk.className} flex gap-8 z-50 relative top-10`}
     >
       <div className="text-center">
-        <h1 className="text-7xl font-bold text-white">{days}</h1>
+        <h1 className="text-7xl font-bold text-white">{String(days).padStart(2, '0')}</h1>
         <p className="text-xl font-light text-[#F7971D] relative left-1">
           days
         </p>
       </div>
       <div className="text-center">
-        <h1 className="text-7xl font-bold text-white">{hours}</h1>
+        <h1 className="text-7xl font-bold text-white">{String(hours).padStart(2, '0')}</h1>
         <p className="text-xl font-light text-[#F7971D] relative left-1">
           hrs
         </p>
       </div>
       <div className="text-center">
-        <h1 className="text-7xl font-bold text-white">{minutes}</h1>
+        <h1 className="text-7xl font-bold text-white">{String(minutes).padStart(2, '0')}</h1>
         <p className="text-xl font-light text-[#F7971D] relative left-1">
           mins
         </p>
