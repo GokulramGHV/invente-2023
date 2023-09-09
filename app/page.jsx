@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 import Countdown from '@/components/countdown';
+import { HeroLogo } from '@/components/heroLogo';
 
 export default function Home() {
   return (
@@ -11,18 +12,12 @@ export default function Home() {
         loop
         muted
         className="absolute top-0 left-0 z-0 w-full h-full object-cover"
-      ></video>
+      />
       <div className="absolute top-0 left-0 flex justify-between items-center w-full p-16 z-10">
         <Image src="/snuLogo.svg" alt="SNU Logo" width="200" height="200" />
         <Image src="/ssnLogo.svg" alt="SSN Logo" width="130" height="130" />
       </div>
-      <Image
-        src="/inventeLogo.svg"
-        alt="Invente"
-        width="600"
-        height="200"
-        className="z-20"
-      />
+      <HeroLogo />
       <Countdown />
       <Image
         src="/downArrow.png"
