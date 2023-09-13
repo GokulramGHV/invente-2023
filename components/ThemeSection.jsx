@@ -15,7 +15,7 @@ const unbounded = Unbounded({
 export default function ThemeSection() {
   return (
     <div
-      className={`relative w-full pt-20 pb-10 pr-20 pl-20 lg:pl-0 ${space_grotesk.className}`}
+      className={`relative w-full pt-20 lg:pt-0 pb-20 lg:pb-10 sm:pr-20 pr-10 sm:pl-20 pl-10 lg:pl-0 ${space_grotesk.className}`}
     >
       <div className="flex gap-20 items-center">
         <Image
@@ -28,17 +28,19 @@ export default function ThemeSection() {
         <div className="flex-1">
           <p>OUR THEME THIS YEAR</p>
           <h1
-            className={`xl:text-7xl text-6xl font-semibold ${unbounded.className}`}
+            className={`xl:text-7xl md:text-6xl sm:text-5xl text-3xl font-semibold ${unbounded.className}`}
           >
             TECHSPECTRUM
           </h1>
           <h2
-            className={`xl:text-2xl text-xl ml-4 font-light uppercase tracking-[0.4rem] ${unbounded.className}`}
+            className={`xl:text-2xl md:text-xl sm:text-lg text-sm sm:ml-4 font-light uppercase xl:tracking-[0.4rem] md:tracking-[0.32rem] sm:tracking-[0.16rem] ${unbounded.className}`}
           >
             Traveling through time and Tech
           </h2>
 
-          <h3 className="uppercase mt-12 text-4xl font-bold">About Invente</h3>
+          <h3 className="uppercase mt-12 md:text-4xl text-2xl font-bold">
+            About Invente
+          </h3>
           <p className="mt-2">
             Looking for fun? You&apos;ve come to the right place! Since 2016,
             Invente has been our flagship techfest, catered to challenge the

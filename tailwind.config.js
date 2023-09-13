@@ -8,11 +8,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-          'cse': "url('/cse.png')",
-          'it': "url('/it.png')"
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hex': "url('/hexbg.png')",
       },
-      colors: {
-        'steel': 'rgba(28, 26, 36, 1)',
+      colors:{
+        'nav-color': "rgba(35, 33, 33, 0.72)",
       }
     },
   },

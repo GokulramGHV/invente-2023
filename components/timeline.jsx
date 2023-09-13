@@ -11,13 +11,13 @@ const space_grotesk = Space_Grotesk({
 export default function Timeline() {
   return (
     <div
-      className={`${space_grotesk.className} flex-column justify-center items-center w-full px-20 pb-20 z-10`}
+      className={`${space_grotesk.className} flex-column justify-center items-center w-full lg:px-20 px-5 pb-20 z-10`}
     >
-      <div className="font-bold text-5xl flex justify-center mb-20">
+      <div className="font-bold md:text-5xl text-3xl flex justify-center mb-20">
         EXPLORE THE TIMELINE
       </div>
-      <div className="md:w-[630px] mx-auto flex flex-col gap-3">
-        <div className="relative flex justify-end items-center">
+      <div className="md:w-[630px] mx-auto flex flex-col lg:gap-3 gap-20">
+        <div className="relative flex justify-center lg:justify-end items-center">
           <Image
             src="/cse.png"
             alt="cse"
@@ -30,9 +30,9 @@ export default function Timeline() {
             alt="arrow"
             width={100}
             height={56}
-            className="absolute top-[80%] left-[42%] z-[11]"
+            className="hidden lg:block absolute top-[80%] left-[42%] z-[11]"
           />
-          <div className="absolute -top-10 -right-24">
+          <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
               <Image
                 src="/Vector 5.png"
@@ -45,7 +45,7 @@ export default function Timeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex justify-start items-center">
+        <div className="relative flex justify-center lg:justify-start items-center">
           <Image
             src="/it.png"
             alt="it"
@@ -58,9 +58,9 @@ export default function Timeline() {
             alt="arrow"
             width={100}
             height={56}
-            className="absolute -bottom-12 left-[42%] z-[11] transform -scale-x-100"
+            className="hidden lg:block absolute -bottom-12 left-[42%] z-[11] transform -scale-x-100"
           />
-          <div className="absolute -top-10 -left-24">
+          <div className="absolute -top-10 lg:-left-24 left-[35%]">
             <div className="relative">
               <Image
                 src="/Vector 5.png"
@@ -73,7 +73,7 @@ export default function Timeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex justify-end items-center">
+        <div className="relative flex justify-center lg:justify-end items-center">
           <Image
             src="/ece.png"
             alt="ece"
@@ -86,9 +86,9 @@ export default function Timeline() {
             alt="arrow"
             width={100}
             height={56}
-            className="absolute top-[80%] left-[42%] z-[11]"
+            className="hidden lg:block absolute top-[80%] left-[42%] z-[11]"
           />
-          <div className="absolute -top-10 -right-24">
+          <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
               <Image
                 src="/Vector 5.png"
@@ -101,7 +101,7 @@ export default function Timeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex justify-start items-center">
+        <div className="relative flex justify-center lg:justify-start items-center">
           <Image
             src="/mech.png"
             alt="mech"
@@ -114,9 +114,9 @@ export default function Timeline() {
             alt="arrow"
             width={100}
             height={56}
-            className="absolute -bottom-12 left-[42%] z-[11] transform -scale-x-100"
+            className="hidden lg:block absolute -bottom-12 left-[42%] z-[11] transform -scale-x-100"
           />
-          <div className="absolute -top-10 -left-24">
+          <div className="absolute -top-10 lg:-left-24 left-[35%]">
             <div className="relative">
               <Image
                 src="/Vector 5.png"
@@ -129,7 +129,7 @@ export default function Timeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex justify-end items-center">
+        <div className="relative flex justify-center lg:justify-end items-center">
           <Image
             src="/chem.png"
             alt="chem"
@@ -142,9 +142,9 @@ export default function Timeline() {
             alt="arrow"
             width={100}
             height={56}
-            className="absolute top-[80%] left-[42%] z-[11]"
+            className="hidden lg:block absolute top-[80%] left-[42%] z-[11]"
           />
-          <div className="absolute -top-10 -right-24">
+          <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
               <Image
                 src="/Vector 5.png"
@@ -157,7 +157,7 @@ export default function Timeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex justify-start items-center">
+        <div className="relative flex justify-center lg:justify-start items-center">
           <Image
             src="/eee.png"
             alt="eee"
@@ -170,9 +170,9 @@ export default function Timeline() {
             alt="arrow"
             width={100}
             height={56}
-            className="absolute -bottom-12 left-[42%] z-[11] transform -scale-x-100"
+            className="hidden lg:block absolute -bottom-12 left-[42%] z-[11] transform -scale-x-100"
           />
-          <div className="absolute -top-10 -left-24">
+          <div className="absolute -top-10 lg:-left-24 left-[35%]">
             <div className="relative">
               <Image
                 src="/Vector 5.png"
@@ -185,7 +185,7 @@ export default function Timeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex justify-end items-center">
+        <div className="relative flex justify-center lg:justify-end items-center">
           <Image
             src="/civil.png"
             alt="civil"
@@ -198,9 +198,9 @@ export default function Timeline() {
             alt="arrow"
             width={100}
             height={56}
-            className="absolute top-[80%] left-[42%] z-[11]"
+            className="hidden lg:block absolute top-[80%] left-[42%] z-[11]"
           />
-          <div className="absolute -top-10 -right-24">
+          <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
               <Image
                 src="/Vector 5.png"
@@ -213,7 +213,7 @@ export default function Timeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex justify-start items-center">
+        <div className="relative flex justify-center lg:justify-start items-center">
           <Image
             src="/bme.png"
             alt="bme"
@@ -226,9 +226,9 @@ export default function Timeline() {
             alt="arrow"
             width={100}
             height={56}
-            className="absolute -bottom-12 left-[42%] z-[11] transform -scale-x-100"
+            className="hidden lg:block absolute -bottom-12 left-[42%] z-[11] transform -scale-x-100"
           />
-          <div className="absolute -top-10 -left-24">
+          <div className="absolute -top-10 lg:-left-24 left-[35%]">
             <div className="relative">
               <Image
                 src="/Vector 5.png"
@@ -241,7 +241,7 @@ export default function Timeline() {
             </div>
           </div>
         </div>
-        <div className="relative flex justify-end items-center">
+        <div className="relative flex justify-center lg:justify-end items-center">
           <Image
             src="/snu.png"
             alt="snu"
@@ -249,7 +249,7 @@ export default function Timeline() {
             height="180"
             className="z-10"
           />
-          <div className="absolute -top-10 -right-24">
+          <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
               <Image src="/Vector 5.png" alt="arrow" width={120} height={56} />
               <p className="absolute -top-0.5 -right-[72px] text-xl">1000BC</p>
