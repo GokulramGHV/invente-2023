@@ -35,41 +35,12 @@ export default function Home() {
           className="z-50 relative top-20 transition duration-700 ease-in-out animate-bounce"
         />
       </div>
-      {/* <div className="w-full min-h-screen relative bg-[#252536]">
-        <div
-          className="w-full h-full absolute top-0 left-0 bg-cover bg-repeat-y opacity-20"
-          style={{
-            backgroundImage: `url("background_rect.png")`,
-          }}
-        ></div>
-        <div
-          className="w-full h-full absolute top-0 left-0 bg-contain bg-repeat-y opacity-40"
-          style={{
-            backgroundImage: `url("hexxx 1.svg")`,
-          }}
-        ></div> */}
-      {/* <Image
-          src="hexxx 1.svg"
-          alt="hex"
-          className="object-cover w-full h-full absolute top-0 left-0"
-          width={1920}
-          height={1080}
-        /> */}
-      {/* <Timeline />
-      </div> */}
-      <div className="bg-hex w-full h-full bg-scroll bg-cover">
+
+      <div className="bg-hex w-full h-full bg-scroll bg-contain">
         <Navbar />
-      </div>
-      <div
-        className="w-full min-h-screen relative bg-contain"
-        style={{
-          backgroundImage: `url("hexbg.jpg")`,
-        }}
-      >
         <ThemeSection />
         <Timeline />
       </div>
-      {/* <Timeline /> */}
     </main>
   );
 }

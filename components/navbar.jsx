@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <header className="w-full text-gray-700 shadow-sm body-font">
       <div className="flex flex-col bg-nav-color items-start justify-between p-6 m-0 w-full md:flex-row">
-        <nav className="flex flex-wrap items-center justify-center text-white font-bold w-full">
+        <nav className="flex flex-wrap items-center justify-left text-white font-bold w-full">
           <a
             href="#_"
             className=" px-8 py-3 rounded-md hover:outline outline-2 outline-white"
