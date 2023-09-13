@@ -17,9 +17,13 @@ export default function Home() {
           muted
           className="absolute top-0 left-0 z-0 w-full h-full object-cover"
         />
-        <div className="absolute top-0 left-0 flex justify-between items-center w-full p-16 z-10">
-          <Image src="/snuLogo.svg" alt="SNU Logo" width="200" height="200" />
-          <Image src="/ssnLogo.svg" alt="SSN Logo" width="130" height="130" />
+        <div className="absolute top-0 left-0 flex justify-between items-center w-full md:px-16 px-8 z-10">
+          <div className="relative md:w-[200px] md:h-[200px] w-[150px] h-[150px]">
+            <Image src="/snuLogo.svg" alt="SNU Logo" fill />
+          </div>
+          <div className="relative md:w-[130px] md:h-[130px] w-[95px] h-[95px]">
+            <Image src="/ssnLogo.svg" alt="SSN Logo" fill />
+          </div>
         </div>
         <HeroLogo />
         <Countdown />
