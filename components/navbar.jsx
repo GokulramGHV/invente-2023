@@ -47,11 +47,11 @@ export default function Navbar() {
           >
             Contact Us
           </a>
-          <div className="flex-1 flex justify-end mr-5">
+          {/* <div className="flex-1 flex justify-end mr-5">
             <button className="bg-[#2495D4] hover:bg-sky-600 rounded-[10px] px-24 py-3 uppercase w-fit">
               Get Passes
             </button>
-          </div>
+          </div> */}
         </nav>
       </div>
     </header>
