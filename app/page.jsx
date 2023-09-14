@@ -15,6 +15,7 @@ export default function Home() {
           autoPlay
           loop
           muted
+          preload="auto"
           className="absolute top-0 left-0 z-0 w-full h-full object-cover"
         />
         <div className="absolute top-0 left-0 flex justify-between items-center w-full md:px-16 px-8 z-10">
