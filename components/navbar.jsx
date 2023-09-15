@@ -41,7 +41,7 @@ export default function Navbar({ className = '' }) {
   return (
     <>
       <header
-        className={`w-full text-gray-700 shadow-sm body-font z-50 ${className}`}
+        className={`w-full text-gray-700 shadow-sm body-font z-70 ${className}`}
       >
         <div
           className={`flex  ${
