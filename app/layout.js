@@ -1,7 +1,10 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { IBM_Plex_Sans } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const ibm_plex = IBM_Plex_Sans({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+});
 
 export const metadata = {
   title: 'Invente 2023',
@@ -16,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={ibm_plex.className}>{children}</body>
     </html>
   );
 }

@@ -8,7 +8,7 @@ const space_grotesk = Space_Grotesk({
 export default function EventDetailsBox({ className = '', children }) {
   return (
     <div
-      className={`${className} border border-white border-white/50 rounded-xl backdrop-blur-sm py-5 px-10 flex flex-col items-center`}
+      className={`${className} border border-white border-white/50 rounded-xl backdrop-blur-sm py-5 sm:px-10 px-6 flex flex-col items-center`}
       // style={{
       //   border: '1px solid #FFFFFF50',
       //   borderImage:

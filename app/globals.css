@@ -3,17 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 body {
@@ -38,4 +30,14 @@ body {
 
 .font-post-no-bills {
   font-family: 'post-no-bills-colombo-bold', sans-serif;
+}
+
+.get-passes-button {
+  border-radius: 5px;
+  background: linear-gradient(90deg, #6bacd0 0.21%, #0576b6 99.87%);
+}
+
+.get-passes-button:hover {
+  background: linear-gradient(269deg, #6bacd0 4.91%, #0576b6 99.72%);
+  box-shadow: 2px 2px 15px 2px rgba(216, 253, 255, 0.25);
 }
