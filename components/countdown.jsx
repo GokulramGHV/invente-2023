@@ -13,7 +13,7 @@ export default function Countdown() {
   return (
     <div
       id="countdown"
-      className={`${space_grotesk.className} flex gap-8 z-50 relative top-10`}
+      className={`${space_grotesk.className} flex gap-8 z-10 relative top-10`}
     >
       <div className="text-center">
         <h1 className="md:text-7xl text-5xl font-bold text-white">{String(days).padStart(2, '0')}</h1>

@@ -33,7 +33,7 @@ export default function Home() {
           alt="Down Arrow"
           width="50"
           height="50"
-          className="z-50 relative top-20 transition duration-700 ease-in-out animate-bounce"
+          className="z-10 relative top-20 transition duration-700 ease-in-out animate-bounce"
         />
       </div>
 
