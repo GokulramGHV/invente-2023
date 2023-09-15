@@ -34,7 +34,7 @@ export default function CSE() {
         <div className="flex justify-center flex-col items-center mt-10 z-10 leading-3">
           <p className="md:text-xl mb-3">DEPARTMENT OF</p>
           <h1
-            className={`font-ndLogos font-[400] md:text-[2.8rem] text-2xl leading-tight text-center uppercase md:mb-2`}
+            className={`font-ndLogos font-[400] lg:text-[3.5rem] md:text-[2.5rem] text-2xl leading-tight text-center uppercase md:mb-2`}
           >
             COMPUTER SCIENCE
           </h1>
