@@ -15,6 +15,9 @@ module.exports = {
       },
       colors:{
         'nav-color': "rgba(35, 33, 33, 0.72)",
+      },
+      fontFamily: {
+        ndLogos : [ "ND-Logos", 'sans-serif'],
       }
     },
   },
