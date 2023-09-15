@@ -16,10 +16,10 @@ export default function CSE() {
   const [selectedEvent, setSelectedEvent] = useState(CSEevents.events[0]);
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
-//   const colorScheme = {
-//     selected : "#0c565299",
-//     nonSelected : "#6f8584b3"
-//   }
+  const colorScheme = {
+    selected : "#0c565299",
+    nonSelected : "#6f8584b3"
+  }
 
   return (
     <>
@@ -50,7 +50,7 @@ export default function CSE() {
             dropDownOpen,
             selectedEvent,
             deptEvents: CSEevents,
-            //colorScheme
+            colorScheme
           }}
         />
 
