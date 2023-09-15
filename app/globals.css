@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.background-gradient {
+  background: linear-gradient(
+    77.31deg,
+    #1a1a1a -0.16%,
+    rgba(26, 26, 26, 0.59) -0.16%,
+    rgba(0, 0, 0, 0.29) 45.83%,
+    rgba(6, 6, 6, 0.62) 92.79%
+  );
+}
+
+.font-post-no-bills {
+  font-family: 'post-no-bills-colombo-bold', sans-serif;
+}

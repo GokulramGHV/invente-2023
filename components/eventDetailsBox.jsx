@@ -44,8 +44,8 @@ export function EventDetails({
       >
         {name}
       </h2>
-      <div className="w-full my-5 flex flex-wrap gap-6">
-        <div className="flex gap-2.5 items-center">
+      <div className="w-full my-5 flex flex-wrap sm:gap-6 gap-3 justify-center md:justify-start">
+        <div className="flex md:gap-2.5 gap-1.5 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 32 32"
@@ -59,7 +59,7 @@ export function EventDetails({
           </svg>
           <p className="font-medium text-sm md:text-base">{date}</p>
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex md:gap-2 gap-1 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="md:w-6 md:h-6 w-4 h-4"
@@ -73,7 +73,7 @@ export function EventDetails({
           </svg>
           <p className="font-medium text-sm md:text-base">{venue}</p>
         </div>
-        <div className="flex gap-2.5 items-center">
+        <div className="flex md:gap-2.5 gap-1.5 items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="md:w-6 md:h-6 w-4 h-4"
@@ -88,7 +88,7 @@ export function EventDetails({
           <p className="font-medium text-sm md:text-base">{team_size}</p>
         </div>
       </div>
-      <p className="text-sm md:text-base">{description}</p>
+      <p className="text-sm md:text-base text-justify">{description}</p>
     </>
   );
 }
