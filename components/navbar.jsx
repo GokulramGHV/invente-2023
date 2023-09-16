@@ -41,11 +41,11 @@ export default function Navbar({ className = '' }) {
   return (
     <>
       <header
-        className={`w-full text-gray-700 shadow-sm body-font z-50 ${className}`}
+        className={`w-full text-gray-700 shadow-sm body-font z-[70] ${className}`}
       >
         <div
           className={`flex  ${
-            isOpen ? 'bg-[#161620]' : 'bg-[#1F1F1FCC]'
+            isOpen ? 'bg-[#161620] fixed top-0 left-0' : 'bg-[#1F1F1FCC]'
           } items-center justify-between px-8 py-4 m-0 w-full z-40`}
         >
           <nav className="hidden xl:flex items-center justify-left text-white font-medium uppercase w-full gap-4">
@@ -92,7 +92,7 @@ export default function Navbar({ className = '' }) {
       </header>
       {isOpen && (
         <section className="xl:hidden w-full overflow-y-auto py-10 h-screen fixed top-0 left-0 bg-[#161620] z-30 flex justify-center items-center text-2xl uppercase font-medium">
-          <div className="relative flex flex-col gap-10 items-center">
+          <div className="relative flex flex-col sm:gap-10 gap-5 items-center">
             {links.map((link, i) => (
               <Link
                 key={i}
