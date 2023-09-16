@@ -18,6 +18,10 @@ module.exports = {
       },
       fontFamily: {
         ndLogos : [ "ND-Logos", 'sans-serif'],
+        tourney900 : [ "Tourney-Black", 'sans-serif'],
+        tourney700 : [ "Tourney-Bold", 'sans-serif'],
+        wokStencilCaps : [ "Wok-Stencil-Caps", 'sans-serif'],
+        homemadeApple : [ "Homemade-Apple", 'sans-serif'],
       }
     },
   },

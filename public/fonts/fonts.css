@@ -4,3 +4,26 @@
     font-style: italic;
     src: url("ND_LOGOS.ttf");
 }
+@font-face {
+    font-family: Tourney-Black;
+    font-style: italic;
+    src: url("TOURNEY_BLACK.ttf");
+}
+
+@font-face {
+    font-family: Tourney-Bold;
+    font-style: italic;
+    src: url("Tourney_Bold.ttf");
+}
+
+@font-face {
+    font-family: Wok-Stencil-Caps;
+    font-style: italic;
+    src: url("Wok_Stencil_Caps.ttf");
+}
+
+@font-face {
+    font-family: Homemade-Apple;
+    font-style: italic;
+    src: url("Homemade_Apple.ttf");
+}
