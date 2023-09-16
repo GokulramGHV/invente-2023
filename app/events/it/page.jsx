@@ -23,6 +23,11 @@ export default function IT() {
   const [selectedEvent, setSelectedEvent] = useState(ITevents.events[0]);
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
+  const colorScheme = {
+    selected : "#27578B99",
+    nonSelected : "#6F748566"
+  }
+
   return (
     <>
       <Navbar className="absolute top-0 left-0 w-full" />
@@ -52,6 +57,7 @@ export default function IT() {
             dropDownOpen,
             selectedEvent,
             deptEvents: ITevents,
+            colorScheme
           }}
         />
 
@@ -94,7 +100,7 @@ export default function IT() {
             </div>
           </div>
 
-          <EventDetailsBox className="lg:md:w-[60vw] md:min-h-[500px] bg-[#27578B99]">
+          <EventDetailsBox className="lg:w-[60vw] md:min-h-[500px] bg-[#27578B99]">
             <EventDetails {...selectedEvent} />
           </EventDetailsBox>
 

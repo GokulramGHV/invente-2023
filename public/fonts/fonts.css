@@ -1,0 +1,6 @@
+/* Adding font face */
+@font-face {
+    font-family: ND-Logos;
+    font-style: italic;
+    src: url("ND_LOGOS.ttf");
+}

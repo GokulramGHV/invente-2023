@@ -4,11 +4,12 @@ export default function EventsDropDown({
   dropDownOpen,
   selectedEvent,
   deptEvents,
+  colorScheme
 }) {
   return (
     <div className="relative w-full mt-6 mb-4 md:hidden cursor-pointer">
       <button
-        className="relative bg-[#635C4DCF] z-10 w-[180px] rounded-lg py-2 px-3 border border-white/40  backdrop-blur-[2px] text-sm flex gap-1.5 items-center"
+        className={`relative bg-[${colorScheme.selected}] z-10 w-[180px] rounded-lg py-2 px-3 border border-white/40  backdrop-blur-[2px] text-sm flex gap-1.5 items-center`}
         onClick={() => setDropDownOpen(!dropDownOpen)}
       >
         <svg
