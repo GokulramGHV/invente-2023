@@ -93,7 +93,7 @@ export default function CSE() {
             </div>
           </div>
 
-          <EventDetailsBox className="md:w-[60vw] min-h-[500px] bg-[#0c565299]">
+          <EventDetailsBox className="lg:w-[60vw] md:min-h-[500px] bg-[#0c565299]">
             <EventDetails {...selectedEvent} />
           </EventDetailsBox>
 

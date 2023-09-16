@@ -100,7 +100,7 @@ export default function IT() {
             </div>
           </div>
 
-          <EventDetailsBox className="lg:md:w-[60vw] md:min-h-[500px] bg-[#27578B99]">
+          <EventDetailsBox className="lg:w-[60vw] md:min-h-[500px] bg-[#27578B99]">
             <EventDetails {...selectedEvent} />
           </EventDetailsBox>
 
