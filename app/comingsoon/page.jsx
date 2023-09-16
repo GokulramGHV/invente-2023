@@ -16,7 +16,7 @@ export default function Home() {
         <main>
             <div className="flex min-h-screen flex-col items-center justify-center p-10">
                 <video
-                    src="/Asc.m4v"
+                    src="/asc.m4v"
                     autoPlay
                     loop
                     muted

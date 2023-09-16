@@ -17,8 +17,8 @@ export default function CSE() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {
-    selected : "#0c565299",
-    nonSelected : "#6f8584b3"
+    selected: "#0c565299",
+    nonSelected: "#6f8584b3"
   }
 
   return (
@@ -28,7 +28,7 @@ export default function CSE() {
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-cover w-full z-10 sm:px-12 px-6 py-12"
         style={{
-          backgroundImage: `url('/CSE_background.png')`,
+          backgroundImage: `url('/background_CSE.png')`,
         }}
       >
         <div className="flex justify-center flex-col items-center mt-10 z-10 leading-3">

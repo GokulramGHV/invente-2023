@@ -27,9 +27,9 @@ export default function BME() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {
-    selected : "bg-[#B49E7299]",
-    nonSelected : "bg-[#857E6F66]",
-    hover : "hover:bg-[#B49E7299]",
+    selected: "bg-[#B49E7299]",
+    nonSelected: "bg-[#857E6F66]",
+    hover: "hover:bg-[#B49E7299]",
   }
 
   const bg_color = "bg-[#664F36]"
@@ -41,7 +41,7 @@ export default function BME() {
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-12"
         style={{
-          backgroundImage: `url('/BME_background.png')`,
+          backgroundImage: `url('/background_BME.png')`,
         }}
       >
         <div className="flex justify-center flex-col items-center mt-10 z-10">
@@ -110,7 +110,7 @@ export default function BME() {
           </div>
 
           <EventDetailsBox className={`lg:w-[60vw] md:min-h-[608px] h-max  ${colorScheme.selected}`}>
-            <EventDetails {...selectedEvent} bg_color={bg_color}/>
+            <EventDetails {...selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
 
           <div className="mt-2 hidden md:flex flex-col gap-3">

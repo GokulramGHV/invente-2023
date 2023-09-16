@@ -99,7 +99,7 @@ export default function Navbar({ className = '' }) {
               </Link>
             ))}
             <Image
-              src="/invente_logo_white.png"
+              src="/inventeLogoWhite.png"
               alt="Invente Logo"
               className="mt-5"
               width={250}

@@ -24,8 +24,8 @@ export default function ECE() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {
-    selected : "bg-[#614925B2]",
-    nonSelected : "bg-[#635C4DCF]",
+    selected: "bg-[#614925B2]",
+    nonSelected: "bg-[#635C4DCF]",
     hover: "hover:bg-[#614925B2]"
   }
 
@@ -39,7 +39,7 @@ export default function ECE() {
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-12"
         style={{
-          backgroundImage: `url('/ECE_background.png')`,
+          backgroundImage: `url('/background_ECE.png')`,
         }}
       >
         <div className="flex justify-center flex-col items-center mt-10 z-10">
@@ -111,7 +111,7 @@ export default function ECE() {
           </div>
 
           <EventDetailsBox className={`lg:w-[60vw] md:min-h-[600px] h-max ${colorScheme.selected}`}>
-            <EventDetails {...selectedEvent} bg_color={bg_color}/>
+            <EventDetails {...selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
 
           <div className="mt-2 hidden md:flex flex-col gap-3">
