@@ -5,17 +5,11 @@ import { HeroLogo } from '@/components/heroLogo';
 import Timeline from '@/components/timeline';
 import ThemeSection from '@/components/ThemeSection';
 import Navbar from '@/components/navbar';
-import BME from './events/bme/page';
-// import EEE from './events/EEE/page';
-// import ECE from './events/ECE/page';
-// import COM from './events/COM/page';
-import IT from './events/it/page';
-import CSE from './events/cse/page';
 
 export default function Home() {
   return (
     <main>
-      {/* <div className="flex min-h-screen flex-col items-center justify-center p-10">
+      <div className="flex min-h-screen flex-col items-center justify-center p-10">
         <video
           src="/Asc.m4v"
           autoPlay
@@ -47,13 +41,7 @@ export default function Home() {
         <Navbar />
         <ThemeSection />
         <Timeline />
-        <ECE />
-      </div> */}
-      {/* <CSE /> */}
-      {/* <COM /> */}
-      <BME />
-      {/* <EEE /> */}
-      {/* <ECE /> */}
+      </div>
     </main>
   );
 }
