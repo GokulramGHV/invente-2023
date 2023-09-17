@@ -5,7 +5,7 @@ import { HeroLogo } from '@/components/heroLogo';
 import Timeline from '@/components/timeline';
 import ThemeSection from '@/components/ThemeSection';
 import Navbar from '@/components/navbar';
-import Footer from './footer/page';
+import Footer from '../components/footer';
 
 export default function Home() {
   return (

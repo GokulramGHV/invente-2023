@@ -11,7 +11,7 @@ import { useState } from 'react';
 import { CSEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import Image from 'next/image';
-import Footer from '@/app/footer/page';
+import Footer from '@/components/footer';
 import { Stick_No_Bills } from 'next/font/google';
 
 const stick_no_bills = Stick_No_Bills({

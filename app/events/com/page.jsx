@@ -23,12 +23,7 @@ const bayon = Bayon({
   subsets: ['latin'],
 });
 
-import { useState } from 'react';
-
-import { COMevents } from './events';
-import EventsDropDown from '@/components/eventsDropDown';
-import Image from 'next/image';
-import Footer from '@/app/footer/page';
+import Footer from '@/components/footer';
 
 const stick_no_bills = Stick_No_Bills({
   preload: true,
