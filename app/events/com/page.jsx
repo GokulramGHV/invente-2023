@@ -22,11 +22,8 @@ const bayon = Bayon({
   subsets: ['latin'],
 });
 
-<<<<<<< HEAD
 import Footer from '@/components/footer';
 
-=======
->>>>>>> c37f5ee68aec4860947a3da452bdeb679be25dac
 const stick_no_bills = Stick_No_Bills({
   preload: true,
   subsets: ['latin'],
@@ -186,6 +183,7 @@ export default function COM() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
