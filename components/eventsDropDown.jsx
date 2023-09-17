@@ -4,12 +4,14 @@ export default function EventsDropDown({
   dropDownOpen,
   selectedEvent,
   deptEvents,
-  colorScheme
+  colorScheme,
+  width,
 }) {
   return (
-    <div className="relative w-full mt-6 mb-4 md:hidden cursor-pointer">
+    <div className="relative w-full mt-6 mb-4 lg:hidden cursor-pointer">
       <button
-        className={`relative bg-[${colorScheme.selected}] z-10 w-[180px] rounded-lg py-2 px-3 border border-white/40  backdrop-blur-[2px] text-sm flex gap-1.5 items-center`}
+        className={`${colorScheme.selected} relative z-10 rounded-lg py-2 px-3 border border-white/40  backdrop-blur-[2px] text-sm flex gap-1.5 items-center`}
+        style={{ width: width, backgroundColor: colorScheme.selected }}
         onClick={() => setDropDownOpen(!dropDownOpen)}
       >
         <svg
@@ -28,9 +30,10 @@ export default function EventsDropDown({
         <span className="font-medium">{selectedEvent.name}</span>
       </button>
       <div
+        style={{ width: width }}
         className={`${
           !dropDownOpen && 'hidden'
-        } absolute z-[1] top-0 left-0 w-[180px] bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm`}
+        } absolute z-[1] top-0 left-0 bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm`}
       >
         {deptEvents.events
           .filter((event) => event.event_type === 'tech')
@@ -46,7 +49,7 @@ export default function EventsDropDown({
               {event.name}
             </button>
           ))}
-        <hr className="w-[160px] mx-auto bg-white h-[1px] my-2 " />
+        <hr className="w-full mx-auto bg-white h-[1px] my-2 " />
         {deptEvents.events
           .filter((event) => event.event_type?.toLowerCase().includes('non'))
           .map((event) => (
