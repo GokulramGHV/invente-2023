@@ -109,7 +109,7 @@ export default function Footer() {
             <span className='underline'><a href='https://www.linkedin.com/in/thenithinbalaji/'>Nithin Balaji,</a></span>
             <span className='underline'><a href='https://www.linkedin.com/in/vetrivel-m-458a3a1b7/'> Vetrivel, </a></span>
             <span className='underline'><a href='https://www.linkedin.com/in/vaishnavejp/'> Vaishnave JP, </a></span>
-            <span className='underline'><a href='https://www.linkedin.com/in/nitheeshraajar/'> Nitheesh Raja </a></span>
+            <span className='underline'><a href='https://portfolio-madraceee.vercel.app/'> Nitheesh Raja </a></span>
             <span> and Designed by </span> 
             <span className='underline'><a href='https://www.linkedin.com/in/suprajasridh/'> Supraja </a></span>
             <span className=''><a href=''> and </a></span>
