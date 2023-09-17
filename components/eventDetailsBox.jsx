@@ -114,7 +114,7 @@ export function TechEventChip({ className = '', name, onClickHandler, width, tex
   return (
     <button
       onClick={onClickHandler}
-      className={`${className} ${width} ${inter.className} ${textColor} rounded-l-lg py-2 px-3 border-y border-l border-white/40  backdrop-blur-[2px] text-sm w-[140px] flex justify-end`}
+      className={`${className} ${width} ${inter.className} ${textColor} font-bold rounded-l-lg py-2 px-3 border-y border-l border-white/40  backdrop-blur-[2px] text-sm w-[140px] flex justify-end`}
     >
       {name}
     </button>
