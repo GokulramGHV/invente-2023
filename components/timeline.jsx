@@ -16,7 +16,7 @@ const links = {
   'mechanical engineering': '/comingsoon',
   'chemical engineering': '/comingsoon',
   'electrical and electronics engineering': '/events/eee',
-  'civil engineering': '/comingsoon',
+  'civil engineering': '/events/civil',
   'biomedical engineering': '/events/bme',
   'snu': '/comingsoon'
 };
