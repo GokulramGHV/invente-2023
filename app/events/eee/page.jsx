@@ -15,6 +15,8 @@ import Footer from '@/app/footer/page';
 
 import { Stick_No_Bills } from 'next/font/google';
 
+import { Stick_No_Bills } from 'next/font/google';
+
 const stick_no_bills = Stick_No_Bills({
   preload: true,
   subsets: ['latin'],
