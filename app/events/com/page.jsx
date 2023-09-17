@@ -8,7 +8,6 @@ import Navbar from '@/components/navbar';
 import { useState } from 'react';
 import { COMevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
-import Image from 'next/image';
 import { Averia_Sans_Libre, Bayon, Stick_No_Bills } from 'next/font/google';
 
 const averia_sans_libre = Averia_Sans_Libre({
@@ -22,6 +21,8 @@ const bayon = Bayon({
   weight: '400',
   subsets: ['latin'],
 });
+
+import Footer from '@/components/footer';
 
 const stick_no_bills = Stick_No_Bills({
   preload: true,
@@ -182,6 +183,7 @@ export default function COM() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

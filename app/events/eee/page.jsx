@@ -11,8 +11,9 @@ import { useState } from 'react';
 import { EEEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import Image from 'next/image';
-import { Stick_No_Bills } from 'next/font/google';
+import Footer from '@/components/footer';
 
+import { Stick_No_Bills } from 'next/font/google';
 const stick_no_bills = Stick_No_Bills({
   preload: true,
   subsets: ['latin'],
@@ -170,6 +171,7 @@ export default function EEE() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

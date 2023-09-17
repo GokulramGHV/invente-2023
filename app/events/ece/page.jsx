@@ -12,6 +12,7 @@ import { useState } from 'react';
 import { ECEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import Image from 'next/image';
+import Footer from '@/components/footer';
 
 const space_grotesk = Space_Grotesk({
   preload: true,
@@ -174,6 +175,7 @@ export default function ECE() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

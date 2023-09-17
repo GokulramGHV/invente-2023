@@ -3,6 +3,8 @@
 import { Unbounded } from 'next/font/google';
 import Image from 'next/image';
 import Navbar from '@/components/navbar';
+
+import Footer from '../../components/footer';
 import { Tilt } from "react-tilt";
 
 const unbounded = Unbounded({
@@ -42,8 +44,8 @@ export default function Home() {
                 </div>
 
             </div>
-
             <Navbar />
+            <Footer />
 
         </main >
     );
