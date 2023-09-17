@@ -1,9 +1,6 @@
-import { Inter, Space_Grotesk, Stick, Stick_No_Bills } from 'next/font/google';
+import { Inter, Stick_No_Bills, Aoboshi_One } from 'next/font/google';
 
-const space_grotesk = Space_Grotesk({
-  preload: true,
-  subsets: ['latin'],
-});
+
 const stick_no_bills = Stick_No_Bills({
   preload: true,
   subsets: ['latin'],
@@ -12,21 +9,27 @@ const inter = Inter({
   preload: true,
   subsets: ['latin'],
 });
+const aoboshi = Aoboshi_One({
+  preload: true,
+  weight: '400',
+  subsets: ['latin'],
+});
+
 
 export default function EventDetailsBox({ className = '', children }) {
   return (
     <div
       className={`${className} border border-white border-white/50 rounded-xl backdrop-blur-sm py-5 sm:px-10 px-6 flex flex-col items-center`}
-      // style={{
-      //   border: '1px solid #FFFFFF50',
-      //   borderImage:
-      //     'linear-gradient(to bottom right,#FFFFFF, #FFFFFF00, #FFFFFF)',
-      //   borderImageSlice: '10',
-      //   WebkitMask: `
-      //   linear-gradient(#fff 0 0) padding-box,
-      //   linear-gradient(#fff 0 0)
-      // `,
-      // }}
+    // style={{
+    //   border: '1px solid #FFFFFF50',
+    //   borderImage:
+    //     'linear-gradient(to bottom right,#FFFFFF, #FFFFFF00, #FFFFFF)',
+    //   borderImageSlice: '10',
+    //   WebkitMask: `
+    //   linear-gradient(#fff 0 0) padding-box,
+    //   linear-gradient(#fff 0 0)
+    // `,
+    // }}
     >
       {children}
     </div>
@@ -40,27 +43,29 @@ export function EventDetails({
   venue,
   description,
   event_type,
-  winner, 
+  winner,
   runner,
   bg_color
 }) {
   return (
     <>
       <h3 className={`${stick_no_bills.className} uppercase md:text-lg font-bold text-[#FFFFFF99] `}>
-        {event_type === 'tech' ? 'Tech Event' : 'Non-Tech'}
+        {event_type === 'tech' ? 'Tech Event' : 'Non-Tech Event'}
       </h3>
 
       <h2
-        className={`${space_grotesk.className} md:text-3xl text-2xl uppercase font-bold`}
+        className={`${aoboshi.className} md:text-3xl text-2xl font-bold`}
       >
         {name}
       </h2>
-      <div className={`text-center lg:text-[19px] text-[15px] p-1 w-full my-5 grid lg:grid-cols-5 grid-cols-2 gap-5 justify-items-center items-center md:justify-start ${bg_color} rounded-[8px] lg:max-w-[594px] lg:max-h-[100px] sm:max-w-[250px] sm:max-h-[550px]`}>
-        <div className='sm:col-span-1 '>
-          &#8377;{winner ? `${winner} Winner` : "TBD" }
+      <div className={`text-center lg:text-[19px] text-[15px] px-1 py-3 w-full my-5 grid lg:grid-cols-5 grid-cols-2 gap-5 justify-items-center items-center md:justify-start ${bg_color} rounded-[8px] lg:max-w-[594px] lg:max-h-[100px] sm:max-w-[250px] sm:max-h-[550px]`}>
+        <div className='sm:col-span-1 font-bold leading-3'>
+          {winner ? `₹${winner}` : "TBD"}
+          <br /><span className='font-light text-[11px]'>W I N N E R</span>
         </div>
-        <div className='sm:col-span-1'>
-          &#8377;{runner ? `${runner} Runner` : "TBD"}
+        <div className='sm:col-span-1 font-bold leading-3'>
+          {runner ? `₹${runner}` : "TBD"}
+          <br /><span className='font-light text-[11px]'>R U N N E R</span>
         </div>
         <div className="flex md:gap-2.5 gap-1.5 items-center">
           <svg
@@ -74,7 +79,7 @@ export function EventDetails({
               fill="white"
             />
           </svg>
-          <p className="col-span-2">{date ? date : "TBD"}</p>
+          <p className="col-span-2">{date ? date.slice(0, 6) : "TBD"}</p>
         </div>
         <div className="flex md:gap-2 gap-1 items-center">
           <svg
