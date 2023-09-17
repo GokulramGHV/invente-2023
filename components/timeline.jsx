@@ -18,7 +18,7 @@ const links = {
   'electrical and electronics engineering': '/events/eee',
   'civil engineering': '/events/civil',
   'biomedical engineering': '/events/bme',
-  'snu': '/comingsoon'
+  snu: '/comingsoon',
 };
 
 export default function Timeline() {
@@ -26,21 +26,22 @@ export default function Timeline() {
     <div
       className={`${space_grotesk.className} flex-column justify-center items-center w-full lg:px-20 px-5 pb-20 z-10`}
     >
-      <div className="font-bold md:text-5xl text-3xl flex justify-center mb-20" id="timeline">
+      <div
+        className="font-bold md:text-5xl text-3xl flex justify-center mb-20"
+        id="timeline"
+      >
         EXPLORE THE TIMELINE
       </div>
 
       <div className="md:w-[630px] mx-auto flex flex-col lg:gap-3 gap-20">
-
         <div className="relative flex justify-center lg:justify-end items-center">
-
           <Link href={links['computer science']}>
             <Image
               src="/box_cse.png"
               alt="cse"
               width="300"
               height="180"
-              className="z-10"
+              className="relative z-10 hover:scale-110 transition-transform duration-300 ease-in-out"
             />
           </Link>
 
@@ -64,18 +65,16 @@ export default function Timeline() {
               <p className="absolute -top-0.5 -right-12 text-xl">2077</p>
             </div>
           </div>
-
         </div>
 
         <div className="relative flex justify-center lg:justify-start items-center">
-
           <Link href={links['information technology']}>
             <Image
               src="/box_it.png"
               alt="it"
               width="300"
               height="180"
-              className="z-10"
+              className="relative z-10 hover:scale-110 transition-transform duration-300 ease-in-out"
             />
           </Link>
 
@@ -99,18 +98,16 @@ export default function Timeline() {
               <p className="absolute -top-0.5 -left-12 text-xl">1980</p>
             </div>
           </div>
-
         </div>
 
         <div className="relative flex justify-center lg:justify-end items-center">
-
           <Link href={links['electronics and communication']}>
             <Image
               src="/box_ece.png"
               alt="ece"
               width="300"
               height="180"
-              className="z-10"
+              className="relative z-10 hover:scale-110 transition-transform duration-300 ease-in-out"
             />
           </Link>
 
@@ -134,20 +131,17 @@ export default function Timeline() {
               <p className="absolute -top-0.5 -right-12 text-xl">1971</p>
             </div>
           </div>
-
         </div>
 
         <div className="relative flex justify-center lg:justify-start items-center">
-
           <Link href={links['mechanical engineering']}>
             <Image
               src="/box_mech.png"
               alt="mech"
               width="300"
               height="180"
-              className="z-10"
+              className="relative z-10 hover:scale-110 transition-transform duration-300 ease-in-out"
             />
-
           </Link>
           <Image
             src="/line_1.png"
@@ -169,18 +163,16 @@ export default function Timeline() {
               <p className="absolute -top-0.5 -left-12 text-xl">1900</p>
             </div>
           </div>
-
         </div>
 
         <div className="relative flex justify-center lg:justify-end items-center">
-
           <Link href={links['chemical engineering']}>
             <Image
               src="/box_chem.png"
               alt="chem"
               width="300"
               height="180"
-              className="z-10"
+              className="relative z-10 hover:scale-110 transition-transform duration-300 ease-in-out"
             />
           </Link>
 
@@ -204,18 +196,16 @@ export default function Timeline() {
               <p className="absolute -top-0.5 -right-12 text-xl">1847</p>
             </div>
           </div>
-
         </div>
 
         <div className="relative flex justify-center lg:justify-start items-center">
-
           <Link href={links['electrical and electronics engineering']}>
             <Image
               src="/box_eee.png"
               alt="eee"
               width="300"
               height="180"
-              className="z-10"
+              className="relative z-10 hover:scale-110 transition-transform duration-300 ease-in-out"
             />
           </Link>
 
@@ -239,18 +229,16 @@ export default function Timeline() {
               <p className="absolute -top-0.5 -left-12 text-xl">1800</p>
             </div>
           </div>
-
         </div>
 
         <div className="relative flex justify-center lg:justify-end items-center">
-
           <Link href={links['civil engineering']}>
             <Image
               src="/box_civil.png"
               alt="civil"
               width="300"
               height="180"
-              className="z-10"
+              className="relative z-10 hover:scale-110 transition-transform duration-300 ease-in-out"
             />
           </Link>
 
@@ -273,20 +261,17 @@ export default function Timeline() {
               />
               <p className="absolute -top-0.5 -right-12 text-xl">1755</p>
             </div>
-
           </div>
-
         </div>
 
         <div className="relative flex justify-center lg:justify-start items-center">
-
           <Link href={links['biomedical engineering']}>
             <Image
               src="/box_bme.png"
               alt="bme"
               width="300"
               height="180"
-              className="z-10"
+              className="relative z-10 hover:scale-110 transition-transform duration-300 ease-in-out"
             />
           </Link>
 
@@ -310,18 +295,16 @@ export default function Timeline() {
               <p className="absolute -top-0.5 -left-16 text-xl">950BC</p>
             </div>
           </div>
-
         </div>
 
         <div className="relative flex justify-center lg:justify-end items-center">
-
           <Link href={links['snu']}>
             <Image
               src="/box_snu.png"
               alt="snu"
               width="300"
               height="180"
-              className="z-10"
+              className="relative z-10 hover:scale-110 transition-transform duration-300 ease-in-out"
             />
           </Link>
 
@@ -331,11 +314,8 @@ export default function Timeline() {
               <p className="absolute -top-0.5 -right-[72px] text-xl">1000BC</p>
             </div>
           </div>
-
         </div>
-
       </div>
-
     </div>
   );
 }
