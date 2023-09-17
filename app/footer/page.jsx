@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { IBM_Plex_Sans } from 'next/font/google';
 import Navbar from '@/components/navbar';
-import footerMobile from './footerMobile'
 
 const ibm_plex_sans1 = IBM_Plex_Sans({
   preload: 'true',
