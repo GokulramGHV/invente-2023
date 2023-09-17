@@ -28,6 +28,8 @@ export default function IT() {
     nonSelected: "#6F748566"
   }
 
+  const bg_color = "bg-[#021746]"
+
   return (
     <>
       <Navbar className="absolute top-0 left-0 w-full" />
@@ -101,7 +103,7 @@ export default function IT() {
           </div>
 
           <EventDetailsBox className="lg:w-[60vw] md:min-h-[500px] bg-[#27578B99]">
-            <EventDetails {...selectedEvent} />
+            <EventDetails {...selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
 
           <div className="mt-2 hidden md:flex flex-col gap-3">
