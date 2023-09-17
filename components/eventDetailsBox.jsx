@@ -1,15 +1,16 @@
-import { Inter, Space_Grotesk, Stick, Stick_No_Bills } from 'next/font/google';
+import { Inter, Stick_No_Bills, Aoboshi_One } from 'next/font/google';
 
-const space_grotesk = Space_Grotesk({
-  preload: true,
-  subsets: ['latin'],
-});
 const stick_no_bills = Stick_No_Bills({
   preload: true,
   subsets: ['latin'],
 });
 const inter = Inter({
   preload: true,
+  subsets: ['latin'],
+});
+const aoboshi = Aoboshi_One({
+  preload: true,
+  weight: '400',
   subsets: ['latin'],
 });
 
@@ -33,34 +34,30 @@ export default function EventDetailsBox({ className = '', children }) {
   );
 }
 
-export function EventDetails({
-  name,
-  team_size,
-  date,
-  venue,
-  description,
-  event_type,
-  winner, 
-  runner,
-  bg_color
-}) {
+export function EventDetails({ event, bg_color }) {
   return (
     <>
-      <h3 className={`${stick_no_bills.className} uppercase md:text-lg font-bold text-[#FFFFFF99] `}>
-        {event_type === 'tech' ? 'Tech Event' : 'Non-Tech'}
+      <h3
+        className={`${stick_no_bills.className} uppercase md:text-lg font-bold text-[#FFFFFF99] `}
+      >
+        {event.event_type === 'tech' ? 'Tech Event' : 'Non-Tech Event'}
       </h3>
 
-      <h2
-        className={`${space_grotesk.className} md:text-3xl text-2xl uppercase font-bold`}
-      >
-        {name}
+      <h2 className={`${aoboshi.className} md:text-3xl text-2xl font-bold`}>
+        {event.name}
       </h2>
-      <div className={`text-center lg:text-[19px] text-[15px] p-1 w-full my-5 grid lg:grid-cols-5 grid-cols-2 gap-5 justify-items-center items-center md:justify-start ${bg_color} rounded-[8px] lg:max-w-[594px] lg:max-h-[100px] sm:max-w-[250px] sm:max-h-[550px]`}>
-        <div className='sm:col-span-1 '>
-          &#8377;{winner ? `${winner} Winner` : "TBD" }
+      <div
+        className={`text-center lg:text-base text-sm p-3.5 w-full md:w-fit mx-auto my-5 flex flex-wrap gap-x-6 gap-y-3 justify-center items-center ${bg_color} rounded-[8px]`}
+      >
+        <div className="sm:col-span-1 font-bold leading-3">
+          {event.winner ? `₹${event.winner}` : 'TBD'}
+          <br />
+          <span className="font-light text-[11px]">W I N N E R</span>
         </div>
-        <div className='sm:col-span-1'>
-          &#8377;{runner ? `${runner} Runner` : "TBD"}
+        <div className="sm:col-span-1 font-bold leading-3">
+          {event.runner ? `₹${event.runner}` : 'TBD'}
+          <br />
+          <span className="font-light text-[11px]">R U N N E R</span>
         </div>
         <div className="flex md:gap-2.5 gap-1.5 items-center">
           <svg
@@ -74,7 +71,9 @@ export function EventDetails({
               fill="white"
             />
           </svg>
-          <p className="col-span-2">{date ? date : "TBD"}</p>
+          <p className="col-span-2">
+            {event.date ? event.date.slice(0, 6) : 'TBD'}
+          </p>
         </div>
         <div className="flex md:gap-2 gap-1 items-center">
           <svg
@@ -88,7 +87,7 @@ export function EventDetails({
               fill="white"
             />
           </svg>
-          <p className="">{venue ? venue : "TBD"}</p>
+          <p className="">{event.venue ? event.venue : 'TBD'}</p>
         </div>
         <div className="flex md:gap-2.5 gap-1.5 items-center">
           <svg
@@ -102,26 +101,61 @@ export function EventDetails({
               fill="white"
             />
           </svg>
-          <p className="grid grid-cols-1 justify-items-start">{team_size ? team_size : "TBD"}</p>
+          <p className="grid grid-cols-1 justify-items-start">
+            {event.team_size ? event.team_size : 'TBD'}
+          </p>
         </div>
       </div>
-      <p className="text-sm md:text-base text-justify">{description}</p>
+      <p className="text-sm md:text-base text-justify">{event.description}</p>
+      {event?.rounds?.length > 0 && (
+        <>
+          <h3 className="md:text-xl mt-5 mb-2 text-lg font-bold text-white">
+            ROUNDS
+          </h3>
+          <ol className="space-y-3">
+            {event?.rounds?.map((round, index) => (
+              <li
+                key={index}
+                className="flex gap-1 text-sm md:text-base text-justify"
+              >
+                <div>{index + 1}.</div>
+                <div>
+                  <span className="font-semibold">{round.name}</span> -{' '}
+                  {round.description}
+                </div>
+              </li>
+            ))}
+          </ol>
+        </>
+      )}
     </>
   );
 }
 
-export function TechEventChip({ className = '', name, onClickHandler, width, textColor }) {
+export function TechEventChip({
+  className = '',
+  name,
+  onClickHandler,
+  width,
+  textColor,
+}) {
   return (
     <button
       onClick={onClickHandler}
-      className={`${className} ${width} ${inter.className} ${textColor} font-bold rounded-l-lg py-2 px-3 border-y border-l border-white/40  backdrop-blur-[2px] text-sm w-[140px] flex justify-end`}
+      className={`${className} ${width} ${inter.className} ${textColor} font-semibold rounded-l-lg py-2 px-3 border-y border-l border-white/40  backdrop-blur-[2px] text-sm w-[140px] flex justify-end`}
     >
       {name}
     </button>
   );
 }
 
-export function NonTechEventChip({ className = '', name, onClickHandler, width, textColor }) {
+export function NonTechEventChip({
+  className = '',
+  name,
+  onClickHandler,
+  width,
+  textColor,
+}) {
   return (
     <button
       onClick={onClickHandler}
