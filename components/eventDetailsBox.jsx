@@ -40,13 +40,15 @@ export function EventDetails({
   venue,
   description,
   event_type,
-  winner, 
+  winner,
   runner,
-  bg_color
+  bg_color,
 }) {
   return (
     <>
-      <h3 className={`${stick_no_bills.className} uppercase md:text-lg font-bold text-[#FFFFFF99] `}>
+      <h3
+        className={`${stick_no_bills.className} uppercase md:text-lg font-bold text-[#FFFFFF99] `}
+      >
         {event_type === 'tech' ? 'Tech Event' : 'Non-Tech'}
       </h3>
 
@@ -55,12 +57,14 @@ export function EventDetails({
       >
         {name}
       </h2>
-      <div className={`text-center lg:text-[19px] text-[15px] p-1 w-full my-5 grid lg:grid-cols-5 grid-cols-2 gap-5 justify-items-center items-center md:justify-start ${bg_color} rounded-[8px] lg:max-w-[594px] lg:max-h-[100px] sm:max-w-[250px] sm:max-h-[550px]`}>
-        <div className='sm:col-span-1 '>
-          &#8377;{winner ? `${winner} Winner` : "TBD" }
+      <div
+        className={`text-center lg:text-[19px] text-[15px] p-1 w-full my-5 grid lg:grid-cols-5 grid-cols-2 gap-5 justify-items-center items-center md:justify-start ${bg_color} rounded-[8px] lg:max-w-[594px] lg:max-h-[100px] sm:max-w-[250px] sm:max-h-[550px]`}
+      >
+        <div className="sm:col-span-1 ">
+          &#8377;{winner ? `${winner} Winner` : 'TBD'}
         </div>
-        <div className='sm:col-span-1'>
-          &#8377;{runner ? `${runner} Runner` : "TBD"}
+        <div className="sm:col-span-1">
+          &#8377;{runner ? `${runner} Runner` : 'TBD'}
         </div>
         <div className="flex md:gap-2.5 gap-1.5 items-center">
           <svg
@@ -74,7 +78,7 @@ export function EventDetails({
               fill="white"
             />
           </svg>
-          <p className="col-span-2">{date ? date : "TBD"}</p>
+          <p className="col-span-2">{date ? date : 'TBD'}</p>
         </div>
         <div className="flex md:gap-2 gap-1 items-center">
           <svg
@@ -88,7 +92,7 @@ export function EventDetails({
               fill="white"
             />
           </svg>
-          <p className="">{venue ? venue : "TBD"}</p>
+          <p className="">{venue ? venue : 'TBD'}</p>
         </div>
         <div className="flex md:gap-2.5 gap-1.5 items-center">
           <svg
@@ -102,7 +106,9 @@ export function EventDetails({
               fill="white"
             />
           </svg>
-          <p className="grid grid-cols-1 justify-items-start">{team_size ? team_size : "TBD"}</p>
+          <p className="grid grid-cols-1 justify-items-start">
+            {team_size ? team_size : 'TBD'}
+          </p>
         </div>
       </div>
       <p className="text-sm md:text-base text-justify">{description}</p>
@@ -110,18 +116,30 @@ export function EventDetails({
   );
 }
 
-export function TechEventChip({ className = '', name, onClickHandler, width, textColor }) {
+export function TechEventChip({
+  className = '',
+  name,
+  onClickHandler,
+  width,
+  textColor,
+}) {
   return (
     <button
       onClick={onClickHandler}
-      className={`${className} ${width} ${inter.className} ${textColor} rounded-l-lg py-2 px-3 border-y border-l border-white/40  backdrop-blur-[2px] text-sm w-[140px] flex justify-end`}
+      className={`${className} ${width} ${inter.className} ${textColor} font-semibold rounded-l-lg py-2 px-3 border-y border-l border-white/40  backdrop-blur-[2px] text-sm w-[140px] flex justify-end`}
     >
       {name}
     </button>
   );
 }
 
-export function NonTechEventChip({ className = '', name, onClickHandler, width, textColor }) {
+export function NonTechEventChip({
+  className = '',
+  name,
+  onClickHandler,
+  width,
+  textColor,
+}) {
   return (
     <button
       onClick={onClickHandler}

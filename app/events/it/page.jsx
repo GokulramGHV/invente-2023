@@ -45,9 +45,6 @@ export default function IT() {
           >
             Information Technology
           </h1>
-          {/* <h4 className={`${tourney.className} md:text-2xl text-xl`}>
-            ENGINEERING
-          </h4> */}
         </div>
 
         <EventsDropDown
