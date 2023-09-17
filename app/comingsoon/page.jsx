@@ -1,8 +1,11 @@
+'use client';
+
 import { Unbounded } from 'next/font/google';
 import Image from 'next/image';
 import Navbar from '@/components/navbar';
-import Footer from '../footer/page';
 
+import Footer from '../footer/page';
+import { Tilt } from "react-tilt";
 
 const unbounded = Unbounded({
     preload: true,
@@ -11,7 +14,7 @@ const unbounded = Unbounded({
 
 export default function Home() {
     return (
-        <main className='bg-[#1c1b25] h-full w-full'>
+        <main className='bg-[#1D1D1F] h-full w-full'>
 
             <div className='relative px-5 pb-3 pt-5 w-full'>
                 <video
@@ -33,15 +36,17 @@ export default function Home() {
                 </div>
 
                 <div className='absolute top-1/2 left-1/2 -translate-x-[50%] w-max'>
-                    <h1 className={`xl:text-7xl md:text-6xl sm:text-5xl text-3xl font-semibold ${unbounded.className}`}>
-                        COMING SOON
-                    </h1>
+                    <Tilt options={{ scale: 1, max: 15, perspective: 1000, easing: "cubic-bezier(.17,.67,.83,.67)", speed: 100 }}>
+                        <h1 className={`xl:text-7xl md:text-6xl sm:text-5xl text-3xl font-semibold ${unbounded.className}`}>
+                            COMING SOON
+                        </h1>
+                    </Tilt>
                 </div>
 
             </div>
             <Navbar />
             <Footer />
 
-        </main>
+        </main >
     );
 }
