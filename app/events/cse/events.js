@@ -287,41 +287,5 @@ export const CSEevents = {
                     }
                 ]
             },
-            {   
-                name: "Websitica()",
-                description: "Welcome to Websitica(), the ultimate challenge for web app maestros! If you thrive on crafting remarkable digital experiences, this is your arena. Websitica() is an event that tests the participants' knack for web app development. We're on the hunt for visionaries who can transform concepts into captivating web adventures. We expect foundational knowledge in the web domain. Whether you're a frontend virtuoso or backend sorcerer, bring your passion for code to the table. The event culminates with participants putting their talents to use by creating a web experience where they creatively come up with an idea on the spot for the given topic.",
-                
-                type: "teamORsolo",
-                event_type: "tech",
-                team_size: "2",
-                department: "Computer Science",
-                rounds: [
-                    {
-                        name: "The WebWizard",
-                        description: "Dive into the exciting world of web development and programming with the WebWizard quiz! This fun-filled quiz is a fusion of web development wizardry and general programming prowess, designed to challenge your technical skills and tickle your brain cells. Expect mind-bending puzzles, lightning-fast coding challenges, and a dash of trivia to keep you on your toes. Don't miss out on the chance to showcase and flaunt your skills. Join us for a tech-filled adventure!"
-                    },
-                    {
-                        name: "The dare-DEV-ils",
-                        description: "Step into the Web developers Showdown, where creativity meets code! This competition is your chance to showcase your web development wizardry in a fun and dynamic environment. From crafting sleek designs to implementing cutting-edge functionalities, participants will tackle a series of exciting challenges. Whether you're a seasoned developer or just starting out, there's something for everyone. So, fire up your IDE and let's weave some web magic! Get ready to dazzle the judges and win amazing prizes by becoming a dare-DEV-il."
-                    }
-                ],
-                venue: "",
-                date: "Oct. 5, 2023",
-                winner: "",
-                runner: "",
-                third_prize: "",
-                coordinators: [
-                    {
-                        name: "Contact Name 1",
-                        phone: "Phone 1"
-                    }
-                    ,
-                    {
-                        name: "Contact Name 2",
-                        phone: "Phone 2"
-                    }
-                ]
-            }
-            
         ]
 }
