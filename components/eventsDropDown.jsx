@@ -10,7 +10,7 @@ export default function EventsDropDown({
   return (
     <div className="relative w-full mt-6 mb-4 lg:hidden cursor-pointer">
       <button
-        className="relative z-10 rounded-lg py-2 px-3 border border-white/40  backdrop-blur-[2px] text-sm flex gap-1.5 items-center"
+        className={`${colorScheme.selected} relative z-10 rounded-lg py-2 px-3 border border-white/40  backdrop-blur-[2px] text-sm flex gap-1.5 items-center`}
         style={{ width: width, backgroundColor: colorScheme.selected }}
         onClick={() => setDropDownOpen(!dropDownOpen)}
       >

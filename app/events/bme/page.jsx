@@ -18,7 +18,12 @@ import { useState } from 'react';
 
 import { BMEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
-import Image from 'next/image';
+import { Stick_No_Bills } from 'next/font/google';
+
+const stick_no_bills = Stick_No_Bills({
+  preload: true,
+  subsets: ['latin'],
+});
 
 export default function BME() {
   const [selectedEvent, setSelectedEvent] = useState(BMEevents.events[0]);
@@ -86,7 +91,7 @@ export default function BME() {
                       className={`${colorScheme.nonSelected} ${colorScheme.hover}`}
                       name={event.name}
                       onClickHandler={() => setSelectedEvent(event)}
-                      width={BMEevents.sizes.width}
+                      width="w-[210px]"
                     />
                   );
                 }
@@ -104,7 +109,9 @@ export default function BME() {
                   fill="white"
                 />
               </svg>
-              <h3 className="absolute -left-5 bottom-14 uppercase font-bold text-white/80 rotate-[270deg]">
+              <h3
+                className={` ${stick_no_bills.className} text-lg absolute -left-3 bottom-14 uppercase font-bold text-white/80 rotate-[270deg]`}
+              >
                 Tech
               </h3>
             </div>
@@ -113,7 +120,7 @@ export default function BME() {
           <EventDetailsBox
             className={`xl:w-[60vw] md:min-h-[608px] h-max ${colorScheme.selected}`}
           >
-            <EventDetails {...selectedEvent} bg_color={bg_color} />
+            <EventDetails event={selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
 
           <div className="mt-2 hidden lg:flex flex-col gap-3">
@@ -129,6 +136,7 @@ export default function BME() {
                       className={`${colorScheme.selected}`}
                       name={event.name}
                       onClickHandler={() => setSelectedEvent(event)}
+                      width="w-[210px]"
                     />
                   );
                 } else {
@@ -157,7 +165,9 @@ export default function BME() {
                   fill="white"
                 />
               </svg>
-              <h3 className="font-post-no-bills absolute -left-10 bottom-[85px] uppercase font-bold text-white/80 rotate-[90deg] transform -scale-x-100">
+              <h3
+                className={`${stick_no_bills.className} text-lg absolute -left-9 bottom-[77px] uppercase font-bold text-white/80 rotate-[90deg] transform -scale-x-100`}
+              >
                 Non-Tech
               </h3>
             </div>
