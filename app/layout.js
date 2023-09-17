@@ -3,7 +3,7 @@ import { IBM_Plex_Sans } from 'next/font/google';
 
 const ibm_plex = IBM_Plex_Sans({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
+  weight: ['200', '300', '400', '500', '600', '700'],
 });
 
 export const metadata = {

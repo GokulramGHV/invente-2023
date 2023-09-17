@@ -1,19 +1,7 @@
 'use client';
 import Image from 'next/image';
-import { IBM_Plex_Sans } from 'next/font/google';
-import Navbar from '@/components/navbar';
 import { useState } from 'react';
 
-const ibm_plex_sans1 = IBM_Plex_Sans({
-  preload: 'true',
-  weight: '100',
-  subsets: ['latin']
-})
-const ibm_plex_sans2 = IBM_Plex_Sans({
-  preload: 'true',
-  weight: '500',
-  subsets: ['latin']
-})
 
 export default function FooterMobile() {
   const [openParticipate, setOpenParticipate] = useState(false);
