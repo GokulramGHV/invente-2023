@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Countdown from '@/components/countdown';
 import { HeroLogo } from '@/components/heroLogo';
 import Navbar from '@/components/navbar';
+import Footer from '../footer/page';
 
 
 const unbounded = Unbounded({
@@ -59,6 +60,7 @@ export default function Home() {
                     </h1>
                 </div>
             </div>
+            <Footer />
         </main>
     );
 }

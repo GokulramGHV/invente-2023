@@ -11,6 +11,7 @@ import { useState } from 'react';
 import { CSEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import Image from 'next/image';
+import Footer from '@/app/footer/page';
 
 export default function CSE() {
   const [selectedEvent, setSelectedEvent] = useState(CSEevents.events[0]);
@@ -139,6 +140,7 @@ export default function CSE() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

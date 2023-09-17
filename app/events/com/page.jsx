@@ -20,6 +20,7 @@ import { useState } from 'react';
 import { COMevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import Image from 'next/image';
+import Footer from '@/app/footer/page';
 
 
 export default function COM() {
@@ -155,6 +156,7 @@ export default function COM() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

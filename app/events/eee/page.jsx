@@ -13,6 +13,7 @@ import { useState } from 'react';
 import { EEEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import Image from 'next/image';
+import Footer from '@/app/footer/page';
 
 
 export default function EEE() {
@@ -153,6 +154,7 @@ export default function EEE() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

@@ -5,6 +5,7 @@ import { HeroLogo } from '@/components/heroLogo';
 import Timeline from '@/components/timeline';
 import ThemeSection from '@/components/ThemeSection';
 import Navbar from '@/components/navbar';
+import Footer from './footer/page';
 
 export default function Home() {
   return (
@@ -42,6 +43,7 @@ export default function Home() {
         <ThemeSection />
         <Timeline />
       </div>
+      <Footer />
     </main>
   );
 }

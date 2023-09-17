@@ -12,6 +12,7 @@ import { useState } from 'react';
 import { ITevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import Image from 'next/image';
+import Footer from '@/app/footer/page';
 
 const press_start_2p = Press_Start_2P({
   preload: true,
@@ -146,6 +147,7 @@ export default function IT() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
