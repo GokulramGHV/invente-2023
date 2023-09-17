@@ -27,9 +27,9 @@ export default function COM() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {
-    selected : "bg-[#0B4C3EBD]",
-    nonSelected : "bg-[#6F7A8566]",
-    hover : "hover:bg-[#0B4C3EBD]",
+    selected: "bg-[#0B4C3EBD]",
+    nonSelected: "bg-[#6F7A8566]",
+    hover: "hover:bg-[#0B4C3EBD]",
   }
 
   const bg_color = "bg-[#13735E]"
@@ -41,7 +41,7 @@ export default function COM() {
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-12"
         style={{
-          backgroundImage: `url('/COM_background.jpg')`,
+          backgroundImage: `url('/background_COM.jpg')`,
         }}
       >
         <div className="flex justify-center flex-col items-center mt-10 z-10">
@@ -49,10 +49,10 @@ export default function COM() {
           <h1
             className={`font-averia_sans_libre font-medium lg:text-[72px] text-[50px] leading-10 text-center`}
           >
-            ECONOMICS, COMMERCE & MANAGEMENT 
+            ECONOMICS, COMMERCE & MANAGEMENT
           </h1>
           <h4 className={`md:text-2xl text-xl italic mt-2`}>
-          (Shiv Nadar University, Chennai)
+            (Shiv Nadar University, Chennai)
           </h4>
         </div>
 
@@ -110,7 +110,7 @@ export default function COM() {
           </div>
 
           <EventDetailsBox className={`lg:w-[60vw] md:min-h-[608px] h-max ${colorScheme.selected}`}>
-            <EventDetails {...selectedEvent} bg_color={bg_color}/>
+            <EventDetails {...selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
 
           <div className="mt-2 hidden md:flex flex-col gap-3">

@@ -24,8 +24,8 @@ export default function IT() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {
-    selected : "#27578B99",
-    nonSelected : "#6F748566"
+    selected: "#27578B99",
+    nonSelected: "#6F748566"
   }
 
   return (
@@ -35,7 +35,7 @@ export default function IT() {
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-cover w-full z-10 sm:px-12 px-6 py-12"
         style={{
-          backgroundImage: `url('/IT_background.png')`,
+          backgroundImage: `url('/background_IT.png')`,
         }}
       >
         <div className="flex justify-center flex-col items-center mt-10 z-10">

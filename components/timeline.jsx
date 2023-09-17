@@ -36,7 +36,7 @@ export default function Timeline() {
 
           <Link href={links['computer science']}>
             <Image
-              src="/cse.png"
+              src="/box_cse.png"
               alt="cse"
               width="300"
               height="180"
@@ -45,7 +45,7 @@ export default function Timeline() {
           </Link>
 
           <Image
-            src="/Line 3.png"
+            src="/line_1.png"
             alt="arrow"
             width={100}
             height={56}
@@ -55,7 +55,7 @@ export default function Timeline() {
           <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
               <Image
-                src="/Vector 5.png"
+                src="/line_2.png"
                 alt="arrow"
                 width={120}
                 height={56}
@@ -71,7 +71,7 @@ export default function Timeline() {
 
           <Link href={links['information technology']}>
             <Image
-              src="/it.png"
+              src="/box_it.png"
               alt="it"
               width="300"
               height="180"
@@ -80,7 +80,7 @@ export default function Timeline() {
           </Link>
 
           <Image
-            src="/Line 3.png"
+            src="/line_1.png"
             alt="arrow"
             width={100}
             height={56}
@@ -90,7 +90,7 @@ export default function Timeline() {
           <div className="absolute -top-10 lg:-left-24 left-[35%]">
             <div className="relative">
               <Image
-                src="/Vector 5.png"
+                src="/line_2.png"
                 alt="arrow"
                 width={120}
                 height={56}
@@ -106,7 +106,7 @@ export default function Timeline() {
 
           <Link href={links['electronics and communication']}>
             <Image
-              src="/ece.png"
+              src="/box_ece.png"
               alt="ece"
               width="300"
               height="180"
@@ -115,7 +115,7 @@ export default function Timeline() {
           </Link>
 
           <Image
-            src="/Line 3.png"
+            src="/line_1.png"
             alt="arrow"
             width={100}
             height={56}
@@ -125,7 +125,7 @@ export default function Timeline() {
           <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
               <Image
-                src="/Vector 5.png"
+                src="/line_2.png"
                 alt="arrow"
                 width={120}
                 height={56}
@@ -141,7 +141,7 @@ export default function Timeline() {
 
           <Link href={links['mechanical engineering']}>
             <Image
-              src="/mech.png"
+              src="/box_mech.png"
               alt="mech"
               width="300"
               height="180"
@@ -150,7 +150,7 @@ export default function Timeline() {
 
           </Link>
           <Image
-            src="/Line 3.png"
+            src="/line_1.png"
             alt="arrow"
             width={100}
             height={56}
@@ -160,7 +160,7 @@ export default function Timeline() {
           <div className="absolute -top-10 lg:-left-24 left-[35%]">
             <div className="relative">
               <Image
-                src="/Vector 5.png"
+                src="/line_2.png"
                 alt="arrow"
                 width={120}
                 height={56}
@@ -176,7 +176,7 @@ export default function Timeline() {
 
           <Link href={links['chemical engineering']}>
             <Image
-              src="/chem.png"
+              src="/box_chem.png"
               alt="chem"
               width="300"
               height="180"
@@ -185,7 +185,7 @@ export default function Timeline() {
           </Link>
 
           <Image
-            src="/Line 3.png"
+            src="/line_1.png"
             alt="arrow"
             width={100}
             height={56}
@@ -195,7 +195,7 @@ export default function Timeline() {
           <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
               <Image
-                src="/Vector 5.png"
+                src="/line_2.png"
                 alt="arrow"
                 width={120}
                 height={56}
@@ -211,7 +211,7 @@ export default function Timeline() {
 
           <Link href={links['electrical and electronics engineering']}>
             <Image
-              src="/eee.png"
+              src="/box_eee.png"
               alt="eee"
               width="300"
               height="180"
@@ -220,7 +220,7 @@ export default function Timeline() {
           </Link>
 
           <Image
-            src="/Line 3.png"
+            src="/line_1.png"
             alt="arrow"
             width={100}
             height={56}
@@ -230,7 +230,7 @@ export default function Timeline() {
           <div className="absolute -top-10 lg:-left-24 left-[35%]">
             <div className="relative">
               <Image
-                src="/Vector 5.png"
+                src="/line_2.png"
                 alt="arrow"
                 width={120}
                 height={56}
@@ -246,7 +246,7 @@ export default function Timeline() {
 
           <Link href={links['civil engineering']}>
             <Image
-              src="/civil.png"
+              src="/box_civil.png"
               alt="civil"
               width="300"
               height="180"
@@ -255,7 +255,7 @@ export default function Timeline() {
           </Link>
 
           <Image
-            src="/Line 3.png"
+            src="/line_1.png"
             alt="arrow"
             width={100}
             height={56}
@@ -265,7 +265,7 @@ export default function Timeline() {
           <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
               <Image
-                src="/Vector 5.png"
+                src="/line_2.png"
                 alt="arrow"
                 width={120}
                 height={56}
@@ -282,7 +282,7 @@ export default function Timeline() {
 
           <Link href={links['biomedical engineering']}>
             <Image
-              src="/bme.png"
+              src="/box_bme.png"
               alt="bme"
               width="300"
               height="180"
@@ -291,7 +291,7 @@ export default function Timeline() {
           </Link>
 
           <Image
-            src="/Line 3.png"
+            src="/line_1.png"
             alt="arrow"
             width={100}
             height={56}
@@ -301,7 +301,7 @@ export default function Timeline() {
           <div className="absolute -top-10 lg:-left-24 left-[35%]">
             <div className="relative">
               <Image
-                src="/Vector 5.png"
+                src="/line_2.png"
                 alt="arrow"
                 width={120}
                 height={56}
@@ -317,7 +317,7 @@ export default function Timeline() {
 
           <Link href={links['snu']}>
             <Image
-              src="/snu.png"
+              src="/box_snu.png"
               alt="snu"
               width="300"
               height="180"
@@ -327,7 +327,7 @@ export default function Timeline() {
 
           <div className="absolute -top-10 lg:-right-24 right-[35%]">
             <div className="relative">
-              <Image src="/Vector 5.png" alt="arrow" width={120} height={56} />
+              <Image src="/line_2.png" alt="arrow" width={120} height={56} />
               <p className="absolute -top-0.5 -right-[72px] text-xl">1000BC</p>
             </div>
           </div>

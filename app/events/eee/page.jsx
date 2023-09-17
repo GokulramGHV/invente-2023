@@ -22,9 +22,9 @@ export default function EEE() {
   const bg_color = "bg-[#02132b]";
 
   const colorScheme = {
-    selected : "bg-[#35437699]",
-    nonSelected : "bg-[#6F748566]",
-    hover : "hover:bg-[#35437699]",
+    selected: "bg-[#35437699]",
+    nonSelected: "bg-[#6F748566]",
+    hover: "hover:bg-[#35437699]",
   }
 
   return (
@@ -34,7 +34,7 @@ export default function EEE() {
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-12"
         style={{
-          backgroundImage: `url('/EEE_background.png')`,
+          backgroundImage: `url('/background_EEE.png')`,
         }}
       >
         <div className="flex justify-center flex-col items-center mt-10 z-10">

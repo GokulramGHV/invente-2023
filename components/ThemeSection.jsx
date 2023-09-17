@@ -20,7 +20,7 @@ export default function ThemeSection() {
       <div className="flex gap-20 items-center">
         <Image
           alt="clock"
-          src="/Frame 8.png"
+          src="/clock_2.png"
           width={300}
           height={500}
           className="lg:block hidden"
