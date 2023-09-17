@@ -20,7 +20,7 @@ export default function Footer() {
       <div className='lg:hidden visible'>
           <FooterMobile />
       </div>
-      <div className='relative hidden lg:block text-left lg:h-[486px] sm:h-[584px] w-full bg-gradient-to-r from-[#1D1F2A] from-100% to-[#1D1F2AE5] to-90% overflow-hidden'>
+      <div className='relative hidden lg:block text-left lg:h-[490px] sm:h-[584px] w-full bg-gradient-to-r from-[#1D1F2A] from-100% to-[#1D1F2AE5] to-90% overflow-hidden'>
         <div className='grid lg:grid-cols-6 lg:pt-[63px] lg:pl-[76px] md:grid-cols-1'>
           <div className={`lg:col-span-3 ${ibm_plex_sans2.className}`}>
             <Image 
