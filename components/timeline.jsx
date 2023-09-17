@@ -18,7 +18,7 @@ const links = {
   'electrical and electronics engineering': '/events/eee',
   'civil engineering': '/comingsoon',
   'biomedical engineering': '/events/bme',
-  'snu': '/events/com'
+  'snu': '/comingsoon'
 };
 
 export default function Timeline() {
