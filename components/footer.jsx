@@ -8,25 +8,25 @@ export default function Footer() {
       <div className="relative lg:hidden z-30">
         <FooterMobile />
       </div>
-      <div className="hidden lg:block relative">
+      <div className="hidden lg:block text-sm relative">
         <div className="relative py-10 px-20 text-left w-full bg-gradient-to-r from-[#1D1F2A] from-100% to-[#1D1F2AE5] to-90% overflow-hidden">
           <div className="flex justify-between gap-5 mb-8">
             <div className="lg:col-span-3 font-medium">
               <Image
                 src="/invente.png"
                 alt="invente_logo"
-                width={280}
-                height={100}
+                width={252}
+                height={90}
               />
             </div>
             <div className="grid grid-cols-3 xl:gap-28 gap-20 mr-12">
               <div>
                 <p
-                  className="font-extralight uppercase mb-2.5"
+                  className="font-extralight text-sm uppercase mb-2.5"
                 >
                   participate
                 </p>
-                <ul className="flex flex-col gap-1.5 text-xl">
+                <ul className="flex flex-col font-medium text-base gap-1.5">
                   <li>
                     <Link href="/#timeline">Events</Link>
                   </li>
@@ -40,11 +40,11 @@ export default function Footer() {
               </div>
               <div>
                 <p
-                  className="font-extralight uppercase mb-2.5"
+                  className="font-extralight text-sm uppercase mb-2.5"
                 >
                   Know More
                 </p>
-                <ul className="flex flex-col gap-1.5 text-xl">
+                <ul className="flex flex-col font-medium text-base gap-1.5">
                   <li>
                     <Link href="/comingsoon">Schedule</Link>
                   </li>
@@ -56,16 +56,16 @@ export default function Footer() {
               </div>
               <div>
                 <p
-                  className="font-extralight uppercase mb-2.5"
+                  className="font-extralight text-sm uppercase mb-2.5"
                 >
                   Get in touch
                 </p>
-                <ul className="flex flex-col gap-1.5 text-xl">
+                <ul className="flex flex-col font-medium text-base gap-1.5">
                   <li>
                     <Link href="/comingsoon">Contact us</Link>
                   </li>
                   <li>
-                    <div className="flex gap-3 mt-1">
+                    <div className="flex gap-3 mt-2">
                       <span>
                         <a href="https://www.instagram.com/ssnsnucinvente/">
                           <svg
@@ -130,7 +130,7 @@ export default function Footer() {
                 <div className="box-border h-0 border-[1px] border-[#FFFFFF2B] w-full mb-2" />
                 <div>
                   ©2023 SSN College of Engineering & Shiv Nadar University,
-                  Chennai
+                  Chennai.
                 </div>
               </div>
             </div>
@@ -152,48 +152,44 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex lg:bg-[#82D9FFB0] w-full items-center text-[#1D1D1B] text-base py-3 px-20">
+        <div className="flex lg:bg-[#82D9FFB0] w-full font-medium items-center text-[#1D1D1B] text-sm py-3 px-20">
           <div className="flex decoration-solid">
             <span>
-              This website was Built by{' '}
+              Website: Built by{' '}
               <span className="underline">
-                <a href="https://gokulram.me/"> Gokulram, </a>
-              </span>
+                <a href="https://gokulram.me/"> Gokul</a>
+              </span>{', '}
               <span className="underline">
                 <a href="https://www.linkedin.com/in/thenithinbalaji/">
-                  Nithin Balaji,
+                  Nithin Balaji
                 </a>
-              </span>
+              </span>{', '}
               <span className="underline">
                 <a href="https://www.linkedin.com/in/vetrivel-m-458a3a1b7/">
-                  {' '}
-                  Vetrivel,{' '}
+                  Vetrivel
                 </a>
-              </span>
+              </span>{', '}
               <span className="underline">
                 <a href="https://www.linkedin.com/in/vaishnavejp/">
-                  {' '}
-                  Vaishnave JP,{' '}
+                  Vaishnave JP
                 </a>
-              </span>
+              </span>{', '}
               <span className="underline">
                 <a href="https://portfolio-madraceee.vercel.app/">
-                  {' '}
-                  Nitheesh Raaja{' '}
+                  Nitheesh Raja
                 </a>
-              </span>
-              <span> and Designed by </span>
+              </span>{'. '}
+              <span> Designed by </span>
               <span className="underline">
                 <a href="https://www.linkedin.com/in/suprajasridh/">
-                  {' '}
-                  Supraja{' '}
+                  Supraja
                 </a>
-              </span>
+              </span>{' '}
               <span className="">
                 <a href=""> and </a>
               </span>
               <span className="underline">
-                <a href="https://www.linkedin.com/in/vshwjth/"> Vishwajith </a>
+                <a href="https://www.linkedin.com/in/vshwjth/"> Vishwajith. </a>
               </span>
             </span>
           </div>
