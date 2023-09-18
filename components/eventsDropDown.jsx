@@ -49,7 +49,11 @@ export default function EventsDropDown({
               {event.name}
             </button>
           ))}
-        <hr className="w-full mx-auto bg-white h-[1px] my-2 " />
+        {deptEvents.events.filter((event) =>
+          event.event_type?.toLowerCase().includes('non')
+        ).length > 0 && (
+          <hr className="w-full mx-auto bg-white h-[1px] my-2 " />
+        )}
         {deptEvents.events
           .filter((event) => event.event_type?.toLowerCase().includes('non'))
           .map((event) => (

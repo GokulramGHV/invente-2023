@@ -105,7 +105,7 @@ export default function COM() {
                   );
                 }
               })}
-            <div className="relative bottom-6">
+            {/* <div className="relative bottom-6">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="240"
@@ -123,7 +123,7 @@ export default function COM() {
               >
                 Tech
               </h3>
-            </div>
+            </div> */}
           </div>
 
           <EventDetailsBox
@@ -161,7 +161,7 @@ export default function COM() {
                 }
               })}
 
-            <div className={`relative bottom-6 transform -scale-x-100`}>
+            {/* <div className={`relative bottom-6 transform -scale-x-100`}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="235"
@@ -179,7 +179,7 @@ export default function COM() {
               >
                 Non-Tech
               </h3>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
