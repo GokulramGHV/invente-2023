@@ -13,12 +13,12 @@ const links = {
   'computer science': '/events/cse',
   'information technology': '/events/it',
   'electronics and communication': '/events/ece',
-  'mechanical engineering': '/comingsoon',
-  'chemical engineering': '/comingsoon',
+  'mechanical engineering': '/evens/mech',
+  'chemical engineering': '/events/chem',
   'electrical and electronics engineering': '/events/eee',
   'civil engineering': '/events/civil',
   'biomedical engineering': '/events/bme',
-  snu: '/comingsoon',
+  snu: '/events/com',
 };
 
 export default function Timeline() {

@@ -1,9 +1,4 @@
 export const BMEevents = {
-  sizes: {
-    width: 'w-[210px]',
-    curveTech: 'w-[275px]',
-    curveNonTech: 'relative w-[165px] transform -scale-x-100',
-  },
   events: [
     {
       name: 'PAPER PRESENTATION()',
@@ -17,24 +12,24 @@ export const BMEevents = {
 
       venue: 'BME SEMINAR HALL',
       date: 'Oct. 6, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '4000',
+      runner: '3000',
+      third_prize: '1000',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Giridharani R',
+          phone: '8220565665',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Anusha A',
+          phone: '9150872887',
         },
       ],
     },
     {
       name: 'QUEST FOR CLARITY()',
       description:
-        'This event consists of two rounds having a duration of one hour each. Maximum of two members are allowed in a team.Participants are awarded marks based on efficiency and their approach to the problem statement, and on other bases as well which will be mentioned later. Winners will be declared based on the consolidated score of the both rounds. Participants of any department and any year are encouraged to participate.',
+        'This event consists of two rounds having a duration of one hour each. Maximum of two members are allowed in a team. Participants are awarded marks based on efficiency and their approach to the problem statement, and on other bases as well which will be mentioned later. Winners will be declared based on the consolidated score of the both rounds. Participants of any department and any year are encouraged to participate.',
 
       type: 'team',
       event_type: 'tech',
@@ -54,17 +49,17 @@ export const BMEevents = {
       ],
       venue: 'MS LAB',
       date: 'Oct. 6, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '3500',
+      runner: '2500',
+      third_prize: '1000',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Sweetlyn J',
+          phone: '6383111833',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Kanimozhi Shri K',
+          phone: '7305287373',
         },
       ],
     },
@@ -74,7 +69,7 @@ export const BMEevents = {
         "In this high-stakes challenge, teams of 3 or 4 members compete in a captivating fusion of Codenames and a treasure hunt. Round 1 unfolds as Spymasters strategically provide one-word clues with corresponding numbers, guiding their Field Operatives to uncover words on a 5x5 grid. The objective is to identify their team's words while avoiding the opposing team's words and the assassin's word. The twist comes in Round 2, where teams embark on an immersive treasure hunt armed with a single clue behind the Q-card. Teams decode riddles, solve puzzles, and follow the trail of cleverly hidden clues to locate the ultimate treasure. Can you decipher the secrets and uncover the treasure before your rivals? It's a battle of wits and teamwork in 'Scrubs of Secrecy'.",
 
       type: 'team',
-      event_type: 'non tech',
+      event_type: 'tech',
       team_size: '4',
       department: 'Biomedical Engineering',
       rounds: [
@@ -89,26 +84,26 @@ export const BMEevents = {
             'The winning teams will find their first clue under the Q-card This clue will lead them to the treasure hunt',
         },
       ],
-      venue: 'BME SECOND YEAR CLASSROOM',
+      venue: 'BME II YEAR CLASSROOM',
       date: 'Oct. 6, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '4000',
+      runner: '2000',
+      third_prize: 'NIL',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Harpriya C',
+          phone: '7305725074',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Jeni Christina',
+          phone: '9384858514',
         },
       ],
     },
     {
       name: 'BIO-MARKETIZE()',
       description:
-        "An exhilarating technical event that aims to evaluate participants' understanding of medical devices and its working. Participants are required to be in groups of 3 or 4. Each team will randomly select a device or equipment by drawing lots, and will be given the time to come up with a catchy caption or tagline and a non-existing name for the instrument/equipment. Once that is decided, a series of events and games such as a Discussion, Adzap and Quiz (actual games will be given on spot) will be conducted and the winner will be chosen based on the team’s creativity, familiarity, meticulousness, communication and presentation skills, and marketing skills, . It is a fun and interesting event that will demand a lot of strategic thinking and teamwork!",
+        "An exhilarating tech event that aims to evaluate participants' understanding of medical devices and its working. Participants are required to be in groups of 3 or 4. Each team will randomly select a device or equipment by drawing lots, and will be given the time to come up with a catchy caption or tagline and a non-existing name for the instrument/equipment. Once that is decided, a series of events and games such as a Discussion, Adzap and Quiz (actual games will be given on spot) will be conducted and the winner will be chosen based on the team’s creativity, familiarity, meticulousness, communication and presentation skills, and marketing skills, . It is a fun and interesting event that will demand a lot of strategic thinking and teamwork!",
 
       type: 'team',
       event_type: 'tech',
@@ -117,17 +112,17 @@ export const BMEevents = {
 
       venue: 'BME SEMINAR HALL ',
       date: 'Oct. 7, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '2500',
+      runner: '1500',
+      third_prize: '1000',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Dharini',
+          phone: '9710226644',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Kalpana',
+          phone: '9884949792',
         },
       ],
     },
@@ -154,22 +149,22 @@ export const BMEevents = {
       ],
       venue: 'BME SEMINAR HALL',
       date: 'Oct. 7, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '3000',
+      runner: '2000',
+      third_prize: '1000',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Suriya Prakash',
+          phone: '7305235090',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Sibiraj M',
+          phone: '8667524625',
         },
       ],
     },
     {
-      name: 'Ink Vortex()',
+      name: 'INK VORTEX()',
       description:
         "A Poster Making Contest is a vibrant competition that challenges participants to design compelling and visually striking posters based on a given theme. It's an opportunity to merge creativity, design skills, and meaningful messages into a single piece of artwork. Choose your preferred medium: digital or traditional. Create a visually captivating poster that resonates with the audience. Each participant can submit one entry showcasing their artistic prowess. Cash price will be awarded for the first three places.",
 
@@ -178,19 +173,19 @@ export const BMEevents = {
       team_size: '3',
       department: 'Biomedical Engineering',
 
-      venue: 'BME THIRD YEAR CLASSROOM',
+      venue: 'BME III YEAR CLASSROOM',
       date: 'Oct. 6, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '2500',
+      runner: '1500',
+      third_prize: '1000',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Aravindhan Palani',
+          phone: '6374341952',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Ezhil Meenaa',
+          phone: '8939863213',
         },
       ],
     },
@@ -225,19 +220,19 @@ export const BMEevents = {
             'In the final stage, teams will present their solutions to a panel of judges comprising experts in healthcare, technology, and sustainability. This presentation will be a chance to showcase the viability and potential impact of their solutions, as well as receive valuable feedback and insights.',
         },
       ],
-      venue: 'DT LAB',
-      date: 'Oct. 8, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      venue: 'DTE LAB',
+      date: 'Oct. 6, 2023',
+      winner: '3500',
+      runner: '2000',
+      third_prize: '1000',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Meera Kumaar',
+          phone: '9094777996',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Mahitha R',
+          phone: '7305069974',
         },
       ],
     },
@@ -253,53 +248,53 @@ export const BMEevents = {
 
       venue: 'MS LAB',
       date: 'Oct. 7, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '2500',
+      runner: '1500',
+      third_prize: '1000',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Shri Thrisha',
+          phone: '9384691387',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Akash Kumar',
+          phone: '9345087761',
         },
       ],
     },
     {
-      name: 'Strik-ER()',
+      name: 'STRIKERS()',
       description:
         'This event is conducted on a knockout basis, the last two will share winner and runner. The game method is based on black and white coins, the first person to pocket their coin will be moved to the next round. Traditional carrom rules will be followed. Both singles and doubles will be following the same aspects. Single entry fee - RS 100. Double entry fee - RS 150. Single entry fee - RS 100. Double entry fee - RS 150. A referee will be monitoring the fouls and plays, their decision would be final.',
 
       type: 'team',
-      event_type: 'tech',
+      event_type: 'Non tech',
       team_size: '2',
       department: 'Biomedical Engineering',
 
-      venue: 'Seminar Hall BME',
+      venue: 'PG I YEAR CLASSROOM',
       date: 'Oct. 6, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '3000',
+      runner: '2000',
+      third_prize: 'NIL',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Drithve BS',
+          phone: '9884684052',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Abishake S',
+          phone: '7092864075',
         },
       ],
     },
     {
-      name: 'Born From A Boombox (BFAB) - Solo Dance()',
+      name: 'Born From A Boombox (BFAB)',
       description:
         'This event consists of two rounds. (Event Duration: 2 hrs) Cash price will be awarded for the first three places.',
 
       type: 'solo',
-      event_type: 'non tech',
+      event_type: 'Non tech',
       team_size: '1',
       department: 'Biomedical Engineering',
       rounds: [
@@ -316,17 +311,17 @@ export const BMEevents = {
       ],
       venue: ' BME SEMINAR HALL',
       date: 'Oct. 6, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '4000',
+      runner: '2000',
+      third_prize: '1000',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Suke Bhargav C.R',
+          phone: '8122070102',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Sanjeeth B',
+          phone: '7338883803',
         },
       ],
     },

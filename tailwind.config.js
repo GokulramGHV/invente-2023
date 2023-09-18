@@ -23,6 +23,7 @@ module.exports = {
         wokStencilCaps: ["Wok-Stencil-Caps", 'sans-serif'],
         homemadeApple: ["Homemade-Apple", 'sans-serif'],
         handWritingBlack: ["Handwriting-Black", 'sans-serif'],
+        mechsuit: ["Mechsuit", 'sans-serif'],
       }
     },
   },

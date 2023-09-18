@@ -157,7 +157,7 @@ export default function Footer() {
             <span>
               This website was Built by{' '}
               <span className="underline">
-                <a href="https://gokulram.me/"> Gokul, </a>
+                <a href="https://gokulram.me/"> Gokulram, </a>
               </span>
               <span className="underline">
                 <a href="https://www.linkedin.com/in/thenithinbalaji/">
@@ -179,7 +179,7 @@ export default function Footer() {
               <span className="underline">
                 <a href="https://portfolio-madraceee.vercel.app/">
                   {' '}
-                  Nitheesh Raja{' '}
+                  Nitheesh Raaja{' '}
                 </a>
               </span>
               <span> and Designed by </span>

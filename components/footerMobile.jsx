@@ -55,11 +55,11 @@ export default function FooterMobile() {
         </div>
         <div>
           Built by 
-          <span className='underline'><a href='https://gokulram.me/'> Gokul, </a></span>
+          <span className='underline'><a href='https://gokulram.me/'> Gokulram, </a></span>
           <span className='underline'><a href='https://www.linkedin.com/in/thenithinbalaji/'>Nithin Balaji,</a></span>
           <span className='underline'><a href='https://www.linkedin.com/in/vetrivel-m-458a3a1b7/'> Vetrivel, </a></span>
           <span className='underline'><a href='https://www.linkedin.com/in/vaishnavejp/'> Vaishnave JP, </a></span>
-          <span className='underline'><a href='https://portfolio-madraceee.vercel.app/'> Nitheesh Raja </a></span>
+          <span className='underline'><a href='https://portfolio-madraceee.vercel.app/'> Nitheesh Raaja </a></span>
         </div>
         <div>
           Designed by 
