@@ -67,7 +67,7 @@ export default function IT() {
           }}
         />
 
-        <div className="flex relative lg:top-8">
+        <div className="flex relative lg:mt-8">
           <div className="relative h-fit mt-2 hidden lg:flex flex-col gap-3 items-end">
             {ITevents.events
               .filter((event) => event.event_type === 'tech')
@@ -108,7 +108,7 @@ export default function IT() {
             </div>
           </div>
 
-          <EventDetailsBox className="lg:w-[60vw] md:min-h-[500px] bg-[#27578B99]">
+          <EventDetailsBox className="lg:w-[60vw] md:h-[60vh] bg-[#27578B99]">
             <EventDetails event={selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
 

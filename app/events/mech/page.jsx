@@ -40,21 +40,19 @@ export default function MECH() {
       <Navbar className="absolute top-0 left-0 w-full" />
       <div className="background-gradient fixed left-0 top-0 h-screen w-full z-0" />
       <div
-        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 pt-28 pb-14"
+        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 pt-28 md:pt-24  pb-14"
         style={{
           backgroundImage: `url('/background_MECH.png')`,
         }}
       >
-        <div className="flex justify-center flex-col items-center mt-10 z-10 leading-3">
-          <p className="md:text-2xl lg:mb-3 mb-1">DEPARTMENT OF</p>
+        <div className="flex justify-center flex-col items-center z-10 leading-3">
+          <p className="md:text-2xl">DEPARTMENT OF</p>
           <h1
             className={`font-mechsuit lg:text-[3rem] md:text-[2.5rem] text-3xl leading-tight text-center md:mb-2`}
           >
             mechAnicAl
           </h1>
-          <h4
-            className={`${audiowide.className} md:text-[2rem] text-lg`}
-          >
+          <h4 className={`${audiowide.className} md:text-[2rem] text-lg`}>
             ENGINEERING
           </h4>
         </div>
@@ -71,7 +69,7 @@ export default function MECH() {
           }}
         />
 
-        <div className="flex relative lg:top-8">
+        <div className="flex relative lg:mt-8">
           <div className="relative h-fit mt-2 hidden lg:flex flex-col gap-3 items-end">
             {MECHevents.events
               .filter((event) => event.event_type === 'tech')
@@ -119,7 +117,7 @@ export default function MECH() {
             </div>
           </div>
 
-          <EventDetailsBox className="xl:w-[60vw] md:min-h-[500px] bg-[#42291E99]">
+          <EventDetailsBox className="xl:w-[60vw] md:h-[65vh] bg-[#42291E99]">
             <EventDetails event={selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
 

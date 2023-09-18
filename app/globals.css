@@ -11,6 +11,7 @@
 }
 
 body {
+  overflow: overlay;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -46,7 +47,10 @@ body {
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 17px;
+  position: fixed;
+  top: 0;
+  relative: 0;
 }
 
 ::-webkit-scrollbar-track {
@@ -54,7 +58,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgba(190, 190, 190, 0.50);
+  background-color: rgba(190, 190, 190, 0.5);
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;

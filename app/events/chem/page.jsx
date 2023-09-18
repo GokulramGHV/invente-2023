@@ -45,7 +45,7 @@ export default function CHEM() {
           backgroundImage: `url('/background_CHEM.png')`,
         }}
       >
-        <div className="flex justify-center flex-col items-center mt-10 z-10 leading-3">
+        <div className="flex justify-center flex-col items-center z-10 leading-3">
           <p className="md:text-2xl mb-3">DEPARTMENT OF</p>
           <h1
             className={`${cedarville.className} lg:text-7xl md:text-6xl sm:text-5xl text-4xl leading-tight text-center md:mb-2`}
@@ -66,7 +66,7 @@ export default function CHEM() {
           }}
         />
 
-        <div className="flex relative lg:top-8">
+        <div className="flex relative lg:mt-8">
           <div className="relative h-fit mt-2 hidden lg:flex flex-col gap-3 items-end">
             {CHEMevents.events
               .filter((event) => event.event_type === 'tech')
@@ -114,7 +114,7 @@ export default function CHEM() {
             </div>
           </div>
 
-          <EventDetailsBox className="xl:w-[60vw] md:min-h-[500px] bg-[#131E4599]">
+          <EventDetailsBox className="xl:w-[60vw] md:h-[67vh] bg-[#131E4599]">
             <EventDetails event={selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
 
