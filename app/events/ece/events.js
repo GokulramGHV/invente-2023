@@ -27,11 +27,11 @@ export const ECEevents = {
       third_prize: '1000',
       coordinators: [
         {
-          name: 'sai ranjani',
+          name: 'Sai Ranjani',
           phone: '9360966794',
         },
         {
-          name: 'preetha lakshmi',
+          name: 'Preetha Lakshmi',
           phone: '9585584448',
         },
       ],
@@ -139,12 +139,12 @@ export const ECEevents = {
       third_prize: '1000',
       coordinators: [
         {
-          name: 'Tejaswi',
-          phone: '6380562392',
+          name: 'Girish',
+          phone: '9840312133',
         },
         {
-          name: 'Hrishikesh',
-          phone: '9003259633',
+          name: 'Melchi K M',
+          phone: '8015790158',
         },
       ],
     },
@@ -174,12 +174,12 @@ export const ECEevents = {
       runner: '1000',
       coordinators: [
         {
-          name: 'Girish',
-          phone: '9840312133',
+          name: 'Tejaswi',
+          phone: '6380562392',
         },
         {
-          name: 'Melchi K M',
-          phone: '8015790158',
+          name: 'Hrishikesh',
+          phone: '9003259633',
         },
       ],
     },

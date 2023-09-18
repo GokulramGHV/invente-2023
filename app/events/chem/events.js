@@ -9,14 +9,14 @@ export const CHEMevents = {
       team_size: '1-2',
       department: 'Chemical Engineering',
       rounds: [
-        {
-          name: '',
-          description: '',
-        },
-        {
-          name: '',
-          description: '',
-        },
+        // {
+        //   name: '',
+        //   description: '',
+        // },
+        // {
+        //   name: '',
+        //   description: '',
+        // },
       ],
       venue: 'Chemical Engineering - Department',
       date: 'Oct. 6, 2023',
@@ -37,20 +37,16 @@ export const CHEMevents = {
     {
       name: 'Canva Quest - Poster Presentation',
       description:
-        'Step into a world where science and art blend in a symphony of innovation and creativity. Join us as we transcend the confines of traditional science and the artistic and creative dimensions of chemical processes and design.',
+        'Prepare to be captivated by the fusion of science at "Canva Quest " This event is a voyage into the imaginative realm where chemical processes transform into works of innovation and creativity! Whether you are a chemical engineering student, a passionate innovator, or simply curious about the latest advancements, "Canva Quest" is the place to be. Join us in celebrating the power of innovation in chemical engineering!!!!!!',
       type: 'team OR solo',
       event_type: 'tech',
-      team_size: '1-2',
+      team_size: '1-3',
       department: 'Chemical Engineering ',
       rounds: [
-        {
-          name: '',
-          description: '',
-        },
-        {
-          name: '',
-          description: '',
-        },
+        // {
+        //   name: 'Rules',
+        //   description: '',
+        // },
       ],
       venue: 'Chemical Engineering  - Department',
       date: 'Oct. 7, 2023',
@@ -59,11 +55,15 @@ export const CHEMevents = {
       third_prize: '1000',
       coordinators: [
         {
+          name: 'Michael Samuel',
+          phone: '8825660905',
+        },
+        {
           name: 'Sri Varshini',
           phone: '9442887851',
         },
         {
-          name: 'Janarth',
+          name: 'Janarth R',
           phone: '9384675973',
         },
       ],
@@ -82,10 +82,10 @@ export const CHEMevents = {
           description:
             'This event comprises a single round with different levels. It is a fun packed race against time, each team has to crack the clues and find the alphabets hidden using your chemical knowledge and analytical skills. Location of the different hints would be the same for all the teams participating. However, the order of navigation would be different. Points are awarded for both accuracy and speed. The team with the highest score wins. It’s an exciting challenge that combines strategy and fun!',
         },
-        {
-          name: '',
-          description: '',
-        },
+        // {
+        //   name: '',
+        //   description: '',
+        // },
       ],
       venue: 'Chemical Engineering  - Department',
       date: 'Oct. 6, 2023',
@@ -192,12 +192,12 @@ export const CHEMevents = {
         {
           name: 'Round 1',
           description:
-            '1)Participants will be given a topic on spot. (Common products) 2)A buffer time of ten minutes will be given to them to research on the topic given. 3)They will have to pitch the topic for not more than 4 minutes 4)Teams/participants with the highest points will qualify for the final round.',
+            '1)	Participants will be given a topic on spot. (common products) 2)	A buffer time of 30 minutes will be given to them to research on the topic given. 3)	Participants will have to prepare a brochure for the product. 4)	The brochure will be judged and teams/participants with the highest points will qualify for the final round.',
         },
         {
-          name: 'Round 2(Final)',
+          name: 'Round 2 (Final)',
           description:
-            '1)Participants will be given a topic on spot, as like the first round. 2)They will have to prepare a presentation on the given topic, for which a buffer time of 30 minutes will be given. 3)They will have to present the topic for not more than 6 mins and subsequently answer questions from the sharks. 4)The team/participant with the maximum number of points will be the winner.',
+            '1)	Participants will be given a topic on spot, as like the first round. 2)	A buffer time of 45 minutes will be given, and they will have to pitch the product. 3)	They will have to present the topic for not more than 6 mins and subsequently answer questions from the sharks. 4)	Each team will be given a fixed amount of cash and they will have to invest in the other team’s products. 5)	Based on the points (judges score) the presenting team gets a certain amount of points will be added to the investing team based on their investment. 6)	The team/participant with the maximum number of points will be the winner. ',
         },
       ],
       venue: 'Chemical Engineering - Department',
@@ -213,6 +213,18 @@ export const CHEMevents = {
         {
           name: 'Aadithya S',
           phone: '9176312598',
+        },
+        {
+          name: 'Swetha K',
+          phone: '8056066998',
+        },
+        {
+          name: 'Madhav M',
+          phone: '9042761304',
+        },
+        {
+          name: 'Harsha Anand ',
+          phone: '9600777450',
         },
       ],
     },
@@ -307,14 +319,14 @@ export const CHEMevents = {
       team_size: '1',
       department: 'Chemical Engineering',
       rounds: [
-        {
-          name: '',
-          description: '',
-        },
-        {
-          name: '',
-          description: '',
-        },
+        // {
+        //   name: '',
+        //   description: '',
+        // },
+        // {
+        //   name: '',
+        //   description: '',
+        // },
       ],
       venue: 'Chemical Engineering - Department',
       date: 'Oct. 6, 2023',
@@ -341,14 +353,14 @@ export const CHEMevents = {
       team_size: '4',
       department: 'Chemical Engineering',
       rounds: [
-        {
-          name: '',
-          description: '',
-        },
-        {
-          name: '',
-          description: '',
-        },
+        // {
+        //   name: '',
+        //   description: '',
+        // },
+        // {
+        //   name: '',
+        //   description: '',
+        // },
       ],
       venue: 'Chemical Engineering - Department',
       date: 'Oct. 7, 2023',
