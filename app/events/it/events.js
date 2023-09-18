@@ -28,12 +28,12 @@ export const ITevents = {
       third_prize: '',
       coordinators: [
         {
-          name: 'Contact Name 1',
-          phone: 'Phone 1',
+          name: 'Prajeeth B',
+          phone: '9445818366',
         },
         {
-          name: 'Contact Name 2',
-          phone: 'Phone 2',
+          name: 'Gokulram A',
+          phone: '9629623773',
         },
       ],
     },

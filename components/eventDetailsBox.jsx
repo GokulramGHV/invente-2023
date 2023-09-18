@@ -110,28 +110,51 @@ export function EventDetails({ event, bg_color }) {
           </div>
         </div>
       </div>
-      <p className="text-sm md:text-base text-justify">{event.description}</p>
-      {event?.rounds?.length > 0 && (
-        <>
-          <h3 className="md:text-xl mt-5 mb-2 text-lg font-bold text-white">
-            ROUNDS
-          </h3>
-          <ol className="space-y-3">
-            {event?.rounds?.map((round, index) => (
-              <li
-                key={index}
-                className="flex gap-1 text-sm md:text-base text-justify"
-              >
-                <div>{index + 1}.</div>
-                <div>
-                  <span className="font-semibold">{round.name}</span> -{' '}
-                  {round.description}
-                </div>
-              </li>
-            ))}
-          </ol>
-        </>
-      )}
+      <div className="flex flex-col items-center w-full md:h-[30vh] md:overflow-y-scroll">
+        <p className="text-sm md:text-base text-justify">{event.description}</p>
+        {event?.rounds?.length > 0 && (
+          <>
+            <h3 className="md:text-xl mt-5 mb-2 text-lg font-bold text-white">
+              ROUNDS
+            </h3>
+            <ol className="space-y-3">
+              {event?.rounds?.map((round, index) => (
+                <li
+                  key={index}
+                  className="flex gap-1 text-sm md:text-base text-justify"
+                >
+                  <div>{index + 1}.</div>
+                  <div>
+                    <span className="font-semibold">{round.name}</span> -{' '}
+                    {round.description}
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </>
+        )}
+        {event?.coordinators?.length > 0 && (
+          <>
+            <h3 className="md:text-xl mt-6 mb-2 text-lg font-bold text-white">
+              CO-ORDINATORS
+            </h3>
+            <ol className="space-y-3">
+              {event?.coordinators?.map((coordinator, index) => (
+                <li
+                  key={index}
+                  className="flex gap-1 text-sm md:text-base text-justify"
+                >
+                  <div>
+                    <span className="font-bold">{coordinator.name}</span>
+                    {'   '}(+91 {''}
+                    {coordinator.phone})
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </>
+        )}
+      </div>
     </>
   );
 }
