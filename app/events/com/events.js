@@ -10,8 +10,8 @@ export const COMevents = {
       department: 'SNUC',
       rounds: [
         {
-          name: 'TBH',
-          description: 'TBH',
+          name: 'TBD',
+          description: 'TBD',
         },
       ],
       venue: 'SNUC Seminar Hall',
@@ -36,8 +36,8 @@ export const COMevents = {
       department: 'SNUC',
       rounds: [
         {
-          name: 'TBH',
-          description: 'TBH',
+          name: 'TBD',
+          description: 'TBD',
         },
       ],
       venue: 'SNUC Seminar Hall',

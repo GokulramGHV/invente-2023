@@ -61,6 +61,14 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
           <br />
           <span className="font-light text-[11px]">R U N N E R</span>
         </div>
+        {event?.third_prize && event?.third_prize !== '' && (
+          <div className="sm:col-span-1 font-bold leading-3">
+            {event.third_prize ? `₹${event.third_prize}` : 'TBD'}
+            <br />
+            <span className="font-light text-[11px]">T H I R D</span>
+          </div>
+        )}
+
         <div className="flex flex-wrap gap-x-4 sm:gap-x-6 justify-center gap-y-3">
           <div className="flex md:gap-2 gap-1.5 items-center">
             <svg
@@ -75,7 +83,8 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
               />
             </svg>
             <p className="col-span-2">
-              {event.date ? event.date.slice(0, 6) : 'TBD'}
+              {/* {event.date ? event.date.slice(0, 6) : 'TBD'} */}
+              TBD
             </p>
           </div>
           <div className="flex md:gap-1.5 gap-1 items-center">

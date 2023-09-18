@@ -20,7 +20,7 @@ export const ECEevents = {
             'Duration: 50 - 60 minutes. Selected participants are given credits based on their quiz score. Credits awarded = 1000* respective quiz score. 10 programming questions prepared in advance will be displayed to all the participants. Each participant is given 5 minutes to discuss and/or decide the question of their preference. At the end of 5 minutes, an auction is conducted where participants are allowed to bid for their preferred problem statement with their awarded credits. At the end of the auction, every participant has a unique problem statement i.e., None of the problem statements are repeated. Participants can code their solutions using C/C++/Python/ MATLAB within 45 minutes. The codes are assessed and scored based on a fixed criteria. The top three participants are announced winners.',
         },
       ],
-      venue: 'TBH',
+      venue: 'TBD',
       date: 'Oct. 6, 2023',
       winner: '3000',
       runner: '2000',
@@ -56,7 +56,7 @@ export const ECEevents = {
             'Duration: 45-60 Minutes. 1) Teams will be shortlisted based on the pen and paper test score(prelims round score). 2) Each shortlisted team will be given a circuit description that has to be solved and solder the components according to the circuit layout they inferred. 3) Necessary items such as soldering rod, lead, flux, transistors, resistors, capacitors etc. 4) You will be scored on how well and neat your circuit is soldered and implemented.',
         },
       ],
-      venue: 'TBH',
+      venue: 'TBD',
       date: 'Oct. 7, 2023',
       winner: '3000',
       runner: '2000',
@@ -119,20 +119,20 @@ export const ECEevents = {
         {
           name: 'Round 1',
           description:
-            "Topics covered: Digital Signal Processing, Analog and Digital Electronics , Linear Integrated Circuits, Analog Communication. Time duration: 20 minutes (10 questions).  Teams will be given a chance to pick a card from the deck available.  If the team gets a non-ace card, they will get questions from various topics.  If the team gets an ace card, the team will have the choice to either answer from the topic of their interest (any one among the list of topics given) or answer a mixed question paper (Covers all the topics).Tie Breakers:  Star Marked Questions: Some Priority Questions can be used to break ties.  Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.  Sudden Death: Team that makes the first mistake shall not qualify for the next round.Shortlisting for round 2: Based on the teams' scores in the first round, a certain number of teams will be qualified for the second round. If two teams supposedly get the same score, tie-breaker questions will be considered.",
+            "Topics covered: Digital Signal Processing, Analog and Digital Electronics , Linear Integrated Circuits, Analog Communication. Time duration: 20 minutes (10 questions). ● Teams will be given a chance to pick a card from the deck available. ● If the team gets a non-ace card, they will get questions from various topics. ● If the team gets an ace card, the team will have the choice to either answer from the topic of their interest (any one among the list of topics given) or answer a mixed question paper (Covers all the topics).Tie Breakers: ● Star Marked Questions: Some Priority Questions can be used to break ties. ● Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used. ● Sudden Death: Team that makes the first mistake shall not qualify for the next round.Shortlisting for round 2:● Based on the teams' scores in the first round, a certain number of teams will be qualified for the second round.● If two teams supposedly get the same score, tie-breaker questions will be considered.",
         },
         {
           name: 'Round 2',
           description:
-            'Time Duration: 20 minutes (depending on the number of teams and rounds).  Each team will have 2-3 people and each round will have 2-4 teams.  A total of 7 cards will be given to each team.  Each card will contain a specific component.  A list containing all possible circuits or connections that can be made with the given components will also be provided.  The cards can be passed among teams.  The first to identify and complete the circuit will be promoted to the next round.  If you get an ace card , a clue will be provided. Shortlisting for round 3: First to win in each round will be qualified for the next round.',
+            'Time Duration: 20 minutes (depending on the number of teams and rounds). ● Each team will have 2-3 people and each round will have 2-4 teams. ● A total of 7 cards will be given to each team. ● Each card will contain a specific component. ● A list containing all possible circuits or connections that can be made with the given components will also be provided. ● The cards can be passed among teams. ● The first to identify and complete the circuit will be promoted to the next round. ● If you get an ace card , a clue will be provided. Shortlisting for round 3: First to win in each round will be qualified for the next round.',
         },
         {
           name: 'Round 3',
           description:
-            "Time Duration: 30 minutes.  Teams will be given a chance to pick a card from the deck available  Teams will be given a faulty circuit diagram .  The members have to debug the circuit which is basically to detect and eliminate the fault which can cause unexpected behaviour in the circuit or crashing of the same.  Components will be provided , using which the circuit has to be implemented and the proper output should be obtained. Rules:  Bonus points for the team which completes in 15 mins.  Clues will be given , but with the deduction of points.  The card might be either an analog or digital circuit.  If you get an ace card , you'll be given a fault free circuit diagram.",
+            "Time Duration: 30 minutes. ● Teams will be given a chance to pick a card from the deck available ● Teams will be given a faulty circuit diagram . ● The members have to debug the circuit which is basically to detect and eliminate the fault which can cause unexpected behaviour in the circuit or crashing of the same. ● Components will be provided , using which the circuit has to be implemented and the proper output should be obtained. Rules: ● Bonus points for the team which completes in 15 mins. ● Clues will be given , but with the deduction of points. ● The card might be either an analog or digital circuit. ● If you get an ace card , you'll be given a fault free circuit diagram.",
         },
       ],
-      venue: 'TBH',
+      venue: 'TBD',
       date: 'Oct. 7, 2023',
       winner: '3000',
       runner: '2000',
@@ -168,7 +168,7 @@ export const ECEevents = {
             'Duration: 100-120 minutes. The questions are read out one by one directed at one team at a time moving in clockwise direction. The questions will be based on the theme and basic engineering. The pounce and bounce quizzing format is followed. After a question is read out, a time frame of 15 seconds is provided where any team who is sure of the answer may take on the question and raise their hand to gesture for the answer, that they have written down in the paper provided to be taken and checked with the Quizmaster. If the Quizmaster approves of the answer the team is provided 15 points. If not, the team receives a negative marking of 5 points. Once the time period of 15 seconds for Pouncing on the question is over, the question will be bounced. There are no negatives for bounce questions, the teams are given a chance to answer in clockwise order and the team answering the question rightly will receive 10 points. The bounce round of the question will end once a team answers right or all teams have attempted. The next question will be directed to the team succeeding the one that bounce round ended with. At the end of the quiz, the teams with the most points are announced as the 1st, 2nd, 3rd winners.',
         },
       ],
-      venue: 'TBH',
+      venue: 'TBD',
       date: 'Oct. 6, 2023',
       winner: '1500',
       runner: '1000',
@@ -259,7 +259,7 @@ export const ECEevents = {
             'Duration – 60 minutes. Count on your luck and let the wheel decide which decade you will travel to. • Teams have to spin the Decade Wheel to decide which decade of technology they will be quizzed on. • +10 points for every right answer given by the team. No negative marking. • If the team is unable to answer the question, other teams have a chance to pounce. +5 points for the right answer and -5 for the wrong answer. Criteria to select winners: 1.Top 3 teams will be selected. 2.Selection will be based on number of points scored.',
         },
       ],
-      venue: 'TBH',
+      venue: 'TBD',
       date: 'Oct. 6, 2023',
       winner: '3000',
       runner: '2000',
@@ -287,15 +287,15 @@ export const ECEevents = {
         {
           name: 'Round 1',
           description:
-            'Duration: 15 - 20 Minutes. Registered Teams will receive an questionnaire (No MCQ).  The questionnaire will contain a prompt and questions regarding marketing/Sales strategies and solutions. Tie Breakers: In case of a tie, the following methods can be used to select a team.  Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.',
+            'Duration: 15 - 20 Minutes.● Registered Teams will receive an questionnaire (No MCQ). ● The questionnaire will contain a prompt and questions regarding marketing/Sales strategies and solutions. Tie Breakers: In case of a tie, the following methods can be used to select a team. ● Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.',
         },
         {
           name: 'Round 2',
           description:
-            'Duration: 90 - 120 Minutes.  Shortlisted participants will be given a domain of topics or general topics and will be asked to come up with a product that aligns with the domain and the will pitch the same to a panel.  The panel shall evaluate the pitches and announce winners.',
+            'Duration: 90 - 120 Minutes. ● Shortlisted participants will be given a domain of topics or general topics and will be asked to come up with a product that aligns with the domain and the will pitch the same to a panel. ● The panel shall evaluate the pitches and announce winners.',
         },
       ],
-      venue: 'TBH',
+      venue: 'TBD',
       date: 'Oct. 6, 2023',
       winner: '2500',
       runner: '1500',
@@ -322,15 +322,15 @@ export const ECEevents = {
         {
           name: 'Round 1',
           description:
-            'Duration :  25 mins. Topics covered : C/C++ , MATLAB , Microprocessor and Microcontrollers , Circuit theory , Electronic Circuits , Control Systems. The quiz will be in the format of pen and paper and will be conducted offline. - The questions will be based on the above mentioned domains. - All the answers to the questions must be answered before the time limit - There will be a fixed number of starred questions which are basically bonus questions, mainly used as a tie-breaker. - The answers will also be discussed once all the submissions are collected. Rules:  All the team members can discuss within themselves and answer the questions.  Use of any electronic aid is strictly prohibited. Shortlisting:  Top 10 teams will be selected based on their scores.  The time taken to complete the paper and the answers to starred questions will be used a tie-breaker.',
+            'Duration :  25 mins. Topics covered : C/C++ , MATLAB , Microprocessor and Microcontrollers , Circuit theory , Electronic Circuits , Control Systems. The quiz will be in the format of pen and paper and will be conducted offline. - The questions will be based on the above mentioned domains. - All the answers to the questions must be answered before the time limit - There will be a fixed number of starred questions which are basically bonus questions, mainly used as a tie-breaker. - The answers will also be discussed once all the submissions are collected. Rules: ● All the team members can discuss within themselves and answer the questions. ● Use of any electronic aid is strictly prohibited. Shortlisting: ● Top 10 teams will be selected based on their scores. ● The time taken to complete the paper and the answers to starred questions will be used a tie-breaker.',
         },
         {
           name: 'Round 2',
           description:
-            'Duration: 180 mins. The teams can choose to solve additional tasks for bonus points provided they are done with the existing tasks well within the time limit. - Teams will be provided tasks from all the domains. - If teams wish to switch their task, they can be provided with a different task of random difficulty at the expense of a fixed number of points they’ve accumulated. - The teams can refer to the documentation of the task provided to them. - A maximum of three hints will be provided at the expense of a fixed number of points they’ve accumulated. Rules: 	All the team members can discuss within themselves to answer the given questions. 	Use of any electronic aid is strictly prohibited. ',
+            'Duration: 180 mins. The teams can choose to solve additional tasks for bonus points provided they are done with the existing tasks well within the time limit. - Teams will be provided tasks from all the domains. - If teams wish to switch their task, they can be provided with a different task of random difficulty at the expense of a fixed number of points they’ve accumulated. - The teams can refer to the documentation of the task provided to them. - A maximum of three hints will be provided at the expense of a fixed number of points they’ve accumulated. Rules: ●	All the team members can discuss within themselves to answer the given questions. ●	Use of any electronic aid is strictly prohibited. ',
         },
       ],
-      venue: 'TBH',
+      venue: 'TBD',
       date: 'Oct. 6, 2023',
       winner: '3000',
       runner: '2000',
@@ -358,15 +358,15 @@ export const ECEevents = {
         {
           name: 'Round 1',
           description:
-            'Topic Covered: Logical reasoning, basic science and mathematics, data interpretation, basic programming and tech trivia. A quiz will be conducted based on the above mentioned topics. Teams will be based on the points scored by the teams. The number of teams selected will depend on the number of teams registering. Tie Breakers:  Star Marked Questions: Some Priority Questions can be used to break ties.  Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.  Sudden Death: Team that makes the first mistake shall not qualify for the next round. ',
+            'Topic Covered: Logical reasoning, basic science and mathematics, data interpretation, basic programming and tech trivia. A quiz will be conducted based on the above mentioned topics. Teams will be based on the points scored by the teams. The number of teams selected will depend on the number of teams registering. Tie Breakers: ● Star Marked Questions: Some Priority Questions can be used to break ties. ● Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used. ● Sudden Death: Team that makes the first mistake shall not qualify for the next round. ',
         },
         {
           name: 'Round 2',
           description:
-            'Duration: 60 Minutes  A set of tasks will be assigned to each team which has to be completed to reach the final stage.  The solution of each task will be a clue for the final task which is to crack an enigmatic code.  The difficulty level will increase with each task. The points for each task will depend on this difficulty level.  If the team gets stuck in between any task, they are allowed to call the event heads for a clue but with a cost of reduction in points.  The first team to complete the final task with all the collected clues having the highest points will be declared as the winner. ',
+            'Duration: 60 Minutes ● A set of tasks will be assigned to each team which has to be completed to reach the final stage. ● The solution of each task will be a clue for the final task which is to crack an enigmatic code. ● The difficulty level will increase with each task. The points for each task will depend on this difficulty level. ● If the team gets stuck in between any task, they are allowed to call the event heads for a clue but with a cost of reduction in points. ● The first team to complete the final task with all the collected clues having the highest points will be declared as the winner. ',
         },
       ],
-      venue: 'TBH',
+      venue: 'TBD',
       date: 'Oct. 7, 2023',
       winner: '2500',
       runner: '1500',

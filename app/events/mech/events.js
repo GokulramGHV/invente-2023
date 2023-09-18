@@ -12,17 +12,17 @@ export const MECHevents = {
         {
           name: 'Technical quiz',
           description:
-            'Firstly, all participants are given a question paper of 25 questions , with 15 technical and 10 general knowledge.  Name of the student, year of study and official email address must be written on the answer script.  Technical questions are taken from SOM, Thermal , Design, KOM, DOM.  In case the participants are 60+, the number of shortlisted students will be 25+. In this scenario, we will further shortlist the candidates by conducting an oral quiz. The first person to get the correct answer wins a point.  If more than 20 seconds pass and none answers, we move to the next question.  15 students are shortlisted from this round.',
+            'Firstly, all participants are given a question paper of 25 questions , with 15 technical and 10 general knowledge. Name of the student, year of study and official email address must be written on the answer script. Technical questions are taken from SOM, Thermal , Design, KOM, DOM. In case the participants are 60+, the number of shortlisted students will be 25+. In this scenario, we will further shortlist the candidates by conducting an oral quiz. The first person to get the correct answer wins a point. If more than 20 seconds pass and none answers, we move to the next question. 15 students are shortlisted from this round.',
         },
         {
           name: ' Group Discussion',
           description:
-            ' Group discussion will be conducted and judged by one or two faculty members.  It will be conducted in a round table conference set -up to mock the real time GD sessions  3 sessions with 5 students in each session will attend the GD.  The top 3 students will be selected from the entire round and they will be the finalists. ',
+            'Group discussion will be conducted and judged by one or two faculty members. It will be conducted in a round table conference set -up to mock the real time GD sessions 3 sessions with 5 students in each session will attend the GD. The top 3 students will be selected from the entire round and they will be the finalists. ',
         },
         {
           name: ' Interview',
           description:
-            ' The interview is held by a committee of professors.  The finalists now, attend the interview one by one .  Two winners will be selected by the professors. ',
+            'The interview is held by a committee of professors. The finalists now, attend the interview one by one . Two winners will be selected by the professors. ',
         },
       ],
       venue: 'Mechanical Department',
@@ -243,7 +243,7 @@ export const MECHevents = {
           description: '',
         },
       ],
-      venue: 'TBA',
+      venue: 'TBD',
       date: 'Oct. 6-7, 2023',
       winner: '4000',
       runner: '2000',
@@ -308,7 +308,7 @@ export const MECHevents = {
             ' 1v1 knockouts o Elimination Round o The final will take place amongst the two best teams .( Change of rounds will be insisted with prior information)',
         },
       ],
-      venue: 'TBA',
+      venue: 'TBD',
       date: 'Oct. 6, 2023',
       winner: '5000',
       runner: '3000',

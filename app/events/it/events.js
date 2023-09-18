@@ -23,9 +23,9 @@ export const ITevents = {
       ],
       venue: '',
       date: 'Oct. 5, 2023',
-      winner: '',
-      runner: '',
-      third_prize: '',
+      winner: '8000',
+      runner: '4000',
+      third_prize: '3000',
       coordinators: [
         {
           name: 'Prajeeth B',
@@ -112,7 +112,7 @@ export const ITevents = {
     {
       name: 'Codera',
       description:
-        'An event where you can showcase your knowledge of computer science and coding skills',
+        "Prepare to embark on a thrilling journey into the world of computer science and coding at 'Codera'! This event is tailor-made for passionate tech enthusiasts like you. In Round 1, you'll face a battery of 20 MCQs spanning various CS topics, and debugging. Round 2 ramps up the excitement with a coding contest featuring four stimulating questions, providing you with the perfect platform to demonstrate your programming prowess. Don't miss out on this golden opportunity to showcase your skills . Join us at 'Codera' and let your talents shine!",
       type: 'solo',
       event_type: 'tech',
       team_size: '1',
@@ -297,7 +297,7 @@ export const ITevents = {
       third_prize: '',
       coordinators: [
         {
-          name: 'Aditya KP',
+          name: 'Aadhithya K Praveen',
           phone: '90804 79240',
         },
         {
