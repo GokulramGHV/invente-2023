@@ -121,9 +121,9 @@ export default function BME() {
           </div>
 
           <EventDetailsBox
-            className={`xl:w-[60vw] md:min-h-[608px] h-max ${colorScheme.selected}`}
+            className={`xl:w-[60vw] md:min-h-[500px] h-max ${colorScheme.selected}`}
           >
-            <EventDetails event={selectedEvent} bg_color={bg_color} />
+            <EventDetails event={selectedEvent} bg_color={bg_color} textColor="text-[#251600]" />
           </EventDetailsBox>
 
           <div className="mt-2 hidden lg:flex flex-col gap-3">

@@ -161,7 +161,7 @@ export const ITevents = {
       third_prize: '',
       coordinators: [
         {
-          name: 'Raghul Pandiyan',
+          name: 'Ragul Pandiyan',
           phone: '85085 39378',
         },
         {

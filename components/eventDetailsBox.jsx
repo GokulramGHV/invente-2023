@@ -34,7 +34,7 @@ export default function EventDetailsBox({ className = '', children }) {
   );
 }
 
-export function EventDetails({ event, bg_color }) {
+export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
   return (
     <>
       <h3
@@ -110,13 +110,13 @@ export function EventDetails({ event, bg_color }) {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center w-full md:h-[30vh] md:overflow-y-scroll">
+      <div
+        className={`flex flex-col items-center w-full md:h-[30vh] md:overflow-y-scroll ${textColor}`}
+      >
         <p className="text-sm md:text-base text-justify">{event.description}</p>
         {event?.rounds?.length > 0 && (
           <>
-            <h3 className="md:text-xl mt-5 mb-2 text-lg font-bold text-white">
-              ROUNDS
-            </h3>
+            <h3 className="md:text-xl mt-5 mb-2 text-lg font-bold">ROUNDS</h3>
             <ol className="space-y-3">
               {event?.rounds?.map((round, index) => (
                 <li
@@ -135,7 +135,7 @@ export function EventDetails({ event, bg_color }) {
         )}
         {event?.coordinators?.length > 0 && (
           <>
-            <h3 className="md:text-xl mt-6 mb-2 text-lg font-bold text-white">
+            <h3 className="md:text-xl mt-6 mb-2 text-lg font-bold">
               CO-ORDINATORS
             </h3>
             <ol className="space-y-3">
