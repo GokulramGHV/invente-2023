@@ -13,7 +13,7 @@ const links = {
   'computer science': '/events/cse',
   'information technology': '/events/it',
   'electronics and communication': '/events/ece',
-  'mechanical engineering': '/evens/mech',
+  'mechanical engineering': '/events/mech',
   'chemical engineering': '/events/chem',
   'electrical and electronics engineering': '/events/eee',
   'civil engineering': '/events/civil',
