@@ -301,6 +301,10 @@ export const ITevents = {
           phone: '90804 79240',
         },
         {
+          name: 'Abijith LA',
+          phone: '73585 52930',
+        },
+        {
           name: 'Saravanan Ravi',
           phone: '73050 84842',
         },

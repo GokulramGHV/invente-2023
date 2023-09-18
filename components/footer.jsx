@@ -21,9 +21,7 @@ export default function Footer() {
             </div>
             <div className="grid grid-cols-3 xl:gap-28 gap-20 mr-12">
               <div>
-                <p
-                  className="font-extralight text-sm uppercase mb-2.5"
-                >
+                <p className="font-extralight text-sm uppercase mb-2.5">
                   participate
                 </p>
                 <ul className="flex flex-col font-medium text-base gap-1.5">
@@ -39,9 +37,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div>
-                <p
-                  className="font-extralight text-sm uppercase mb-2.5"
-                >
+                <p className="font-extralight text-sm uppercase mb-2.5">
                   Know More
                 </p>
                 <ul className="flex flex-col font-medium text-base gap-1.5">
@@ -55,9 +51,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div>
-                <p
-                  className="font-extralight text-sm uppercase mb-2.5"
-                >
+                <p className="font-extralight text-sm uppercase mb-2.5">
                   Get in touch
                 </p>
                 <ul className="flex flex-col font-medium text-base gap-1.5">
@@ -65,16 +59,16 @@ export default function Footer() {
                     <Link href="/comingsoon">Contact us</Link>
                   </li>
                   <li>
-                    <div className="flex gap-3 mt-2">
+                    <div className="flex gap-3 mt-2 justify-center items-center">
                       <span>
                         <a href="https://www.instagram.com/ssnsnucinvente/">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
-                            className="w-6 h-[26px]"
+                            className="w-7 h-7"
                             viewBox="0 0 28 32"
                             fill="none"
                           >
-                            <g clip-path="url(#clip0_625_452)">
+                            <g clipPath="url(#clip0_625_452)">
                               <path
                                 d="M14.007 8.8127C10.032 8.8127 6.82578 12.0189 6.82578 15.9939C6.82578 19.9689 10.032 23.1752 14.007 23.1752C17.982 23.1752 21.1883 19.9689 21.1883 15.9939C21.1883 12.0189 17.982 8.8127 14.007 8.8127ZM14.007 20.6627C11.4383 20.6627 9.33828 18.5689 9.33828 15.9939C9.33828 13.4189 11.432 11.3252 14.007 11.3252C16.582 11.3252 18.6758 13.4189 18.6758 15.9939C18.6758 18.5689 16.5758 20.6627 14.007 20.6627ZM23.157 8.51895C23.157 9.4502 22.407 10.1939 21.482 10.1939C20.5508 10.1939 19.807 9.44395 19.807 8.51895C19.807 7.59395 20.557 6.84395 21.482 6.84395C22.407 6.84395 23.157 7.59395 23.157 8.51895ZM27.9133 10.2189C27.807 7.9752 27.2945 5.9877 25.6508 4.3502C24.0133 2.7127 22.0258 2.2002 19.782 2.0877C17.4695 1.95645 10.5383 1.95645 8.22578 2.0877C5.98828 2.19395 4.00078 2.70645 2.35703 4.34395C0.713281 5.98145 0.207031 7.96895 0.0945312 10.2127C-0.0367187 12.5252 -0.0367187 19.4564 0.0945312 21.7689C0.200781 24.0127 0.713281 26.0002 2.35703 27.6377C4.00078 29.2752 5.98203 29.7877 8.22578 29.9002C10.5383 30.0314 17.4695 30.0314 19.782 29.9002C22.0258 29.7939 24.0133 29.2814 25.6508 27.6377C27.2883 26.0002 27.8008 24.0127 27.9133 21.7689C28.0445 19.4564 28.0445 12.5314 27.9133 10.2189ZM24.9258 24.2502C24.4383 25.4752 23.4945 26.4189 22.2633 26.9127C20.4195 27.6439 16.0445 27.4752 14.007 27.4752C11.9695 27.4752 7.58828 27.6377 5.75078 26.9127C4.52578 26.4252 3.58203 25.4814 3.08828 24.2502C2.35703 22.4064 2.52578 18.0314 2.52578 15.9939C2.52578 13.9564 2.36328 9.5752 3.08828 7.7377C3.57578 6.5127 4.51953 5.56895 5.75078 5.0752C7.59453 4.34395 11.9695 4.5127 14.007 4.5127C16.0445 4.5127 20.4258 4.35019 22.2633 5.0752C23.4883 5.5627 24.432 6.50644 24.9258 7.7377C25.657 9.58145 25.4883 13.9564 25.4883 15.9939C25.4883 18.0314 25.657 22.4127 24.9258 24.2502Z"
                                 fill="white"
@@ -152,38 +146,41 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex lg:bg-[#82D9FFB0] w-full font-medium items-center text-[#1D1D1B] text-sm py-3 px-20">
+        <div className="flex bg-[#303746] w-full font-medium items-center text-white text-sm py-4 px-20">
           <div className="flex decoration-solid">
             <span>
               Website: Built by{' '}
               <span className="underline">
-                <a href="https://gokulram.me/"> Gokul</a>
-              </span>{', '}
+                <a href="https://gokulram.me/"> Gokulram</a>
+              </span>
+              {', '}
               <span className="underline">
                 <a href="https://www.linkedin.com/in/thenithinbalaji/">
                   Nithin Balaji
                 </a>
-              </span>{', '}
+              </span>
+              {', '}
               <span className="underline">
                 <a href="https://www.linkedin.com/in/vetrivel-m-458a3a1b7/">
                   Vetrivel
                 </a>
-              </span>{', '}
+              </span>
+              {', '}
               <span className="underline">
                 <a href="https://www.linkedin.com/in/vaishnavejp/">
                   Vaishnave JP
                 </a>
-              </span>{', '}
+              </span>
+              {', '}
               <span className="underline">
                 <a href="https://portfolio-madraceee.vercel.app/">
                   Nitheesh Raja
                 </a>
-              </span>{'. '}
+              </span>
+              {'. '}
               <span> Designed by </span>
               <span className="underline">
-                <a href="https://www.linkedin.com/in/suprajasridh/">
-                  Supraja
-                </a>
+                <a href="https://www.linkedin.com/in/suprajasridh/">Supraja</a>
               </span>{' '}
               <span className="">
                 <a href=""> and </a>

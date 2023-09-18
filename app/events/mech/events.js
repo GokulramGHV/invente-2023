@@ -1,7 +1,7 @@
 export const MECHevents = {
   events: [
     {
-      name: 'MECHATHLON',
+      name: 'Mechathlon',
       description:
         'Strong in core concepts? The right platform to flex the mechanical engineering knowledge is right here. This is technical event where the participants will be asked to attempt a quiz. The question paper will be circulated. To make the event different from the conventional quiz contests, we have incorporated a mock simulation of the technical interview rounds which take place during campus placements. Round 2 consists of group discussion followed by interview in the third round. In addition to testing the core concepts of a participant, this particular event acts like a mock placement round which in turn facilitates the students to get exposed to the placement process. ',
       type: 'solo',
@@ -41,7 +41,7 @@ export const MECHevents = {
       ],
     },
     {
-      name: 'BOTTLE ROCKETRIX',
+      name: 'Bottle Rocketrix',
       description:
         'Do you have an interest in aerodynamic designing !? Also, do you love flying rockets ? If your answer is yes, we will provide you with an excellent opportunity to build your rocket and fly it yourself. This is a competitive event, where you would need to design a bottle rocket that would fly the farthest. The rocket with an excellent aerodynamic design and a proper launching technique would bag a huge prize. So, rocket enthusiasts turn on your engines and get ready to launch!.',
       type: 'team',
@@ -226,7 +226,7 @@ export const MECHevents = {
       ],
     },
     {
-      name: 'ROBO WARS',
+      name: 'Robo Wars',
       description:
         "Robowars', one of the most popular and key events at Invente ‘23 ,the annual two-day technical fest at SSN college of engineering. The primary goal of the event is to destroy or disable the opponent’s robot using various weapons and tactics. Bring your powerful stand-alone robots ready to battle as you’ll be pitted against other competing robots in one-on-one knockout matches and score maximum points! Play to your strengths and strategies to win cash prizes! Design and construct a wired or remote-controlled bot capable of fighting in a one-on-one tournament.",
       type: 'team',
@@ -261,19 +261,15 @@ export const MECHevents = {
     {
       name: 'Murder Mystery',
       description:
-        "Do your friends find your jokes a little too dark sometimes? Do you have a particular liking for murder, blood, violence and all the other horrid things. Do you have a knack for solving crime mysteries? Well then you've come to the right place Mechanical department proudly presents murder mystery Just right shares of mystery, gore, adventure and fear (or not💀) No. Of rounds and rules: Let it remain a mystery for now 👀",
+        "Do your friends find your jokes a little too dark sometimes? Do you have a particular liking for murder, blood, violence and all the other horrid things. Do you have a knack for solving crime mysteries? Well then you've come to the right place Mechanical department proudly presents murder mystery Just right shares of mystery, gore, adventure and fear (or not💀) ",
       type: 'team',
       event_type: 'non tech',
-      team_size: '1',
+      team_size: '3-4',
       department: 'Mechanical',
       rounds: [
         {
-          name: 'non tech',
-          description: '',
-        },
-        {
-          name: '',
-          description: '',
+          name: 'No. Of rounds and rules:',
+          description: 'Let it remain a mystery for now 👀',
         },
       ],
       venue: 'Mechanical Department ',
@@ -295,7 +291,7 @@ export const MECHevents = {
     {
       name: 'Blitz GP',
       description:
-        "RC Car race From ‘Herbie’ to ‘Transformers’, the magic of cars coming to life on screen has fascinated us. Now, make your own RC car and be the director of your own RC car adventure at our race event. Come Directors, let's create a multiverse of cars in a single timeline (Track). Get ready for an adrenaline-fueled thrill event and showcase your driving skills on an electrifying track filled with twists, turns, and jumps. Whether you’re a seasoned racer or a newcomer, this event promises heart-pounding action and a chance to compete against other enthusiasts.",
+        "From ‘Herbie’ to ‘Transformers’, the magic of cars coming to life on screen has fascinated us. Now, make your own RC car and be the director of your own RC car adventure at our race event. Come Directors, let's create a multiverse of cars in a single timeline (Track). Get ready for an adrenaline-fuelled thrill event and showcase your driving skills on an electrifying track filled with twists, turns, and jumps. Whether you’re a seasoned racer or a newcomer, this event promises heart-pounding action and a chance to compete against other enthusiasts.",
       type: 'team',
       event_type: 'tech',
       team_size: '1-4',
@@ -304,12 +300,12 @@ export const MECHevents = {
         {
           name: ' Qualifier',
           description:
-            'o 5 laps to attain the best lap time. o Gives advantage to best timed teams o No elimination',
+            ' 5 laps to attain the best lap time. o Gives advantage to best timed teams',
         },
         {
           name: 'Face-Off ',
           description:
-            'o 1v1 knockouts o Elimination Round o The final will take place amongst the two best teams .( Change of rounds will be insisted with prior information)',
+            ' 1v1 knockouts o Elimination Round o The final will take place amongst the two best teams .( Change of rounds will be insisted with prior information)',
         },
       ],
       venue: 'TBA',

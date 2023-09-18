@@ -138,17 +138,12 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
             <h3 className="md:text-xl mt-6 mb-2 text-lg font-bold">
               CO-ORDINATORS
             </h3>
-            <ol className="space-y-3">
+            <ol className="space-y-3 flex flex-col items-center justify-center">
               {event?.coordinators?.map((coordinator, index) => (
-                <li
-                  key={index}
-                  className="flex gap-1 text-sm md:text-base text-justify"
-                >
-                  <div>
-                    <span className="font-bold">{coordinator.name}</span>
-                    {'   '}(+91 {''}
-                    {coordinator.phone})
-                  </div>
+                <li key={index} className="flex gap-1 text-sm md:text-base">
+                  <span className="font-bold">{coordinator.name}</span>
+                  {'   '}(+91 {''}
+                  {coordinator.phone})
                 </li>
               ))}
             </ol>
