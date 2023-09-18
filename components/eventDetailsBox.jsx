@@ -17,7 +17,7 @@ const aoboshi = Aoboshi_One({
 export default function EventDetailsBox({ className = '', children }) {
   return (
     <div
-      className={`${className} border border-white border-white/50 rounded-xl backdrop-blur-sm py-5 sm:px-10 px-6 flex flex-col items-center`}
+      className={`${className} border border-white border-white/50 rounded-xl backdrop-blur-sm py-6 sm:px-10 px-6 flex flex-col items-center`}
       // style={{
       //   border: '1px solid #FFFFFF50',
       //   borderImage:
@@ -44,7 +44,7 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
       </h3>
 
       <h2
-        className={`${aoboshi.className} md:text-3xl text-2xl text-center font-bold`}
+        className={`${aoboshi.className} md:text-3xl text-2xl text-center font-bold ${textColor}`}
       >
         {event.name}
       </h2>
@@ -120,7 +120,7 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
         </div>
       </div>
       <div
-        className={`flex flex-col items-center w-full md:h-[30vh] md:overflow-y-scroll ${textColor}`}
+        className={`flex flex-col items-center w-full h-full md:overflow-y-scroll ${textColor}`}
       >
         <p className="text-sm md:text-base text-justify">{event.description}</p>
         {event?.rounds?.length > 0 && (

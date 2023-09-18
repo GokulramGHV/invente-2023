@@ -31,7 +31,7 @@ export const COMevents = {
       description:
         "The Stock Market Simulation Game immerses players in the fast-paced world of finance, providing hands-on experience with trading and investment methods. Players create teams and engage in simulated stock trading in this event, making informed judgements based on real-time market data. It's an unparalleled chance for individuals to put their financial knowledge and analytical skills to the test in a simulated but realistic setting. Participants acquire insights into the complexity of stock markets while competing with other enthusiasts, refining their trading insights and risk management skills.",
       type: 'team',
-      event_type: 'tech',
+      event_type: 'non tech',
       team_size: '3',
       department: 'SNUC',
       rounds: [

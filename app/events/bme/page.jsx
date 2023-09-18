@@ -22,7 +22,6 @@ import Image from 'next/image';
 import Footer from '@/components/footer';
 import { Stick_No_Bills } from 'next/font/google';
 
-
 const stick_no_bills = Stick_No_Bills({
   preload: true,
   subsets: ['latin'],
@@ -33,19 +32,19 @@ export default function BME() {
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {
-    selected: 'bg-[#B49E7299]',
+    selected: 'bg-[#D2B67D99]',
     nonSelected: 'bg-[#857E6F66]',
-    hover: 'hover:bg-[#B49E7299]',
+    hover: 'hover:bg-[#D2B67D99]',
   };
 
-  const bg_color = 'bg-[#664F36]';
+  const bg_color = 'bg-[#7B6437]';
 
   return (
     <>
       <Navbar className="top-0 left-0 w-full fixed" />
       <div className="background-gradient fixed left-0 top-0 h-full w-full z-0" />
       <div
-        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-12"
+        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10  sm:px-12 px-6 pt-16 pb-14"
         style={{
           backgroundImage: `url('/background_BME.png')`,
         }}
@@ -53,7 +52,7 @@ export default function BME() {
         <div className="flex justify-center flex-col items-center mt-10 mb-4 z-10">
           <p className="md:text-xl mb-5">DEPARTMENT OF</p>
           <h1
-            className={`font-homemadeApple font-medium lg:text-6xl md:text-5xl text-3xl leading-10 text-center`}
+            className={`font-homemadeApple font-medium lg:text-5xl text-3xl leading-10 text-center`}
           >
             Biomedical Engineering
           </h1>
@@ -72,7 +71,7 @@ export default function BME() {
           }}
         />
 
-        <div className="flex relative lg:top-8">
+        <div className="flex relative lg:mt-8">
           <div className="relative h-fit mt-2 hidden lg:flex flex-col gap-3 items-end">
             {BMEevents.events
               .filter((event) => event.event_type === 'tech')
@@ -121,9 +120,13 @@ export default function BME() {
           </div>
 
           <EventDetailsBox
-            className={`xl:w-[60vw] md:min-h-[500px] h-max ${colorScheme.selected}`}
+            className={`xl:w-[60vw] md:h-[60vh] ${colorScheme.selected}`}
           >
-            <EventDetails event={selectedEvent} bg_color={bg_color} textColor="text-[#251600]" />
+            <EventDetails
+              event={selectedEvent}
+              bg_color={bg_color}
+              textColor="text-[#251600]"
+            />
           </EventDetailsBox>
 
           <div className="mt-2 hidden lg:flex flex-col gap-3">

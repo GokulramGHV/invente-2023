@@ -235,12 +235,14 @@ export const MECHevents = {
       department: 'Mechanical',
       rounds: [
         {
-          name: 'Knock out rounds (Rules)',
-          description: '',
+          name: 'Knock out rounds',
+          description:
+            ' Matches Will be based on Knockout fixtures. Duration of the Match: 5 minutes',
         },
         {
-          name: '',
-          description: '',
+          name: 'Rules',
+          description:
+            'General Rules: 1 The competition will be played on a knock-out basis consisting of 2 players at a time. 2 The maximum duration of each round will be 5 minutes. Any team that is not ready at the time specified will be disqualified from the competition. 3 The machine will be checked for safety before the competition. Any robot found unsafe to other participants and spectators will be disqualified. 4 The organizers reserve the rights to change any or all of the above rules as they deem fit. 5 Change in rules, if any, will be highlighted on the website and notified to the registered teams. Violation of any rule will lead to disqualification. 6 Judges’ decision shall be treated as final and binding on all. Note: The bot should conform to the specified conditions.  Safety Rules: Compliance with all event rules is mandatory. It is expected that competitors stay within the rules and procedures of their own accord and do not require constant policing. If you have a robot or weapon design that does not fit within the categories set forth in these rules or is in some way ambiguous or borderline, please contact the event organizers. All weapons must have a safety cover on any sharp edges. Dimensions and Fabrications: 1 The bot should fit in a 40 cm x 40 cm x 40 cm box with all mechanisms fully executing motions. 2 Length and width are measured to the extremities of the Robot, i.e., includes any overhanging bodywork, weaponry or protrusions. 3 The external device used to control the bot is not included in the size constraint. 4 Maximum weight of the bot should not exceed 10 kgs. (Including battery) Mobility: 1 All bots must have easily visible and controlled mobility in order to compete. 2 Movement of robot must be rolling of wheels only. 3 Jumping and hopping is not allowed. 4 Flying (using air foil, helium balloons, ornithopters, etc.) is not allowed. ',
         },
       ],
       venue: 'TBD',

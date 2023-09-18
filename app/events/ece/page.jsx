@@ -41,13 +41,13 @@ export default function ECE() {
       <Navbar className="top-0 left-0 w-full fixed" />
       <div className="background-gradient fixed left-0 top-0 h-full w-full z-0" />
       <div
-        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-12"
+        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 pt-16 pb-14"
         style={{
           backgroundImage: `url('/background_ECE.png')`,
         }}
       >
         <div className="flex justify-center flex-col items-center mt-10 z-10">
-          <p className="md:text-[32px] mb-3">DEPARTMENT OF</p>
+          <p className="md:text-2xl text-lg mb-1">DEPARTMENT OF</p>
           <h1
             className={`font-tourney900 font-bold md:text-5xl text-3xl sm:text-4x sm:leading-10 text-center uppercase`}
           >
@@ -70,7 +70,7 @@ export default function ECE() {
           }}
         />
 
-        <div className="flex relative lg:top-8">
+        <div className="flex relative lg:mt-8">
           <div className="relative h-fit mt-2 hidden lg:flex flex-col gap-3 items-end">
             {ECEevents.events
               .filter((event) => event.event_type === 'tech')
@@ -119,7 +119,7 @@ export default function ECE() {
           </div>
 
           <EventDetailsBox
-            className={`lg:w-[60vw] md:min-h-[600px] h-max ${colorScheme.selected}`}
+            className={`lg:w-[60vw] md:h-[60vh] ${colorScheme.selected}`}
           >
             <EventDetails event={selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>

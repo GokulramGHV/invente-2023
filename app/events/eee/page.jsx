@@ -36,19 +36,19 @@ export default function EEE() {
       <Navbar className="top-0 left-0 w-full fixed" />
       <div className="background-gradient fixed left-0 top-0 h-full w-full z-0" />
       <div
-        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-12"
+        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-28"
         style={{
           backgroundImage: `url('/background_EEE.png')`,
         }}
       >
-        <div className="flex justify-center flex-col items-center mt-10 z-10">
-          <p className="md:text-xl lg:mb-3">DEPARTMENT OF</p>
+        <div className="flex justify-center flex-col items-center z-10">
+          <p className="md:text-xl mb-1">DEPARTMENT OF</p>
           <h1
-            className={`font-wokStencilCaps font-medium lg:text-7xl md:text-6xl text-5xl leading-10 text-center uppercase`}
+            className={`font-wokStencilCaps font-medium  md:text-6xl text-5xl leading-4 text-center uppercase`}
           >
             ELECTRICAL and ELECTRONICS
           </h1>
-          <h1 className="font-wokStencilCaps font-medium lg:text-5xl md:text-4xl text-2xl leading-10 text-center">
+          <h1 className="font-wokStencilCaps font-medium md:text-4xl text-2xl text-center">
             ENGINEERING
           </h1>
         </div>
@@ -66,7 +66,7 @@ export default function EEE() {
           }}
         />
 
-        <div className="flex relative lg:top-8">
+        <div className="flex relative lg:mt-6">
           <div className="relative h-fit mt-2 hidden lg:flex flex-col gap-3 items-end">
             {EEEevents.events
               .filter((event) => event.event_type === 'tech')
@@ -115,7 +115,7 @@ export default function EEE() {
           </div>
 
           <EventDetailsBox
-            className={`lg:w-[60vw] md:min-h-[500px] h-max ${colorScheme.selected}`}
+            className={`lg:w-[60vw] md:h-[60vh] ${colorScheme.selected}`}
           >
             <EventDetails event={selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>

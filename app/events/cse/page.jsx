@@ -40,7 +40,7 @@ export default function CSE() {
           backgroundImage: `url('/background_CSE.png')`,
         }}
       >
-        <div className="flex justify-center flex-col items-center mt-10 z-10 leading-3">
+        <div className="flex justify-center flex-col items-center z-10 leading-3">
           <p className="md:text-xl mb-3">DEPARTMENT OF</p>
           <h1
             className={`font-ndLogos font-[400] lg:text-[3rem] md:text-[2.5rem] text-2xl sm:text-3xl leading-tight text-center uppercase md:mb-2`}
@@ -64,7 +64,7 @@ export default function CSE() {
           }}
         />
 
-        <div className="flex relative lg:top-8">
+        <div className="flex relative lg:mt-8">
           <div className="relative h-fit mt-2 hidden lg:flex flex-col gap-3 items-end">
             {CSEevents.events
               .filter((event) => event.event_type === 'tech')
@@ -112,7 +112,7 @@ export default function CSE() {
             </div>
           </div>
 
-          <EventDetailsBox className="lg:w-[60vw] md:min-h-[500px] bg-[#0c565299]">
+          <EventDetailsBox className="xl:w-[60vw] md:h-[60vh] bg-[#0c565299]">
             <EventDetails event={selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
 

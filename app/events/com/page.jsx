@@ -46,7 +46,7 @@ export default function COM() {
       <Navbar className="top-0 left-0 w-full fixed" />
       <div className="background-gradient fixed left-0 top-0 h-full w-full z-0" />
       <div
-        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-12"
+        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-16"
         style={{
           backgroundImage: `url('/background_COM.jpg')`,
         }}
@@ -78,7 +78,7 @@ export default function COM() {
           }}
         />
 
-        <div className="flex relative lg:top-8">
+        <div className="flex relative lg:mt-8">
           <div className="relative h-fit mt-2 hidden lg:flex flex-col gap-3 items-end">
             {COMevents.events
               .filter((event) => event.event_type === 'tech')
@@ -127,7 +127,7 @@ export default function COM() {
           </div>
 
           <EventDetailsBox
-            className={`xl:w-[60vw] md:min-h-[608px] h-max ${colorScheme.selected}`}
+            className={`xl:w-[60vw] md:h-[60vh] ${colorScheme.selected}`}
           >
             <EventDetails event={selectedEvent} bg_color={bg_color} />
           </EventDetailsBox>
