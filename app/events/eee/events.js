@@ -17,11 +17,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Suhitha K',
-          phone: '+91 81253 21715',
+          phone: '81253 21715',
         },
         {
           name: 'Deepti Karthikeyan',
-          phone: '+91 75501 50659',
+          phone: '75501 50659',
         },
       ],
     },
@@ -43,11 +43,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Swathi G',
-          phone: '+91 81480 36368',
+          phone: '81480 36368',
         },
         {
           name: 'Moukthika G',
-          phone: '+91 88979 34121',
+          phone: '88979 34121',
         },
       ],
     },
@@ -69,11 +69,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Aman Panjiyar',
-          phone: '+91 63823 09542 ',
+          phone: '63823 09542 ',
         },
         {
           name: 'Paari',
-          phone: '+91 88701 66755',
+          phone: '88701 66755',
         },
       ],
     },
@@ -96,11 +96,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Madhavan V',
-          phone: '+91 99944 23034 ',
+          phone: '99944 23034 ',
         },
         {
           name: 'Pavvithra',
-          phone: '+91 97867 49610',
+          phone: '97867 49610',
         },
       ],
     },
@@ -123,11 +123,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Dinesh E',
-          phone: '+91 94980 37291 ',
+          phone: '94980 37291 ',
         },
         {
           name: 'Prathyumnan',
-          phone: '+91 99404 37654',
+          phone: '99404 37654',
         },
       ],
     },
@@ -150,11 +150,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Lakshmipriya ',
-          phone: '+91 9257 63003 ',
+          phone: '9257 63003 ',
         },
         {
           name: 'Nila',
-          phone: '+91 97910 38398',
+          phone: '97910 38398',
         },
       ],
     },
@@ -176,11 +176,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Bhavaesh B R ',
-          phone: '+91 94442 26610 ',
+          phone: '94442 26610 ',
         },
         {
           name: 'Vanaja',
-          phone: '+91 93452 65393',
+          phone: '93452 65393',
         },
       ],
     },
@@ -203,11 +203,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Jaya Yayadhi',
-          phone: '+91  89398 65300 ',
+          phone: ' 89398 65300 ',
         },
         {
           name: 'Raghul SJ',
-          phone: '+91 94456 84325',
+          phone: '94456 84325',
         },
       ],
     },
@@ -230,11 +230,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Arjun S',
-          phone: '+91  75501 83913 ',
+          phone: ' 75501 83913 ',
         },
         {
           name: 'Sharan',
-          phone: '+91 88258 12256',
+          phone: '88258 12256',
         },
       ],
     },
@@ -257,11 +257,11 @@ export const EEEevents = {
       coordinators: [
         {
           name: 'Muthukkumar RB',
-          phone: '+91  73974 44415 ',
+          phone: ' 73974 44415 ',
         },
         {
           name: 'Ranganath R',
-          phone: '+91 87544 33372',
+          phone: '87544 33372',
         },
       ],
     },

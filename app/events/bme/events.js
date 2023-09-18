@@ -131,7 +131,7 @@ export const BMEevents = {
         'This dynamic blend of entertainment and learning piques curiosity, sharpens problem-solving skills, and cultivates a deeper understanding and Knowledge.',
 
       type: 'team',
-      event_type: 'Technial',
+      event_type: 'tech',
       team_size: '4',
       department: 'Biomedical Engineering',
       rounds: [

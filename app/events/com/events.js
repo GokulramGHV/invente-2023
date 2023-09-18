@@ -22,7 +22,7 @@ export const COMevents = {
       coordinators: [
         {
           name: 'Keshava Muralidhar',
-          phone: '+91 9884039394',
+          phone: '9884039394',
         },
       ],
     },
@@ -48,7 +48,7 @@ export const COMevents = {
       coordinators: [
         {
           name: 'Keshava Muralidhar',
-          phone: '+91 9884039394',
+          phone: '9884039394',
         },
       ],
     },

@@ -65,11 +65,11 @@ export const ITevents = {
       coordinators: [
         {
           name: 'Nithin Balaji',
-          phone: '+91 90253 31162',
+          phone: '90253 31162',
         },
         {
           name: 'Karthick Raja',
-          phone: '+91 99423 38555',
+          phone: '99423 38555',
         },
       ],
     },
@@ -101,11 +101,11 @@ export const ITevents = {
       coordinators: [
         {
           name: 'Gokul Krishnan',
-          phone: '+91 88259 77372',
+          phone: '88259 77372',
         },
         {
           name: 'Supraja',
-          phone: '+91 90804 02504',
+          phone: '90804 02504',
         },
       ],
     },
@@ -137,11 +137,11 @@ export const ITevents = {
       coordinators: [
         {
           name: 'Saravanan J',
-          phone: '+91 98405 50829',
+          phone: '98405 50829',
         },
         {
           name: 'Siddarthan',
-          phone: '+91 97907 22272',
+          phone: '97907 22272',
         },
       ],
     },
@@ -162,11 +162,11 @@ export const ITevents = {
       coordinators: [
         {
           name: 'Raghul Pandiyan',
-          phone: '+91 85085 39378',
+          phone: '85085 39378',
         },
         {
           name: 'Swetha',
-          phone: '+91 94865 58751',
+          phone: '94865 58751',
         },
       ],
     },
@@ -196,11 +196,11 @@ export const ITevents = {
       coordinators: [
         {
           name: 'Shalom David',
-          phone: '+91 91505 63452',
+          phone: '91505 63452',
         },
         {
           name: 'Priyanka',
-          phone: '+91 63851 54151',
+          phone: '63851 54151',
         },
       ],
     },
@@ -221,11 +221,11 @@ export const ITevents = {
       coordinators: [
         {
           name: 'Sri Ganesh',
-          phone: '+91 91762 83738',
+          phone: '91762 83738',
         },
         {
           name: 'Thanseer',
-          phone: '+91 73054 55402',
+          phone: '73054 55402',
         },
       ],
     },
@@ -262,11 +262,11 @@ export const ITevents = {
       coordinators: [
         {
           name: 'Deepak J',
-          phone: '+91 90806 45218',
+          phone: '90806 45218',
         },
         {
           name: 'Priyamvadha',
-          phone: '+91 95660 64483',
+          phone: '95660 64483',
         },
       ],
     },
@@ -298,11 +298,11 @@ export const ITevents = {
       coordinators: [
         {
           name: 'Aditya KP',
-          phone: '+91 90804 79240',
+          phone: '90804 79240',
         },
         {
           name: 'Saravanan Ravi',
-          phone: '+91 73050 84842',
+          phone: '73050 84842',
         },
       ],
     },
@@ -334,11 +334,11 @@ export const ITevents = {
       coordinators: [
         {
           name: 'Gunanicaa',
-          phone: '+91 73589 56027',
+          phone: '73589 56027',
         },
         {
           name: 'Aruneeswaran',
-          phone: '+91 80560 53854',
+          phone: '80560 53854',
         },
       ],
     },
