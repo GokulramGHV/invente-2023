@@ -4,7 +4,6 @@ import EventDetailsBox, {
   NonTechEventChip,
   TechEventChip,
 } from '@/components/eventDetailsBox';
-import Navbar from '@/components/navbar';
 
 import { Press_Start_2P, Stick_No_Bills } from 'next/font/google';
 import { useState } from 'react';
@@ -12,7 +11,6 @@ import { useState } from 'react';
 import { ITevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import Image from 'next/image';
-import Footer from '@/components/footer';
 
 const press_start_2p = Press_Start_2P({
   preload: true,
@@ -38,7 +36,6 @@ export default function IT() {
 
   return (
     <>
-      <Navbar className="absolute top-0 left-0 w-full" />
       <div className="background-gradient fixed left-0 top-0 h-screen w-full z-0" />
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 pt-28 pb-14"
@@ -156,7 +153,6 @@ export default function IT() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

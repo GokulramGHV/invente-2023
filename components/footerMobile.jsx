@@ -170,7 +170,7 @@ export default function FooterMobile() {
           Chennai
         </p>
       </div>
-      <div className="bg-[#303746] font-semibold text-white w-full text-center items-center text-[14px] p-[10px] leading-6">
+      <div className="bg-[#303746] text-white w-full text-center items-center text-[14px] p-[10px] leading-6">
         <div className="">Website:</div>
         Built by{' '}
         <span className="underline">
@@ -197,9 +197,9 @@ export default function FooterMobile() {
           <a href="https://portfolio-madraceee.vercel.app/"> Nitheesh Raaja</a>
         </span>
         {' & '}
-        Designed by
+        Designed by{' '}
         <span className="underline">
-          <a href="https://www.linkedin.com/in/suprajasridh/"> Supraja</a>
+          <a href="https://www.linkedin.com/in/suprajasridh/">Supraja</a>
         </span>
         {' and '}
         <span className="underline">

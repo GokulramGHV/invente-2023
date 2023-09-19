@@ -4,7 +4,6 @@ import EventDetailsBox, {
   NonTechEventChip,
   TechEventChip,
 } from '@/components/eventDetailsBox';
-import Navbar from '@/components/navbar';
 import { useState } from 'react';
 import { COMevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
@@ -43,7 +42,6 @@ export default function COM() {
 
   return (
     <>
-      <Navbar className="top-0 left-0 w-full fixed" />
       <div className="background-gradient fixed left-0 top-0 h-full w-full z-0" />
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 py-16"
@@ -183,7 +181,6 @@ export default function COM() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

@@ -3,18 +3,18 @@
 import { Unbounded } from 'next/font/google';
 import Image from 'next/image';
 import Navbar from '@/components/navbar';
-
-import Footer from '../../components/footer';
 import { Tilt } from 'react-tilt';
+import { useState } from 'react';
 
 const unbounded = Unbounded({
   preload: true,
   subsets: ['latin'],
 });
 
-export default function Home() {
+export default function ComingSoon() {
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <main className="bg-[#1D1D1F] h-screen w-full flex flex-col">
+    <main className="bg-[#1D1D1F] h-screen w-full flex flex-col px-5 pt-5">
       <div className="relative flex-1 flex justify-center items-center w-full">
         <video
           src="/bg_video.m4v"
@@ -22,7 +22,7 @@ export default function Home() {
           loop
           muted
           preload="auto"
-          className="rounded-3xl absolute h-[98%] top-[2%] w-[98%] object-cover"
+          className="rounded-3xl absolute h-full w-full object-cover"
         />
 
         <div className="absolute top-0 left-0 flex justify-between items-center w-full md:px-16 px-8 z-10">
@@ -52,7 +52,7 @@ export default function Home() {
           </Tilt>
         </div>
       </div>
-      <Navbar />
+      <Navbar paddingX="px-3" isOpen={isOpen} setIsOpen={setIsOpen} />
     </main>
   );
 }

@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const links = [
   {
@@ -35,9 +35,14 @@ const links = [
   },
 ];
 
-export default function Navbar({ className = '', paddingX = 'px-8' }) {
+export default function Navbar({
+  className = '',
+  paddingX = 'px-8',
+  isOpen = false,
+  setIsOpen,
+}) {
   const hamburgerLine = `h-1 w-8 my-1 rounded-full bg-white transition ease transform duration-300`;
-  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <header
@@ -99,8 +104,6 @@ export default function Navbar({ className = '', paddingX = 'px-8' }) {
           </div>
           {isOpen && (
             <>
-              {/* // <section className="xl:hidden w-full py-10 bg-[#161620] z-30 flex flex-col text-white justify-around items-center text-2xl uppercase font-medium"> */}
-              {/* <div className="relative flex flex-col gap-y-5 sm:gap-y-10 items-center text-white my-auto"> */}
               {links.map((link, i) => (
                 <Link
                   key={i}
@@ -118,8 +121,6 @@ export default function Navbar({ className = '', paddingX = 'px-8' }) {
                 width={250}
                 height={200}
               />
-              {/* </div> */}
-              {/* </section> */}
             </>
           )}
         </div>

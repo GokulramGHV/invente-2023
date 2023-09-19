@@ -8,16 +8,17 @@ import ThemeSection from '@/components/ThemeSection';
 import Navbar from '@/components/navbar';
 import Footer from '../components/footer';
 import { useInView } from 'react-intersection-observer';
+import { useState } from 'react';
 
 export default function Home() {
   const { ref, inView, entry } = useInView({
-    /* Optional options */
     threshold: 0,
   });
+  const [navOpen, setNavOpen] = useState(false);
   return (
     <main>
       <div
-        className="relative flex min-h-screen flex-col items-center justify-center pl-5 pr-2 pt-5 bg-[#1D1D1F] bg-scroll"
+        className="relative flex min-h-screen flex-col items-center justify-center pl-5 lg:pr-2 pr-5 pt-5 bg-[#1D1D1F] bg-scroll"
         id="home"
       >
         <div className="relative flex-1 flex flex-col w-full">
@@ -52,11 +53,13 @@ export default function Home() {
           </div>
         </div>
         <div ref={ref} className="w-full">
-          <Navbar paddingX="px-3" />
+          <Navbar paddingX="px-3" setIsOpen={setNavOpen} isOpen={navOpen} />
         </div>
       </div>
       <div className="bg-hex w-full h-full bg-scroll bg-contain">
-        {!inView && <Navbar />}
+        {!inView && !navOpen && (
+          <Navbar setIsOpen={setNavOpen} isOpen={navOpen} />
+        )}
         <ThemeSection />
         <Timeline />
       </div>

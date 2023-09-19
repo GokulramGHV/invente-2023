@@ -4,14 +4,11 @@ import EventDetailsBox, {
   NonTechEventChip,
   TechEventChip,
 } from '@/components/eventDetailsBox';
-import Navbar from '@/components/navbar';
 
 import { useState } from 'react';
 
 import { CSEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
-import Image from 'next/image';
-import Footer from '@/components/footer';
 import { Stick_No_Bills } from 'next/font/google';
 
 const stick_no_bills = Stick_No_Bills({
@@ -32,7 +29,6 @@ export default function CSE() {
 
   return (
     <>
-      <Navbar className="absolute top-0 left-0 w-full" />
       <div className="background-gradient fixed left-0 top-0 h-screen w-full z-0" />
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 pt-28 pb-14"
@@ -167,7 +163,6 @@ export default function CSE() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
