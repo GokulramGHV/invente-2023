@@ -1,5 +1,5 @@
 import Image from 'next/image';
-
+import Link from 'next/link';
 import Countdown from '@/components/countdown';
 import { HeroLogo } from '@/components/heroLogo';
 import Timeline from '@/components/timeline';
@@ -29,13 +29,15 @@ export default function Home() {
         </div>
         <HeroLogo />
         <Countdown />
-        <Image
-          src="/downArrow.png"
-          alt="Down Arrow"
-          width="50"
-          height="50"
-          className="z-10 relative top-20 transition duration-700 ease-in-out animate-bounce"
-        />
+        <Link href="#theme">
+          <Image
+            src="/downArrow.png"
+            alt="Down Arrow"
+            width="50"
+            height="50"
+            className="z-10 relative top-20 transition duration-700 ease-in-out animate-bounce"
+          />
+        </Link>
       </div>
 
       <div className="bg-hex w-full h-full bg-scroll bg-contain">

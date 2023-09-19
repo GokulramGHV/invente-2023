@@ -15,7 +15,7 @@ const unbounded = Unbounded({
 export default function ThemeSection() {
   return (
     <div
-      className={`relative w-full pt-20 lg:pt-0 pb-20 lg:pb-10 sm:pr-20 pr-10 sm:pl-20 pl-10 lg:pl-0 ${space_grotesk.className}`}
+      className={`relative w-full pt-20 lg:pt-0 pb-20 lg:pb-10 sm:pr-20 pr-10 sm:pl-20 pl-10 lg:pl-0 ${space_grotesk.className}`} id="theme"
     >
       <div className="flex gap-20 items-center">
         <Image
