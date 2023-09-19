@@ -52,7 +52,7 @@ export default function Home() {
           </div>
         </div>
         <div ref={ref} className="w-full">
-          <Navbar />
+          <Navbar paddingX="px-3" />
         </div>
       </div>
       <div className="bg-hex w-full h-full bg-scroll bg-contain">

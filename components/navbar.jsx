@@ -35,7 +35,7 @@ const links = [
   },
 ];
 
-export default function Navbar({ className = '' }) {
+export default function Navbar({ className = '', paddingX = 'px-8' }) {
   const hamburgerLine = `h-1 w-8 my-1 rounded-full bg-white transition ease transform duration-300`;
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -51,7 +51,7 @@ export default function Navbar({ className = '' }) {
           <div
             className={`flex  ${
               isOpen ? 'bg-[#161620]' : 'bg-[#1F1F1F]/90'
-            } items-center justify-between px-8 py-4 m-0 w-full`}
+            } items-center justify-between ${paddingX} py-4 m-0 w-full`}
           >
             <nav className="hidden xl:flex items-center justify-left text-white text-base font-medium uppercase w-full gap-4">
               {links.map((link, i) => (
