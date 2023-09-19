@@ -68,9 +68,13 @@ export const ITevents = {
           phone: '90253 31162',
         },
         {
-          name: 'Karthick Raja',
+          name: 'Karthik Raja',
           phone: '99423 38555',
         },
+        {
+          name: 'Mithran K',
+          phone: '90037 35591'
+        }
       ],
     },
     {
@@ -151,7 +155,7 @@ export const ITevents = {
         'This event manifests on the logic of reverse thinking of the Contestants. With hackers around, Code obfuscation is a huge relief for the companies to protect their application. The executable and perfectly logic preserved code will be given in an incomprehensible manner to the contestants, where their reverse-engineering techniques are put to test.',
       type: 'team',
       event_type: 'tech',
-      team_size: '4',
+      team_size: '1',
       department: 'Information Technology',
       rounds: [],
       venue: 'IT - Department',
@@ -165,9 +169,13 @@ export const ITevents = {
           phone: '85085 39378',
         },
         {
-          name: 'Swetha',
+          name: 'Swetha Subramanian',
           phone: '94865 58751',
         },
+        {
+          name: 'Rohith Saravanan',
+          phone: '63792 49449'
+        }
       ],
     },
     {
@@ -273,21 +281,29 @@ export const ITevents = {
     {
       name: 'Pixel Playoff',
       description:
-        "Are you ready to show off your skills in Valorant and FIFA? Do you want to compete with other gamers and win exciting prizes? If yes, then join the Pixel Playoff, the ultimate gaming event for Valorant and FIFA fans! Pixel Playoff is a fun and competitive event where you can register as a solo or a group player in Valorant, or as a solo player in FIFA. You will be matched with other players of your skill level and play in a knockout format until the final round. The winners of each game will receive points and prizes, and the top players will advance to the next round. The final round will be streamed live on Twitch, where the best of the best will battle it out for glory and fame! To register for the Pixel Playoff, you need to fill out this form [link] and pay a nominal registration fee of Rs.[fee]. You can register for both Valorant and FIFA, or choose one of them. The registration deadline is [date]. Hurry up and secure your spot before it's too late! Pixel Playoff is more than just a gaming event. It's a celebration of the gaming community and culture. You will get to meet new friends, chat with other players, and enjoy some awesome games. Whether you are a casual or a hardcore gamer, you will have a blast at Pixel Playoff! So what are you waiting for? Register now and get ready to play! Pixel Playoff is the ultimate gaming event for you!",
+        `🎮 Join the Ultimate Gaming Showdown! 🎮 
+
+        Are you ready to showcase your gaming skills like never before? We're thrilled to invite you to our action-packed gaming tournament featuring two of the hottest esports titles around: FIFA and Valorant. Get ready to compete, strategize, and triumph in this electrifying gaming extravaganza!`,
       type: 'team',
       event_type: 'Non Tech',
       team_size: '2',
       department: 'Information Technology',
       rounds: [
         {
-          name: 'FIFA',
+          name: 'FIFA - 1v1 Showdown',
           description:
-            'The FIFA round of Pixel Playoff is a solo event that challenges the participants to demonstrate their proficiency and mastery in FIFA, the popular soccer simulation video game series developed by EA Sports. The participants will play as their preferred team and attempt to score more goals than their opponents in each match. The matches will follow the standard rules and regulations of FIFA. The winner of each match will earn points and prizes, and qualify for the next round. The final round will be a live-streamed event, where the top two players will compete for the grand prize and the title of the best FIFA player in the world. The FIFA round is an opportunity for the participants to showcase their skills and strategies in FIFA, and to enjoy a thrilling and realistic soccer game experience.',
+            `👑 Prove your soccer prowess in thrilling 1v1 matches.
+            🎮 Feel free to bring your own input device or use one of our generic controllers if needed.
+            🏆 Solo registrations are open! Sign up, showcase your FIFA skills, and vie for the top spot.`,
         },
         {
-          name: 'Valorant',
+          name: 'Valorant - 3v3 Swiftplays',
           description:
-            'The Valorant round of Pixel Playoff is a team event that invites the participants to test their abilities and teamwork in Valorant, the free-to-play multiplayer tactical shooter game developed by Riot Games. The participants will play as one of the agents, each with their own unique abilities and weapons, and try to eliminate their enemies or complete the objectives in each game mode. The participants can register as a solo or a group player, and they will be matched with other players of their skill level. The winner of each game will receive points and prizes, and advance to the next round. The final round will be a live-streamed event, where the top two teams will battle it out for the ultimate prize and the honor of being the best Valorant team in the world. The Valorant round is a chance for the participants to prove their skills and cooperation in Valorant, and to have fun in a fast-paced and action-packed game.',
+            `🔫 Team up and engage in high-intensity tactical battles in Valorant.
+            💻 Bring your own laptop for offline play, or join the online action from anywhere.
+            🤝 Register as a 3-man team or go solo - we'll create dynamic teams for solo participants.
+            ⚔ Outwit your opponents, master teamwork, and claim victory in this unique 3v3 format!
+            ⚡This exciting addition highlights the strategic depth of the 3v3 format, where each choice can tip the scales of victory. Get ready for an even more exhilarating Valorant experience!`,
         },
       ],
       venue: 'Seminar Hall',
