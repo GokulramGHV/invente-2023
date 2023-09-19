@@ -73,8 +73,8 @@ export const ITevents = {
         },
         {
           name: 'Mithran K',
-          phone: '90037 35591'
-        }
+          phone: '90037 35591',
+        },
       ],
     },
     {
@@ -174,8 +174,8 @@ export const ITevents = {
         },
         {
           name: 'Rohith Saravanan',
-          phone: '63792 49449'
-        }
+          phone: '63792 49449',
+        },
       ],
     },
     {
@@ -280,9 +280,7 @@ export const ITevents = {
     },
     {
       name: 'Pixel Playoff',
-      description:
-        `🎮 Join the Ultimate Gaming Showdown! 🎮 
-
+      description: `🎮 Join the Ultimate Gaming Showdown! 🎮  
         Are you ready to showcase your gaming skills like never before? We're thrilled to invite you to our action-packed gaming tournament featuring two of the hottest esports titles around: FIFA and Valorant. Get ready to compete, strategize, and triumph in this electrifying gaming extravaganza!`,
       type: 'team',
       event_type: 'Non Tech',
@@ -291,15 +289,13 @@ export const ITevents = {
       rounds: [
         {
           name: 'FIFA - 1v1 Showdown',
-          description:
-            `👑 Prove your soccer prowess in thrilling 1v1 matches.
+          description: `👑 Prove your soccer prowess in thrilling 1v1 matches.
             🎮 Feel free to bring your own input device or use one of our generic controllers if needed.
             🏆 Solo registrations are open! Sign up, showcase your FIFA skills, and vie for the top spot.`,
         },
         {
           name: 'Valorant - 3v3 Swiftplays',
-          description:
-            `🔫 Team up and engage in high-intensity tactical battles in Valorant.
+          description: `🔫 Team up and engage in high-intensity tactical battles in Valorant.
             💻 Bring your own laptop for offline play, or join the online action from anywhere.
             🤝 Register as a 3-man team or go solo - we'll create dynamic teams for solo participants.
             ⚔ Outwit your opponents, master teamwork, and claim victory in this unique 3v3 format!
