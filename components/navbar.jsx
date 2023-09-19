@@ -7,7 +7,7 @@ import { useState } from 'react';
 const links = [
   {
     name: 'Home',
-    href: '/',
+    href: '/#home',
   },
   {
     name: 'Events',
@@ -68,8 +68,8 @@ export default function Navbar({ className = '' }) {
             >
               <div
                 className={`${hamburgerLine} ${isOpen
-                    ? 'rotate-45 translate-y-3 opacity-80 group-hover:opacity-100'
-                    : 'opacity-80 group-hover:opacity-100'
+                  ? 'rotate-45 translate-y-3 opacity-80 group-hover:opacity-100'
+                  : 'opacity-80 group-hover:opacity-100'
                   }`}
               />
               <div
@@ -78,8 +78,8 @@ export default function Navbar({ className = '' }) {
               />
               <div
                 className={`${hamburgerLine} ${isOpen
-                    ? '-rotate-45 -translate-y-3 opacity-80 group-hover:opacity-100'
-                    : 'opacity-80 group-hover:opacity-100'
+                  ? '-rotate-45 -translate-y-3 opacity-80 group-hover:opacity-100'
+                  : 'opacity-80 group-hover:opacity-100'
                   }`}
               />
             </button>

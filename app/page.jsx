@@ -10,7 +10,7 @@ import Footer from '../components/footer';
 export default function Home() {
   return (
     <main>
-      <div className="flex min-h-screen flex-col items-center justify-center p-10">
+      <div className="flex min-h-screen flex-col items-center justify-center p-10" id="home">
         <video
           src="/bg_video.m4v"
           autoPlay
