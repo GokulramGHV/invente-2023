@@ -23,9 +23,9 @@ export const ITevents = {
       ],
       venue: '',
       date: 'Oct. 5, 2023',
-      winner: '8000',
-      runner: '4000',
-      third_prize: '3000',
+      winner: '10000',
+      runner: '5000',
+      third_prize: '',
       coordinators: [
         {
           name: 'Prajeeth B',
