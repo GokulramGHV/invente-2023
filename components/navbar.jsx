@@ -53,7 +53,7 @@ export default function Navbar({ className = '' }) {
               isOpen ? 'bg-[#161620]' : 'bg-[#1F1F1FCC]'
             } items-center justify-between px-8 py-4 m-0 w-full`}
           >
-            <nav className="hidden xl:flex items-center justify-left text-white text-base font-medium uppercase w-full gap-4">
+            <nav   className="hidden xl:flex items-center justify-left text-white text-base font-medium uppercase w-full gap-4">
               {links.map((link, i) => (
                 <Link
                   key={i}

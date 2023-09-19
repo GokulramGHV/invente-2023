@@ -12,7 +12,7 @@ export const HeroLogo = () => {
                     alt="Invente"
                     width="600"
                     height="200"
-                    className="z-20"
+                    className="z-20 lg:w-[600px] md:w-[400px] w-[300px]"
                 />
             </Tilt>
         </div>
