@@ -89,9 +89,9 @@ export default function Navbar({ className = '' }) {
               />
             </button>
             <div className="flex-1 flex justify-end">
-              <button className="get-passes-button text-white text-base font-bold whitespace-nowrap px-20 py-1.5 transition-all duration-200 ease-in-out uppercase w-fit">
+              <Link href="/comingsoon" className="get-passes-button text-white text-base font-bold whitespace-nowrap px-20 py-1.5 transition-all duration-200 ease-in-out uppercase w-fit">
                 Get Passes
-              </button>
+              </Link>
             </div>
           </div>
           {isOpen && (
