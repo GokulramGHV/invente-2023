@@ -16,9 +16,8 @@ export default function EventsDropDown({
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`ml-1 w-4 h-4 ${
-            dropDownOpen && 'rotate-90'
-          } transition duration-300 ease-in-out`}
+          className={`ml-1 w-4 h-4 ${dropDownOpen && 'rotate-90'
+            } transition duration-300 ease-in-out`}
           viewBox="0 0 13 13"
           fill="none"
         >
@@ -31,10 +30,10 @@ export default function EventsDropDown({
       </button>
       <div
         style={{ width: width }}
-        className={`${
-          !dropDownOpen && 'hidden'
-        } absolute z-[1] top-0 left-0 bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm`}
+        className={`${!dropDownOpen && 'hidden'
+          } absolute z-[1] top-0 left-0 bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm`}
       >
+        <span className="text-left p-2 cursor-default font-light ">TECH</span>
         {deptEvents.events
           .filter((event) => event.event_type === 'tech')
           .map((event) => (
@@ -52,8 +51,9 @@ export default function EventsDropDown({
         {deptEvents.events.filter((event) =>
           event.event_type?.toLowerCase().includes('non')
         ).length > 0 && (
-          <hr className="w-full mx-auto bg-white h-[1px] my-2 " />
-        )}
+            <hr className="w-full mx-auto bg-white h-[1px] my-2 " />
+          )}
+        <span className="text-left p-2 cursor-default font-light">NON-TECH</span>
         {deptEvents.events
           .filter((event) => event.event_type?.toLowerCase().includes('non'))
           .map((event) => (
@@ -71,9 +71,8 @@ export default function EventsDropDown({
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className={`h-14 absolute top-4 left-2 z-10 opacity-90 ${
-          dropDownOpen && 'hidden'
-        }`}
+        className={`h-14 absolute top-4 left-2 z-10 opacity-90 ${dropDownOpen && 'hidden'
+          }`}
         viewBox="0 0 6 42"
         fill="none"
       >
