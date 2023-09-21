@@ -132,19 +132,24 @@ export const BMEevents = {
 
       type: 'team',
       event_type: 'tech',
-      team_size: '4',
+      team_size: '3 - 4',
       department: 'Biomedical Engineering',
       rounds: [
         {
           name: 'CONNECTIONS',
           description:
-            'Participants will be presented with a series of Engineering, Science & Technology related images.Participants will be asked to deduce the exact final answer. Based on the scores the team wilicipl be shortlisted for the next round',
+            'Participants will be presented with a series of Engineering, Science & Technology related images. Participants will be asked to deduce the exact final answer. Based on the scores the team wil be shortlisted for the next round.',
         },
         {
           name: 'DOMAIN BASED KAHOOT',
           description:
-            'There will be back-to-back challenges which include Rapid fire round and Crossword Challenge This is a fast-paced round where teams are asked a series of questions one after the other. The team with the highest scores will be announced as the winners.',
+            'The participants will be choosing the domains they are interested in.Based on their Choice of Domain, Teams will be split into Break Room. Questions will be asked based on their Choice of Domain. Teams with higher scores will be qualified to the next round.',
         },
+        {
+          name: 'DOUBLE TROUBLE',
+          description:
+            'There will be back-to-back challenges which include Rapid fire round and Crossword Challenge This is a fast-paced round where teams are asked a series of questions one after the other. The team with the highest scores will be announced as the winners.',
+        }
       ],
       venue: 'BME SEMINAR HALL',
       date: 'Oct. 7, 2023',
