@@ -20,17 +20,17 @@ const aoboshi = Aoboshi_One({
 export default function EventDetailsBox({ className = '', children }) {
   return (
     <div
-      className={`${className} border border-white border-white/50 rounded-xl backdrop-blur-sm py-6 sm:px-10 px-6 flex flex-col items-center`}
-      // style={{
-      //   border: '1px solid #FFFFFF50',
-      //   borderImage:
-      //     'linear-gradient(to bottom right,#FFFFFF, #FFFFFF00, #FFFFFF)',
-      //   borderImageSlice: '10',
-      //   WebkitMask: `
-      //   linear-gradient(#fff 0 0) padding-box,
-      //   linear-gradient(#fff 0 0)
-      // `,
-      // }}
+      className={`${className} border border-white border-white/50 rounded-xl backdrop-blur-sm py-6 sm:px-10 px-6 flex flex-col items-center min-h-[510px]`}
+    // style={{
+    //   border: '1px solid #FFFFFF50',
+    //   borderImage:
+    //     'linear-gradient(to bottom right,#FFFFFF, #FFFFFF00, #FFFFFF)',
+    //   borderImageSlice: '10',
+    //   WebkitMask: `
+    //   linear-gradient(#fff 0 0) padding-box,
+    //   linear-gradient(#fff 0 0)
+    // `,
+    // }}
     >
       {children}
     </div>
