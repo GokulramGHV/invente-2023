@@ -278,8 +278,8 @@ export const BMEevents = {
 
       venue: 'PG I YEAR CLASSROOM',
       date: 'Oct. 6, 2023',
-      winner: '3000',
-      runner: '2000',
+      winner: '1500',
+      runner: '1000',
       third_prize: 'NIL',
       coordinators: [
         {
