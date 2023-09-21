@@ -166,8 +166,8 @@ export default function FooterMobile() {
       <div className="box-border h-0 w-[190px] border-[1px] border-[#FFFFFF2B]"></div>
       <div className="text-center text-[14px] text-[#FFFFFF2B]">
         <p>
-          ©2023 SSN College of Engineering & <br></br>Shiv Nadar University,
-          Chennai
+          ©2023 SSN College of Engineering & <br />
+          Shiv Nadar University, Chennai
         </p>
       </div>
       <div className="bg-[#303746] text-white w-full text-center items-center text-[14px] p-[10px] leading-6">

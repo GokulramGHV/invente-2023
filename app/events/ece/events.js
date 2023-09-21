@@ -11,8 +11,11 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            'Dureation: 15-20 minutes. Participants shall attend a quiz on basic programming concepts .Every team is scored out of 10 and the top 10 teams are selected for the next round. Tie Breakers: 1.Star Marked Questions: Some Priority Questions can be used to break ties. 2.Earliest Submission: Team to make the earlier submission shall qualify for the next round. 3.If a tie is still not broken, the next method will be used. Sudden Death: 1.Team that makes the first mistake shall not qualify for the next round.',
+          description: `Duration: 15-20 minutes. Participants shall attend a quiz on basic programming concepts.Every team is scored out of 10 and the top 10 teams are selected for the next round. 
+          **Tie Breakers:** 1. Star Marked Questions: Some Priority Questions can be used to break ties.  
+          2.Earliest Submission: Team to make the earlier submission shall qualify for the next round.  
+          3.If a tie is still not broken, the next method will be used.  
+          **Sudden Death**: 1. Team that makes the first mistake shall not qualify for the next round.`,
         },
         {
           name: 'Round 2',
@@ -39,7 +42,7 @@ export const ECEevents = {
     {
       name: 'SOLDER-IT',
       description:
-        '1. A team must have minimum of 2 students 2. The participants can be from the same department or various departments as well. 3. Do not carry mobile phones and any other electronic gadgets. 4. Judge’s decision will be final. 5. Soldering kit and the electronic components will be provided. 6. The event organizers will help the lone wolves find their pack.',
+        'A team must have minimum of 2 students. The participants can be from the same department or various departments as well. Do not carry mobile phones and any other electronic gadgets. Judge’s decision will be final. Soldering kit and the electronic components will be provided. The event organizers will help the lone wolves find their pack.',
       type: 'team',
       event_type: 'tech',
       team_size: '2-3',
@@ -47,13 +50,24 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            'Duration: 30 Minutes. Number of Questions: 15. Topic covered:  Circuit Analysis, Semiconductor Devices, Analog Electronic Circuits and Digital Electronics. 1) Participants shall attempt a technical quiz (Pen and Paper) based on the above-mentioned topics. 2) Teams will be selected on the basis of points scored. 3) Only one submission per team would be allowed. Tie Breakers: 1) Star Marked Questions: Some Priority Questions can be used to break ties. 2) Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used. 3) Sudden Death: Team that makes the first mistake shall not qualify for the next round.',
+          description: ` Duration: 30 Minutes.   
+            Number of Questions: 15.  
+            Topics covered: Circuit Analysis, Semiconductor Devices, Analog Electronic Circuits and Digital Electronics.  
+            1. Participants shall attempt a technical quiz (Pen and Paper) based on the above-mentioned topics.  
+            2. Teams will be selected on the basis of points scored.  
+            3. Only one submission per team would be allowed.  
+            **Tie Breakers:**  
+            1) Star Marked Questions: Some Priority Questions can be used to break ties.  
+            2) Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.  
+            3) Sudden Death: Team that makes the first mistake shall not qualify for the next round.`,
         },
         {
           name: 'Round 2',
-          description:
-            'Duration: 45-60 Minutes. 1) Teams will be shortlisted based on the pen and paper test score(prelims round score). 2) Each shortlisted team will be given a circuit description that has to be solved and solder the components according to the circuit layout they inferred. 3) Necessary items such as soldering rod, lead, flux, transistors, resistors, capacitors etc. 4) You will be scored on how well and neat your circuit is soldered and implemented.',
+          description: `Duration: 45-60 Minutes.   
+            1) Teams will be shortlisted based on the pen and paper test score(prelims round score).   
+            2) Each shortlisted team will be given a circuit description that has to be solved and solder the components according to the circuit layout they inferred.   
+            3) Necessary items such as soldering rod, lead, flux, transistors, resistors, capacitors etc.   
+            4) You will be scored on how well and neat your circuit is soldered and implemented.`,
         },
       ],
       venue: 'TBD',
@@ -392,13 +406,19 @@ export const ECEevents = {
       rounds: [
         {
           name: 'First round',
-          description:
-            "Online submission of abstract of the students' research in IEEE format. ● All the entries from various colleges will be evaluated and shortlisted by the chair and secretary. ● Authors of shortlisted papers will be notified for the next round 3 days in prior.  ●	All participants making submissions for round one will receive participation certificates.  ",
+          description: `Online submission of abstract of the students' research in IEEE format.   
+            ● All the entries from various colleges will be evaluated and shortlisted by the chair and secretary.   
+            ● Authors of shortlisted papers will be notified for the next round 3 days in prior.    
+            ●	All participants making submissions for round one will receive participation certificates.`,
         },
         {
           name: 'Second round',
-          description:
-            '● The selected participants from round 1 are requested to be present at the venue at least 10 minutes before the event commences. ●	The participants will be explained about the event, panel of judges, judging criteria, and prizes. ● The Authors of the respective teams will be given 5 – 10 minutes to explain their paper and present their idea to the panel of judges LIVE during the time of the event. ● Participants are requested to strictly follow the time limits. ● The Panel of Judges will evaluate the presentation. The Judges can ask questions regarding your paper during your presentation on their will. ● The team with the highest score will be declared as the “Best Student Presentation”.',
+          description: `● The selected participants from round 1 are requested to be present at the venue at least 10 minutes before the event commences.   
+            ●	The participants will be explained about the event, panel of judges, judging criteria, and prizes.   
+            ● The Authors of the respective teams will be given 5 – 10 minutes to explain their paper and present their idea to the panel of judges LIVE during the time of the event.   
+            ● Participants are requested to strictly follow the time limits.   
+            ● The Panel of Judges will evaluate the presentation. The Judges can ask questions regarding your paper during your presentation on their will.   
+            ● The team with the highest score will be declared as the “Best Student Presentation”.`,
         },
       ],
       venue: 'Microwave lab',
