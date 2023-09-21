@@ -35,6 +35,10 @@ export const ITevents = {
           name: 'Gokulram A',
           phone: '9629623773',
         },
+        {
+          name: 'Pavan GR',
+          phone: '7708188047',
+        },
       ],
     },
     {
@@ -68,7 +72,7 @@ export const ITevents = {
           phone: '90253 31162',
         },
         {
-          name: 'Karthik Raja',
+          name: 'Karthik Raja T P',
           phone: '99423 38555',
         },
         {
@@ -104,11 +108,11 @@ export const ITevents = {
       third_prize: '',
       coordinators: [
         {
-          name: 'Gokul Krishnan',
+          name: 'Gokulakrishnan Balaji',
           phone: '88259 77372',
         },
         {
-          name: 'Supraja',
+          name: 'Supraja S',
           phone: '90804 02504',
         },
       ],
@@ -280,7 +284,7 @@ export const ITevents = {
     },
     {
       name: 'Pixel Playoff',
-      description: `🎮 Join the Ultimate Gaming Showdown! 🎮  
+      description: `🎮 **Join the Ultimate Gaming Showdown!** 🎮  
         Are you ready to showcase your gaming skills like never before? We're thrilled to invite you to our action-packed gaming tournament featuring two of the hottest esports titles around: FIFA and Valorant. Get ready to compete, strategize, and triumph in this electrifying gaming extravaganza!`,
       type: 'team',
       event_type: 'Non Tech',
@@ -289,16 +293,16 @@ export const ITevents = {
       rounds: [
         {
           name: 'FIFA - 1v1 Showdown',
-          description: `👑 Prove your soccer prowess in thrilling 1v1 matches.
-            🎮 Feel free to bring your own input device or use one of our generic controllers if needed.
+          description: `👑 Prove your soccer prowess in thrilling 1v1 matches.  
+            🎮 Feel free to bring your own input device or use one of our generic controllers if needed.  
             🏆 Solo registrations are open! Sign up, showcase your FIFA skills, and vie for the top spot.`,
         },
         {
           name: 'Valorant - 3v3 Swiftplays',
-          description: `🔫 Team up and engage in high-intensity tactical battles in Valorant.
-            💻 Bring your own laptop for offline play, or join the online action from anywhere.
-            🤝 Register as a 3-man team or go solo - we'll create dynamic teams for solo participants.
-            ⚔ Outwit your opponents, master teamwork, and claim victory in this unique 3v3 format!
+          description: `🔫 Team up and engage in high-intensity tactical battles in Valorant.  
+            💻 Bring your own laptop for offline play, or join the online action from anywhere.  
+            🤝 Register as a 3-man team or go solo - we'll create dynamic teams for solo participants.  
+            ⚔ Outwit your opponents, master teamwork, and claim victory in this unique 3v3 format!   
             ⚡This exciting addition highlights the strategic depth of the 3v3 format, where each choice can tip the scales of victory. Get ready for an even more exhilarating Valorant experience!`,
         },
       ],
@@ -313,7 +317,7 @@ export const ITevents = {
           phone: '90804 79240',
         },
         {
-          name: 'Abijith LA',
+          name: 'Abijith L A',
           phone: '73585 52930',
         },
         {
@@ -349,11 +353,11 @@ export const ITevents = {
       third_prize: '',
       coordinators: [
         {
-          name: 'Gunanicaa',
+          name: 'Gunanicaa Arun',
           phone: '73589 56027',
         },
         {
-          name: 'Aruneeswaran',
+          name: 'Aruneeswaran K',
           phone: '80560 53854',
         },
       ],

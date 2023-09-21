@@ -1,7 +1,7 @@
 'use client';
-import markdownToHtml from '@/lib/markdown';
 import { Inter, Stick_No_Bills, Aoboshi_One } from 'next/font/google';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 const stick_no_bills = Stick_No_Bills({
   preload: true,
@@ -39,14 +39,20 @@ export default function EventDetailsBox({ className = '', children }) {
 
 export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
   const [content, setContent] = useState(event.description);
+  // const [rounds, setRounds] = useState(event.rounds);
 
-  useEffect(() => {
-    async function getContent() {
-      const content = await markdownToHtml(event.description || '');
-      setContent(content);
-    }
-    getContent();
-  }, [event.description]);
+  // useEffect(() => {
+  //   async function getContent() {
+  //     const content = await markdownToHtml(event.description || '');
+  //     setContent(content);
+  //     for (let i = 0; i < event.rounds.length; i++) {
+  //       const round = event.rounds[i];
+  //       const roundContent = await markdownToHtml(round.description || '');
+  //       round.description = roundContent;
+  //     }
+  //   }
+  //   getContent();
+  // }, [event.description]);
 
   return (
     <>
@@ -135,16 +141,19 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
       <div
         className={`flex flex-col items-center w-full h-full md:overflow-y-scroll ${textColor}`}
       >
-        <div
+        {/* <div
           className="prose text-sm md:text-base text-justify"
           dangerouslySetInnerHTML={{
             __html: content,
           }}
-        />
+        /> */}
+        <div className="prose text-sm md:text-base text-justify">
+          <ReactMarkdown>{event.description}</ReactMarkdown>
+        </div>
         {event?.rounds?.length > 0 && (
           <>
             <h3 className="md:text-xl mt-5 mb-2 text-lg font-bold">ROUNDS</h3>
-            <ol className="space-y-3">
+            <ol className="space-y-3 w-full">
               {event?.rounds?.map((round, index) => (
                 <li
                   key={index}
@@ -153,7 +162,15 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
                   <div>{index + 1}.</div>
                   <div>
                     <span className="font-semibold">{round.name}</span> -{' '}
-                    {round.description}
+                    {/* <div
+                      className="prose text-sm md:text-base text-justify"
+                      dangerouslySetInnerHTML={{
+                        __html: round.description,
+                      }}
+                    /> */}
+                    <div className="prose text-sm md:text-base text-justify">
+                      <ReactMarkdown>{round.description}</ReactMarkdown>
+                    </div>
                   </div>
                 </li>
               ))}
