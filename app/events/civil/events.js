@@ -11,8 +11,8 @@ export const CIVILevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            'The participants will be given 7 minutes for presenting their paper. - Followed by 3 minutes of Q&A session from the participants and panel members',
+          description: `The participants will be given 7 minutes for presenting their paper.   
+            - Followed by 3 minutes of Q&A session from the participants and panel members`,
         },
       ],
       venue: 'Civil Engineering - Department',
@@ -42,8 +42,9 @@ export const CIVILevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            '● Using mobile phones for any assistance is prohibited. ● A detailed brochure on the locations will be provided with a preparation time of 15 mins. ● Location once sold cannot be traded or sold again.',
+          description: `● Using mobile phones for any assistance is prohibited.   
+           ● A detailed brochure on the locations will be provided with a preparation time of 15 mins.   
+           ● Location once sold cannot be traded or sold again.`,
         },
       ],
       venue: 'Civil Engineering - Department',
@@ -73,8 +74,9 @@ export const CIVILevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            '● In the team of 2, the builder will be blindfolded while the instructor is cuffed. ● Materials will be provided. ● With the given materials and within the stipulated time, build as much levels as you can.',
+          description: `● In the team of 2, the builder will be blindfolded while the instructor is cuffed.  
+            ● Materials will be provided.  
+             ● With the given materials and within the stipulated time, build as much levels as you can.`,
         },
       ],
       venue: 'Civil Engineering - Department',
@@ -108,8 +110,8 @@ export const CIVILevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            '● Preparation time: 15 mins. ● Mobile phones cannot be used for preparation purposes.',
+          description: `● Preparation time: 15 mins.   
+            ● Mobile phones cannot be used for preparation purposes.`,
         },
       ],
       venue: 'Civil Engineering - Department',
@@ -143,13 +145,16 @@ export const CIVILevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            '● 25 MCQ questions within 10 minutes should be solved. ● 5-10 teams with high points will be shortlisted for the next round.',
+          description: `● 30 MCQ questions within 15 minutes should be solved.     
+            ● 5-10 teams with high points will be shortlisted for the next round.`,
         },
         {
           name: 'Round 2',
-          description:
-            "● Set of questions will be displayed to the teams. ● Buzzer based round - team answering first will be awarded points based on the difficulty of the question. ● Questions will not pass to the next team until it's answered wrong. ● Based on the points rewarded, teams will move forward in the ladder. ● Team with the highest score or that reaches 100 wins.",
+          description: `● Set of questions will be displayed to the teams.   
+            ● Buzzer based round - team answering first will be awarded points based on the difficulty of the question.   
+            ● Questions will not pass to the next team until it's answered wrong.   
+            ● Based on the points rewarded, teams will move forward in the ladder.   
+            ● Team with the highest score or that reaches 100 wins.`,
         },
       ],
       venue: 'Civil Engineering - Department',
@@ -179,13 +184,14 @@ export const CIVILevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            '⮚ 20 minutes kahoot quiz with 30 questions. ⮚ Teams that complete their test earlier will get bonus points. ⮚ Top 6 teams will be qualified for the next round.',
+          description: `- 20 minutes kahoot quiz with 30 questions.   
+            - Teams that complete their test earlier will get bonus points.   
+            - Top 6 teams will be qualified for the next round.`,
         },
         {
           name: 'Round 2',
-          description:
-            '⮚ Rapid fire buzzer round. ⮚ Number of questions and points will be calculated on spot.',
+          description: `- Rapid fire buzzer round.   
+            - Number of questions and points will be calculated on spot.`,
         },
       ],
       venue: 'Civil Engineering - Department',
@@ -258,7 +264,7 @@ export const CIVILevents = {
 
       coordinators: [
         {
-          name: 'Punarv',
+          name: 'Punarv I',
           phone: '9025701233',
         },
       ],
