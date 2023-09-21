@@ -39,7 +39,7 @@ export const CSEevents = {
     {
       name: 'Data Whiz',
       description:
-        'Join us for a data-driven adventure at this captivating event that blends creativity, analytics, and storytelling into a seamless experience. Uncover the art of transforming raw data into compelling narratives using dynamic tools like PowerBI and Tableau. Our event welcomes everyone, from seasoned designers to analytical newcomers. Participation as individuals or in teams of a maximum of three members is allowed. Let your creativity run wild and your analytical skills shine – join us and discover the magic that happens when data and design unite.',
+        'Join us for a data-driven adventure at this captivating event that blends creativity, analytics, and storytelling into a seamless experience. Uncover the art of transforming raw data into compelling narratives using dynamic tools like PowerBI and Tableau. Our event welcomes everyone, from seasoned designers to analytical newcomers. Participation as individuals or in teams of a maximum of three members is allowed. Let your creativity run wild and your analytical skills shine - join us and discover the magic that happens when data and design unite.',
       type: 'team',
       event_type: 'tech',
       team_size: '1-3',
@@ -89,7 +89,11 @@ export const CSEevents = {
         {
           name: 'Finals',
           description:
-            'Top 6 teams will participate in this final round. The teams will be given 4 questions. Each question includes the following: 1) An object file 2) Input description + format 3) Output description + format Teams should find out what the program in the object file does (by giving sample inputs and observing outputs) and should code this program on their own (Java, C++, Python). Their code will be tested against test cases (45 mins will be given to complete).',
+            `Top 6 teams will participate in this final round. The teams will be given 4 questions. Each question includes the following:    
+            1) An object file   
+            2) Input description + format  
+            3) Output description + format    
+            Teams should find out what the program in the object file does (by giving sample inputs and observing outputs) and should code this program on their own (Java, C++, Python). Their code will be tested against test cases (45 mins will be given to complete).`,
         },
       ],
       venue: '',
