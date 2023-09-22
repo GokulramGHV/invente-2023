@@ -8,13 +8,24 @@ import ThemeSection from '@/components/ThemeSection';
 import Navbar from '@/components/navbar';
 import Footer from '../components/footer';
 import { useInView } from 'react-intersection-observer';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Home() {
+  //load video afer timeout
+  useEffect(() => {
+    setTimeout(() => {
+      document.getElementById('bg_video').load();
+    }, 3000);
+  }, []);
+
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+
   const { ref, inView, entry } = useInView({
     threshold: 0,
   });
+
   const [navOpen, setNavOpen] = useState(false);
+
   return (
     <main>
       <div
@@ -22,14 +33,35 @@ export default function Home() {
         id="home"
       >
         <div className="relative flex-1 flex flex-col w-full">
+
+          <img
+            src="/bg_video_pic.png"
+            alt="Background Image"
+            style={{ opacity: isVideoLoaded ? 0 : 1 }}
+            className="rounded-3xl absolute h-full w-full object-cover"
+          />
+
           <video
+            id="bg_video"
             src="/bg_video.m4v"
             autoPlay
             loop
             muted
-            preload="auto"
+
+            onLoadStart={() => {
+              setIsVideoLoaded(false)
+              console.log('bg video load started')
+            }}
+
+            onLoadedData={() => {
+              setIsVideoLoaded(true)
+              console.log('bg video loaded')
+            }}
+
+            style={{ opacity: isVideoLoaded ? 1 : 0 }}
             className="rounded-3xl absolute h-full w-full object-cover"
           />
+
           <div className="absolute top-0 left-0 flex justify-between items-center w-full md:px-16 px-8 z-10">
             <div className="relative md:w-[200px] md:h-[200px] w-[150px] h-[150px]">
               <Image src="/snuLogo.svg" alt="SNU Logo" fill />

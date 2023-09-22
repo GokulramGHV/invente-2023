@@ -11,11 +11,15 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description: `Duration: 15-20 minutes. Participants shall attend a quiz on basic programming concepts.Every team is scored out of 10 and the top 10 teams are selected for the next round. 
-          **Tie Breakers:** 1. Star Marked Questions: Some Priority Questions can be used to break ties.  
-          2.Earliest Submission: Team to make the earlier submission shall qualify for the next round.  
-          3.If a tie is still not broken, the next method will be used.  
-          **Sudden Death**: 1. Team that makes the first mistake shall not qualify for the next round.`,
+          description: `Duration: 15-20 minutes. Participants shall attend a quiz on basic programming concepts. Every team is scored out of 10 and the top 10 teams are selected for the next round.          
+          ‎      
+          **Tie Breakers:**    
+          1. Star Marked Questions: Some Priority Questions can be used to break ties.                
+          2. Earliest Submission: Team to make the earlier submission shall qualify for the next round.          
+          3. If a tie is still not broken, the next method will be used.        
+          ‎        
+          **Sudden Death**:      
+          1. Team that makes the first mistake shall not qualify for the next round.`,
         },
         {
           name: 'Round 2',
@@ -52,10 +56,12 @@ export const ECEevents = {
           name: 'Round 1',
           description: ` Duration: 30 Minutes.   
             Number of Questions: 15.  
-            Topics covered: Circuit Analysis, Semiconductor Devices, Analog Electronic Circuits and Digital Electronics.  
+            Topics covered: Circuit Analysis, Semiconductor Devices, Analog Electronic Circuits and Digital Electronics.   
+            ‎    
             1. Participants shall attempt a technical quiz (Pen and Paper) based on the above-mentioned topics.  
             2. Teams will be selected on the basis of points scored.  
-            3. Only one submission per team would be allowed.  
+            3. Only one submission per team would be allowed.   
+            ‎     
             **Tie Breakers:**  
             1) Star Marked Questions: Some Priority Questions can be used to break ties.  
             2) Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.  
@@ -89,7 +95,7 @@ export const ECEevents = {
     {
       name: 'IPL AUCTION',
       description:
-        '1. The participants can be of the same or different departments. 2. The participants from the same team can be from different institutions. ',
+        'The participants can be of the same or different departments. The participants from the same team can be from different institutions.',
       type: 'team',
       event_type: 'non tech',
       team_size: '2-3',
@@ -98,12 +104,26 @@ export const ECEevents = {
         {
           name: 'Round 1',
           description:
-            'Time Duration: 30 minutes. This round consists of 25 questions based on cricket and IPL. The conduct can be using Kahoot / Pen Paper. Top 6 Teams will be shortlisted for finals. Tie Breakers: In case of a tie, the following methods can be used to select a team. 1.Star Marked Questions: Some Priority Questions can be used to break ties. 2.Earliest Submission: Team to make the earlier submission shall qualify for the next round. 3.If a tie is still not broken, the next method will be used. Sudden Death: 1.Team that makes the first mistake shall not qualify for the next round.',
+            `Time Duration: 30 minutes. This round consists of 25 questions based on cricket and IPL. The conduct can be using Kahoot / Pen Paper. Top 6 Teams will be shortlisted for finals.   
+            ‎     
+            Tie Breakers: In case of a tie, the following methods can be used to select a team.    
+            1. Star Marked Questions: Some Priority Questions can be used to break ties.    
+            2. Earliest Submission: Team to make the earlier submission shall qualify for the next round.    
+            3. If a tie is still not broken, the next method will be used.  
+            ‎    
+            Sudden Death: 1. Team that makes the first mistake shall not qualify for the next round.`,
         },
         {
           name: 'Round 2',
           description:
-            'Time Duration: 150 minutes (Depending on Number of Teams and Rounds). Each team will have 2-3 people and each round will have 2-4 teams. Teammates can discuss with themselves using a different means and only the team leader, selected by each team, should bid when the auction starts. Purse amount will be 80 crores and each team should pick 15 players (11 players in the playing 11 and 4 in bench) Criteria to be met: 1. Playing 11 (Batsmen - min 3, Bowler - min 4, Wicketkeeper - min 1, All-rounder - min 1, Foreigner - max 4). 2. Bench (Batsmen - min 1, Bowler - min 1, Foreigner - max 2). Points for the players will be given as the average of the points in the three seasons 2021, 2022 and 2023. Top 2 teams with highest points will be awarded.',
+            `Time Duration: 150 minutes (Depending on Number of Teams and Rounds). Each team will have 2-3 people and each round will have 2-4 teams. Teammates can discuss with themselves using a different means and only the team leader, selected by each team, should bid when the auction starts. Purse amount will be 80 crores and each team should pick 15 players (11 players in the playing 11 and 4 in bench)     
+            ‎     
+            Criteria to be met:   
+            1. Playing 11 (Batsmen - min 3, Bowler - min 4, Wicketkeeper - min 1, All-rounder - min 1, Foreigner - max 4).    
+            2. Bench (Batsmen - min 1, Bowler - min 1, Foreigner - max 2).      
+            ‎      
+            Points for the players will be given as the average of the points in the three seasons 2021, 2022 and 2023.   
+            Top 2 teams with highest points will be awarded.`,
         },
       ],
       venue: 'ECE - Department',
@@ -133,17 +153,48 @@ export const ECEevents = {
         {
           name: 'Round 1',
           description:
-            "Topics covered: Digital Signal Processing, Analog and Digital Electronics , Linear Integrated Circuits, Analog Communication. Time duration: 20 minutes (10 questions). ● Teams will be given a chance to pick a card from the deck available. ● If the team gets a non-ace card, they will get questions from various topics. ● If the team gets an ace card, the team will have the choice to either answer from the topic of their interest (any one among the list of topics given) or answer a mixed question paper (Covers all the topics).Tie Breakers: ● Star Marked Questions: Some Priority Questions can be used to break ties. ● Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used. ● Sudden Death: Team that makes the first mistake shall not qualify for the next round.Shortlisting for round 2:● Based on the teams' scores in the first round, a certain number of teams will be qualified for the second round.● If two teams supposedly get the same score, tie-breaker questions will be considered.",
+            `Topics covered: Digital Signal Processing, Analog and Digital Electronics, Linear Integrated Circuits, Analog Communication. Time duration: 20 minutes (10 questions).    
+            ● Teams will be given a chance to pick a card from the deck available.    
+            ● If the team gets a non-ace card, they will get questions from various topics.    
+            ● If the team gets an ace card, the team will have the choice to either answer from the topic of their interest (any one among the list of topics given) or answer a mixed question paper (Covers all the topics).    
+            ‎    
+            Tie Breakers:      
+            ● Star Marked Questions: Some Priority Questions can be used to break ties.     
+            ● Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.       
+            ● Sudden Death: Team that makes the first mistake shall not qualify for the next round.     
+            ‎       
+            Shortlisting for round 2.    
+            ● Based on the teams' scores in the first round, a certain number of teams will be qualified for the second round.    
+            ● If two teams supposedly get the same score, tie-breaker questions will be considered.`,
         },
         {
           name: 'Round 2',
           description:
-            'Time Duration: 20 minutes (depending on the number of teams and rounds). ● Each team will have 2-3 people and each round will have 2-4 teams. ● A total of 7 cards will be given to each team. ● Each card will contain a specific component. ● A list containing all possible circuits or connections that can be made with the given components will also be provided. ● The cards can be passed among teams. ● The first to identify and complete the circuit will be promoted to the next round. ● If you get an ace card , a clue will be provided. Shortlisting for round 3: First to win in each round will be qualified for the next round.',
+            `Time Duration: 20 minutes (depending on the number of teams and rounds).     
+            ● Each team will have 2-3 people and each round will have 2-4 teams.      
+            ● A total of 7 cards will be given to each team.       
+            ● Each card will contain a specific component.      
+            ● A list containing all possible circuits or connections that can be made with the given components will also be provided.    
+            ● The cards can be passed among teams.           
+            ● The first to identify and complete the circuit will be promoted to the next round.       
+            ● If you get an ace card , a clue will be provided.    
+            ‎                   
+            Shortlisting for round 3: First to win in each round will be qualified for the next round.`,
         },
         {
           name: 'Round 3',
           description:
-            "Time Duration: 30 minutes. ● Teams will be given a chance to pick a card from the deck available ● Teams will be given a faulty circuit diagram . ● The members have to debug the circuit which is basically to detect and eliminate the fault which can cause unexpected behaviour in the circuit or crashing of the same. ● Components will be provided , using which the circuit has to be implemented and the proper output should be obtained. Rules: ● Bonus points for the team which completes in 15 mins. ● Clues will be given , but with the deduction of points. ● The card might be either an analog or digital circuit. ● If you get an ace card , you'll be given a fault free circuit diagram.",
+            `Time Duration: 30 minutes.          
+            ● Teams will be given a chance to pick a card from the deck available           
+            ● Teams will be given a faulty circuit diagram.         
+            ● The members have to debug the circuit which is basically to detect and eliminate the fault which can cause unexpected behaviour in the circuit or crashing of the same.              
+            ● Components will be provided, using which the circuit has to be implemented and the proper output should be obtained.    
+            ‎      
+            Rules:       
+            ● Bonus points for the team which completes in 15 mins.            
+            ● Clues will be given, but with the deduction of points.         
+            ● The card might be either an analog or digital circuit.       
+            ● If you get an ace card, you'll be given a fault free circuit diagram.`,
         },
       ],
       venue: 'TBD',
@@ -398,7 +449,16 @@ export const ECEevents = {
     {
       name: 'Paper Presentation',
       description:
-        'A fully technical event. Teams consisting of 1-3 members are given a platform to showcase their undergraduate research papers in fully completed form or as an abstract in its ideation phase. Domains : • Antenna Systems and its Applications  • Augmented Reality • Cognitive Science • Cybersecurity and its risk assessment techniques • Deep Learning • Emerging trends in Photonics • Internet of Intelligent Things • Internet of Things • Machine Learning • Machine Learning/ AI for networks • MEMS • VLSI • Network Security and Blockchain Technology • Optical Communication and Networks • Robotics • Signal and Image Processing • Virtual Reality. General Instructions:  ▪ Only a maximum of 3 authors and only student authors are allowed. It is not necessary that all authors must be from the same institute. ▪ The paper must be sent through mail. The instructions are as follows: ▪ The subject must be the title of the paper. ▪ The paper can be in two columns IEEE format. This format can be followed preferably. ▪ The paper length must be limited to 6 pages. ▪ The paper must be in .pdf format. ▪ The body of the email should include- Name and Institute of participant (from first author till the third one), Department and Year, Contact numbers, Email addresses. ▪	The paper must be attached to the mail. ▪ Plagiarism is a very serious consideration. Only original research works are accepted. ▪ Submissions made after the deadline won’t be considered for evaluation. ▪ Shortlisted papers will be called for presentation. ',
+        `A fully technical event. Teams consisting of 1-3 members are given a platform to showcase their undergraduate research papers in fully completed form or as an abstract in its ideation phase.       
+        ‎        
+        Domains: • Antenna Systems and its Applications  • Augmented Reality • Cognitive Science • Cybersecurity and its risk assessment techniques • Deep Learning • Emerging trends in Photonics • Internet of Intelligent Things • Internet of Things • Machine Learning • Machine Learning/ AI for networks • MEMS • VLSI • Network Security and Blockchain Technology • Optical Communication and Networks • Robotics • Signal and Image Processing • Virtual Reality.   
+        ‎             
+        General Instructions:  
+        ▪ Only a maximum of 3 authors and only student authors are allowed. It is not necessary that all authors must be from the same institute.       
+        ▪ The paper must be sent through mail. The instructions are as follows: ▪ The subject must be the title of the paper. ▪ The paper can be in two columns IEEE format. This format can be followed preferably. ▪ The paper length must be limited to 6 pages. ▪ The paper must be in .pdf format. ▪ The body of the email should include - Name and Institute of participant (from first author till the third one), Department and Year, Contact numbers, Email addresses. ▪	The paper must be attached to the mail.          
+        ▪ Plagiarism is a very serious consideration. Only original research works are accepted.        
+        ▪ Submissions made after the deadline won't be considered for evaluation.      
+        ▪ Shortlisted papers will be called for presentation.`,
       type: 'teamORsolo',
       event_type: 'tech',
       team_size: '3',
@@ -415,7 +475,7 @@ export const ECEevents = {
           name: 'Second round',
           description: `● The selected participants from round 1 are requested to be present at the venue at least 10 minutes before the event commences.   
             ●	The participants will be explained about the event, panel of judges, judging criteria, and prizes.   
-            ● The Authors of the respective teams will be given 5 – 10 minutes to explain their paper and present their idea to the panel of judges LIVE during the time of the event.   
+            ● The Authors of the respective teams will be given 5 - 10 minutes to explain their paper and present their idea to the panel of judges LIVE during the time of the event.   
             ● Participants are requested to strictly follow the time limits.   
             ● The Panel of Judges will evaluate the presentation. The Judges can ask questions regarding your paper during your presentation on their will.   
             ● The team with the highest score will be declared as the “Best Student Presentation”.`,

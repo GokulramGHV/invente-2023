@@ -303,7 +303,9 @@ export const ITevents = {
             💻 Bring your own laptop for offline play, or join the online action from anywhere.  
             🤝 Register as a 3-man team or go solo - we'll create dynamic teams for solo participants.  
             ⚔ Outwit your opponents, master teamwork, and claim victory in this unique 3v3 format!   
-            ⚡This exciting addition highlights the strategic depth of the 3v3 format, where each choice can tip the scales of victory. Get ready for an even more exhilarating Valorant experience!`,
+            ⚡This exciting addition highlights the strategic depth of the 3v3 format, where each choice can tip the scales of victory. Get ready for an even more exhilarating Valorant experience!   
+            ‎     
+            Join us for a day of thrilling competition, camaraderie, and the chance to earn your spot in gaming glory. Whether you're a solo FIFA ace or a Valorant virtuoso, this tournament has something for everyone. Don't miss out on the gaming event of the year - register today and let the games begin! 🏅🎮 #UltimateGamingShowdown`,
         },
       ],
       venue: 'Seminar Hall',

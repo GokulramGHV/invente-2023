@@ -3,7 +3,19 @@ export const BMEevents = {
     {
       name: 'PAPER PRESENTATION',
       description:
-        'The event involves a preliminary round where the registered candidates will have to submit a project abstract along with the camera-ready paper on one of the specified domains. The following are domains for paper presentation(): ● Healthcare technology ● Nanotechnology ● Signal processing ● Assistive technology ● Physiological modeling ● Digital image processing ● Neural networks ● Embedded systems ● Robotics The submitted abstracts will be shortlisted based on the IEEE paper norms (novelty, social impact, economic status, and implementation factor). The shortlisted participants will be moved to the next round where they have to present a camera-ready pitch before the panellists for 7 minutes with 3 minutes of Q/A session for each presentation. Based on the innovation factor and pitch presentation mode, the best presentation and best innovation category will be selected by the panellists.',
+        `The event involves a preliminary round where the registered candidates will have to submit a project abstract along with the camera-ready paper on one of the specified domains. The following are domains for paper presentation:    
+        ‎         
+        ● Healthcare technology     
+        ● Nanotechnology         
+        ● Signal processing      
+        ● Assistive technology        
+        ● Physiological modeling      
+        ● Digital image processing      
+        ● Neural networks            
+        ● Embedded systems      
+        ● Robotics          
+        ‎     
+        The submitted abstracts will be shortlisted based on the IEEE paper norms (novelty, social impact, economic status, and implementation factor). The shortlisted participants will be moved to the next round where they have to present a camera-ready pitch before the panellists for 7 minutes with 3 minutes of Q/A session for each presentation. Based on the innovation factor and pitch presentation mode, the best presentation and best innovation category will be selected by the panellists.`,
       type: 'team',
       event_type: 'tech',
       team_size: '3',
@@ -102,7 +114,7 @@ export const BMEevents = {
     {
       name: 'BIO-MARKETIZE',
       description:
-        "An exhilarating tech event that aims to evaluate participants' understanding of medical devices and its working. Participants are required to be in groups of 3 or 4. Each team will randomly select a device or equipment by drawing lots, and will be given the time to come up with a catchy caption or tagline and a non-existing name for the instrument/equipment. Once that is decided, a series of events and games such as a Discussion, Adzap and Quiz (actual games will be given on spot) will be conducted and the winner will be chosen based on the team’s creativity, familiarity, meticulousness, communication and presentation skills, and marketing skills, . It is a fun and interesting event that will demand a lot of strategic thinking and teamwork!",
+        "An exhilarating tech event that aims to evaluate participants' understanding of medical devices and its working. Participants are required to be in groups of 3 or 4. Each team will randomly select a device or equipment by drawing lots, and will be given the time to come up with a catchy caption or tagline and a non-existing name for the instrument/equipment. Once that is decided, a series of events and games such as a Discussion, Adzap and Quiz (actual games will be given on spot) will be conducted and the winner will be chosen based on the team's creativity, familiarity, meticulousness, communication and presentation skills, and marketing skills, . It is a fun and interesting event that will demand a lot of strategic thinking and teamwork!",
 
       type: 'team',
       event_type: 'tech',
@@ -243,7 +255,21 @@ export const BMEevents = {
     {
       name: 'DESVITY',
       description:
-        "This is an event that ignites innovation, nurtures design thinking, and celebrates creativity! Join us on a journey that delves deep into the heart of contemporary design, exploring its potential to shape the future. Whether you're an experienced designer or just beginning to explore the world of design, this event is tailor-made for you. Participants will receive an exclusive problem statement meticulously crafted to evaluate their critical thinking and innovation prowess. This challenge will propel you to explore the outermost boundaries of your creative abilities. Participants can design using any of the following softwares: AutoCAD, Fusion 360, Blender, Solidworks, Catia. The best designs will be awarded amazing cash prizes!",
+        `This is an event that ignites innovation, nurtures design thinking, and celebrates creativity! Join us on a journey that delves deep into the heart of contemporary design, exploring its potential to shape the future. Whether you're an experienced designer or just beginning to explore the world of design, this event is tailor-made for you. Participants will receive an exclusive problem statement meticulously crafted to evaluate their critical thinking and innovation prowess. This challenge will propel you to explore the outermost boundaries of your creative abilities. Participants can design using any of the following softwares: AutoCAD, Fusion 360, Blender, Solidworks, Catia. The best designs will be awarded amazing cash prizes!   
+        ‎    
+        1. Bring your own laptops.  
+        2. Participants can enrol either as an individual or as a team of 2.    
+        3. Problem statements based on various domains will be given.   
+        4. Participants can choose any of the following designing softwares:   
+        ‎         
+          - Fusion 360   
+          - AutoCad   
+          - Soldiworks   
+          - Blender     
+          - Catia          
+        ‎           
+        5. Best designs will be awarded cash prizes
+        `,
 
       type: 'team',
       event_type: 'tech',
@@ -278,8 +304,8 @@ export const BMEevents = {
 
       venue: 'PG I YEAR CLASSROOM',
       date: 'Oct. 6, 2023',
-      winner: '3000',
-      runner: '2000',
+      winner: '1500',
+      runner: '1000',
       third_prize: 'NIL',
       coordinators: [
         {
