@@ -35,7 +35,7 @@ export default function MECH() {
 
   return (
     <>
-      <div className="background-gradient fixed left-0 top-0 h-screen w-full z-0" />
+      <div className="background-gradient fixed left-0 top-0 h-screen w-full z-0 overflow-x-hidden" />
       <div
         className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 pt-28 md:pt-24  pb-14"
         style={{
