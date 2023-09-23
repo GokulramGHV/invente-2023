@@ -40,7 +40,7 @@ export default function EEE() {
         <div className="flex justify-center flex-col items-center z-10">
           <p className="md:text-xl mb-1">DEPARTMENT OF</p>
           <h1
-            className={`font-wokStencilCaps font-medium  md:text-6xl text-5xl leading-4 text-center uppercase`}
+            className={`font-wokStencilCaps font-medium  md:text-6xl text-5xl leading-10 text-center uppercase`}
           >
             ELECTRICAL and ELECTRONICS
           </h1>
