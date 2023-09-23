@@ -11,15 +11,8 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description: `Duration: 15-20 minutes. Participants shall attend a quiz on basic programming concepts. Every team is scored out of 10 and the top 10 teams are selected for the next round.          
-          ‎      
-          **Tie Breakers:**    
-          1. Star Marked Questions: Some Priority Questions can be used to break ties.                
-          2. Earliest Submission: Team to make the earlier submission shall qualify for the next round.          
-          3. If a tie is still not broken, the next method will be used.        
-          ‎        
-          **Sudden Death**:      
-          1. Team that makes the first mistake shall not qualify for the next round.`,
+          description:
+            'Dureation: 15-20 minutes. Participants shall attend a quiz on basic programming concepts .Every team is scored out of 10 and the top 10 teams are selected for the next round. Tie Breakers: 1.Star Marked Questions: Some Priority Questions can be used to break ties. 2.Earliest Submission: Team to make the earlier submission shall qualify for the next round. 3.If a tie is still not broken, the next method will be used. Sudden Death: 1.Team that makes the first mistake shall not qualify for the next round.',
         },
         {
           name: 'Round 2',
@@ -46,7 +39,7 @@ export const ECEevents = {
     {
       name: 'SOLDER-IT',
       description:
-        'A team must have minimum of 2 students. The participants can be from the same department or various departments as well. Do not carry mobile phones and any other electronic gadgets. Judge’s decision will be final. Soldering kit and the electronic components will be provided. The event organizers will help the lone wolves find their pack.',
+        '1. A team must have minimum of 2 students 2. The participants can be from the same department or various departments as well. 3. Do not carry mobile phones and any other electronic gadgets. 4. Judge’s decision will be final. 5. Soldering kit and the electronic components will be provided. 6. The event organizers will help the lone wolves find their pack.',
       type: 'team',
       event_type: 'tech',
       team_size: '2-3',
@@ -54,26 +47,13 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description: ` Duration: 30 Minutes.   
-            Number of Questions: 15.  
-            Topics covered: Circuit Analysis, Semiconductor Devices, Analog Electronic Circuits and Digital Electronics.   
-            ‎    
-            1. Participants shall attempt a technical quiz (Pen and Paper) based on the above-mentioned topics.  
-            2. Teams will be selected on the basis of points scored.  
-            3. Only one submission per team would be allowed.   
-            ‎     
-            **Tie Breakers:**  
-            1) Star Marked Questions: Some Priority Questions can be used to break ties.  
-            2) Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.  
-            3) Sudden Death: Team that makes the first mistake shall not qualify for the next round.`,
+          description:
+            'Duration: 30 Minutes. Number of Questions: 15. Topic covered:  Circuit Analysis, Semiconductor Devices, Analog Electronic Circuits and Digital Electronics. 1) Participants shall attempt a technical quiz (Pen and Paper) based on the above-mentioned topics. 2) Teams will be selected on the basis of points scored. 3) Only one submission per team would be allowed. Tie Breakers: 1) Star Marked Questions: Some Priority Questions can be used to break ties. 2) Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used. 3) Sudden Death: Team that makes the first mistake shall not qualify for the next round.',
         },
         {
           name: 'Round 2',
-          description: `Duration: 45-60 Minutes.   
-            1) Teams will be shortlisted based on the pen and paper test score(prelims round score).   
-            2) Each shortlisted team will be given a circuit description that has to be solved and solder the components according to the circuit layout they inferred.   
-            3) Necessary items such as soldering rod, lead, flux, transistors, resistors, capacitors etc.   
-            4) You will be scored on how well and neat your circuit is soldered and implemented.`,
+          description:
+            'Duration: 45-60 Minutes. 1) Teams will be shortlisted based on the pen and paper test score(prelims round score). 2) Each shortlisted team will be given a circuit description that has to be solved and solder the components according to the circuit layout they inferred. 3) Necessary items such as soldering rod, lead, flux, transistors, resistors, capacitors etc. 4) You will be scored on how well and neat your circuit is soldered and implemented.',
         },
       ],
       venue: 'TBD',
@@ -95,7 +75,7 @@ export const ECEevents = {
     {
       name: 'IPL AUCTION',
       description:
-        'The participants can be of the same or different departments. The participants from the same team can be from different institutions.',
+        '1. The participants can be of the same or different departments. 2. The participants from the same team can be from different institutions. ',
       type: 'team',
       event_type: 'non tech',
       team_size: '2-3',
@@ -104,26 +84,12 @@ export const ECEevents = {
         {
           name: 'Round 1',
           description:
-            `Time Duration: 30 minutes. This round consists of 25 questions based on cricket and IPL. The conduct can be using Kahoot / Pen Paper. Top 6 Teams will be shortlisted for finals.   
-            ‎     
-            Tie Breakers: In case of a tie, the following methods can be used to select a team.    
-            1. Star Marked Questions: Some Priority Questions can be used to break ties.    
-            2. Earliest Submission: Team to make the earlier submission shall qualify for the next round.    
-            3. If a tie is still not broken, the next method will be used.  
-            ‎    
-            Sudden Death: 1. Team that makes the first mistake shall not qualify for the next round.`,
+            'Time Duration: 30 minutes. This round consists of 25 questions based on cricket and IPL. The conduct can be using Kahoot / Pen Paper. Top 6 Teams will be shortlisted for finals. Tie Breakers: In case of a tie, the following methods can be used to select a team. 1.Star Marked Questions: Some Priority Questions can be used to break ties. 2.Earliest Submission: Team to make the earlier submission shall qualify for the next round. 3.If a tie is still not broken, the next method will be used. Sudden Death: 1.Team that makes the first mistake shall not qualify for the next round.',
         },
         {
           name: 'Round 2',
           description:
-            `Time Duration: 150 minutes (Depending on Number of Teams and Rounds). Each team will have 2-3 people and each round will have 2-4 teams. Teammates can discuss with themselves using a different means and only the team leader, selected by each team, should bid when the auction starts. Purse amount will be 80 crores and each team should pick 15 players (11 players in the playing 11 and 4 in bench)     
-            ‎     
-            Criteria to be met:   
-            1. Playing 11 (Batsmen - min 3, Bowler - min 4, Wicketkeeper - min 1, All-rounder - min 1, Foreigner - max 4).    
-            2. Bench (Batsmen - min 1, Bowler - min 1, Foreigner - max 2).      
-            ‎      
-            Points for the players will be given as the average of the points in the three seasons 2021, 2022 and 2023.   
-            Top 2 teams with highest points will be awarded.`,
+            'Time Duration: 150 minutes (Depending on Number of Teams and Rounds). Each team will have 2-3 people and each round will have 2-4 teams. Teammates can discuss with themselves using a different means and only the team leader, selected by each team, should bid when the auction starts. Purse amount will be 80 crores and each team should pick 15 players (11 players in the playing 11 and 4 in bench) Criteria to be met: 1. Playing 11 (Batsmen - min 3, Bowler - min 4, Wicketkeeper - min 1, All-rounder - min 1, Foreigner - max 4). 2. Bench (Batsmen - min 1, Bowler - min 1, Foreigner - max 2). Points for the players will be given as the average of the points in the three seasons 2021, 2022 and 2023. Top 2 teams with highest points will be awarded.',
         },
       ],
       venue: 'ECE - Department',
@@ -153,48 +119,17 @@ export const ECEevents = {
         {
           name: 'Round 1',
           description:
-            `Topics covered: Digital Signal Processing, Analog and Digital Electronics, Linear Integrated Circuits, Analog Communication. Time duration: 20 minutes (10 questions).    
-            ● Teams will be given a chance to pick a card from the deck available.    
-            ● If the team gets a non-ace card, they will get questions from various topics.    
-            ● If the team gets an ace card, the team will have the choice to either answer from the topic of their interest (any one among the list of topics given) or answer a mixed question paper (Covers all the topics).    
-            ‎    
-            Tie Breakers:      
-            ● Star Marked Questions: Some Priority Questions can be used to break ties.     
-            ● Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.       
-            ● Sudden Death: Team that makes the first mistake shall not qualify for the next round.     
-            ‎       
-            Shortlisting for round 2.    
-            ● Based on the teams' scores in the first round, a certain number of teams will be qualified for the second round.    
-            ● If two teams supposedly get the same score, tie-breaker questions will be considered.`,
+            "Topics covered: Digital Signal Processing, Analog and Digital Electronics , Linear Integrated Circuits, Analog Communication. Time duration: 20 minutes (10 questions). ● Teams will be given a chance to pick a card from the deck available. ● If the team gets a non-ace card, they will get questions from various topics. ● If the team gets an ace card, the team will have the choice to either answer from the topic of their interest (any one among the list of topics given) or answer a mixed question paper (Covers all the topics).Tie Breakers: ● Star Marked Questions: Some Priority Questions can be used to break ties. ● Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used. ● Sudden Death: Team that makes the first mistake shall not qualify for the next round.Shortlisting for round 2:● Based on the teams' scores in the first round, a certain number of teams will be qualified for the second round.● If two teams supposedly get the same score, tie-breaker questions will be considered.",
         },
         {
           name: 'Round 2',
           description:
-            `Time Duration: 20 minutes (depending on the number of teams and rounds).     
-            ● Each team will have 2-3 people and each round will have 2-4 teams.      
-            ● A total of 7 cards will be given to each team.       
-            ● Each card will contain a specific component.      
-            ● A list containing all possible circuits or connections that can be made with the given components will also be provided.    
-            ● The cards can be passed among teams.           
-            ● The first to identify and complete the circuit will be promoted to the next round.       
-            ● If you get an ace card , a clue will be provided.    
-            ‎                   
-            Shortlisting for round 3: First to win in each round will be qualified for the next round.`,
+            'Time Duration: 20 minutes (depending on the number of teams and rounds). ● Each team will have 2-3 people and each round will have 2-4 teams. ● A total of 7 cards will be given to each team. ● Each card will contain a specific component. ● A list containing all possible circuits or connections that can be made with the given components will also be provided. ● The cards can be passed among teams. ● The first to identify and complete the circuit will be promoted to the next round. ● If you get an ace card , a clue will be provided. Shortlisting for round 3: First to win in each round will be qualified for the next round.',
         },
         {
           name: 'Round 3',
           description:
-            `Time Duration: 30 minutes.          
-            ● Teams will be given a chance to pick a card from the deck available           
-            ● Teams will be given a faulty circuit diagram.         
-            ● The members have to debug the circuit which is basically to detect and eliminate the fault which can cause unexpected behaviour in the circuit or crashing of the same.              
-            ● Components will be provided, using which the circuit has to be implemented and the proper output should be obtained.    
-            ‎      
-            Rules:       
-            ● Bonus points for the team which completes in 15 mins.            
-            ● Clues will be given, but with the deduction of points.         
-            ● The card might be either an analog or digital circuit.       
-            ● If you get an ace card, you'll be given a fault free circuit diagram.`,
+            "Time Duration: 30 minutes. ● Teams will be given a chance to pick a card from the deck available ● Teams will be given a faulty circuit diagram . ● The members have to debug the circuit which is basically to detect and eliminate the fault which can cause unexpected behaviour in the circuit or crashing of the same. ● Components will be provided , using which the circuit has to be implemented and the proper output should be obtained. Rules: ● Bonus points for the team which completes in 15 mins. ● Clues will be given , but with the deduction of points. ● The card might be either an analog or digital circuit. ● If you get an ace card , you'll be given a fault free circuit diagram.",
         },
       ],
       venue: 'TBD',
@@ -214,23 +149,23 @@ export const ECEevents = {
       ],
     },
     {
-      name: 'NYQUIZZED',
+      name: 'Escape Plan',
       description:
-        'Nyquizzed is a non technical team based mind sport which brings out the infamous Vikram Joshi in us. It involves defending urself from questions thrown from various domains by the quizmaster at the same time cracking the international quizzing format of pounce and bounce. General Instructions: 1.The participants can be from any of the departments and can form teams consisting of 3-4 people. 2. The First round will be conducted on Google Forms virtually for the purpose of filtering out and 8 teams of 3-4 people each will be selected from this round and moved forward to the Second and Final event of the event. The second event will be conducted in person at a classroom that can accommodate the participants as teams.',
+        'Prepare for an exhilarating day of adventure at Escape Plan, hosted at the ECE (Electrical and Computer Engineering) department of SSNCE! This action-packed event features two exciting rounds designed to test your wit, teamwork, and problem-solving abilities. Join us for a Preliminary Round consisting of a picture quiz, followed by the heart-pounding "GTFO"  Escape Room. \nNote: Please arrive at least 10 minutes before your scheduled event for check-in and briefing.',
       type: 'team',
       event_type: 'non tech',
       team_size: '3 - 4',
       department: 'ECE',
       rounds: [
         {
-          name: 'Round 1',
+          name: 'Preliminary Round (Picture Quiz)',
           description:
-            'Duration: 15 - 20 minutes. Participants shall attend a questionnaire based on basic non technical questions related to the theme through a Google Form. Each team is scored out of 15 points. The leading 8 teams are qualified into the second round. Tie Breakers: In case of a tie, the following methods can be used to select a team. Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used. Sudden Death: Team that makes the first mistake shall not qualify for the next round.',
+            'Teams will engage in a visual challenge, deciphering clues and solving puzzles based on pictures provided. Up to five teams will compete simultaneously in one batch. The Preliminary Round is expected to last approximately 50-55 minutes, taking into account the number of teams.\nTime: 1:00 PM ',
         },
         {
-          name: 'Round 2',
+          name: 'GTFO Escape Room (Final Round)',
           description:
-            'Duration: 100-120 minutes. The questions are read out one by one directed at one team at a time moving in clockwise direction. The questions will be based on the theme and basic engineering. The pounce and bounce quizzing format is followed. After a question is read out, a time frame of 15 seconds is provided where any team who is sure of the answer may take on the question and raise their hand to gesture for the answer, that they have written down in the paper provided to be taken and checked with the Quizmaster. If the Quizmaster approves of the answer the team is provided 15 points. If not, the team receives a negative marking of 5 points. Once the time period of 15 seconds for Pouncing on the question is over, the question will be bounced. There are no negatives for bounce questions, the teams are given a chance to answer in clockwise order and the team answering the question rightly will receive 10 points. The bounce round of the question will end once a team answers right or all teams have attempted. The next question will be directed to the team succeeding the one that bounce round ended with. At the end of the quiz, the teams with the most points are announced as the 1st, 2nd, 3rd winners.',
+            'The top eight teams from the Preliminary Round will advance to the ultimate challenge - the GTFO Escape Room. Each team will have 8 minutes to solve the series of puzzles and figure out the code to exit the room. The Final Round is expected to last around 1.5 hours in total. \nTime: 2:00 PM',
         },
       ],
       venue: 'TBD',
@@ -449,16 +384,7 @@ export const ECEevents = {
     {
       name: 'Paper Presentation',
       description:
-        `A fully technical event. Teams consisting of 1-3 members are given a platform to showcase their undergraduate research papers in fully completed form or as an abstract in its ideation phase.       
-        ‎        
-        Domains: • Antenna Systems and its Applications  • Augmented Reality • Cognitive Science • Cybersecurity and its risk assessment techniques • Deep Learning • Emerging trends in Photonics • Internet of Intelligent Things • Internet of Things • Machine Learning • Machine Learning/ AI for networks • MEMS • VLSI • Network Security and Blockchain Technology • Optical Communication and Networks • Robotics • Signal and Image Processing • Virtual Reality.   
-        ‎             
-        General Instructions:  
-        ▪ Only a maximum of 3 authors and only student authors are allowed. It is not necessary that all authors must be from the same institute.       
-        ▪ The paper must be sent through mail. The instructions are as follows: ▪ The subject must be the title of the paper. ▪ The paper can be in two columns IEEE format. This format can be followed preferably. ▪ The paper length must be limited to 6 pages. ▪ The paper must be in .pdf format. ▪ The body of the email should include - Name and Institute of participant (from first author till the third one), Department and Year, Contact numbers, Email addresses. ▪	The paper must be attached to the mail.          
-        ▪ Plagiarism is a very serious consideration. Only original research works are accepted.        
-        ▪ Submissions made after the deadline won't be considered for evaluation.      
-        ▪ Shortlisted papers will be called for presentation.`,
+        'A fully technical event. Teams consisting of 1-3 members are given a platform to showcase their undergraduate research papers in fully completed form or as an abstract in its ideation phase. Domains : • Antenna Systems and its Applications  • Augmented Reality • Cognitive Science • Cybersecurity and its risk assessment techniques • Deep Learning • Emerging trends in Photonics • Internet of Intelligent Things • Internet of Things • Machine Learning • Machine Learning/ AI for networks • MEMS • VLSI • Network Security and Blockchain Technology • Optical Communication and Networks • Robotics • Signal and Image Processing • Virtual Reality. General Instructions:  ▪ Only a maximum of 3 authors and only student authors are allowed. It is not necessary that all authors must be from the same institute. ▪ The paper must be sent through mail. The instructions are as follows: ▪ The subject must be the title of the paper. ▪ The paper can be in two columns IEEE format. This format can be followed preferably. ▪ The paper length must be limited to 6 pages. ▪ The paper must be in .pdf format. ▪ The body of the email should include- Name and Institute of participant (from first author till the third one), Department and Year, Contact numbers, Email addresses. ▪	The paper must be attached to the mail. ▪ Plagiarism is a very serious consideration. Only original research works are accepted. ▪ Submissions made after the deadline won’t be considered for evaluation. ▪ Shortlisted papers will be called for presentation. ',
       type: 'teamORsolo',
       event_type: 'tech',
       team_size: '3',
@@ -466,19 +392,13 @@ export const ECEevents = {
       rounds: [
         {
           name: 'First round',
-          description: `Online submission of abstract of the students' research in IEEE format.   
-            ● All the entries from various colleges will be evaluated and shortlisted by the chair and secretary.   
-            ● Authors of shortlisted papers will be notified for the next round 3 days in prior.    
-            ●	All participants making submissions for round one will receive participation certificates.`,
+          description:
+            "Online submission of abstract of the students' research in IEEE format. ● All the entries from various colleges will be evaluated and shortlisted by the chair and secretary. ● Authors of shortlisted papers will be notified for the next round 3 days in prior.  ●	All participants making submissions for round one will receive participation certificates.  ",
         },
         {
           name: 'Second round',
-          description: `● The selected participants from round 1 are requested to be present at the venue at least 10 minutes before the event commences.   
-            ●	The participants will be explained about the event, panel of judges, judging criteria, and prizes.   
-            ● The Authors of the respective teams will be given 5 - 10 minutes to explain their paper and present their idea to the panel of judges LIVE during the time of the event.   
-            ● Participants are requested to strictly follow the time limits.   
-            ● The Panel of Judges will evaluate the presentation. The Judges can ask questions regarding your paper during your presentation on their will.   
-            ● The team with the highest score will be declared as the “Best Student Presentation”.`,
+          description:
+            '● The selected participants from round 1 are requested to be present at the venue at least 10 minutes before the event commences. ●	The participants will be explained about the event, panel of judges, judging criteria, and prizes. ● The Authors of the respective teams will be given 5 – 10 minutes to explain their paper and present their idea to the panel of judges LIVE during the time of the event. ● Participants are requested to strictly follow the time limits. ● The Panel of Judges will evaluate the presentation. The Judges can ask questions regarding your paper during your presentation on their will. ● The team with the highest score will be declared as the “Best Student Presentation”.',
         },
       ],
       venue: 'Microwave lab',
