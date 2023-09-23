@@ -6,7 +6,7 @@ export const CHEMevents = {
         "Hey, future innovators and knowledge seekers! Buckle up to set the stage on fire at our research paper presentation event. We're on the hunt for the brightest of stars to illuminate our event. Your ideas have the power to transform the world, and we want to be the platform where your acuity shines. Don't be a spectator, be the superstar of discoveries!",
       type: 'team OR solo',
       event_type: 'tech',
-      team_size: '1-2',
+      team_size: '1-3',
       department: 'Chemical Engineering',
       rounds: [
         // {

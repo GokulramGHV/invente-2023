@@ -149,23 +149,23 @@ export const ECEevents = {
       ],
     },
     {
-      name: 'NYQUIZZED',
+      name: 'Escape Plan',
       description:
-        'Nyquizzed is a non technical team based mind sport which brings out the infamous Vikram Joshi in us. It involves defending urself from questions thrown from various domains by the quizmaster at the same time cracking the international quizzing format of pounce and bounce. General Instructions: 1.The participants can be from any of the departments and can form teams consisting of 3-4 people. 2. The First round will be conducted on Google Forms virtually for the purpose of filtering out and 8 teams of 3-4 people each will be selected from this round and moved forward to the Second and Final event of the event. The second event will be conducted in person at a classroom that can accommodate the participants as teams.',
+        'Prepare for an exhilarating day of adventure at Escape Plan, hosted at the ECE (Electrical and Computer Engineering) department of SSNCE! This action-packed event features two exciting rounds designed to test your wit, teamwork, and problem-solving abilities. Join us for a Preliminary Round consisting of a picture quiz, followed by the heart-pounding "GTFO"  Escape Room. \nNote: Please arrive at least 10 minutes before your scheduled event for check-in and briefing.',
       type: 'team',
       event_type: 'non tech',
       team_size: '3 - 4',
       department: 'ECE',
       rounds: [
         {
-          name: 'Round 1',
+          name: 'Preliminary Round (Picture Quiz)',
           description:
-            'Duration: 15 - 20 minutes. Participants shall attend a questionnaire based on basic non technical questions related to the theme through a Google Form. Each team is scored out of 15 points. The leading 8 teams are qualified into the second round. Tie Breakers: In case of a tie, the following methods can be used to select a team. Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used. Sudden Death: Team that makes the first mistake shall not qualify for the next round.',
+            'Teams will engage in a visual challenge, deciphering clues and solving puzzles based on pictures provided. Up to five teams will compete simultaneously in one batch. The Preliminary Round is expected to last approximately 50-55 minutes, taking into account the number of teams.\nTime: 1:00 PM ',
         },
         {
-          name: 'Round 2',
+          name: 'GTFO Escape Room (Final Round)',
           description:
-            'Duration: 100-120 minutes. The questions are read out one by one directed at one team at a time moving in clockwise direction. The questions will be based on the theme and basic engineering. The pounce and bounce quizzing format is followed. After a question is read out, a time frame of 15 seconds is provided where any team who is sure of the answer may take on the question and raise their hand to gesture for the answer, that they have written down in the paper provided to be taken and checked with the Quizmaster. If the Quizmaster approves of the answer the team is provided 15 points. If not, the team receives a negative marking of 5 points. Once the time period of 15 seconds for Pouncing on the question is over, the question will be bounced. There are no negatives for bounce questions, the teams are given a chance to answer in clockwise order and the team answering the question rightly will receive 10 points. The bounce round of the question will end once a team answers right or all teams have attempted. The next question will be directed to the team succeeding the one that bounce round ended with. At the end of the quiz, the teams with the most points are announced as the 1st, 2nd, 3rd winners.',
+            'The top eight teams from the Preliminary Round will advance to the ultimate challenge - the GTFO Escape Room. Each team will have 8 minutes to solve the series of puzzles and figure out the code to exit the room. The Final Round is expected to last around 1.5 hours in total. \nTime: 2:00 PM',
         },
       ],
       venue: 'TBD',
