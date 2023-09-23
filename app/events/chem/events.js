@@ -2,38 +2,11 @@ export const CHEMevents = {
   events: [
     {
       name: 'CHEMPOSIUM - Paper Presentation',
-      description: `Hey, future innovators and knowledge seekers! Buckle up to set the stage on fire at our research paper presentation event. We're on the hunt for the brightest of stars to illuminate our event. Your ideas have the power to transform the world, and we want to be the platform where your acuity shines. Don't be a spectator, be the superstar of discoveries!  
-      All abstracts should be sent at least 7 days prior to the start of the event following which the ppt template will be shared.  
-Submitted abstract should be of the format - times new roman, 12-Point font size and 1.5 spacing. The abstract must include – title,Name(s), email address and affiliation of the author(s). Abstract must not exceed 300 words.  
-The mail where it needs to be submitted will be shared post Registration confirmation.  
-The powerpoint presentation must be prepared only using the template sent. For those participating in online mode the pre-recorded ppts with voice over should  come in at least 2 days prior to the start of the event and for those taking part in Offline mode the ppts should come in atleast 2 days prior to the start of the event.
-The mail where it needs to be submitted will be shared post registration.  
-The subject of the e-mail should be ‘PAPER_(Participants’ names)’ and the file name should be the title of your paper.  
-**Time scheme:** Presentation – should not exceed 10 minutes.  
-**Questioning** – 3-5 minutes.  
-**Team size:** Maximum of 3 per team is allowed.   
-Judge's decision is final.  
-**MODE:** Participant can choose to present online or offline.  
-**THRUST AREAS:**  
-Environmental Engineering / Renewable and green Technology  
-Biochemical/ Biotechnology/ Food Technology/ Pharmaceuticals and
-Nutraceuticals  
-Biochemical and Bio-Science Engineering  
-Pollution Control/ Wastewater Treatment/ Chemical Technology (Fertilizers, Dyes,
-Pigments, Colloids)  
-Material Technology / Nanotechnology / Polymer Science and Technology  
-Energy Technology/ Energy Engineering  
-Petrochemical Processing/ Oil Recovery  
-Polymer Science and Technology  
-Electrochemical Process Technology/ Corrosion  
-Separation Processes & Reaction Engineering/ Carbon capturing and utilization  
-Process Optimization / Process Safety  
-Advanced Chemical Engineering: Process Modelling and Simulations  
-Advanced Nano-materials and Nanotechnology  
-`,
+      description:
+        "Hey, future innovators and knowledge seekers! Buckle up to set the stage on fire at our research paper presentation event. We're on the hunt for the brightest of stars to illuminate our event. Your ideas have the power to transform the world, and we want to be the platform where your acuity shines. Don't be a spectator, be the superstar of discoveries!",
       type: 'team OR solo',
       event_type: 'tech',
-      team_size: '1-2',
+      team_size: '1-3',
       department: 'Chemical Engineering',
       rounds: [
         // {
@@ -63,47 +36,8 @@ Advanced Nano-materials and Nanotechnology
     },
     {
       name: 'Canva Quest - Poster Presentation',
-      description: `Prepare to be captivated by the fusion of science at "Canva Quest " This event is a voyage into the imaginative realm where chemical processes transform into works of innovation and creativity! Whether you are a chemical engineering student, a passionate innovator, or simply curious about the latest advancements, "Canva Quest" is the place to be. Join us in celebrating the power of innovation in chemical engineering!!!!!!  
-        **TEAM MEMBERS:** 1–3 members per team  
-**NO. OF ROUNDS:** 1  
-**EVENT MODE:** Participants can choose either OFFLINE or ONLINE  
-**TIME DURATION:** 10 minutes  
-**•	PRESENTATION-** 5 to 7 min  
-**•	QUESTIONING-** 3 to 4 min  
-
-**THRUST AREAS:**
-1.	Biochemical and Biotechnology 
-2.	Catalysis and Reaction Engineering
-3.	Chemical Crystallography
-4.	Chemical Technology/ Process Design and Intensification
-5.	Electrochemical Process Technology/ Separation Technique
-6.	Energy Conservation/ Sustainable energy/ Green Technology
-7.	Fluid Mechanics/ Computational Fluid Dynamics
-8.	Food Technology and safety/ Pharmaceuticals and Nutraceuticals
-9.	Material science and polymer technology
-10.	Modeling, Simulation & Optimization
-11.	Process Control/ Process Safety
-12.	Waste Water Treatment/ Pollution control/ Waste Management
-13.	Advanced Nano-materials and Nanotechnology
-14.	Petrochemicals and refining
-15.	Renewable energy science and technology
-
-**RULES:**
-1.	Abstracts must be sent at least a week prior to the event day after which the poster template will be shared.  
-2.	The abstract must be done in WORD document only and should NOT exceed 300words. It must include Title, Participant(s), Email Address and Affiliation of the authors, and should strictly adhere to the following format:  
-•	Font: Times New Roman  
-•	Font size :12pt  
-•	Linespacing:1.5  
-3.	The soft copy of the poster must be mailed at least 3 days prior to the event day and only use the template sent for creating the posters.  
-4.	The Subject of the e-mail should be “POSTER (Participants ‘names)”and the file name should be the title of your poster.  
-5.	The e- mail id to which the abstract and the posters must be sent will be shared after the registration.  
-6.	For those participating in online mode, pre-recorded video (voice over included) not exceeding 5-7 minutes should be sent 2-3 days prior to the event, Meeting link and PPT team number will be sent to respective mail ids prior to the event along with acknowledgment mail.  
-7.	Participants must ensure stable internet connectivity, proper audio and video quality before starting the presentation. In case of disconnection, you can join using the same link.  
-8.	All the participants must join the link 10 minutes before the scheduled time of event with the login format: PP-Team number -Participant name.  
-9.	All the registered participants should be present throughout the session.  
-10.	For those in offline mode, ensure that the posters reach us 2- 3 days before the event and strictly adhere to the template sent through the mail.  
-11.	 Judge’s decision is final.  
-`,
+      description:
+        'Prepare to be captivated by the fusion of science at "Canva Quest " This event is a voyage into the imaginative realm where chemical processes transform into works of innovation and creativity! Whether you are a chemical engineering student, a passionate innovator, or simply curious about the latest advancements, "Canva Quest" is the place to be. Join us in celebrating the power of innovation in chemical engineering!!!!!!',
       type: 'team OR solo',
       event_type: 'tech',
       team_size: '1-3',
@@ -217,7 +151,7 @@ Advanced Nano-materials and Nanotechnology
         {
           name: 'Round 1: Guess the word',
           description:
-            'In the preliminary round the team connects the images and decodes the word. The team which finds the most words advances to the next round!',
+            'In the preliminary round the team connects the images and decodes the word. team which finds the most words advances to the next round!',
         },
         {
           name: 'Round 2: Pictionary',
@@ -257,19 +191,13 @@ Advanced Nano-materials and Nanotechnology
       rounds: [
         {
           name: 'Round 1',
-          description: `1)	Participants will be given a topic on spot. (common products)   
-            2)	A buffer time of 30 minutes will be given to them to research on the topic given.   
-           3)	Participants will have to prepare a brochure for the product.   
-           4)	The brochure will be judged and teams/participants with the highest points will qualify for the final round.`,
+          description:
+            '1)	Participants will be given a topic on spot. (common products) 2)	A buffer time of 30 minutes will be given to them to research on the topic given. 3)	Participants will have to prepare a brochure for the product. 4)	The brochure will be judged and teams/participants with the highest points will qualify for the final round.',
         },
         {
           name: 'Round 2 (Final)',
-          description: `1)	Participants will be given a topic on spot, as like the first round.   
-            2)	A buffer time of 45 minutes will be given, and they will have to pitch the product.   
-            3)	They will have to present the topic for not more than 6 mins and subsequently answer questions from the sharks.   
-            4)	Each team will be given a fixed amount of cash and they will have to invest in the other team’s products.   
-            5)	Based on the points (judges score) the presenting team gets a certain amount of points will be added to the investing team based on their investment.   
-            6)	The team/participant with the maximum number of points will be the winner. `,
+          description:
+            '1)	Participants will be given a topic on spot, as like the first round. 2)	A buffer time of 45 minutes will be given, and they will have to pitch the product. 3)	They will have to present the topic for not more than 6 mins and subsequently answer questions from the sharks. 4)	Each team will be given a fixed amount of cash and they will have to invest in the other team’s products. 5)	Based on the points (judges score) the presenting team gets a certain amount of points will be added to the investing team based on their investment. 6)	The team/participant with the maximum number of points will be the winner. ',
         },
       ],
       venue: 'Chemical Engineering - Department',

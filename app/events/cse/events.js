@@ -1,6 +1,42 @@
 export const CSEevents = {
   events: [
     {
+      name: 'Codolympics',
+      description:
+        'The flagship event of the Computer Science Department is a coding competition based purely on Data structures and Algorithms. Participants will contest against each other in teams of 1-2 in a competitive programming contest. ',
+      type: 'solo',
+      event_type: 'tech',
+      team_size: '2',
+      department: 'Computer Science',
+      rounds: [
+        {
+          name: 'Prelims',
+          description:
+            ' Participants take part in a coding competition consisting of 5-7 questions. The questions are of easy-medium-hard levels.  The participants are then shortlisted to the second and final round based on their performance.',
+        },
+        {
+          name: 'Finals',
+          description:
+            'This round is of the same pattern as the prelims , with a leader-board to determine the top three winning teams',
+        },
+      ],
+      venue: '',
+      date: 'Oct. 6, 2023',
+      winner: '6000',
+      runner: '4000',
+      third_prize: '2000',
+      coordinators: [
+        {
+          name: 'Kiran Raj',
+          phone: '8680860372',
+        },
+        {
+          name: 'Deepak Sriram',
+          phone: '9791690498',
+        },
+      ],
+    },
+    {
       name: "Hacker's Asylum",
       description:
         'Embark on an action-packed journey that will test your cybersecurity knowledge and technical expertise like never before.Discover concealed vulnerabilities, decipher encrypted messages, and outwit digital foes with us @Hackers Asylum - Invente23. Ready for the ultimate cybersecurity face-off?',
@@ -39,7 +75,7 @@ export const CSEevents = {
     {
       name: 'Data Whiz',
       description:
-        'Join us for a data-driven adventure at this captivating event that blends creativity, analytics, and storytelling into a seamless experience. Uncover the art of transforming raw data into compelling narratives using dynamic tools like PowerBI and Tableau. Our event welcomes everyone, from seasoned designers to analytical newcomers. Participation as individuals or in teams of a maximum of three members is allowed. Let your creativity run wild and your analytical skills shine - join us and discover the magic that happens when data and design unite.',
+        'Join us for a data-driven adventure at this captivating event that blends creativity, analytics, and storytelling into a seamless experience. Uncover the art of transforming raw data into compelling narratives using dynamic tools like PowerBI and Tableau. Our event welcomes everyone, from seasoned designers to analytical newcomers. Participation as individuals or in teams of a maximum of three members is allowed. Let your creativity run wild and your analytical skills shine – join us and discover the magic that happens when data and design unite.',
       type: 'team',
       event_type: 'tech',
       team_size: '1-3',
@@ -75,7 +111,7 @@ export const CSEevents = {
     {
       name: 'Relay in Reverse',
       description:
-        "Prepare to push your computer science skills to the limit with a unique challenge that will test your coding expertise, logical reasoning, and ability to reverse engineer code. Participants will decode, debug, and reverse partially scrambled code snippets, unraveling their logic and structure to reveal the original program. Whether you are an experienced developer or just starting your coding journey, the 'Code Reverse Challenge' offers an electrifying experience that will reshape your programming approach. Join us for a mind-bending adventure that will redefine your thinking patterns and let you savor the excitement of solving a digital puzzle!",
+        "Are you a pattern-seeking problem solver? Do you enjoy a good challenge? Then Relay in Reverse is the perfect event for you!\nThis unique event will test your analytical skills to the fullest, as you race against time to solve a series of puzzles in reverse order. That's right - you'll start at the end and work your way backwards to the beginning.\nIt's not for the faint of heart, but if you're up for the challenge, you'll have a chance to win exciting cash prizes and the bragging rights of being a Relay in Reverse champion.",
       type: 'team',
       event_type: 'tech',
       team_size: '1-2',
@@ -84,16 +120,12 @@ export const CSEevents = {
         {
           name: 'Prelims',
           description:
-            'Participating teams will be sent the link to a Google Form/ Quiz website with 20 multiple choice questions (30 mins will be given to complete). The teams will be filtered to the second round based on the number of questions answered correctly and the time taken to complete.',
+            'The prelims round of Relay in Reverse is a 20-question multiple choice challenge that will test your fundamental math, problem-solving, and data structures and algorithms (DSA) skills. The top 6 teams based on the number of questions answered correctly will advance to the finals.',
         },
         {
           name: 'Finals',
           description:
-            `Top 6 teams will participate in this final round. The teams will be given 4 questions. Each question includes the following:    
-            1) An object file   
-            2) Input description + format  
-            3) Output description + format    
-            Teams should find out what the program in the object file does (by giving sample inputs and observing outputs) and should code this program on their own (Java, C++, Python). Their code will be tested against test cases (45 mins will be given to complete).`,
+            'In the final round of Relay in Reverse, teams will be given 4 coding problems. \nEach problem will include:\n● Object file\n● Input description + format\n● Output description + format\nTeams must:\n1. Find out what the program in the object file does by giving sample inputs and observing outputs.\n2. Code the program in Java, C++, or Python on their own.\n3. Their code will be tested against test cases',
         },
       ],
       venue: '',
@@ -118,7 +150,7 @@ export const CSEevents = {
         'Paper Presentation is a technical event that provides a platform for participants to elevate their research ideas to new heights, fostering an environment where innovation and knowledge converge. It offers budding scholars an incredible opportunity to delve into diverse domains like IoT, Machine Learning, AI, and more, and to showcase their research in front of a distinguished panel of judges, comprising esteemed academicians and seasoned researchers',
       type: 'team',
       event_type: 'tech',
-      team_size: '2',
+      team_size: '2-4',
       department: 'Computer Science',
       rounds: [
         {
@@ -319,41 +351,6 @@ export const CSEevents = {
         },
       ],
     },
-    {
-      name: 'Codolympics',
-      description:
-        'The flagship event of the Computer Science Department is a coding competition based purely on Data structures and Algorithms. Participants will contest against each other in teams of 1-2 in a competitive programming contest. ',
-      type: 'solo',
-      event_type: 'tech',
-      team_size: '1',
-      department: 'Computer Science',
-      rounds: [
-        {
-          name: 'Prelims',
-          description:
-            ' Participants take part in a coding competition consisting of 5-7 questions. The questions are of easy-medium-hard levels.  The participants are then shortlisted to the second and final round based on their performance.',
-        },
-        {
-          name: 'Finals',
-          description:
-            'This round is of the same pattern as the prelims , with a leader-board to determine the top three winning teams',
-        },
-      ],
-      venue: '',
-      date: 'Oct. 6, 2023',
-      winner: '7000',
-      runner: '3500',
-      third_prize: '1500',
-      coordinators: [
-        {
-          name: 'Kiran Raj',
-          phone: '8680860372',
-        },
-        {
-          name: 'Deepak Sriram',
-          phone: '9791690498',
-        },
-      ],
-    },
+
   ],
 };
