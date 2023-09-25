@@ -1,7 +1,7 @@
 export const COMevents = {
   events: [
     {
-      name: 'Biz Quiz - Business Themed Shipwreck',
+      name: 'BizQuiz',
       description:
         'The Business Quiz is an intellectually stimulating competition centred on business modules, in which teams work together to traverse different questions and real-world business scenarios. It provides a one-of-a-kind quizzing experience that requires participants to use critical thinking and problem-solving abilities while demonstrating their strategic acumen in the fast-paced quizzing world.',
       type: 'team',

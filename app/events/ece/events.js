@@ -89,7 +89,7 @@ export const ECEevents = {
         {
           name: 'Round 2',
           description:
-            'Time Duration: 150 minutes (Depending on Number of Teams and Rounds). Each team will have 2-3 people and each round will have 2-4 teams. Teammates can discuss with themselves using a different means and only the team leader, selected by each team, should bid when the auction starts. Purse amount will be 80 crores and each team should pick 15 players (11 players in the playing 11 and 4 in bench) Criteria to be met: 1. Playing 11 (Batsmen - min 3, Bowler - min 4, Wicketkeeper - min 1, All-rounder - min 1, Foreigner - max 4). 2. Bench (Batsmen - min 1, Bowler - min 1, Foreigner - max 2). Points for the players will be given as the average of the points in the three seasons 2021, 2022 and 2023. Top 2 teams with highest points will be awarded.',
+            'Time Duration: 150 minutes (Depending on Number of Teams and Rounds). Each team will have 2-3 people and each round will have 2-4 teams. Teammates can discuss with themselves using a different means and only the team leader, selected by each team, should bid when the auction starts. Purse amount will be 80 crores and each team should pick 15 players (11 players in the playing 11 and 4 in bench) Criteria to be met: Playing 11 (Batsmen - min 3, Bowler - min 4, Wicketkeeper - min 1, All-rounder - min 1, Foreigner - max 4). Points for the players will be given as the average of the points in the three seasons 2021, 2022 and 2023. Top 2 teams with highest points will be awarded.',
         },
       ],
       venue: 'ECE - Department',

@@ -54,7 +54,7 @@ export default function COM() {
           <h1
             className={`${bayon.className} font-medium xl:text-7xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl leading-10 text-center`}
           >
-            ECONOMICS, COMMERCE & MANAGEMENT
+            COMMERCE AND ECONOMICS
           </h1>
           <h4
             className={`${averia_sans_libre.className} md:text-2xl sm:text-xl text-lg italic`}
