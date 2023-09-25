@@ -120,12 +120,12 @@ export const CSEevents = {
         {
           name: 'Prelims',
           description:
-            'The prelims round of Relay in Reverse is a 20-question multiple choice challenge that will test your fundamental math, problem-solving, and data structures and algorithms (DSA) skills. The top 6 teams based on the number of questions answered correctly will advance to the finals.',
+            'A 20-question multiple choice challenge that will test your fundamental math, problem-solving, and data structures and algorithms (DSA) skills. The top 6 teams based on the number of questions answered correctly will advance to the finals.',
         },
         {
           name: 'Finals',
           description:
-            `In the final round of Relay in Reverse, teams will be given 4 coding problems. Each problem will include:  
+            `Teams will be given 4 coding problems. Each problem will include:  
             ● Object file  
             ● Input description + format  
             ● Output description + format  
