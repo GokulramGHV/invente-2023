@@ -95,7 +95,7 @@ export default function Navbar({
             </button>
             <div className="flex-1 flex justify-end">
               <Link
-                href="/comingsoon"
+                href="/register"
                 className="get-passes-button text-white text-base font-bold whitespace-nowrap px-20 py-1.5 transition-all duration-200 ease-in-out uppercase w-fit"
               >
                 Get Passes
