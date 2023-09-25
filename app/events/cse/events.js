@@ -114,7 +114,7 @@ export const CSEevents = {
         "Are you a pattern-seeking problem solver? Do you enjoy a good challenge? Then Relay in Reverse is the perfect event for you!\nThis unique event will test your analytical skills to the fullest, as you race against time to solve a series of puzzles in reverse order. That's right - you'll start at the end and work your way backwards to the beginning.\nIt's not for the faint of heart, but if you're up for the challenge, you'll have a chance to win exciting cash prizes and the bragging rights of being a Relay in Reverse champion.",
       type: 'team',
       event_type: 'tech',
-      team_size: '1-2',
+      team_size: '2',
       department: 'Computer Science',
       rounds: [
         {
@@ -125,7 +125,14 @@ export const CSEevents = {
         {
           name: 'Finals',
           description:
-            'In the final round of Relay in Reverse, teams will be given 4 coding problems. \nEach problem will include:\n● Object file\n● Input description + format\n● Output description + format\nTeams must:\n1. Find out what the program in the object file does by giving sample inputs and observing outputs.\n2. Code the program in Java, C++, or Python on their own.\n3. Their code will be tested against test cases',
+            `In the final round of Relay in Reverse, teams will be given 4 coding problems. Each problem will include:  
+            ● Object file  
+            ● Input description + format  
+            ● Output description + format  
+            Teams must:  
+            1. Find out what the program in the object file does by giving sample inputs and observing outputs.  
+            2. Code the program in Java, C++, or Python on their own.  
+            3. Their code will be tested against test cases`,
         },
       ],
       venue: '',
@@ -277,7 +284,7 @@ export const CSEevents = {
       department: 'Computer Science',
       rounds: [
         {
-          name: 'Sadu Gudu Coding',
+          name: 'Quantum Coding',
           description:
             'Teams will be given an algorithmic coding question, the first 5 mins will be utilized by the first team member to code, the next 5 mins will be used by the second team member, and so on. However while one person is coding, the other person cannot by any means know what the other person is coding or thinking. There will be 2-3 questions, only one question will be revealed initially, rest will be shown only after submission of the current question.',
         },
@@ -304,13 +311,25 @@ export const CSEevents = {
       ],
     },
     {
-      name: "Killer's Endgame",
+      name: "Planetary Escape",
       description:
-        'Every participant is a part of a crime story. Each one of the participants have been assembled to solve the mysterious case of three murders in daylight. Can you unravel the mystery and solve the crime before time runs out? Above all, can you escape the story alive?! Bring out your inner detective to uphold justice.',
-      type: 'team',
+        'Here comes our Planetary Escape Event! In 2077, Earth has become uninhabitable, so humans decide to leave the planet in a spaceship. However, there is only space for half of them on the space shuttle. After half have been chosen through a series of tasks, and the spaceship departs, there is an imposter among them. The crewmates must find and eliminate the imposter before the imposters destroy the ship. Will the crewmates prevail over the imposters, or will the imposters reign supreme? Are you ready to experience the challenges of a crewmate or the thrills of being an imposter? Register to the event right away!',
+      type: 'solo',
       event_type: 'Non-tech',
-      team_size: '1-3',
+      team_size: '1',
       department: 'Computer Science',
+      rounds: [
+        {
+          name: 'Round 1',
+          description:
+            'All the participants will be split into two groups. A set of tasks will be given. The best performing group will move on to the next round.',
+        },
+        {
+          name: 'Round 2',
+          description:
+            'A real life game similar to among us will be played around the campus. The winners will get their allotted prize money',
+        },
+      ],
       venue: '',
       date: 'Oct. 7, 2023',
       winner: '',

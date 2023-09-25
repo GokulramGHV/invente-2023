@@ -313,7 +313,14 @@ export const CHEMevents = {
     {
       name: 'ROOK RUMBLE',
       description:
-        'Engage in the intense mental battles and demonstrate your strategic powers where minds clash and kings fall, rise to be the Grandmaster of all. “ In the game of wits, seize the crown. Let your strategies astound! “. This is a chessboard battle, where genius thrive. Will you be the one who survive?',
+        `Engage in the intense mental battles and demonstrate your strategic powers where minds clash and kings fall, rise to be the Grandmaster of all. “ In the game of wits, seize the crown. Let your strategies astound! “. This is a chessboard battle, where genius thrive. Will you be the one who survive?  
+        Rules:  
+        ● Tournament will be conducted in Knockout basis.  
+        ● Time control: 5 minutes each (Blitz)  
+        ● Tournament is open for all college students  
+        ● Latest FIDE rules will be in force  
+        ● Arbiter decision is final  
+        ● Players must bring their own Chess sets and clocks (if available)`,
       type: 'solo',
       event_type: 'non tech',
       team_size: '1',
@@ -347,7 +354,14 @@ export const CHEMevents = {
     {
       name: 'AUGMENTED ARENA',
       description:
-        'Tired of technical events? We got you. Progress takes place out of your comfort zone. Get your guns up and put your armors to knock down your enemies. Immerse yourself in thrilling mobile gaming action in our BGMI showdown. Win cash prizes for your chicken dinner.',
+        `Tired of technical events? We got you. Progress takes place out of your comfort zone. Get your guns up and put your armors to knock down your enemies. Immerse yourself in thrilling mobile gaming action in our BGMI showdown. Win cash prizes for your chicken dinner.
+        Rules:  
+        ● Overall, 4 matches will be conducted.  
+        ● Winners will be declared based on points.  
+        ● Organizers decision is final.  
+        ● Emulators player are prohibited.  
+        ● Point split up: 1 kill – 1 point, Chicken Dinner – 10 points.  
+        ● Teams with any unfair means will be disqualified.`,
       type: 'team',
       event_type: 'non tech',
       team_size: '4',

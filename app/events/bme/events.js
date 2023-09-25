@@ -3,7 +3,9 @@ export const BMEevents = {
     {
       name: 'PAPER PRESENTATION',
       description:
-        `The event involves a preliminary round where the registered candidates will have to submit a project abstract along with the camera-ready paper on one of the specified domains. The following are domains for paper presentation:    
+        `The event involves a preliminary round where the registered candidates will have to submit a project abstract along with the camera-ready paper on one of the specified domains.  
+        Send your papers to this email id before 3rd October (3/10/23):  ssnbme.paperpresentation@gmail.com  
+        The following are domains for paper presentation:    
         ‎         
         ● Healthcare technology     
         ● Nanotechnology         
@@ -295,7 +297,10 @@ export const BMEevents = {
     {
       name: 'STRIKERS',
       description:
-        'This event is conducted on a knockout basis, the last two will share winner and runner. The game method is based on black and white coins, the first person to pocket their coin will be moved to the next round. Traditional carrom rules will be followed. Both singles and doubles will be following the same aspects. ● Single entry fee - ₹ 100/-● Double entry fee - ₹ 150/- A referee will be monitoring the fouls and plays, their decision would be final.',
+        `This event is conducted on a knockout basis, the last two will share winner and runner. The game method is based on black and white coins, the first person to pocket their coin will be moved to the next round. Traditional carrom rules will be followed. Both singles and doubles will be following the same aspects.  
+        ● Single entry fee - ₹ 100/-  
+        ● Double entry fee - ₹ 150/-  
+        A referee will be monitoring the fouls and plays, their decision would be final.`,
 
       type: 'team',
       event_type: 'non tech',
@@ -306,7 +311,7 @@ export const BMEevents = {
       date: 'Oct. 6, 2023',
       winner: '1500',
       runner: '1000',
-      third_prize: 'NIL',
+      third_prize: '',
       coordinators: [
         {
           name: 'Drithve BS',
