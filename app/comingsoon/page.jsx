@@ -17,7 +17,7 @@ export default function ComingSoon() {
     <main className="bg-[#1D1D1F] h-screen w-full flex flex-col px-5 pt-5">
       <div className="relative flex-1 flex justify-center items-center w-full">
         <video
-          src="/bg_video.m4v"
+          src="https://res.cloudinary.com/di4swkq4j/video/upload/v1695670138/Asc_3mb_mhm532.mp4"
           autoPlay
           loop
           muted
