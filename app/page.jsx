@@ -43,7 +43,7 @@ export default function Home() {
 
           <video
             id="bg_video"
-            src="/bg_video.m4v"
+            src="https://res.cloudinary.com/di4swkq4j/video/upload/v1695670138/Asc_3mb_mhm532.mp4"
             autoPlay
             loop
             muted
