@@ -384,7 +384,7 @@ export const ECEevents = {
     {
       name: 'Paper Presentation',
       description:
-        'A fully technical event. Teams consisting of 1-3 members are given a platform to showcase their undergraduate research papers in fully completed form or as an abstract in its ideation phase. Domains : • Antenna Systems and its Applications  • Augmented Reality • Cognitive Science • Cybersecurity and its risk assessment techniques • Deep Learning • Emerging trends in Photonics • Internet of Intelligent Things • Internet of Things • Machine Learning • Machine Learning/ AI for networks • MEMS • VLSI • Network Security and Blockchain Technology • Optical Communication and Networks • Robotics • Signal and Image Processing • Virtual Reality. General Instructions:  ▪ Only a maximum of 3 authors and only student authors are allowed. It is not necessary that all authors must be from the same institute. ▪ The paper must be sent through mail. The instructions are as follows: ▪ The subject must be the title of the paper. ▪ The paper can be in two columns IEEE format. This format can be followed preferably. ▪ The paper length must be limited to 6 pages. ▪ The paper must be in .pdf format. ▪ The body of the email should include- Name and Institute of participant (from first author till the third one), Department and Year, Contact numbers, Email addresses. ▪	The paper must be attached to the mail. ▪ Plagiarism is a very serious consideration. Only original research works are accepted. ▪ Submissions made after the deadline won’t be considered for evaluation. ▪ Shortlisted papers will be called for presentation. ',
+        'A fully technical event. Teams consisting of 1-3 members are given a platform to showcase their undergraduate research papers in fully completed form or as an abstract in its ideation phase. Domains : • Antenna Systems and its Applications  • Augmented Reality • Cognitive Science • Cybersecurity and its risk assessment techniques • Deep Learning • Emerging trends in Photonics • Internet of Intelligent Things • Internet of Things • Machine Learning • Machine Learning/ AI for networks • MEMS • VLSI • Network Security and Blockchain Technology • Optical Communication and Networks • Robotics • Signal and Image Processing • Virtual Reality. General Instructions:  ▪ Only a maximum of 3 authors and only student authors are allowed. It is not necessary that all authors must be from the same institute. ▪ Send your abstract to the attached gform in the ECE link tree (registration page). The instructions are as follows: ▪ The subject must be the title of the paper. ▪ The paper can be in two columns IEEE format. This format can be followed preferably. ▪ The paper length must be limited to 6 pages. ▪ The paper must be in .pdf format. ▪ The body of the email should include- Name and Institute of participant (from first author till the third one), Department and Year, Contact numbers, Email addresses.▪ Plagiarism is a very serious consideration. Only original research works are accepted. ▪ Submissions made after the deadline won’t be considered for evaluation. ▪ Shortlisted papers will be called for presentation. ',
       type: 'teamORsolo',
       event_type: 'tech',
       team_size: '3',
@@ -412,8 +412,8 @@ export const ECEevents = {
           phone: '9500037518',
         },
         {
-          name: 'Shri Dharshini',
-          phone: '6380794270',
+          name: 'S J Varsha',
+          phone: '7550059950',
         },
       ],
     },
