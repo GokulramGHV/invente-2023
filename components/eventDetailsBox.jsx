@@ -59,7 +59,8 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
       <h3
         className={`${stick_no_bills.className} uppercase md:text-lg font-bold text-[#FFFFFF99] `}
       >
-        {event.event_type === 'tech' ? 'Tech Event' : 'Non-Tech Event'}
+        {/* {event.event_type === 'tech' ? 'Tech Event' : 'Non-Tech Event'} */}
+        {event.event_type === 'tech' ? 'Tech Event' : event.event_type === 'hackathon' ? "HACKATHON" : 'Non-Tech Event'}
       </h3>
 
       <h2
@@ -136,6 +137,14 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
               {event.team_size ? event.team_size : 'TBD'}
             </p>
           </div>
+          {event.registration &&
+            <div className="sm:col-span-1 font-bold leading-3">
+              ₹{event.registration}
+              <br />
+              <span className="font-light text-[11px]">REGISTRATION</span>
+            </div>
+          }
+
         </div>
       </div>
       <div
