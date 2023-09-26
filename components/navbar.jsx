@@ -19,7 +19,7 @@ const links = [
   },
   {
     name: 'Hackathons',
-    href: '/comingsoon',
+    href: '/hackathons',
   },
   {
     name: 'Schedule',

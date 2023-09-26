@@ -21,16 +21,16 @@ export default function EventDetailsBox({ className = '', children }) {
   return (
     <div
       className={`${className} border border-white border-white/50 rounded-xl backdrop-blur-sm py-6 sm:px-10 px-6 flex flex-col items-center min-h-[510px]`}
-    // style={{
-    //   border: '1px solid #FFFFFF50',
-    //   borderImage:
-    //     'linear-gradient(to bottom right,#FFFFFF, #FFFFFF00, #FFFFFF)',
-    //   borderImageSlice: '10',
-    //   WebkitMask: `
-    //   linear-gradient(#fff 0 0) padding-box,
-    //   linear-gradient(#fff 0 0)
-    // `,
-    // }}
+      // style={{
+      //   border: '1px solid #FFFFFF50',
+      //   borderImage:
+      //     'linear-gradient(to bottom right,#FFFFFF, #FFFFFF00, #FFFFFF)',
+      //   borderImageSlice: '10',
+      //   WebkitMask: `
+      //   linear-gradient(#fff 0 0) padding-box,
+      //   linear-gradient(#fff 0 0)
+      // `,
+      // }}
     >
       {children}
     </div>
@@ -60,7 +60,11 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
         className={`${stick_no_bills.className} uppercase md:text-lg font-bold text-[#FFFFFF99] `}
       >
         {/* {event.event_type === 'tech' ? 'Tech Event' : 'Non-Tech Event'} */}
-        {event.event_type === 'tech' ? 'Tech Event' : event.event_type === 'hackathon' ? "HACKATHON" : 'Non-Tech Event'}
+        {event.event_type === 'tech'
+          ? 'Tech Event'
+          : event.event_type === 'hackathon'
+          ? 'HACKATHON'
+          : 'Non-Tech Event'}
       </h3>
 
       <h2
@@ -76,11 +80,13 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
           <br />
           <span className="font-light text-[11px]">W I N N E R</span>
         </div>
-        <div className="sm:col-span-1 font-bold leading-3">
-          {event.runner ? `₹${event.runner}` : 'TBD'}
-          <br />
-          <span className="font-light text-[11px]">R U N N E R</span>
-        </div>
+        {event?.third_prize && event?.third_prize !== '' && (
+          <div className="sm:col-span-1 font-bold leading-3">
+            {event.runner ? `₹${event.runner}` : 'TBD'}
+            <br />
+            <span className="font-light text-[11px]">R U N N E R</span>
+          </div>
+        )}
         {event?.third_prize && event?.third_prize !== '' && (
           <div className="sm:col-span-1 font-bold leading-3">
             {event.third_prize ? `₹${event.third_prize}` : 'TBD'}
@@ -137,14 +143,13 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
               {event.team_size ? event.team_size : 'TBD'}
             </p>
           </div>
-          {event.registration &&
+          {event.registration && (
             <div className="sm:col-span-1 font-bold leading-3">
               ₹{event.registration}
               <br />
               <span className="font-light text-[11px]">REGISTRATION</span>
             </div>
-          }
-
+          )}
         </div>
       </div>
       <div
