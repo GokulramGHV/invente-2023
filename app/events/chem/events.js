@@ -2,8 +2,38 @@ export const CHEMevents = {
   events: [
     {
       name: 'CHEMPOSIUM - Paper Presentation',
-      description:
-        "Hey, future innovators and knowledge seekers! Buckle up to set the stage on fire at our research paper presentation event. We're on the hunt for the brightest of stars to illuminate our event. Your ideas have the power to transform the world, and we want to be the platform where your acuity shines. Don't be a spectator, be the superstar of discoveries!",
+      description:`Hey, future innovators and knowledge seekers! Buckle up to set the stage on fire at our research paper presentation event. We're on the hunt for the brightest of stars to illuminate our event. Your ideas have the power to transform the world, and we want to be the platform where your acuity shines. Don't be a spectator, be the superstar of discoveries!  
+      RULES:  
+      All abstracts should be sent at least 7 days prior to the start of the event following which the ppt template will be shared.  
+      Submitted abstract should be of the format - times new roman, 12-Point font size and 1.5 spacing. The abstract must include – title,Name(s), email address and affiliation of the author(s). Abstract must not exceed 300 words.  
+      The mail where it needs to be submitted will be shared post Registration confirmation.  
+      The powerpoint presentation must be prepared only using the template sent. For those participating in online mode the pre-recorded ppts with voice over should  come in at least 2 days prior to the start of the event and for those taking part in Offline mode the ppts should come in atleast 2 days prior to the start of the event.  
+      The mail where it needs to be submitted will be shared post registration.  
+      The subject of the e-mail should be ‘PAPER_(Participants’ names)’ and the file name should be the title of your paper.
+      Time scheme: Presentation – should not exceed 10 minutes.  
+      Questioning – 3-5 minutes.  
+      Team size: Maximum of 3 per team is allowed.  
+      Judge's decision is final
+      MODE: Participant can choose to present online or offline.  
+      THRUST AREAS:  
+
+
+      Environmental Engineering / Renewable and green Technology  
+      Biochemical/ Biotechnology/ Food Technology/Pharmaceuticals and  
+      Nutraceuticals  
+      Biochemical and Bio-Science Engineering  
+      Pollution Control/ Wastewater Treatment/ Chemical Technology (Fertilizers, Dyes,  
+      Pigments, Colloids)  
+      Material Technology / Nanotechnology / Polymer Science and Technology  
+      Energy Technology/ Energy Engineering  
+      Petrochemical Processing/ Oil Recovery  
+      Polymer Science and Technology  
+      Electrochemical Process Technology/ Corrosion  
+      Separation Processes & Reaction Engineering/ Carbon capturing and utilization  
+      Process Optimization / Process Safety  
+      Advanced Chemical Engineering: Process Modelling and Simulations  
+      Advanced Nano-materials and Nanotechnology
+      `,
       type: 'team OR solo',
       event_type: 'tech',
       team_size: '1-3',
@@ -35,9 +65,30 @@ export const CHEMevents = {
       ],
     },
     {
-      name: 'Canva Quest - Poster Presentation',
+      name: 'CANVA QUEST - Poster Presentation',
       description:
-        'Prepare to be captivated by the fusion of science at "Canva Quest " This event is a voyage into the imaginative realm where chemical processes transform into works of innovation and creativity! Whether you are a chemical engineering student, a passionate innovator, or simply curious about the latest advancements, "Canva Quest" is the place to be. Join us in celebrating the power of innovation in chemical engineering!!!!!!',
+        `Prepare to be captivated by the fusion of science at "Canva Quest " This event is a voyage into the imaginative realm where chemical processes transform into works of innovation and creativity!  
+        Whether you are a chemical engineering student, a passionate innovator, or simply curious about the latest advancements, "Canva Quest" is the place to be. Join us in celebrating the power of innovation in chemical engineering!!!!!!  
+        EVENT MODE: Participants can choose either OFFLINE or ONLINE  
+        THRUST AREAS:  
+          
+        
+        1.Biochemical and Biotechnology  
+        2.Catalysis and Reaction Engineering  
+        3.Chemical Crystallography  
+        4.Chemical Technology/ Process Design and Intensification  
+        5.Electrochemical Process Technology/ Separation Technique  
+        6.Energy Conservation/ Sustainable energy/ Green Technology  
+        7.Fluid Mechanics/ Computational Fluid Dynamics  
+        8.Food Technology and safety/ Pharmaceuticals and Nutraceuticals  
+        9.Material science and polymer technology  
+        10.Modeling, Simulation & Optimization  
+        11.Process Control/ Process Safety  
+        12.Waste Water Treatment/ Pollution control/ Waste Management  
+        13.Advanced Nano-materials and Nanotechnology  
+        14.Petrochemicals and refining  
+        15.Renewable energy science and technology
+        `,
       type: 'team OR solo',
       event_type: 'tech',
       team_size: '1-3',
@@ -69,7 +120,7 @@ export const CHEMevents = {
       ],
     },
     {
-      name: 'CHEM CRUSADE',
+      name: 'Chem Crusade',
       description:
         'Get ready for an epic Chem Quest! Immerse yourself in the realm of molecules and reactions. Solve intricate puzzles, balance equations, and harness your chemical knowledge to uncover the treasure trove of innovation and discovery awaiting those who dare to explore! Dates: 6.10.23 & 7.10.23',
       type: 'team OR solo',
@@ -192,12 +243,20 @@ export const CHEMevents = {
         {
           name: 'Round 1',
           description:
-            '1)	Participants will be given a topic on spot. (common products) 2)	A buffer time of 30 minutes will be given to them to research on the topic given. 3)	Participants will have to prepare a brochure for the product. 4)	The brochure will be judged and teams/participants with the highest points will qualify for the final round.',
+            `1)Participants will be given a topic on spot. (common products)  
+            2)A buffer time of 30 minutes will be given to them to research on the topic given.  
+            3)Participants will have to prepare a brochure for the product.  
+            4)The brochure will be judged and teams/participants with the highest points will qualify for the final round.`,
         },
         {
           name: 'Round 2 (Final)',
           description:
-            '1)	Participants will be given a topic on spot, as like the first round. 2)	A buffer time of 45 minutes will be given, and they will have to pitch the product. 3)	They will have to present the topic for not more than 6 mins and subsequently answer questions from the sharks. 4)	Each team will be given a fixed amount of cash and they will have to invest in the other team’s products. 5)	Based on the points (judges score) the presenting team gets a certain amount of points will be added to the investing team based on their investment. 6)	The team/participant with the maximum number of points will be the winner. ',
+            `1)Participants will be given a topic on spot, as like the first round.  
+            2)A buffer time of 45 minutes will be given, and they will have to pitch the product.  
+            3)They will have to present the topic for not more than 6 mins and subsequently answer questions from the sharks.  
+            4)Each team will be given a fixed amount of cash and they will have to invest in the other team’s products.  
+            5)Based on the points (judges score) the presenting team gets a certain amount of points will be added to the investing team based on their investment.  
+            6)The team/participant with the maximum number of points will be the winner. `,
         },
       ],
       venue: 'Chemical Engineering - Department',
@@ -229,7 +288,7 @@ export const CHEMevents = {
       ],
     },
     {
-      name: 'ACCIDENTAL AUCTION',
+      name: 'Accidental Auction',
       description:
         "Join us for a groundbreaking event that transforms accidents into opportunities for learning and improvement – the Accidental Auction! This unique event focuses on accidents and incidents in the chemical industry, aiming to shed light on the importance of safety, risk mitigation, and continuous improvement. Don't miss this opportunity to enhance your disaster management knowledge and skills. Event Type - Semi-Technical Domain of study: • Industrial process and plant safety • Chemical process industries • Basic chemistry • Heat transfer • Fluid Mechanics",
       type: 'team OR solo',
@@ -311,7 +370,7 @@ export const CHEMevents = {
       ],
     },
     {
-      name: 'ROOK RUMBLE',
+      name: 'Rook Rumble',
       description:
         `Engage in the intense mental battles and demonstrate your strategic powers where minds clash and kings fall, rise to be the Grandmaster of all. “ In the game of wits, seize the crown. Let your strategies astound! “. This is a chessboard battle, where genius thrive. Will you be the one who survive?  
         Rules:  
@@ -352,7 +411,7 @@ export const CHEMevents = {
       ],
     },
     {
-      name: 'AUGMENTED ARENA',
+      name: 'Augmented Arena',
       description:
         `Tired of technical events? We got you. Progress takes place out of your comfort zone. Get your guns up and put your armors to knock down your enemies. Immerse yourself in thrilling mobile gaming action in our BGMI showdown. Win cash prizes for your chicken dinner.
         Rules:  
