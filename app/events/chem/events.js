@@ -15,9 +15,7 @@ export const CHEMevents = {
       Team size: Maximum of 3 per team is allowed.  
       Judge's decision is final
       MODE: Participant can choose to present online or offline.  
-      THRUST AREAS:  
-
-
+      **THRUST AREAS:**  
       Environmental Engineering / Renewable and green Technology  
       Biochemical/ Biotechnology/ Food Technology/Pharmaceuticals and  
       Nutraceuticals  
@@ -70,9 +68,7 @@ export const CHEMevents = {
         `Prepare to be captivated by the fusion of science at "Canva Quest " This event is a voyage into the imaginative realm where chemical processes transform into works of innovation and creativity!  
         Whether you are a chemical engineering student, a passionate innovator, or simply curious about the latest advancements, "Canva Quest" is the place to be. Join us in celebrating the power of innovation in chemical engineering!!!!!!  
         EVENT MODE: Participants can choose either OFFLINE or ONLINE  
-        THRUST AREAS:  
-          
-        
+        **THRUST AREAS:**   
         1.Biochemical and Biotechnology  
         2.Catalysis and Reaction Engineering  
         3.Chemical Crystallography  

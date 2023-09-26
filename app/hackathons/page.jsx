@@ -8,12 +8,12 @@ const bayon = Bayon({
 });
 export default function HackathonPage() {
   return (
-    <div className="bg-hex w-full h-screen flex justify-center p-32">
+    <div className="bg-hex w-full h-screen flex justify-center sm:p-32 p-10">
       <h1
         className={`${bayon.className} xl:text-7xl text-center uppercase text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#BAF7FF]`}
       >
         Hackathons
-        <div className="flex mt-24 gap-24">
+        <div className="flex flex-col sm:flex-row sm:mt-24 mt-12 sm:gap-24 gap-10">
           <Link
             href="/hackathons/hackfinity"
             className="hover:scale-105 transition-transform duration-200 ease-in-out"
