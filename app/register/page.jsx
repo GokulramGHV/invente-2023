@@ -48,38 +48,42 @@ export default function Register() {
               Make sure you have read the rules and regulations before you pay
               for the passes.
             </p>
-            <div className="xl:mt-20 mt-10 flex flex-col gap-10 relative xl:right-6 right-3">
-              <div className="h-8 w-1 rounded-full bg-white absolute left-2.5 top-[66px] translate-y-[-50%]"></div>
-              <div className="h-8 w-1 rounded-full bg-white absolute left-2.5 top-[156px] translate-y-[-50%]"></div>
-              <div className="w-full flex items-center gap-5">
+            <div className="xl:mt-20 mt-10 flex gap-4 relative xl:right-6 right-3">
+              <div className="flex flex-col gap-2 justify-center items-center w-fit">
                 <h3 className="text-4xl font-semibold">1</h3>
-                <a
-                  target="_blank"
-                  href="https://rzp.io/l/Invente-23"
-                  className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
-                >
-                  Pay Now
-                </a>
-              </div>
-              <div className="w-full flex items-center gap-5">
+                <div className="h-8 w-1 rounded-full bg-white"></div>
                 <h3 className="text-4xl font-semibold">2</h3>
-                <a
-                  target="_blank"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSc4mr5QFS-GT45HPNmx4ZkGw-XsWgISVWx4m0Crg1E4IpmiVw/viewform?vc=0&c=0&w=1&flr=0"
-                  className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
-                >
-                  Register Here
-                </a>
-              </div>
-              <div className="w-full flex items-center gap-5">
+                <div className="h-8 w-1 rounded-full bg-white"></div>
                 <h3 className="text-4xl font-semibold">3</h3>
-                <a
-                  target="_blank"
-                  href="https://linktr.ee/ssnsnucinvente23"
-                  className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
-                >
-                  Event Forms
-                </a>
+              </div>
+              <div className="flex flex-col gap-10">
+                <div className="w-full flex items-center gap-5">
+                  <a
+                    target="_blank"
+                    href="https://rzp.io/l/Invente-23"
+                    className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
+                  >
+                    Pay Now
+                  </a>
+                </div>
+                <div className="w-full flex items-center gap-5">
+                  <a
+                    target="_blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSc4mr5QFS-GT45HPNmx4ZkGw-XsWgISVWx4m0Crg1E4IpmiVw/viewform?vc=0&c=0&w=1&flr=0"
+                    className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
+                  >
+                    Register Here
+                  </a>
+                </div>
+                <div className="w-full flex items-center gap-5">
+                  <a
+                    target="_blank"
+                    href="https://linktr.ee/ssnsnucinvente23"
+                    className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
+                  >
+                    Event Forms
+                  </a>
+                </div>
               </div>
             </div>
           </div>
