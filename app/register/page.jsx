@@ -13,15 +13,15 @@ const rulesArray = [
   'After participating in 4 - Technical Events, the participants are very much welcome to buy another pass.',
   'The participants should make sure that they are making the payment using only the Razor-pay link provided on the website.',
   'No other mode of payment is accepted.',
-  'Once the participants make their payment using the Razor-pay link, they will receive the transaction receipt through their login mail ID.',
+  'Once the participants make their payment using the Razor-pay link, they will receive the transaction receipt through their login mail I’D.',
   'The participants can use the same Razor-pay link for Workshop and Hackathon registration.',
   'While making the payment, the participant should make sure that they are paying for either (Technical pass / Workshop / Hackathon).',
   'After the payment process, the participants should fill out the Payment Google Form mentioned below the Razor Pay link.',
   'The participants should upload the receipt in the Google Form without fail.',
-  'After Submitting the Google Form the participants are able to find one link tree in the final thank you page, which will direct you to the department-wise list of technical events.',
-  'From the list of Technical Events the participants are allowed to select any 4-Technical Events and register for the same.',
-  'In a single pass more than 4-Technical Events registrations will not be acceptable.',
-  'For Hackathon and Workshop registration, the participants can find separate Google forms below the respective sections.',
+  'Register for 4 technical events using the link tree provided which has department wise registration forms.',
+  'From the list of Technical Events, the participants are allowed to select any 4-Technical Events and register for the same.',
+  'All the event registration forms can be found in the link tree.',
+  'In a single pass, more than 4-Technical Events registrations will not be acceptable.',
   'These Technical Passes are not valid for Non-Technical Events. Non- Technical Events will have separate registration in their respective departments.',
 ];
 
@@ -49,7 +49,8 @@ export default function Register() {
               for the passes.
             </p>
             <div className="xl:mt-20 mt-10 flex flex-col gap-10 relative xl:right-6 right-3">
-              <div className="h-8 w-1 rounded-full bg-white absolute left-2.5 top-[50%] translate-y-[-50%]"></div>
+              <div className="h-8 w-1 rounded-full bg-white absolute left-2.5 top-[66px] translate-y-[-50%]"></div>
+              <div className="h-8 w-1 rounded-full bg-white absolute left-2.5 top-[156px] translate-y-[-50%]"></div>
               <div className="w-full flex items-center gap-5">
                 <h3 className="text-4xl font-semibold">1</h3>
                 <a
@@ -68,6 +69,16 @@ export default function Register() {
                   className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
                 >
                   Register Here
+                </a>
+              </div>
+              <div className="w-full flex items-center gap-5">
+                <h3 className="text-4xl font-semibold">3</h3>
+                <a
+                  target="_blank"
+                  href="https://linktr.ee/ssnsnucinvente23"
+                  className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
+                >
+                  Event Forms
                 </a>
               </div>
             </div>
