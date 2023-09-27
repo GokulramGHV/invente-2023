@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import {usePathname} from 'next/navigation'
 
 const links = [
   {
@@ -43,6 +44,8 @@ export default function Navbar({
 }) {
   const hamburgerLine = `h-1 w-8 my-1 rounded-full bg-white transition ease transform duration-300`;
 
+  const pathname = usePathname();
+
   return (
     <>
       <header
@@ -63,7 +66,7 @@ export default function Navbar({
                 <Link
                   key={i}
                   href={link.href}
-                  className="px-6 py-1.5 rounded-[5px] hover:outline outline-2 outline-white"
+                  className={(pathname.startsWith(link.href)) ? 'px-6 py-1.5 rounded-[5px] outline outline-2 outline-white' : 'px-6 py-1.5 rounded-[5px] hover:outline outline-2 outline-white'}
                 >
                   {link.name}
                 </Link>
