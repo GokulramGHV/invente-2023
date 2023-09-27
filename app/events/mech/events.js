@@ -146,12 +146,12 @@ export const MECHevents = {
       runner: '5000',
       coordinators: [
         {
-          name: 'GOPINATH',
-          phone: '99800054182',
-        },
-        {
           name: 'HARISH ANAND',
           phone: '7358074247',
+        },
+        {
+          name: 'GOPINATH',
+          phone: '9980054182',
         },
       ],
     },
