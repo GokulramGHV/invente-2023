@@ -13,7 +13,7 @@ export const HACKFINITEvent = {
     9.Solutions/products will be judged based on Innovation, Impact, Feasibility and Marketability. 10.Organizers will be available for any further help/queries.`,
   type: 'team',
   event_type: 'hackathon',
-  team_size: '2-3',
+  team_size: '3 - 4',
   department: 'ECE',
   rounds: [
     {
