@@ -31,7 +31,7 @@ export default function WorkShopPage() {
           >
             <Image
               alt="IoT Workshop"
-              src="/workshop_iot.png"
+              src="/workshop_IOT.png"
               width={400}
               height={250}
             />
