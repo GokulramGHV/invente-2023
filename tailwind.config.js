@@ -24,6 +24,9 @@ module.exports = {
         homemadeApple: ["Homemade-Apple", 'sans-serif'],
         handWritingBlack: ["Handwriting-Black", 'sans-serif'],
         mechsuit: ["Mechsuit", 'sans-serif'],
+      },
+      transitionTimingFunction: {
+        'clock-tick': 'cubic-bezier(.4,2.08,.55,.44);'
       }
     },
   },
