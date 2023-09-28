@@ -15,7 +15,7 @@ const links = [
   },
   {
     name: 'Workshops',
-    href: '/comingsoon',
+    href: '/workshops',
   },
   {
     name: 'Hackathons',
@@ -49,14 +49,12 @@ export default function Navbar({
         className={`sticky top-0 w-full text-gray-700 shadow-sm body-font z-[70] ${className}`}
       >
         <div
-          className={`${
-            isOpen && 'fixed top-0 left-0 h-screen z-40 pb-12 bg-[#161620]'
-          } w-full  text-white text-2xl uppercase font-medium flex-col flex justify-between items-center`}
+          className={`${isOpen && 'fixed top-0 left-0 h-screen z-40 pb-12 bg-[#161620]'
+            } w-full  text-white text-2xl uppercase font-medium flex-col flex justify-between items-center`}
         >
           <div
-            className={`flex  ${
-              isOpen ? 'bg-[#161620]' : 'bg-[#1F1F1F]/90'
-            } items-center justify-between ${paddingX} py-4 m-0 w-full`}
+            className={`flex  ${isOpen ? 'bg-[#161620]' : 'bg-[#1F1F1F]/90'
+              } items-center justify-between ${paddingX} py-4 m-0 w-full`}
           >
             <nav className="hidden xl:flex items-center justify-left text-white text-base font-medium uppercase w-full gap-4">
               {links.map((link, i) => (
@@ -74,23 +72,20 @@ export default function Navbar({
               onClick={() => setIsOpen(!isOpen)}
             >
               <div
-                className={`${hamburgerLine} ${
-                  isOpen
+                className={`${hamburgerLine} ${isOpen
                     ? 'rotate-45 translate-y-3 opacity-80 group-hover:opacity-100'
                     : 'opacity-80 group-hover:opacity-100'
-                }`}
+                  }`}
               />
               <div
-                className={`${hamburgerLine} ${
-                  isOpen ? 'opacity-0' : 'opacity-80 group-hover:opacity-100'
-                }`}
+                className={`${hamburgerLine} ${isOpen ? 'opacity-0' : 'opacity-80 group-hover:opacity-100'
+                  }`}
               />
               <div
-                className={`${hamburgerLine} ${
-                  isOpen
+                className={`${hamburgerLine} ${isOpen
                     ? '-rotate-45 -translate-y-3 opacity-80 group-hover:opacity-100'
                     : 'opacity-80 group-hover:opacity-100'
-                }`}
+                  }`}
               />
             </button>
             <div className="flex-1 flex justify-end">
