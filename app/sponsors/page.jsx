@@ -16,6 +16,10 @@ const sponsors = [
   { img: '/sponsors/pck.jpg', link: 'https://pck-buderus.com/' },
   { img: '/sponsors/stayflexi.png', link: 'https://www.stayflexi.com/' },
   { img: '/sponsors/typesense.jpg', link: 'https://typesense.org/' },
+  { img: '/sponsors/dsmsoft.jpg', link: 'https://dsmsoft.com/' },
+  { img: '/sponsors/vishwayon.jpg', link: 'https://vishwayon.com/' },
+  // { img: '/sponsors/cwe.jpg', link: 'https://www.1tab.com/' },
+  // { img: '/sponsors/max.jpg', link: 'https://www.edubridgeindia.com/' },
 ];
 
 export default function SponsorsPage() {
@@ -42,7 +46,7 @@ export default function SponsorsPage() {
             rel="noreferrer"
             className="bg-white rounded-lg p-3 h-[100px] flex items-center hover:scale-105 transition-transform duration-200 ease-in-out"
           >
-            <Image alt="sponsor" src={sponsor.img} width={200} height={250} />
+            <Image alt="sponsor" src={sponsor.img} width={200} height={100} />
           </Link>
         ))}
       </div>
