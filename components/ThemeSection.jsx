@@ -30,26 +30,26 @@ export default function ThemeSection() {
     <div
       className={`relative w-full pt-20 lg:pt-0 pb-20 lg:pb-10 sm:pr-20 pr-10 sm:pl-20 pl-10 lg:pl-0 ${space_grotesk.className}`} id="theme"
     >
-      <div className="flex gap-10 items-center">
+      <div className="flex gap-0 items-center">
 
-        <div className='relative w-[400px] h-[500px] -translate-x-1/3 hidden lg:flex items-center '>
+        <div className='relative w-[400px] h-[500px] -translate-x-[45%] hidden lg:flex items-center '>
           <Image
             alt="clock_face"
             src="/clock_face_bg.svg"
-            width={400}
+            width={500}
             height={500}
-            className={`absolute transition-all duration-300 ease-clock-tick`}
+            className={`absolute transition-all duration-300 ease-clock-tick min-w-500 min-h-500`}
             style={{ rotate: deg + "deg" }}
           />
           <Image
             alt="hands"
             src="/hands.svg"
-            width={400}
+            width={500}
             height={500}
-            className="absolute "
+            className="absolute min-w-500 min-h-500 "
           />
         </div>
-        <div className="flex-1">
+        <div className="flex-1 relative lg:-ml-20">
           <p>OUR THEME THIS YEAR</p>
           <h1
             className={`xl:text-7xl md:text-6xl sm:text-5xl text-3xl font-semibold ${unbounded.className}`}
