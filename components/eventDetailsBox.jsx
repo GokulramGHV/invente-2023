@@ -21,16 +21,16 @@ export default function EventDetailsBox({ className = '', children }) {
   return (
     <div
       className={`${className} border border-white border-white/50 rounded-xl backdrop-blur-sm py-6 sm:px-10 px-6 flex flex-col items-center min-h-[510px]`}
-    // style={{
-    //   border: '1px solid #FFFFFF50',
-    //   borderImage:
-    //     'linear-gradient(to bottom right,#FFFFFF, #FFFFFF00, #FFFFFF)',
-    //   borderImageSlice: '10',
-    //   WebkitMask: `
-    //   linear-gradient(#fff 0 0) padding-box,
-    //   linear-gradient(#fff 0 0)
-    // `,
-    // }}
+      // style={{
+      //   border: '1px solid #FFFFFF50',
+      //   borderImage:
+      //     'linear-gradient(to bottom right,#FFFFFF, #FFFFFF00, #FFFFFF)',
+      //   borderImageSlice: '10',
+      //   WebkitMask: `
+      //   linear-gradient(#fff 0 0) padding-box,
+      //   linear-gradient(#fff 0 0)
+      // `,
+      // }}
     >
       {children}
     </div>
@@ -63,9 +63,10 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
         {event.event_type === 'tech'
           ? 'Tech Event'
           : event.event_type === 'hackathon'
-            ? 'HACKATHON'
-            : event.event_type === 'workshop'
-              ? 'WORKSHOP' : 'Non-Tech Event'}
+          ? 'HACKATHON'
+          : event.event_type === 'workshop'
+          ? 'WORKSHOP'
+          : 'Non-Tech Event'}
       </h3>
 
       <h2
@@ -76,13 +77,22 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
       <div
         className={`text-center lg:text-base text-sm p-3.5 w-full md:w-fit mx-auto my-5 flex flex-wrap gap-x-6 gap-y-3 justify-center items-center ${bg_color} rounded-[8px]`}
       >
-        {event.event_type === "workshop" ? <></> :
-          <div className="sm:col-span-1 font-bold leading-3">
-            {event.winner ? `₹${event.winner}` : 'TBD'}
-            <br />
-            <span className="font-light text-[11px]">W I N N E R</span>
-          </div>
-        }
+        {event.event_type === 'workshop' ? (
+          <></>
+        ) : (
+          <>
+            <div className="sm:col-span-1 font-bold leading-3">
+              {event.winner ? `₹${event.winner}` : 'TBD'}
+              <br />
+              <span className="font-light text-[11px]">W I N N E R</span>
+            </div>
+            <div className="sm:col-span-1 font-bold leading-3">
+              {event.runner ? `₹${event.runner}` : 'TBD'}
+              <br />
+              <span className="font-light text-[11px]">R U N N E R</span>
+            </div>
+          </>
+        )}
 
         {event?.third_prize && event?.third_prize !== '' && (
           <div className="sm:col-span-1 font-bold leading-3">
@@ -123,7 +133,9 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
             </svg>
             <p className="">{event.venue ? event.venue : 'TBD'}</p>
           </div>
-          {event.event_type === "workshop" ? <></> :
+          {event.event_type === 'workshop' ? (
+            <></>
+          ) : (
             <div className="flex md:gap-2 gap-1.5 items-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +152,7 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
                 {event.team_size ? event.team_size : 'TBD'}
               </p>
             </div>
-          }
+          )}
           {event.registration && (
             <div className="sm:col-span-1 font-bold leading-3">
               ₹{event.registration}
@@ -153,12 +165,6 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
       <div
         className={`flex flex-col items-center w-full h-full md:overflow-y-scroll ${textColor}`}
       >
-        {/* <div
-          className="prose text-sm md:text-base text-justify"
-          dangerouslySetInnerHTML={{
-            __html: content,
-          }}
-        /> */}
         <div className="prose text-sm md:text-base text-justify">
           <ReactMarkdown>{event.description}</ReactMarkdown>
         </div>
@@ -174,12 +180,6 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
                   <div>{index + 1}.</div>
                   <div>
                     <span className="font-semibold">{round.name}</span> -{' '}
-                    {/* <div
-                      className="prose text-sm md:text-base text-justify"
-                      dangerouslySetInnerHTML={{
-                        __html: round.description,
-                      }}
-                    /> */}
                     <div className="prose text-sm md:text-base text-justify">
                       <ReactMarkdown>{round.description}</ReactMarkdown>
                     </div>

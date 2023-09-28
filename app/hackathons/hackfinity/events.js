@@ -73,7 +73,7 @@ export const HACKFINITEvent = {
       phone: '8939075655',
     },
     {
-      name: 'Sruthi Jayaram',
+      name: 'Shruti Jeyaraman',
       phone: '9500035150',
     },
   ],

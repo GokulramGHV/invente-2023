@@ -31,7 +31,7 @@ export default function HACKFINITY() {
                     <h1
                         className={`font-tourney700 font-medium lg:text-5xl text-3xl leading-10 text-center`}
                     >
-                        ELECTRICAL & COMMUNICATION
+                        ELECTRONICS & COMMUNICATION
                     </h1>
                     <h1
                         className={`font-tourney700 font-medium lg:text-5xl text-3xl leading-10 text-center`}
