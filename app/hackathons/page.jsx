@@ -8,13 +8,13 @@ const bayon = Bayon({
 });
 export default function HackathonPage() {
   return (
-    <div className="bg-hex w-full h-screen flex flex-col items-center md:p-32 p-10">
+    <div className="relative bg-hex w-full h-screen flex flex-col items-center md:p-32 p-10 overflow-x-clip">
       <Image
         src="/invente-bulb.png"
         alt="invente-bulb"
         width={800}
         height={800}
-        className="absolute top-[40%] translate-y-[-50%] -right-[200px] transform origin-top-right opacity-[0.05] -rotate-[16deg] z-0"
+        className="absolute top-[40%] translate-y-[-50%] md:-right-[200px] -right-[100px] transform origin-top-right opacity-[0.05] -rotate-[16deg] z-0"
       />
       <h1
         className={`${bayon.className} xl:text-7xl text-center uppercase text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#BAF7FF]`}

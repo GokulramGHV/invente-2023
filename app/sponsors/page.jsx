@@ -9,7 +9,10 @@ const bayon = Bayon({
 
 const sponsors = [
   { img: '/sponsors/credai.jpg', link: 'https://credai.org/' },
-  { img: '/sponsors/lancer.jpeg', link: 'http://www.lancerlaser.com/' },
+  {
+    img: '/sponsors/lancer.jpeg',
+    link: 'https://www.indiamart.com/lancerlaser-eng/profile.html?utm_campaign=imob_company_share&utm_medium=social&utm_source=social',
+  },
   { img: '/sponsors/pck.jpg', link: 'https://pck-buderus.com/' },
   { img: '/sponsors/stayflexi.png', link: 'https://www.stayflexi.com/' },
   { img: '/sponsors/typesense.jpg', link: 'https://typesense.org/' },
@@ -17,7 +20,7 @@ const sponsors = [
 
 export default function SponsorsPage() {
   return (
-    <div className="bg-hex w-full h-screen flex flex-col items-center sm:p-32 p-10">
+    <div className="relative bg-hex w-full min-h-screen flex flex-col items-center sm:p-32 p-10 overflow-x-clip overflow-hidden">
       <h1
         className={`${bayon.className} xl:text-7xl text-center uppercase text-5xl text-transparent bg-clip-text bg-gradient-to-r from-[#FFFFFF] to-[#BAF7FF]`}
       >
@@ -28,9 +31,9 @@ export default function SponsorsPage() {
         alt="invente-bulb"
         width={800}
         height={800}
-        className="absolute top-[40%] translate-y-[-50%] -right-[200px] transform origin-top-right opacity-[0.05] -rotate-[16deg] z-0"
+        className="absolute top-[40%] translate-y-[-50%] md:-right-[200px] -right-[100px] transform origin-top-right opacity-[0.05] -rotate-[16deg] z-0"
       />
-      <div className="flex flex-wrap items-center justify-center gap-10 max-w-[800px] mx-auto mt-20">
+      <div className="flex flex-wrap items-center justify-center gap-10 max-w-[800px] mx-auto md:mt-20 mt-10">
         {sponsors.map((sponsor, i) => (
           <Link
             key={i}

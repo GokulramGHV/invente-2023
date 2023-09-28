@@ -35,7 +35,7 @@ export default function ECE() {
     <>
       <div className="background-gradient fixed left-0 top-0 h-full w-full z-0" />
       <div
-        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 pt-16 pb-14"
+        className="flex flex-col justify-center items-center min-h-screen bg-full w-full z-10 sm:px-12 px-6 pt-4 pb-14"
         style={{
           backgroundImage: `url('/background_ECE.png')`,
         }}

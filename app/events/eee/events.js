@@ -5,7 +5,7 @@ export const EEEevents = {
       description:
         'The event where the convergence of ideas and expertise sets the stage for brilliance to shine. The stage is set for our highly acclaimed event, Ideate, where participants from diverse disciplines take center stage to present their meticulously crafted projects and insightful papers to an esteemed panel of accomplished professors and experts.',
       type: 'tech',
-      event_type: 'team',
+      event_type: 'tech',
       team_size: '4',
       department: 'EEE',
       rounds: [],
