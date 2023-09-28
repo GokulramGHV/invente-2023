@@ -115,8 +115,7 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
               />
             </svg>
             <p className="col-span-2">
-              {/* {event.date ? event.date.slice(0, 6) : 'TBD'} */}
-              TBD
+              {event.date ? event.date.slice(0, 6) : 'TBD'}
             </p>
           </div>
           <div className="flex md:gap-1.5 gap-1 items-center">

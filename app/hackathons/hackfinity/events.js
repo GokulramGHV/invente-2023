@@ -64,8 +64,10 @@ export const HACKFINITEvent = {
     },
   ],
   venue: '2nd Floor, CDC Building',
-  date: 'Aug. 6, 2023',
-  winner: '25000',
+  date: 'Oct. 6, 7',
+  winner: '12000',
+  runner: '8000',
+  third: '5000',
   registration: '300',
   coordinators: [
     {
