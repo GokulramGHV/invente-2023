@@ -86,11 +86,13 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
               <br />
               <span className="font-light text-[11px]">W I N N E R</span>
             </div>
-            <div className="sm:col-span-1 font-bold leading-3">
-              {event.runner ? `₹${event.runner}` : 'TBD'}
-              <br />
-              <span className="font-light text-[11px]">R U N N E R</span>
-            </div>
+            {event?.runner && event?.runner !== '' && (
+              <div className="sm:col-span-1 font-bold leading-3">
+                {event.runner ? `₹${event.runner}` : 'TBD'}
+                <br />
+                <span className="font-light text-[11px]">R U N N E R</span>
+              </div>
+            )}
           </>
         )}
 

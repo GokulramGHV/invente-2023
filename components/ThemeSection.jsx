@@ -1,6 +1,7 @@
 import { Space_Grotesk } from 'next/font/google';
 import { Unbounded } from 'next/font/google';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 const space_grotesk = Space_Grotesk({
   preload: true,
@@ -13,19 +14,42 @@ const unbounded = Unbounded({
 });
 
 export default function ThemeSection() {
+  const [deg, setDeg] = useState(0)
+
+  useEffect(() => {
+
+    const seconds = setInterval(() => {
+      setDeg(prev => prev + 12)
+    }, 1000)
+    return () => {
+      clearInterval(seconds)
+    }
+  }, [])
+
   return (
     <div
       className={`relative w-full pt-20 lg:pt-0 pb-20 lg:pb-10 sm:pr-20 pr-10 sm:pl-20 pl-10 lg:pl-0 ${space_grotesk.className}`} id="theme"
     >
-      <div className="flex gap-20 items-center">
-        <Image
-          alt="clock"
-          src="/clock_2.png"
-          width={300}
-          height={500}
-          className="lg:block hidden"
-        />
-        <div className="flex-1">
+      <div className="flex gap-0 items-center">
+
+        <div className='relative w-[400px] h-[500px] -translate-x-[45%] hidden lg:flex items-center '>
+          <Image
+            alt="clock_face"
+            src="/clock_face_bg.svg"
+            width={500}
+            height={500}
+            className={`absolute transition-all duration-300 ease-clock-tick min-w-500 min-h-500`}
+            style={{ rotate: deg + "deg" }}
+          />
+          <Image
+            alt="hands"
+            src="/hands.svg"
+            width={500}
+            height={500}
+            className="absolute min-w-500 min-h-500 "
+          />
+        </div>
+        <div className="flex-1 relative lg:-ml-20">
           <p>OUR THEME THIS YEAR</p>
           <h1
             className={`xl:text-7xl md:text-6xl sm:text-5xl text-3xl font-semibold ${unbounded.className}`}
