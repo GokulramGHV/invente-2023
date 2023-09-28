@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 const links = [
   {
@@ -43,6 +44,14 @@ export default function Navbar({
 }) {
   const hamburgerLine = `h-1 w-8 my-1 rounded-full bg-white transition ease transform duration-300`;
 
+
+  const [url, setUrl] = useState("")
+  useEffect(() => {
+    setUrl(window.location.pathname);
+    if (window.location.pathname === "/") {
+      setUrl("home")
+    }
+  }, [])
   return (
     <>
       <header
@@ -61,7 +70,7 @@ export default function Navbar({
                 <Link
                   key={i}
                   href={link.href}
-                  className="px-6 py-1.5 rounded-[5px] hover:outline outline-2 outline-white"
+                  className={`px-6 py-1.5 rounded-[5px]  hover:outline outline-2 outline-white   ${new RegExp(link.name, "i").test(url) ? "outline outline-blue-300" : ""}`}
                 >
                   {link.name}
                 </Link>
@@ -73,8 +82,8 @@ export default function Navbar({
             >
               <div
                 className={`${hamburgerLine} ${isOpen
-                    ? 'rotate-45 translate-y-3 opacity-80 group-hover:opacity-100'
-                    : 'opacity-80 group-hover:opacity-100'
+                  ? 'rotate-45 translate-y-3 opacity-80 group-hover:opacity-100'
+                  : 'opacity-80 group-hover:opacity-100'
                   }`}
               />
               <div
@@ -83,8 +92,8 @@ export default function Navbar({
               />
               <div
                 className={`${hamburgerLine} ${isOpen
-                    ? '-rotate-45 -translate-y-3 opacity-80 group-hover:opacity-100'
-                    : 'opacity-80 group-hover:opacity-100'
+                  ? '-rotate-45 -translate-y-3 opacity-80 group-hover:opacity-100'
+                  : 'opacity-80 group-hover:opacity-100'
                   }`}
               />
             </button>
@@ -104,7 +113,7 @@ export default function Navbar({
                   key={i}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="px-6 py-1.5 rounded-[5px] hover:outline outline-2 outline-white"
+                  className={`px-6 py-1.5 rounded-[5px]  hover:outline outline-2 outline-white   ${new RegExp(link.name, "i").test(url) ? "outline outline-blue-300" : ""}`}
                 >
                   {link.name}
                 </Link>
