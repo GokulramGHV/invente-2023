@@ -70,7 +70,7 @@ export default function Navbar({
                 <Link
                   key={i}
                   href={link.href}
-                  className={`px-6 py-1.5 rounded-[5px]  hover:outline outline-2 outline-white   ${new RegExp(link.name, "i").test(url) ? "outline outline-blue-300" : ""}`}
+                  className={`px-6 py-1.5 rounded-[5px]  hover:outline outline-2 hover:outline-white   ${new RegExp(link.name, "i").test(url) ? "outline outline-blue-300" : ""}`}
                 >
                   {link.name}
                 </Link>
@@ -113,7 +113,7 @@ export default function Navbar({
                   key={i}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className={`px-6 py-1.5 rounded-[5px]  hover:outline outline-2 outline-white   ${new RegExp(link.name, "i").test(url) ? "outline outline-blue-300" : ""}`}
+                  className={`px-6 py-1.5 rounded-[5px]  hover:outline outline-2 hover:outline-white   ${new RegExp(link.name, "i").test(url) ? "outline outline-blue-300" : ""}`}
                 >
                   {link.name}
                 </Link>
