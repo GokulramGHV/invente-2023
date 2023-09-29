@@ -190,6 +190,14 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
             </ol>
           </>
         )}
+        {event?.rules && event?.rules !== '' && (
+          <>
+            <h3 className="md:text-xl mt-5 mb-2 text-lg font-bold">RULES</h3>
+            <div className="prose text-sm md:text-base text-justify w-full">
+              <ReactMarkdown>{event?.rules}</ReactMarkdown>
+            </div>
+          </>
+        )}
         {event?.coordinators?.length > 0 && (
           <>
             <h3 className="md:text-xl mt-6 mb-2 text-lg font-bold">
