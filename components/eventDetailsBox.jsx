@@ -64,6 +64,8 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
           ? 'Tech Event'
           : event.event_type === 'hackathon'
           ? 'HACKATHON'
+          : event.event_type === 'workshop'
+          ? 'WORKSHOP'
           : 'Non-Tech Event'}
       </h3>
 
@@ -75,18 +77,25 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
       <div
         className={`text-center lg:text-base text-sm p-3.5 w-full md:w-fit mx-auto my-5 flex flex-wrap gap-x-6 gap-y-3 justify-center items-center ${bg_color} rounded-[8px]`}
       >
-        <div className="sm:col-span-1 font-bold leading-3">
-          {event.winner ? `₹${event.winner}` : 'TBD'}
-          <br />
-          <span className="font-light text-[11px]">W I N N E R</span>
-        </div>
-        {event?.third_prize && event?.third_prize !== '' && (
-          <div className="sm:col-span-1 font-bold leading-3">
-            {event.runner ? `₹${event.runner}` : 'TBD'}
-            <br />
-            <span className="font-light text-[11px]">R U N N E R</span>
-          </div>
+        {event.event_type === 'workshop' ? (
+          <></>
+        ) : (
+          <>
+            <div className="sm:col-span-1 font-bold leading-3">
+              {event.winner ? `₹${event.winner}` : 'TBD'}
+              <br />
+              <span className="font-light text-[11px]">W I N N E R</span>
+            </div>
+            {event?.runner && event?.runner !== '' && (
+              <div className="sm:col-span-1 font-bold leading-3">
+                {event.runner ? `₹${event.runner}` : 'TBD'}
+                <br />
+                <span className="font-light text-[11px]">R U N N E R</span>
+              </div>
+            )}
+          </>
         )}
+
         {event?.third_prize && event?.third_prize !== '' && (
           <div className="sm:col-span-1 font-bold leading-3">
             {event.third_prize ? `₹${event.third_prize}` : 'TBD'}
@@ -94,7 +103,6 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
             <span className="font-light text-[11px]">T H I R D</span>
           </div>
         )}
-
         <div className="flex flex-wrap gap-x-4 sm:gap-x-6 justify-center gap-y-3">
           <div className="flex md:gap-2 gap-1.5 items-center">
             <svg
@@ -109,8 +117,7 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
               />
             </svg>
             <p className="col-span-2">
-              {/* {event.date ? event.date.slice(0, 6) : 'TBD'} */}
-              TBD
+              {event.date ? event.date.slice(0, 6) : 'TBD'}
             </p>
           </div>
           <div className="flex md:gap-1.5 gap-1 items-center">
@@ -127,22 +134,26 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
             </svg>
             <p className="">{event.venue ? event.venue : 'TBD'}</p>
           </div>
-          <div className="flex md:gap-2 gap-1.5 items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="md:w-6 md:h-6 w-4 h-4"
-              viewBox="0 0 39 39"
-              fill="none"
-            >
-              <path
-                d="M1.625 30.875V27.95C1.625 27.0292 1.86198 26.1828 2.33594 25.4109C2.8099 24.6391 3.43958 24.05 4.225 23.6437C5.90417 22.8042 7.61042 22.1745 9.34375 21.7547C11.0771 21.3349 12.8375 21.125 14.625 21.125C16.4125 21.125 18.1729 21.3349 19.9063 21.7547C21.6396 22.1745 23.3458 22.8042 25.025 23.6437C25.8104 24.05 26.4401 24.6391 26.9141 25.4109C27.388 26.1828 27.625 27.0292 27.625 27.95V30.875C27.625 31.3354 27.4693 31.7214 27.1578 32.0328C26.8464 32.3443 26.4604 32.5 26 32.5H3.25C2.78958 32.5 2.40365 32.3443 2.09219 32.0328C1.78073 31.7214 1.625 31.3354 1.625 30.875ZM30.1031 32.5C30.3469 32.3104 30.5365 32.0734 30.6719 31.7891C30.8073 31.5047 30.875 31.1865 30.875 30.8344V27.625C30.875 26.4333 30.5432 25.2891 29.8797 24.1922C29.2162 23.0953 28.275 22.1542 27.0563 21.3687C28.4375 21.5312 29.7375 21.8089 30.9563 22.2016C32.175 22.5943 33.3125 23.075 34.3688 23.6437C35.3438 24.1854 36.0885 24.788 36.6031 25.4516C37.1177 26.1151 37.375 26.8396 37.375 27.625V30.875C37.375 31.3354 37.2193 31.7214 36.9078 32.0328C36.5964 32.3443 36.2104 32.5 35.75 32.5H30.1031ZM14.625 19.5C12.8375 19.5 11.3073 18.8635 10.0344 17.5906C8.76146 16.3177 8.125 14.7875 8.125 13C8.125 11.2125 8.76146 9.68229 10.0344 8.40937C11.3073 7.13646 12.8375 6.5 14.625 6.5C16.4125 6.5 17.9427 7.13646 19.2156 8.40937C20.4885 9.68229 21.125 11.2125 21.125 13C21.125 14.7875 20.4885 16.3177 19.2156 17.5906C17.9427 18.8635 16.4125 19.5 14.625 19.5ZM30.875 13C30.875 14.7875 30.2385 16.3177 28.9656 17.5906C27.6927 18.8635 26.1625 19.5 24.375 19.5C24.0771 19.5 23.6979 19.4661 23.2375 19.3984C22.7771 19.3307 22.3979 19.2562 22.1 19.175C22.8313 18.3083 23.3932 17.3469 23.7859 16.2906C24.1786 15.2344 24.375 14.1375 24.375 13C24.375 11.8625 24.1786 10.7656 23.7859 9.70937C23.3932 8.65312 22.8313 7.69167 22.1 6.825C22.4792 6.68958 22.8583 6.60156 23.2375 6.56094C23.6167 6.52031 23.9958 6.5 24.375 6.5C26.1625 6.5 27.6927 7.13646 28.9656 8.40937C30.2385 9.68229 30.875 11.2125 30.875 13ZM4.875 29.25H24.375V27.95C24.375 27.6521 24.3005 27.3812 24.1516 27.1375C24.0026 26.8937 23.8063 26.7042 23.5625 26.5687C22.1 25.8375 20.624 25.2891 19.1344 24.9234C17.6448 24.5578 16.1417 24.375 14.625 24.375C13.1083 24.375 11.6052 24.5578 10.1156 24.9234C8.62604 25.2891 7.15 25.8375 5.6875 26.5687C5.44375 26.7042 5.2474 26.8937 5.09844 27.1375C4.94948 27.3812 4.875 27.6521 4.875 27.95V29.25ZM14.625 16.25C15.5188 16.25 16.2839 15.9318 16.9203 15.2953C17.5568 14.6589 17.875 13.8937 17.875 13C17.875 12.1062 17.5568 11.3411 16.9203 10.7047C16.2839 10.0682 15.5188 9.75 14.625 9.75C13.7313 9.75 12.9661 10.0682 12.3297 10.7047C11.6932 11.3411 11.375 12.1062 11.375 13C11.375 13.8937 11.6932 14.6589 12.3297 15.2953C12.9661 15.9318 13.7313 16.25 14.625 16.25Z"
-                fill="white"
-              />
-            </svg>
-            <p className="grid grid-cols-1 justify-items-start">
-              {event.team_size ? event.team_size : 'TBD'}
-            </p>
-          </div>
+          {event.event_type === 'workshop' ? (
+            <></>
+          ) : (
+            <div className="flex md:gap-2 gap-1.5 items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="md:w-6 md:h-6 w-4 h-4"
+                viewBox="0 0 39 39"
+                fill="none"
+              >
+                <path
+                  d="M1.625 30.875V27.95C1.625 27.0292 1.86198 26.1828 2.33594 25.4109C2.8099 24.6391 3.43958 24.05 4.225 23.6437C5.90417 22.8042 7.61042 22.1745 9.34375 21.7547C11.0771 21.3349 12.8375 21.125 14.625 21.125C16.4125 21.125 18.1729 21.3349 19.9063 21.7547C21.6396 22.1745 23.3458 22.8042 25.025 23.6437C25.8104 24.05 26.4401 24.6391 26.9141 25.4109C27.388 26.1828 27.625 27.0292 27.625 27.95V30.875C27.625 31.3354 27.4693 31.7214 27.1578 32.0328C26.8464 32.3443 26.4604 32.5 26 32.5H3.25C2.78958 32.5 2.40365 32.3443 2.09219 32.0328C1.78073 31.7214 1.625 31.3354 1.625 30.875ZM30.1031 32.5C30.3469 32.3104 30.5365 32.0734 30.6719 31.7891C30.8073 31.5047 30.875 31.1865 30.875 30.8344V27.625C30.875 26.4333 30.5432 25.2891 29.8797 24.1922C29.2162 23.0953 28.275 22.1542 27.0563 21.3687C28.4375 21.5312 29.7375 21.8089 30.9563 22.2016C32.175 22.5943 33.3125 23.075 34.3688 23.6437C35.3438 24.1854 36.0885 24.788 36.6031 25.4516C37.1177 26.1151 37.375 26.8396 37.375 27.625V30.875C37.375 31.3354 37.2193 31.7214 36.9078 32.0328C36.5964 32.3443 36.2104 32.5 35.75 32.5H30.1031ZM14.625 19.5C12.8375 19.5 11.3073 18.8635 10.0344 17.5906C8.76146 16.3177 8.125 14.7875 8.125 13C8.125 11.2125 8.76146 9.68229 10.0344 8.40937C11.3073 7.13646 12.8375 6.5 14.625 6.5C16.4125 6.5 17.9427 7.13646 19.2156 8.40937C20.4885 9.68229 21.125 11.2125 21.125 13C21.125 14.7875 20.4885 16.3177 19.2156 17.5906C17.9427 18.8635 16.4125 19.5 14.625 19.5ZM30.875 13C30.875 14.7875 30.2385 16.3177 28.9656 17.5906C27.6927 18.8635 26.1625 19.5 24.375 19.5C24.0771 19.5 23.6979 19.4661 23.2375 19.3984C22.7771 19.3307 22.3979 19.2562 22.1 19.175C22.8313 18.3083 23.3932 17.3469 23.7859 16.2906C24.1786 15.2344 24.375 14.1375 24.375 13C24.375 11.8625 24.1786 10.7656 23.7859 9.70937C23.3932 8.65312 22.8313 7.69167 22.1 6.825C22.4792 6.68958 22.8583 6.60156 23.2375 6.56094C23.6167 6.52031 23.9958 6.5 24.375 6.5C26.1625 6.5 27.6927 7.13646 28.9656 8.40937C30.2385 9.68229 30.875 11.2125 30.875 13ZM4.875 29.25H24.375V27.95C24.375 27.6521 24.3005 27.3812 24.1516 27.1375C24.0026 26.8937 23.8063 26.7042 23.5625 26.5687C22.1 25.8375 20.624 25.2891 19.1344 24.9234C17.6448 24.5578 16.1417 24.375 14.625 24.375C13.1083 24.375 11.6052 24.5578 10.1156 24.9234C8.62604 25.2891 7.15 25.8375 5.6875 26.5687C5.44375 26.7042 5.2474 26.8937 5.09844 27.1375C4.94948 27.3812 4.875 27.6521 4.875 27.95V29.25ZM14.625 16.25C15.5188 16.25 16.2839 15.9318 16.9203 15.2953C17.5568 14.6589 17.875 13.8937 17.875 13C17.875 12.1062 17.5568 11.3411 16.9203 10.7047C16.2839 10.0682 15.5188 9.75 14.625 9.75C13.7313 9.75 12.9661 10.0682 12.3297 10.7047C11.6932 11.3411 11.375 12.1062 11.375 13C11.375 13.8937 11.6932 14.6589 12.3297 15.2953C12.9661 15.9318 13.7313 16.25 14.625 16.25Z"
+                  fill="white"
+                />
+              </svg>
+              <p className="grid grid-cols-1 justify-items-start">
+                {event.team_size ? event.team_size : 'TBD'}
+              </p>
+            </div>
+          )}
           {event.registration && (
             <div className="sm:col-span-1 font-bold leading-3">
               ₹{event.registration}
@@ -155,12 +166,6 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
       <div
         className={`flex flex-col items-center w-full h-full md:overflow-y-scroll ${textColor}`}
       >
-        {/* <div
-          className="prose text-sm md:text-base text-justify"
-          dangerouslySetInnerHTML={{
-            __html: content,
-          }}
-        /> */}
         <div className="prose text-sm md:text-base text-justify">
           <ReactMarkdown>{event.description}</ReactMarkdown>
         </div>
@@ -176,12 +181,6 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
                   <div>{index + 1}.</div>
                   <div>
                     <span className="font-semibold">{round.name}</span> -{' '}
-                    {/* <div
-                      className="prose text-sm md:text-base text-justify"
-                      dangerouslySetInnerHTML={{
-                        __html: round.description,
-                      }}
-                    /> */}
                     <div className="prose text-sm md:text-base text-justify">
                       <ReactMarkdown>{round.description}</ReactMarkdown>
                     </div>
@@ -189,6 +188,14 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
                 </li>
               ))}
             </ol>
+          </>
+        )}
+        {event?.rules && event?.rules !== '' && (
+          <>
+            <h3 className="md:text-xl mt-5 mb-2 text-lg font-bold">RULES</h3>
+            <div className="prose text-sm md:text-base text-justify w-full">
+              <ReactMarkdown>{event?.rules}</ReactMarkdown>
+            </div>
           </>
         )}
         {event?.coordinators?.length > 0 && (

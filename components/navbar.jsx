@@ -16,7 +16,7 @@ const links = [
   },
   {
     name: 'Workshops',
-    href: '/comingsoon',
+    href: '/workshops',
   },
   {
     name: 'Hackathons',
@@ -28,7 +28,7 @@ const links = [
   },
   {
     name: 'Sponsors',
-    href: '/comingsoon',
+    href: '/sponsors',
   },
   {
     name: 'Contact Us',
@@ -46,6 +46,13 @@ export default function Navbar({
 
   const pathname = usePathname();
 
+  const [url, setUrl] = useState('');
+  useEffect(() => {
+    setUrl(window.location.pathname);
+    if (window.location.pathname === '/') {
+      setUrl('home');
+    }
+  }, []);
   return (
     <>
       <header
@@ -66,7 +73,7 @@ export default function Navbar({
                 <Link
                   key={i}
                   href={link.href}
-                  className={(pathname.startsWith(link.href)) ? 'px-6 py-1.5 rounded-[5px] outline outline-2 outline-white' : 'px-6 py-1.5 rounded-[5px] hover:outline outline-2 outline-white'}
+                  className="px-6 py-1.5 rounded-[5px] hover:outline outline-2 outline-white"
                 >
                   {link.name}
                 </Link>
@@ -112,7 +119,11 @@ export default function Navbar({
                   key={i}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className="px-6 py-1.5 rounded-[5px] hover:outline outline-2 outline-white"
+                  className={`px-6 py-1.5 rounded-[5px]  hover:outline outline-2 hover:outline-white   ${
+                    new RegExp(link.name, 'i').test(url)
+                      ? 'outline outline-blue-300 text-blue-100'
+                      : ''
+                  }`}
                 >
                   {link.name}
                 </Link>

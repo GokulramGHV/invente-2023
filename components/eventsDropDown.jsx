@@ -10,14 +10,16 @@ export default function EventsDropDown({
   return (
     <div className="relative w-full mt-6 mb-4 lg:hidden cursor-pointer">
       <button
-        className={`${colorScheme.selected} relative z-10 rounded-lg py-2 px-3 border border-white/40  backdrop-blur-[2px] text-sm flex gap-1.5 items-center`}
+        className={`${colorScheme.selected} relative z-10 rounded-lg py-2 px-3 border border-white/40  backdrop-blur-[2px] text-sm flex gap-1.5 items-center justify-between`}
         style={{ width: width, backgroundColor: colorScheme.selected }}
         onClick={() => setDropDownOpen(!dropDownOpen)}
       >
+        <span className="font-medium ml-3">{selectedEvent.name}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`ml-1 w-4 h-4 ${dropDownOpen && 'rotate-90'
-            } transition duration-300 ease-in-out`}
+          className={`w-4 h-4 mx-1 ${
+            dropDownOpen ? 'rotate-[270deg]' : 'rotate-90'
+          } transition duration-300 ease-in-out`}
           viewBox="0 0 13 13"
           fill="none"
         >
@@ -26,12 +28,12 @@ export default function EventsDropDown({
             fill="white"
           />
         </svg>
-        <span className="font-medium">{selectedEvent.name}</span>
       </button>
       <div
         style={{ width: width }}
-        className={`${!dropDownOpen && 'hidden'
-          } absolute z-[1] top-0 left-0 bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm`}
+        className={`${
+          !dropDownOpen && 'hidden'
+        } absolute z-[1] top-0 left-0 bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm`}
       >
         <span className="text-left p-2 cursor-default font-light ">TECH</span>
         {deptEvents.events
@@ -51,9 +53,11 @@ export default function EventsDropDown({
         {deptEvents.events.filter((event) =>
           event.event_type?.toLowerCase().includes('non')
         ).length > 0 && (
-            <hr className="w-full mx-auto bg-white h-[1px] my-2 " />
-          )}
-        <span className="text-left p-2 cursor-default font-light">NON-TECH</span>
+          <hr className="w-full mx-auto bg-white h-[1px] my-2 " />
+        )}
+        <span className="text-left p-2 cursor-default font-light">
+          NON-TECH
+        </span>
         {deptEvents.events
           .filter((event) => event.event_type?.toLowerCase().includes('non'))
           .map((event) => (
@@ -71,8 +75,9 @@ export default function EventsDropDown({
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className={`h-14 absolute top-4 left-2 z-10 opacity-90 ${dropDownOpen && 'hidden'
-          }`}
+        className={`h-14 absolute top-4 left-2 z-10 opacity-90 ${
+          dropDownOpen && 'hidden'
+        }`}
         viewBox="0 0 6 42"
         fill="none"
       >
