@@ -11,9 +11,7 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            `  
-            Duration: 15-20 minutes.  
+          description: `***Duration: 15-20 minutes***.  
             1. Participants shall attend a quiz on basic programming concepts.  
             2. Every team is scored out of 10 and the top 6 teams are selected for the next round.  
             Tie Breakers: 1.Star Marked Questions: Some Priority Questions can be used to break ties.  
@@ -23,9 +21,7 @@ export const ECEevents = {
         },
         {
           name: 'Round 2',
-          description:
-            `  
-            Duration: 50 - 60 minutes.  
+          description: `***Duration: 50 - 60 minutes***.  
             1. Selected participants are given credits based on their quiz score.  
             2. Credits awarded = 1000* respective quiz score. 10 programming questions prepared in advance will be displayed to all the participants.  
             3. Each participant is given 5 minutes to discuss and/or decide the question of their preference. At the end of 5 minutes, an auction is conducted where participants are allowed to bid for their preferred problem statement with their awarded credits.  
@@ -53,9 +49,7 @@ export const ECEevents = {
     },
     {
       name: 'SOLDER-IT',
-      description:
-        `  
-        1. A team must have minimum of 2 students  
+      description: `1. A team must have minimum of 2 students  
         2. The participants can be from the same department or various departments as well.  
         3. Do not carry mobile phones and any other electronic gadgets.  
         4. Judge’s decision will be final.  
@@ -68,9 +62,7 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            `  
-            Duration: 30 Minutes.  
+          description: `***Duration: 30 Minutes***.  
             Number of Questions: 15.  
             Topic covered:  Circuit Analysis, Semiconductor Devices, Analog Electronic Circuits and Digital Electronics.  
             1) Participants shall attempt a technical quiz (Pen and Paper) based on the above-mentioned topics.  
@@ -83,9 +75,7 @@ export const ECEevents = {
         },
         {
           name: 'Round 2',
-          description:
-            `  
-            Duration: 45-60 Minutes.  
+          description: `***Duration: 45-60 Minutes***.  
             1) Teams will be shortlisted based on the pen and paper test score(prelims round score).   
             2) Each shortlisted team will be given a circuit description that has to be solved and solder the components according to the circuit layout they inferred.  
             3) Necessary items such as soldering rod, lead, flux, transistors, resistors, capacitors etc.  
@@ -110,9 +100,7 @@ export const ECEevents = {
     },
     {
       name: 'IPL AUCTION',
-      description:
-        `  
-        1. The participants can be of the same or different departments.  
+      description: `1. The participants can be of the same or different departments.  
         2. The participants from the same team can be from different institutions. `,
       type: 'team',
       event_type: 'non tech',
@@ -121,9 +109,7 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            `  
-            Time Duration: 30 minutes.  
+          description: `***Time Duration: 30 minutes***.  
             1. This round consists of 25 questions based on cricket and IPL.  
             2. The conduct can be using Kahoot / Pen Paper.  
             3. Top 6 Teams will be shortlisted for finals.  
@@ -135,9 +121,7 @@ export const ECEevents = {
         },
         {
           name: 'Round 2',
-          description:
-            `  
-            Time Duration: 150 minutes (Depending on Number of Teams and Rounds).  
+          description: `***Time Duration: 150 minutes*** (Depending on Number of Teams and Rounds).  
             1. Each team will have 2-3 people and each round will have 2-4 teams. 
             2. Teammates can discuss with themselves using a different means and only the team leader, selected by each team, should bid when the auction starts.  
             3. Purse amount will be 80 crores and each team should pick 15 players (11 players in the playing 11)  
@@ -164,12 +148,11 @@ export const ECEevents = {
     },
     {
       name: 'TRUMP THE ACES',
-      description:
-        `'Trump the Aces' consists of three rounds:  
+      description: `**Trump the Aces' consists of three rounds**:  
         1. Technical quiz on the topics like Analog and Digital electronics etc.  
         2. Match the components for the given circuit  
         3. Given a faulty connection and asked to connect components and obtain the output  
-        General instructions:  
+        **General instructions**:  
         1. A team must have a minimum of 2 students.  
         2. The participants can be from the same department or various departments as well.
         3. Materials or components for round 3 will be provided. `,
@@ -180,9 +163,7 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            `  
-            Topics covered: Analog and Digital Electronics, Linear Integrated Circuits, Analog Communication.  
+          description: `***Topics covered:*** Analog and Digital Electronics, Linear Integrated Circuits, Analog Communication.  
             Time duration: 20 minutes (10 questions)  
             The teams will be given a question paper of 10 questions from 3 question papers of which they have to answer, and the shortlisting depends on their score and timing of submission.  
             Tie Breakers:  
@@ -190,14 +171,12 @@ export const ECEevents = {
             2. Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used.  
             Sudden Death: Team that makes the first mistake shall not qualify for the next round.  
             Shortlisting for round 2:  
-            1. Based on the teams' scores in the first round, a certain number of teams will be qualified for the second round.
+            1. Based on the teams' scores in the first round, a certain number of teams will be qualified for the second round.  
             2. If two teams supposedly get the same score, tie breaker questions will be considered.`,
         },
         {
           name: 'Round 2',
-          description:
-            `  
-            Time Duration: 20 minutes (depending on the number of teams and rounds).  
+          description: `***Time Duration: 20 minutes*** (depending on the number of teams and rounds).  
             ● Each team will have 2-3 people and each round will have 2-4 teams.  
             ● A total of 7 cards will be given to each team.  
             ● Each card will contain a specific component.  
@@ -207,9 +186,7 @@ export const ECEevents = {
         },
         {
           name: 'Round 3',
-          description:
-            `   
-            Time Duration: 30 minutes.  
+          description: `***Time Duration: 30 minutes***.  
             ● Teams will be given a chance to pick a card from the deck available  
             ● Teams will be given a faulty circuit diagram .  
             ● The members have to debug the circuit which is basically to detect and eliminate the fault which can cause unexpected behaviour in the circuit or crashing of the same.  
@@ -247,15 +224,11 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Preliminary Round (Picture Quiz)',
-          description:
-            `  
-            Teams will engage in a visual challenge, deciphering clues and solving puzzles based on pictures provided. Up to five teams will compete simultaneously in one batch. The Preliminary Round is expected to last approximately 50-55 minutes, taking into account the number of teams.`,
+          description: `Teams will engage in a visual challenge, deciphering clues and solving puzzles based on pictures provided. Up to five teams will compete simultaneously in one batch. The Preliminary Round is expected to last ***approximately 50-55 minutes***, taking into account the number of teams.`,
         },
         {
           name: 'GTFO Escape Room (Final Round)',
-          description:
-            `  
-            The top eight teams from the Preliminary Round will advance to the ultimate challenge - the GTFO Escape Room.  
+          description: `The top eight teams from the Preliminary Round will advance to the ultimate challenge - the GTFO Escape Room.  
             1. Each team will have 8 minutes to solve the series of puzzles and figure out the code to exit the room.  
             2. The Final Round is expected to last around 1.5 hours in total.`,
         },
@@ -342,9 +315,7 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            `  
-            Duration – 30 minutes.  
+          description: `***Duration – 30 minutes***.  
             • Textbook meets technology in this round of potpourri of puzzles.  
             • This round is based on potpourri, where each team will have to answer a set of puzzles that may be in the form of crosswords, rebus, riddles etc.  
             • The teams will answer the questions and submit them within the stipulated time.  
@@ -357,9 +328,7 @@ export const ECEevents = {
         },
         {
           name: 'Round 2',
-          description:
-            `  
-            Duration – 60 minutes.  
+          description: `***Duration – 60 minutes***.  
             Count on your luck and let the wheel decide which decade you will travel to.  
             • Teams have to spin the Decade Wheel to decide which decade of technology they will be quizzed on.  
             • +10 points for every right answer given by the team. No negative marking.  
@@ -389,7 +358,7 @@ export const ECEevents = {
     {
       name: 'PITCH IT PLEASE',
       description:
-        "In ‘Pitch it Please!’ you will have the opportunity to pitch your product, service, or solution to a panel of judges and get valuable insights and tips on how to improve your strategies. “Ideas are the currency of the 21st century” - So don’t miss this chance to turn your ideas into reality.",
+        'In ‘Pitch it Please!’ you will have the opportunity to pitch your product, service, or solution to a panel of judges and get valuable insights and tips on how to improve your strategies. “Ideas are the currency of the 21st century” - So don’t miss this chance to turn your ideas into reality.',
       type: 'team',
       event_type: 'tech',
       team_size: '1-3',
@@ -397,9 +366,7 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            `  
-            Duration: 25-30 Minutes 
+          description: `***Duration: 25-30 Minutes***  
             ● Registered teams will receive a questionnaire (pen and paper type) 
             ● The questionnaire will contain schemes that put to test the team’s ability to solve current marketing strategies and various skills in it.  
             ● The questionnaire will be a combination of both subjective and objective type questions
@@ -410,21 +377,17 @@ export const ECEevents = {
         },
         {
           name: 'Round 2',
-          description:
-            `  
-            Duration: 15-20 Minutes  
+          description: `***Duration: 15-20 Minutes***  
             ● Around 10-15 teams will be shortlisted into the second round in which the teams will be given a case study (through video or text comprehension) and will be prompted to answer (pen and paper type) questions regarding marketing/sales strategies and solutions that they would come up with that best solves the case study.  
             ● Shortlisting will be done based on the creativity of the answers and feasibility as well as how teams have planned to implement their idea.  
             ● In case of tie breakers, use same method as in round 1. `,
         },
         {
           name: 'Round 3',
-          description:
-            `  
-            Duration: 90 - 120 Minutes  
+          description: `***Duration: 90 - 120 Minutes***  
             ● Shortlisted participants will be given a list of topics with respect to the domain or general topics and will be asked to come up with a product that aligns with the domain and the team will pitch the same to a panel.  
             ● The panel shall evaluate the pitches and announce winners `,
-        }
+        },
       ],
       venue: 'EC - 1, Old Seminar Hall',
       date: 'Oct. 6',
@@ -443,8 +406,7 @@ export const ECEevents = {
     },
     {
       name: 'HEXATHLON',
-      description:
-        `Hexathlon is an interesting technical event which will challenge your circuit knowledge and coding skills in six different  
+      description: `Hexathlon is an interesting technical event which will challenge your circuit knowledge and coding skills in six different  
         domains :  
         C/C++ , MATLAB , Microprocessor and Microcontrollers , Circuit theory , Electronic Circuits , Control Systems.  
         General instructions :  
@@ -459,9 +421,7 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            `  
-            Duration :  25 mins.  
+          description: `***Duration :  25 mins***.  
             1. The quiz will be in the format of pen and paper and will be conducted offline.  
             2.  The questions will be based on the above mentioned domains.  
             3.  All the answers to the questions must be answered before the time limit, extra time won't be provided.   
@@ -474,9 +434,7 @@ export const ECEevents = {
         },
         {
           name: 'Round 2',
-          description:
-            `  
-            Duration: 180 mins.  
+          description: `***Duration: 180 mins***.  
             (Task sheet will be provided for each team => easy/medium/hard randomly)  
             1.Programming (Language of your choice) - Problem Statement to be solved will be provided, code optimisation and problem-solving approach will be tested. 
             2.Electronics Devices and Circuits - Design as per the given requirements -(Problems on OpAmps, Amplifiers, Oscillator Circuits, Analog Electronics)  
@@ -516,8 +474,7 @@ export const ECEevents = {
     },
     {
       name: 'ENIGMA',
-      description:
-        `All the Alan Turings out there, test your wits in an epic, paradoxical event. Dodge all the bullets from logic, aptitude,science aaaand tech, like Agent Smith. Don't forget to diffuse the ticking time bomb too. Deduce the connections! Decode the encryptions!! And finally, Decimate your OPPONENTS!!! 'The beauty of Enigma is that it can be solved by simple logic.'' Who knows, a methodical haphazardnous might be the key.  
+      description: `All the Alan Turings out there, test your wits in an epic, paradoxical event. Dodge all the bullets from logic, aptitude,science aaaand tech, like Agent Smith. Don't forget to diffuse the ticking time bomb too. Deduce the connections! Decode the encryptions!! And finally, Decimate your OPPONENTS!!! 'The beauty of Enigma is that it can be solved by simple logic.'' Who knows, a methodical haphazardnous might be the key.  
         Topics Covered: Logical reasoning, basic science and mathematics, data interpretation, basic programming and tech trivia.  
         General Instructions:  
         1. The participants can be of the same or different departments.  
@@ -529,9 +486,7 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description:
-            `  
-            1. A quiz of MCQ format will be conducted based on the topics mentioned above. 
+          description: `1. A quiz of MCQ format will be conducted based on the topics mentioned above. 
             2. Teams will be selected based on the points scored and will be moved to round 2 depending on the number of teams registered.  
             3. Use of mobile phones is prohibited in this round.  
             Tie Breakers:  
@@ -540,9 +495,7 @@ export const ECEevents = {
         },
         {
           name: 'Round 2',
-          description:
-            `  
-            Duration: 60 Minutes   
+          description: `***Duration: 60 Minutes***   
             1. A set of puzzles 3 will be given to each team which has to be completed to reach the final stage.  
             2. The solution of each puzzle will be a clue for the final task which is to crack an enigmatic code. 
             3. The difficulty level will increase with each task. The points for each task will depend on the difficulty level.  
@@ -567,8 +520,7 @@ export const ECEevents = {
     },
     {
       name: 'PAPER PRESENTATION',
-      description:
-        `General Instructions:  
+      description: `**General Instructions:**  
         1. A team can consist of 1-3 students.  
         2. Only undergraduate student authors are allowed and they need not belong to the same institute.  
         3. Send your abstract to the attached gform in the ECE link tree (registration page).  
@@ -606,17 +558,13 @@ export const ECEevents = {
       rounds: [
         {
           name: 'First round',
-          description:
-            ` 
-            1. All the entries from various colleges will be evaluated and shortlisted by the chair and secretary with the help of PhD students from the department.  
+          description: `1. All the entries from various colleges will be evaluated and shortlisted by the chair and secretary with the help of PhD students from the department.  
             2. Authors of shortlisted papers will be notified for the next round a week prior.  
             3. All participants making submissions for round one will receive participation certificates.  `,
         },
         {
           name: 'Second round',
-          description:
-            ` 
-            1. The selected participants from round 1 are requested to be present at the venue at least 15 minutes before the event commences.  
+          description: `1. The selected participants from round 1 are requested to be present at the venue at least 15 minutes before the event commences.  
             2. The participants will be explained about the event, panel of judges, judging criteria, and prizes.  
             3. The Authors of the respective teams will be given 10 minutes to explain their paper and present their idea to the panel of judges LIVE during the time of the event.  
             4. Participants are requested to strictly follow the time limits.  
