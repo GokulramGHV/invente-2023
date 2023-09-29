@@ -227,8 +227,7 @@ export const MECHevents = {
     },
     {
       name: 'Robo Wars',
-      description:
-        "Robowars', one of the most popular and key events at Invente ‘23 ,the annual two-day technical fest at SSN college of engineering. The primary goal of the event is to destroy or disable the opponent’s robot using various weapons and tactics. Bring your powerful stand-alone robots ready to battle as you’ll be pitted against other competing robots in one-on-one knockout matches and score maximum points! Play to your strengths and strategies to win cash prizes! Design and construct a wired or remote-controlled bot capable of fighting in a one-on-one tournament.",
+      description:`Robowars', one of the most popular and key events at Invente ‘23 ,the annual two-day technical fest at SSN college of engineering. The primary goal of the event is to destroy or disable the opponent’s robot using various tactics. Bring your powerful stand-alone robots ready to battle as you’ll be pitted against other competing robots in one-on-one knockout matches and score maximum points! Play to your strengths and strategies to win cash prizes! Design and construct a wired or remote-controlled bot capable of fighting in a one-on-one tournament.`,
       type: 'team',
       event_type: 'tech',
       team_size: '3',
@@ -242,7 +241,12 @@ export const MECHevents = {
         {
           name: 'Rules',
           description:
-            'General Rules: 1 The competition will be played on a knock-out basis consisting of 2 players at a time. 2 The maximum duration of each round will be 5 minutes. Any team that is not ready at the time specified will be disqualified from the competition. 3 The machine will be checked for safety before the competition. Any robot found unsafe to other participants and spectators will be disqualified. 4 The organizers reserve the rights to change any or all of the above rules as they deem fit. 5 Change in rules, if any, will be highlighted on the website and notified to the registered teams. Violation of any rule will lead to disqualification. 6 Judges’ decision shall be treated as final and binding on all. Note: The bot should conform to the specified conditions.  Safety Rules: Compliance with all event rules is mandatory. It is expected that competitors stay within the rules and procedures of their own accord and do not require constant policing. If you have a robot or weapon design that does not fit within the categories set forth in these rules or is in some way ambiguous or borderline, please contact the event organizers. All weapons must have a safety cover on any sharp edges. Dimensions and Fabrications: 1 The bot should fit in a 40 cm x 40 cm x 40 cm box with all mechanisms fully executing motions. 2 Length and width are measured to the extremities of the Robot, i.e., includes any overhanging bodywork, weaponry or protrusions. 3 The external device used to control the bot is not included in the size constraint. 4 Maximum weight of the bot should not exceed 10 kgs. (Including battery) Mobility: 1 All bots must have easily visible and controlled mobility in order to compete. 2 Movement of robot must be rolling of wheels only. 3 Jumping and hopping is not allowed. 4 Flying (using air foil, helium balloons, ornithopters, etc.) is not allowed. ',
+            `General Rules:
+            The competition will be played on a knock-out basis consisting of 2 players at a time.The maximum duration of each round will be 5 minutes. Any team that is not ready at the time specified will be disqualified from the competition.The machine will be checked for safety before the competition. Any robot found unsafe to other participants and spectators will be disqualified.The organizers reserve the rights to change any or all of the above rules as they deem fit.Violation of any rule will lead to disqualification.  
+            Dimensions and Fabrications:  
+            The bot should fit in a 50 cm x 50 cm x 50 cm box with all mechanisms fully executing motions.Length and width are measured to the extremities of the Robot, i.e., includes any overhanging bodywork,or protrusions.The external device used to control the bot is not included in the size constraint.Maximum weight of the bot should not exceed 15 kgs. (Including battery)  
+            Mobility:  
+            All bots must have easily visible and controlled mobility in order to compete.Movement of robot must be rolling of wheels only.Jumping and hopping is not allowed.Flying (using air foil, helium balloons, ornithopters, etc.) is not allowed.`,
         },
       ],
       venue: 'TBD',
@@ -293,7 +297,20 @@ export const MECHevents = {
     {
       name: 'Blitz GP',
       description:
-        "From ‘Herbie’ to ‘Transformers’, the magic of cars coming to life on screen has fascinated us. Now, make your own RC car and be the director of your own RC car adventure at our race event. Come Directors, let's create a multiverse of cars in a single timeline (Track). Get ready for an adrenaline-fuelled thrill event and showcase your driving skills on an electrifying track filled with twists, turns, and jumps. Whether you’re a seasoned racer or a newcomer, this event promises heart-pounding action and a chance to compete against other enthusiasts.",
+        `From ‘Herbie’ to ‘Transformers’, the magic of cars coming to life on screen has fascinated us. Now, make your own RC car and be the director of your own RC car adventure at our race event. Come Directors, let's create a multiverse of cars in a single timeline (Track). Get ready for an adrenaline-fuelled thrill event and showcase your driving skills on an electrifying track filled with twists, turns, and jumps. Whether you’re a seasoned racer or a newcomer, this event promises heart-pounding action and a chance to compete against other enthusiasts.  
+        Rules:  
+        • Maximum number of participants per team: 4
+• Multiple paths filled with obstacles will be available on the race track. The driver 
+must decide the most suitable path.
+• It is compulsory to collect one of the two Flag points present on the track.
+• Participants to bring own RC vehicles and batteries.
+• No spare batteries or components will be provided.
+• In case of a tie, there will be another match for one more lap.
+• The organizers reserve the rights to change any or all of the above rules as they
+deem fit. Change in rules, if any will be highlighted on the website and notified to
+the registered participants.
+• Organizers’ decision shall be treated as final and binding on all.
+• Violation of rules will lead to disqualification.`,
       type: 'team',
       event_type: 'tech',
       team_size: '1-4',
@@ -302,12 +319,15 @@ export const MECHevents = {
         {
           name: ' Qualifier',
           description:
-            ' 5 laps to attain the best lap time. o Gives advantage to best timed teams',
+            `o 1 lap and two chances will be given and the latest lap time will be 
+            considered.  
+            o If the driver chooses the second chance then if at all they take more time 
+            that will be considered.`,
         },
         {
           name: 'Face-Off ',
-          description:
-            ' 1v1 knockouts o Elimination Round o The final will take place amongst the two best teams .( Change of rounds will be insisted with prior information)',
+          description: `o 1v1 knockout  
+          o The final will take place amongst the two best teams`,
         },
       ],
       venue: 'TBD',
