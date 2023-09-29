@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import {usePathname} from 'next/navigation'
+import { useRouter } from 'next/navigation';
 
 const links = [
   {
@@ -44,8 +44,6 @@ export default function Navbar({
 }) {
   const hamburgerLine = `h-1 w-8 my-1 rounded-full bg-white transition ease transform duration-300`;
 
-  const pathname = usePathname();
-
   const [url, setUrl] = useState('');
   useEffect(() => {
     setUrl(window.location.pathname);
@@ -73,7 +71,11 @@ export default function Navbar({
                 <Link
                   key={i}
                   href={link.href}
-                  className="px-6 py-1.5 rounded-[5px] hover:outline outline-2 outline-white"
+                  className={`px-6 py-1.5 rounded-[5px] hover:outline outline-2 hover:outline-white transition-all duration-200 ease-in-out  ${
+                    new RegExp(link.name, 'i').test(url)
+                      ? 'outline outline-blue-300 text-blue-100'
+                      : ''
+                  }`}
                 >
                   {link.name}
                 </Link>
