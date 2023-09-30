@@ -11,6 +11,7 @@ import { useState } from 'react';
 import { ITevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import Image from 'next/image';
+import { useSearchParams } from 'next/navigation';
 
 const press_start_2p = Press_Start_2P({
   preload: true,
@@ -24,7 +25,11 @@ const stick_no_bills = Stick_No_Bills({
 });
 
 export default function IT() {
-  const [selectedEvent, setSelectedEvent] = useState(ITevents.events[0]);
+  const searchParams = useSearchParams();
+  const [selectedEvent, setSelectedEvent] = useState(
+    ITevents.events.find((event) => event.name === searchParams.get('event')) ||
+      ITevents.events[0]
+  );
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {

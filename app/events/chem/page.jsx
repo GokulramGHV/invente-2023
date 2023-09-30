@@ -10,6 +10,7 @@ import { useState } from 'react';
 import { CHEMevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import { Cedarville_Cursive, Stick_No_Bills } from 'next/font/google';
+import { useSearchParams } from 'next/navigation';
 
 const stick_no_bills = Stick_No_Bills({
   preload: true,
@@ -23,7 +24,12 @@ const cedarville = Cedarville_Cursive({
 });
 
 export default function CHEM() {
-  const [selectedEvent, setSelectedEvent] = useState(CHEMevents.events[0]);
+  const searchParams = useSearchParams();
+  const [selectedEvent, setSelectedEvent] = useState(
+    CHEMevents.events.find(
+      (event) => event.name === searchParams.get('event')
+    ) || CHEMevents.events[0]
+  );
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {

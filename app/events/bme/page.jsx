@@ -18,6 +18,7 @@ import { useState } from 'react';
 import { BMEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import { Stick_No_Bills } from 'next/font/google';
+import { useSearchParams } from 'next/navigation';
 
 const stick_no_bills = Stick_No_Bills({
   preload: true,
@@ -25,7 +26,12 @@ const stick_no_bills = Stick_No_Bills({
 });
 
 export default function BME() {
-  const [selectedEvent, setSelectedEvent] = useState(BMEevents.events[0]);
+  const searchParams = useSearchParams();
+  const [selectedEvent, setSelectedEvent] = useState(
+    BMEevents.events.find(
+      (event) => event.name === searchParams.get('event')
+    ) || BMEevents.events[0]
+  );
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {

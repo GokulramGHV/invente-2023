@@ -10,6 +10,7 @@ import { useState } from 'react';
 import { CSEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import { Stick_No_Bills } from 'next/font/google';
+import { useSearchParams } from 'next/navigation';
 
 const stick_no_bills = Stick_No_Bills({
   preload: true,
@@ -17,7 +18,12 @@ const stick_no_bills = Stick_No_Bills({
 });
 
 export default function CSE() {
-  const [selectedEvent, setSelectedEvent] = useState(CSEevents.events[0]);
+  const searchParams = useSearchParams();
+  const [selectedEvent, setSelectedEvent] = useState(
+    CSEevents.events.find(
+      (event) => event.name === searchParams.get('event')
+    ) || CSEevents.events[0]
+  );
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {

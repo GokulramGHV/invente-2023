@@ -10,6 +10,7 @@ import { useState } from 'react';
 import { MECHevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import { Audiowide, Stick_No_Bills } from 'next/font/google';
+import { useSearchParams } from 'next/navigation';
 
 const stick_no_bills = Stick_No_Bills({
   preload: true,
@@ -23,7 +24,12 @@ const audiowide = Audiowide({
 });
 
 export default function MECH() {
-  const [selectedEvent, setSelectedEvent] = useState(MECHevents.events[0]);
+  const searchParams = useSearchParams();
+  const [selectedEvent, setSelectedEvent] = useState(
+    MECHevents.events.find(
+      (event) => event.name === searchParams.get('event')
+    ) || MECHevents.events[0]
+  );
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {

@@ -78,7 +78,7 @@ export const ECEevents = {
           description: `***Duration: 45-60 Minutes***.  
             1) Teams will be shortlisted based on the pen and paper test score(prelims round score).   
             2) Each shortlisted team will be given a circuit description that has to be solved and solder the components according to the circuit layout they inferred.  
-            3) Necessary items such as soldering rod, lead, flux, transistors, resistors, capacitors etc.  
+            3) Necessary items such as soldering rod, lead, flux, transistors, resistors, capacitors etc. will be provided.
             4) You will be scored on how well and neat your circuit is soldered and implemented.`,
         },
       ],

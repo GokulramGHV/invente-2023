@@ -8,6 +8,7 @@ import { useState } from 'react';
 import { COMevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
 import { Averia_Sans_Libre, Bayon, Stick_No_Bills } from 'next/font/google';
+import { useSearchParams } from 'next/navigation';
 
 const averia_sans_libre = Averia_Sans_Libre({
   preload: true,
@@ -21,15 +22,13 @@ const bayon = Bayon({
   subsets: ['latin'],
 });
 
-import Footer from '@/components/footer';
-
-const stick_no_bills = Stick_No_Bills({
-  preload: true,
-  subsets: ['latin'],
-});
-
 export default function COM() {
-  const [selectedEvent, setSelectedEvent] = useState(COMevents.events[0]);
+  const searchParams = useSearchParams();
+  const [selectedEvent, setSelectedEvent] = useState(
+    COMevents.events.find(
+      (event) => event.name === searchParams.get('event')
+    ) || COMevents.events[0]
+  );
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {

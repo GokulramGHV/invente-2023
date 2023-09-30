@@ -8,6 +8,7 @@ import { Space_Grotesk, Stick_No_Bills } from 'next/font/google';
 import { useState } from 'react';
 import { ECEevents } from './events';
 import EventsDropDown from '@/components/eventsDropDown';
+import { useSearchParams } from 'next/navigation';
 
 const space_grotesk = Space_Grotesk({
   preload: true,
@@ -20,7 +21,12 @@ const stick_no_bills = Stick_No_Bills({
 });
 
 export default function ECE() {
-  const [selectedEvent, setSelectedEvent] = useState(ECEevents.events[0]);
+  const searchParams = useSearchParams();
+  const [selectedEvent, setSelectedEvent] = useState(
+    ECEevents.events.find(
+      (event) => event.name === searchParams.get('event')
+    ) || ECEevents.events[0]
+  );
   const [dropDownOpen, setDropDownOpen] = useState(false);
 
   const colorScheme = {
