@@ -27,8 +27,8 @@ export const COMevents = {
     },
     {
       name: 'Market Master Challenge - Mock Stock Market Trading Simulation',
-      description:
-        "The Stock Market Simulation Game immerses players in the fast-paced world of finance, providing hands-on experience with trading and investment methods. Players create teams and engage in simulated stock trading in this event, making informed judgements based on real-time market data. It's an unparalleled chance for individuals to put their financial knowledge and analytical skills to the test in a simulated but realistic setting. Participants acquire insights into the complexity of stock markets while competing with other enthusiasts, refining their trading insights and risk management skills.",
+      description: `The Stock Market Simulation Game immerses players in the fast-paced world of finance, providing hands-on experience with trading and investment methods. Players create teams and engage in simulated stock trading in this event, making informed judgements based on real-time market data. It's an unparalleled chance for individuals to put their financial knowledge and analytical skills to the test in a simulated but realistic setting. Participants acquire insights into the complexity of stock markets while competing with other enthusiasts, refining their trading insights and risk management skills.  
+        ***Google form Link: [https://forms.gle/R4aaGKoPAwWUuJpa9](https://forms.gle/R4aaGKoPAwWUuJpa9)***`,
       type: 'team',
       event_type: 'tech',
       team_size: '1-3',
@@ -47,7 +47,6 @@ export const COMevents = {
       **Two methods of registration:**  
       ● This event is Included in the quota of Rs.300 for 4 events (as applicable to all other events of Invente')   
       ● Additionally, separate registration for this event alone is available at Rs.100 per participant. The payment for the same can be made in the given link under the 'Market Master Challenge' Tab - ***[https://rzp.io/l/Invente-23](https://rzp.io/l/Invente-23)***.     
-      ***Google form Link: [https://forms.gle/R4aaGKoPAwWUuJpa9](https://forms.gle/R4aaGKoPAwWUuJpa9)***
       `,
       venue: 'SNUC Seminar Hall - Academic Block 1',
       date: 'Oct. 6, 2023',
