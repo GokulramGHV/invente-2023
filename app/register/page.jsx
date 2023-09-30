@@ -10,17 +10,16 @@ const bayon = Bayon({
 
 const rulesArray = [
   'Technical Passes are valid only for **individual registration**, not for team registration.',
-  'Using one Technical pass, the participant is able to participate in **4 - Technical Events** across the departments.',
+  'Using one Technical pass, the participant is able to participate in a maximum of **4 - Technical Events** across the departments.',
   'After participating in 4 - Technical Events, the participants are very much **welcome to buy another pass**.',
   'The participants should make sure that they are making the payment using only the **Razor-pay link** provided on the website.',
   'No other mode of payment is accepted.',
-  'Once the participants make their payment using the Razor-pay link, they will receive the transaction **receipt through their given mail I’D**.',
+  'Once the participants make their payment using the Razor-pay link, they will receive the transaction **receipt through their given mail ID**.',
   'The participants can use the same Razor-pay link for Workshop and Hackathon registration.',
   'While making the payment, the participant should make sure that they are paying for **either (Technical pass / Workshop / Hackathon)**.',
   'After the payment process, the participants should fill out the **Google Form** attached (Register Here Button) below the "Pay Now" Button individually',
   'The participants should **upload the receipt** in the Google Form without fail.',
-  'Those who are participating in **Paper Presentation / Poster Presentation** kindly mention that in the Gfrom without fail.',
-  'In a single pass more than 4-Technical Events registrations will not be acceptable.',
+  'Those who are participating in **Paper Presentation / Poster Presentation** kindly mention that in the Gform without fail.',
   'These Technical Passes are not valid for Non-Technical Events. Non- Technical Events will have separate registration in their respective departments.',
 ];
 
