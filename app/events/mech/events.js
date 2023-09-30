@@ -1,6 +1,44 @@
 export const MECHevents = {
   events: [
     {
+      name: 'Robo Wars',
+      description: `Robowars', one of the most popular and key events at Invente ‘23 ,the annual two-day technical fest at SSN college of engineering. The primary goal of the event is to destroy or disable the opponent’s robot using various tactics. Bring your powerful stand-alone robots ready to battle as you’ll be pitted against other competing robots in one-on-one knockout matches and score maximum points! Play to your strengths and strategies to win cash prizes! Design and construct a wired or remote-controlled bot capable of fighting in a one-on-one tournament.`,
+      type: 'team',
+      event_type: 'tech',
+      team_size: '3',
+      department: 'Mechanical',
+      rounds: [
+        {
+          name: 'Knock out rounds',
+          description:
+            ' Matches Will be based on Knockout fixtures. Duration of the Match: 5 minutes',
+        },
+        {
+          name: 'Rules',
+          description: `General Rules:
+            The competition will be played on a knock-out basis consisting of 2 players at a time.The maximum duration of each round will be 5 minutes. Any team that is not ready at the time specified will be disqualified from the competition.The machine will be checked for safety before the competition. Any robot found unsafe to other participants and spectators will be disqualified.The organizers reserve the rights to change any or all of the above rules as they deem fit.Violation of any rule will lead to disqualification.  
+            Dimensions and Fabrications:  
+            The bot should fit in a 50 cm x 50 cm x 50 cm box with all mechanisms fully executing motions.Length and width are measured to the extremities of the Robot, i.e., includes any overhanging bodywork,or protrusions.The external device used to control the bot is not included in the size constraint.Maximum weight of the bot should not exceed 15 kgs. (Including battery)  
+            Mobility:  
+            All bots must have easily visible and controlled mobility in order to compete.Movement of robot must be rolling of wheels only.Jumping and hopping is not allowed.Flying (using air foil, helium balloons, ornithopters, etc.) is not allowed.`,
+        },
+      ],
+      venue: 'Outside Mechatronics Lab',
+      date: 'Oct. 6-7, 2023',
+      winner: '4000',
+      runner: '2000',
+      coordinators: [
+        {
+          name: 'ROSHINI',
+          phone: '7550007854',
+        },
+        {
+          name: 'PRADEEP SIVA',
+          phone: '9445224247',
+        },
+      ],
+    },
+    {
       name: 'Mechathlon',
       description:
         'Strong in core concepts? The right platform to flex the mechanical engineering knowledge is right here. This is technical event where the participants will be asked to attempt a quiz. The question paper will be circulated. To make the event different from the conventional quiz contests, we have incorporated a mock simulation of the technical interview rounds which take place during campus placements. Round 2 consists of group discussion followed by interview in the third round. In addition to testing the core concepts of a participant, this particular event acts like a mock placement round which in turn facilitates the students to get exposed to the placement process. ',
@@ -100,7 +138,7 @@ export const MECHevents = {
             'Presentation of projects in person or presentation through video of the working model. (Using ppt) This should enlighten the judges clearly, with the title, objective, working principle, novelty and scope of the project. ',
         },
       ],
-      venue: 'DYNAMICS LAB, METROLOGY LAB',
+      venue: 'LH Classroom',
       date: 'Oct. 7, 2023',
       winner: '3000',
       runner: '2000',
@@ -226,45 +264,6 @@ export const MECHevents = {
       ],
     },
     {
-      name: 'Robo Wars',
-      description:`Robowars', one of the most popular and key events at Invente ‘23 ,the annual two-day technical fest at SSN college of engineering. The primary goal of the event is to destroy or disable the opponent’s robot using various tactics. Bring your powerful stand-alone robots ready to battle as you’ll be pitted against other competing robots in one-on-one knockout matches and score maximum points! Play to your strengths and strategies to win cash prizes! Design and construct a wired or remote-controlled bot capable of fighting in a one-on-one tournament.`,
-      type: 'team',
-      event_type: 'tech',
-      team_size: '3',
-      department: 'Mechanical',
-      rounds: [
-        {
-          name: 'Knock out rounds',
-          description:
-            ' Matches Will be based on Knockout fixtures. Duration of the Match: 5 minutes',
-        },
-        {
-          name: 'Rules',
-          description:
-            `General Rules:
-            The competition will be played on a knock-out basis consisting of 2 players at a time.The maximum duration of each round will be 5 minutes. Any team that is not ready at the time specified will be disqualified from the competition.The machine will be checked for safety before the competition. Any robot found unsafe to other participants and spectators will be disqualified.The organizers reserve the rights to change any or all of the above rules as they deem fit.Violation of any rule will lead to disqualification.  
-            Dimensions and Fabrications:  
-            The bot should fit in a 50 cm x 50 cm x 50 cm box with all mechanisms fully executing motions.Length and width are measured to the extremities of the Robot, i.e., includes any overhanging bodywork,or protrusions.The external device used to control the bot is not included in the size constraint.Maximum weight of the bot should not exceed 15 kgs. (Including battery)  
-            Mobility:  
-            All bots must have easily visible and controlled mobility in order to compete.Movement of robot must be rolling of wheels only.Jumping and hopping is not allowed.Flying (using air foil, helium balloons, ornithopters, etc.) is not allowed.`,
-        },
-      ],
-      venue: 'Outside Mechatronics Lab',
-      date: 'Oct. 6-7, 2023',
-      winner: '4000',
-      runner: '2000',
-      coordinators: [
-        {
-          name: 'ROSHINI',
-          phone: '7550007854',
-        },
-        {
-          name: 'PRADEEP SIVA',
-          phone: '9445224247',
-        },
-      ],
-    },
-    {
       name: 'Murder Mystery',
       description:
         "Do your friends find your jokes a little too dark sometimes? Do you have a particular liking for murder, blood, violence and all the other horrid things. Do you have a knack for solving crime mysteries? Well then you've come to the right place Mechanical department proudly presents murder mystery Just right shares of mystery, gore, adventure and fear (or not💀) ",
@@ -296,8 +295,7 @@ export const MECHevents = {
     },
     {
       name: 'Blitz GP',
-      description:
-        `From ‘Herbie’ to ‘Transformers’, the magic of cars coming to life on screen has fascinated us. Now, make your own RC car and be the director of your own RC car adventure at our race event. Come Directors, let's create a multiverse of cars in a single timeline (Track). Get ready for an adrenaline-fuelled thrill event and showcase your driving skills on an electrifying track filled with twists, turns, and jumps. Whether you’re a seasoned racer or a newcomer, this event promises heart-pounding action and a chance to compete against other enthusiasts.  
+      description: `From ‘Herbie’ to ‘Transformers’, the magic of cars coming to life on screen has fascinated us. Now, make your own RC car and be the director of your own RC car adventure at our race event. Come Directors, let's create a multiverse of cars in a single timeline (Track). Get ready for an adrenaline-fuelled thrill event and showcase your driving skills on an electrifying track filled with twists, turns, and jumps. Whether you’re a seasoned racer or a newcomer, this event promises heart-pounding action and a chance to compete against other enthusiasts.  
         Rules:  
         • Maximum number of participants per team: 4
 • Multiple paths filled with obstacles will be available on the race track. The driver 
@@ -310,7 +308,8 @@ must decide the most suitable path.
 deem fit. Change in rules, if any will be highlighted on the website and notified to
 the registered participants.
 • Organizers’ decision shall be treated as final and binding on all.
-• Violation of rules will lead to disqualification.`,
+• Violation of rules will lead to disqualification.   
+***Link: [https://drive.google.com/drive/folders/15B52rtrhk93vxsi64Wa0qdmg2wqNzazl](https://drive.google.com/drive/folders/15B52rtrhk93vxsi64Wa0qdmg2wqNzazl)***`,
       type: 'team',
       event_type: 'tech',
       team_size: '1-4',
@@ -318,8 +317,7 @@ the registered participants.
       rounds: [
         {
           name: ' Qualifier',
-          description:
-            `o 1 lap and two chances will be given and the latest lap time will be 
+          description: `o 1 lap and two chances will be given and the latest lap time will be 
             considered.  
             o If the driver chooses the second chance then if at all they take more time 
             that will be considered.`,
@@ -330,7 +328,7 @@ the registered participants.
           o The final will take place amongst the two best teams`,
         },
       ],
-      venue: 'Fountain',
+      venue: 'Outdoor Basketball Court',
       date: 'Oct. 6, 2023',
       winner: '5000',
       runner: '3000',

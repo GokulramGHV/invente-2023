@@ -50,7 +50,12 @@ const sponsors = [
     width: 200,
     height: 100,
   },
-  { img: '/sponsors/cwe.jpg', link: '', width: 150, height: 100 },
+  {
+    img: '/sponsors/cwe.jpg',
+    link: 'https://m.indiamart.com/classicwin-engineering-private-limited/',
+    width: 150,
+    height: 100,
+  },
   {
     img: '/sponsors/max.jpg',
     link: 'https://www.instagram.com/duromaxofficial/',
