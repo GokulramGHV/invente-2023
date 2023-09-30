@@ -1,6 +1,7 @@
 import Navbar from '@/components/navbar';
 import { Bayon } from 'next/font/google';
 import Image from 'next/image';
+import ReactMarkdown from 'react-markdown';
 
 const bayon = Bayon({
   subsets: ['latin'],
@@ -8,20 +9,18 @@ const bayon = Bayon({
 });
 
 const rulesArray = [
-  'Technical Passes are valid only for individual registration, not for team registration.',
-  'Using one Technical pass, the participant is able to participate in 4 - Technical Events across the departments.',
-  'After participating in 4 - Technical Events, the participants are very much welcome to buy another pass.',
-  'The participants should make sure that they are making the payment using only the Razor-pay link provided on the website.',
+  'Technical Passes are valid only for **individual registration**, not for team registration.',
+  'Using one Technical pass, the participant is able to participate in **4 - Technical Events** across the departments.',
+  'After participating in 4 - Technical Events, the participants are very much **welcome to buy another pass**.',
+  'The participants should make sure that they are making the payment using only the **Razor-pay link** provided on the website.',
   'No other mode of payment is accepted.',
-  'Once the participants make their payment using the Razor-pay link, they will receive the transaction receipt through their login mail I’D.',
+  'Once the participants make their payment using the Razor-pay link, they will receive the transaction **receipt through their given mail I’D**.',
   'The participants can use the same Razor-pay link for Workshop and Hackathon registration.',
-  'While making the payment, the participant should make sure that they are paying for either (Technical pass / Workshop / Hackathon).',
-  'After the payment process, the participants should fill out the Payment Google Form mentioned below the Razor Pay link.',
-  'The participants should upload the receipt in the Google Form without fail.',
-  'Register for 4 technical events using the link tree provided which has department wise registration forms.',
-  'From the list of Technical Events, the participants are allowed to select any 4-Technical Events and register for the same.',
-  'All the event registration forms can be found in the link tree.',
-  'In a single pass, more than 4-Technical Events registrations will not be acceptable.',
+  'While making the payment, the participant should make sure that they are paying for **either (Technical pass / Workshop / Hackathon)**.',
+  'After the payment process, the participants should fill out the **Google Form** attached (Register Here Button) below the "Pay Now" Button individually',
+  'The participants should **upload the receipt** in the Google Form without fail.',
+  'Those who are participating in **Paper Presentation / Poster Presentation** kindly mention that in the Gfrom without fail.',
+  'In a single pass more than 4-Technical Events registrations will not be acceptable.',
   'These Technical Passes are not valid for Non-Technical Events. Non- Technical Events will have separate registration in their respective departments.',
 ];
 
@@ -51,8 +50,8 @@ export default function Register() {
               <h3 className="text-4xl font-semibold">1</h3>
               <div className="h-8 w-1 rounded-full bg-white"></div>
               <h3 className="text-4xl font-semibold">2</h3>
-              <div className="h-8 w-1 rounded-full bg-white"></div>
-              <h3 className="text-4xl font-semibold">3</h3>
+              {/* <div className="h-8 w-1 rounded-full bg-white"></div>
+              <h3 className="text-4xl font-semibold">3</h3> */}
             </div>
             <div className="flex flex-col gap-10">
               <div className="w-full flex items-center gap-5">
@@ -73,7 +72,7 @@ export default function Register() {
                   Register Here
                 </a>
               </div>
-              <div className="w-full flex items-center gap-5">
+              {/* <div className="w-full flex items-center gap-5">
                 <a
                   target="_blank"
                   href="https://linktr.ee/ssnsnucinvente23"
@@ -81,7 +80,7 @@ export default function Register() {
                 >
                   Event Forms
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -101,7 +100,7 @@ export default function Register() {
           {rulesArray.map((rule, i) => (
             <div key={i} className="flex gap-3">
               <h3 className="font-semibold">{i + 1}. </h3>
-              <p className="leading-6">{rule}</p>
+              <ReactMarkdown className="leading-6">{rule}</ReactMarkdown>
             </div>
           ))}
         </div>
