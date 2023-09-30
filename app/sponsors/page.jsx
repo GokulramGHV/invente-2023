@@ -8,18 +8,67 @@ const bayon = Bayon({
 });
 
 const sponsors = [
-  { img: '/sponsors/credai.jpg', link: 'https://credai.org/' },
+  {
+    img: '/sponsors/credai.jpg',
+    link: 'https://credai.org/',
+    width: 200,
+    height: 100,
+  },
   {
     img: '/sponsors/lancer.jpeg',
     link: 'https://www.indiamart.com/lancerlaser-eng/profile.html?utm_campaign=imob_company_share&utm_medium=social&utm_source=social',
+    width: 200,
+    height: 100,
   },
-  { img: '/sponsors/pck.jpg', link: 'https://pck-buderus.com/' },
-  { img: '/sponsors/stayflexi.png', link: 'https://www.stayflexi.com/' },
-  { img: '/sponsors/typesense.jpg', link: 'https://typesense.org/' },
-  { img: '/sponsors/dsmsoft.jpg', link: 'https://dsmsoft.com/' },
-  { img: '/sponsors/vishwayon.jpg', link: 'https://vishwayon.com/' },
-  // { img: '/sponsors/cwe.jpg', link: 'https://www.1tab.com/' },
-  // { img: '/sponsors/max.jpg', link: 'https://www.edubridgeindia.com/' },
+  {
+    img: '/sponsors/pck.jpg',
+    link: 'https://pck-buderus.com/',
+    width: 200,
+    height: 100,
+  },
+  {
+    img: '/sponsors/stayflexi.png',
+    link: 'https://www.stayflexi.com/',
+    width: 200,
+    height: 100,
+  },
+  {
+    img: '/sponsors/typesense.jpg',
+    link: 'https://typesense.org/',
+    width: 200,
+    height: 100,
+  },
+  {
+    img: '/sponsors/dsmsoft.jpg',
+    link: 'https://dsmsoft.com/',
+    width: 200,
+    height: 100,
+  },
+  {
+    img: '/sponsors/vishwayon.jpg',
+    link: 'https://vishwayon.com/',
+    width: 200,
+    height: 100,
+  },
+  { img: '/sponsors/cwe.jpg', link: '', width: 150, height: 100 },
+  {
+    img: '/sponsors/max.jpg',
+    link: 'https://www.instagram.com/duromaxofficial/',
+    width: 100,
+    height: 100,
+  },
+  {
+    img: '/sponsors/sattva.jpg',
+    link: 'https://www.sattva.in/',
+    width: 200,
+    height: 100,
+  },
+  {
+    img: '/sponsors/amazech.png',
+    link: 'https://www.1tab.com/',
+    width: 200,
+    height: 100,
+  },
 ];
 
 export default function SponsorsPage() {
@@ -37,16 +86,21 @@ export default function SponsorsPage() {
         height={800}
         className="absolute top-[40%] translate-y-[-50%] md:-right-[200px] -right-[100px] transform origin-top-right opacity-[0.05] -rotate-[16deg] z-0"
       />
-      <div className="flex flex-wrap items-center justify-center gap-10 max-w-[800px] mx-auto md:mt-20 mt-10">
+      <div className="bg-white rounded-lg p-3 flex flex-wrap items-center justify-center gap-10 max-w-[800px] mx-auto md:mt-16 mt-10">
         {sponsors.map((sponsor, i) => (
           <Link
             key={i}
             href={sponsor.link}
             target="_blank"
             rel="noreferrer"
-            className="bg-white rounded-lg p-3 h-[100px] flex items-center hover:scale-105 transition-transform duration-200 ease-in-out"
+            className="flex items-center hover:scale-110 transition-transform duration-200 ease-in-out"
           >
-            <Image alt="sponsor" src={sponsor.img} width={200} height={100} />
+            <Image
+              alt="sponsor"
+              src={sponsor.img}
+              width={sponsor.width}
+              height={sponsor.height}
+            />
           </Link>
         ))}
       </div>
