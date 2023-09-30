@@ -188,7 +188,7 @@ export const BMEevents = {
 
       type: 'team',
       event_type: 'tech',
-      team_size: '3',
+      team_size: '1-2',
       department: 'Biomedical Engineering',
 
       venue: 'BME III YEAR CLASSROOM',

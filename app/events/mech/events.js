@@ -298,18 +298,18 @@ export const MECHevents = {
       description: `From ‘Herbie’ to ‘Transformers’, the magic of cars coming to life on screen has fascinated us. Now, make your own RC car and be the director of your own RC car adventure at our race event. Come Directors, let's create a multiverse of cars in a single timeline (Track). Get ready for an adrenaline-fuelled thrill event and showcase your driving skills on an electrifying track filled with twists, turns, and jumps. Whether you’re a seasoned racer or a newcomer, this event promises heart-pounding action and a chance to compete against other enthusiasts.  
         Rules:  
         • Maximum number of participants per team: 4
-• Multiple paths filled with obstacles will be available on the race track. The driver 
-must decide the most suitable path.
-• It is compulsory to collect one of the two Flag points present on the track.
-• Participants to bring own RC vehicles and batteries.
-• No spare batteries or components will be provided.
-• In case of a tie, there will be another match for one more lap.
-• The organizers reserve the rights to change any or all of the above rules as they
+• Multiple paths filled with obstacles will be available on the race track. The driver   
+must decide the most suitable path.  
+• It is compulsory to collect one of the two Flag points present on the track.  
+• Participants to bring own RC vehicles and batteries.  
+• No spare batteries or components will be provided.  
+• In case of a tie, there will be another match for one more lap.  
+• The organizers reserve the rights to change any or all of the above rules as they  
 deem fit. Change in rules, if any will be highlighted on the website and notified to
-the registered participants.
-• Organizers’ decision shall be treated as final and binding on all.
-• Violation of rules will lead to disqualification.   
-***Link: [https://drive.google.com/drive/folders/15B52rtrhk93vxsi64Wa0qdmg2wqNzazl](https://drive.google.com/drive/folders/15B52rtrhk93vxsi64Wa0qdmg2wqNzazl)***`,
+the registered participants.  
+• Organizers’ decision shall be treated as final and binding on all.  
+• Violation of rules will lead to disqualification.     
+***Drive Link: [Rules PDF](https://drive.google.com/drive/folders/15B52rtrhk93vxsi64Wa0qdmg2wqNzazl)***`,
       type: 'team',
       event_type: 'tech',
       team_size: '1-4',

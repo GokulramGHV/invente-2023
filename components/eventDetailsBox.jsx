@@ -102,7 +102,7 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
             )}
           </>
         )}
-        
+
         <div className="flex flex-wrap gap-x-4 sm:gap-x-6 justify-center gap-y-3">
           <div className="flex md:gap-2 gap-1.5 items-center">
             <svg
@@ -117,7 +117,7 @@ export function EventDetails({ event, bg_color, textColor = 'text-white' }) {
               />
             </svg>
             <p className="col-span-2">
-              {event.date ? event.date.slice(0, 6) : 'TBD'}
+              {event.date ? event.date.replace(', 2023', '') : 'TBD'}
             </p>
           </div>
           <div className="flex md:gap-1.5 gap-1 items-center">

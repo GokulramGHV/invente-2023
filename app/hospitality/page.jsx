@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { HospitalityContent } from './content';
+import Image from 'next/image';
 
 const calculateTranslateX = (display) => {
   switch (display) {
@@ -17,9 +18,16 @@ const calculateTranslateX = (display) => {
 export default function Page() {
   const [display, setDisplay] = useState('Instructions');
   return (
-    <div className="relative bg-hex w-full min-h-screen flex flex-col items-center justify-center px-10 pt-28 pb-10 overflow-x-clip">
+    <div className="relative bg-hex w-full min-h-screen flex flex-col items-center justify-center px-5 pt-28 pb-10 overflow-x-clip">
+      <Image
+        src="/invente-bulb.png"
+        alt="invente-bulb"
+        width={700}
+        height={700}
+        className="absolute top-[40%] translate-y-[-50%] lg:-right-[200px] -right-[100px] transform origin-top-right opacity-[0.05] -rotate-[16deg] z-0"
+      />
       <div
-        className="bg-[#181818] lg:px-16 px-8 py-8 rounded-[10px] xl:w-[1200px] min-h-[700px] relative bottom-10"
+        className="bg-[#181818] lg:px-16 px-8 py-8 rounded-[10px] xl:w-[1200px] min-h-[700px] relative bottom-10 z-10"
         style={{
           boxShadow: '0px 4px 7px 0px #FFFFFF12',
         }}
@@ -30,7 +38,7 @@ export default function Page() {
               className={`${
                 display === 'Instructions' &&
                 'border-[#60BFF5] bg-[#60BFF5]/60 lg:bg-[#181818] lg:border-[#181818]'
-              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded`}
+              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded transition-all duration-200 ease-in-out`}
               onClick={() => setDisplay('Instructions')}
             >
               Instructions
@@ -39,7 +47,7 @@ export default function Page() {
               className={`${
                 display === 'HowToReach' &&
                 'border-[#60BFF5] bg-[#60BFF5]/60 lg:bg-[#181818] lg:border-[#181818]'
-              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded`}
+              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded transition-all duration-200 ease-in-out`}
               onClick={() => setDisplay('HowToReach')}
             >
               How to reach
@@ -48,7 +56,7 @@ export default function Page() {
               className={`${
                 display === 'Accommodations' &&
                 'border-[#60BFF5] bg-[#60BFF5]/60 lg:bg-[#181818] lg:border-[#181818]'
-              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded`}
+              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded transition-all duration-200 ease-in-out`}
               onClick={() => setDisplay('Accommodations')}
             >
               Accommodations
@@ -57,7 +65,7 @@ export default function Page() {
               className={`${
                 display === 'ContactUs' &&
                 'border-[#60BFF5] bg-[#60BFF5]/60 lg:bg-[#181818] lg:border-[#181818]'
-              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded`}
+              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded transition-all duration-200 ease-in-out`}
               onClick={() => setDisplay('ContactUs')}
             >
               Contact Us

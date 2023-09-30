@@ -46,7 +46,8 @@ export const COMevents = {
       11. The decision of the organisers and judges would be final and binding.   
       **Two methods of registration:**  
       ● This event is Included in the quota of Rs.300 for 4 events (as applicable to all other events of Invente')   
-      ● Additionally, separate registration for this event alone is available at Rs.100 per participant. The payment for the same can be made in the given link under the 'Market Master Challenge' Tab - ***[https://rzp.io/l/Invente-23](https://rzp.io/l/Invente-23)***. 
+      ● Additionally, separate registration for this event alone is available at Rs.100 per participant. The payment for the same can be made in the given link under the 'Market Master Challenge' Tab - ***[https://rzp.io/l/Invente-23](https://rzp.io/l/Invente-23)***.     
+      ***Google form Link: [https://forms.gle/R4aaGKoPAwWUuJpa9](https://forms.gle/R4aaGKoPAwWUuJpa9)***
       `,
       venue: 'SNUC Seminar Hall - Academic Block 1',
       date: 'Oct. 6, 2023',
