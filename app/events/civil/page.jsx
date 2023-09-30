@@ -21,7 +21,9 @@ export default function CIVIL() {
   const searchParams = useSearchParams();
   const [selectedEvent, setSelectedEvent] = useState(
     CIVILevents.events.find(
-      (event) => event.name === searchParams.get('event')
+      (event) =>
+        event?.name?.toLowerCase().replace(' ', '') ===
+        searchParams?.get('event')?.toLowerCase().replace(' ', '')
     ) || CIVILevents.events[0]
   );
   const [dropDownOpen, setDropDownOpen] = useState(false);

@@ -26,7 +26,9 @@ export default function COM() {
   const searchParams = useSearchParams();
   const [selectedEvent, setSelectedEvent] = useState(
     COMevents.events.find(
-      (event) => event.name === searchParams.get('event')
+      (event) =>
+        event?.name?.toLowerCase().replace(' ', '') ===
+        searchParams?.get('event')?.toLowerCase().replace(' ', '')
     ) || COMevents.events[0]
   );
   const [dropDownOpen, setDropDownOpen] = useState(false);

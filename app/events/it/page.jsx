@@ -27,8 +27,11 @@ const stick_no_bills = Stick_No_Bills({
 export default function IT() {
   const searchParams = useSearchParams();
   const [selectedEvent, setSelectedEvent] = useState(
-    ITevents.events.find((event) => event.name === searchParams.get('event')) ||
-      ITevents.events[0]
+    ITevents.events.find(
+      (event) =>
+        event?.name?.toLowerCase().replace(' ', '') ===
+        searchParams?.get('event')?.toLowerCase().replace(' ', '')
+    ) || ITevents.events[0]
   );
   const [dropDownOpen, setDropDownOpen] = useState(false);
 

@@ -21,7 +21,9 @@ export default function CSE() {
   const searchParams = useSearchParams();
   const [selectedEvent, setSelectedEvent] = useState(
     CSEevents.events.find(
-      (event) => event.name === searchParams.get('event')
+      (event) =>
+        event?.name?.toLowerCase().replace(' ', '') ===
+        searchParams?.get('event')?.toLowerCase().replace(' ', '')
     ) || CSEevents.events[0]
   );
   const [dropDownOpen, setDropDownOpen] = useState(false);

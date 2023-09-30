@@ -24,7 +24,9 @@ export default function ECE() {
   const searchParams = useSearchParams();
   const [selectedEvent, setSelectedEvent] = useState(
     ECEevents.events.find(
-      (event) => event.name === searchParams.get('event')
+      (event) =>
+        event?.name?.toLowerCase().replace(' ', '') ===
+        searchParams?.get('event')?.toLowerCase().replace(' ', '')
     ) || ECEevents.events[0]
   );
   const [dropDownOpen, setDropDownOpen] = useState(false);

@@ -27,7 +27,9 @@ export default function CHEM() {
   const searchParams = useSearchParams();
   const [selectedEvent, setSelectedEvent] = useState(
     CHEMevents.events.find(
-      (event) => event.name === searchParams.get('event')
+      (event) =>
+        event?.name?.toLowerCase().replace(' ', '') ===
+        searchParams?.get('event')?.toLowerCase().replace(' ', '')
     ) || CHEMevents.events[0]
   );
   const [dropDownOpen, setDropDownOpen] = useState(false);

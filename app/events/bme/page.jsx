@@ -29,7 +29,9 @@ export default function BME() {
   const searchParams = useSearchParams();
   const [selectedEvent, setSelectedEvent] = useState(
     BMEevents.events.find(
-      (event) => event.name === searchParams.get('event')
+      (event) =>
+        event?.name?.toLowerCase().replace(' ', '') ===
+        searchParams?.get('event')?.toLowerCase().replace(' ', '')
     ) || BMEevents.events[0]
   );
   const [dropDownOpen, setDropDownOpen] = useState(false);

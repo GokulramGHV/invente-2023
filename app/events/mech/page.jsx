@@ -27,7 +27,9 @@ export default function MECH() {
   const searchParams = useSearchParams();
   const [selectedEvent, setSelectedEvent] = useState(
     MECHevents.events.find(
-      (event) => event.name === searchParams.get('event')
+      (event) =>
+        event?.name?.toLowerCase().replace(' ', '') ===
+        searchParams?.get('event')?.toLowerCase().replace(' ', '')
     ) || MECHevents.events[0]
   );
   const [dropDownOpen, setDropDownOpen] = useState(false);
