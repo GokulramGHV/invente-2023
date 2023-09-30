@@ -266,7 +266,7 @@ export const ITevents = {
             'Provide hints to guide your headphone-wearing teammate to guess the specified song solely through dance and expression.',
         },
       ],
-      venue: 'Seminar Hall',
+      venue: 'LH - 32 Classroom',
       date: 'Oct. 7, 2023',
       winner: '',
       runner: '',

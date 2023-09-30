@@ -60,7 +60,7 @@ export const BMEevents = {
             'This round is about image processing. Participants are required to filter the noisy image given to them according to the conditions provided. Only MatLab software is allowed for this round.',
         },
       ],
-      venue: 'MS LAB',
+      venue: 'MS Lab',
       date: 'Oct. 6, 2023',
       winner: '3500',
       runner: '2500',

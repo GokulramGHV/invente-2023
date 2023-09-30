@@ -31,7 +31,7 @@ export const ECEevents = {
             7. The top three participants are announced winners.`,
         },
       ],
-      venue: 'EC - 5 , DSP lab',
+      venue: 'EC 5 (Annexure)',
       date: 'Oct. 6',
       winner: '3000',
       runner: '2000',
@@ -82,7 +82,7 @@ export const ECEevents = {
             4) You will be scored on how well and neat your circuit is soldered and implemented.`,
         },
       ],
-      venue: 'EC - 2, LIC Lab',
+      venue: 'ECE Seminar Hall',
       date: 'Oct. 7',
       winner: '3000',
       runner: '2000',
@@ -131,7 +131,7 @@ export const ECEevents = {
             3. Top 2 teams with highest points will be awarded.`,
         },
       ],
-      venue: 'EC - 3, EC - 4',
+      venue: 'EC 3 (Annexure)',
       date: 'Oct. 7',
       winner: '1500',
       runner: '1000',
@@ -197,7 +197,7 @@ export const ECEevents = {
             ● If you get an ace card , you'll be given a fault free circuit diagram.`,
         },
       ],
-      venue: 'EC - 2, LIC Lab',
+      venue: 'EC 2 (Annexure)',
       date: 'Oct. 6',
       winner: '3000',
       runner: '2000',
@@ -233,7 +233,7 @@ export const ECEevents = {
             2. The Final Round is expected to last around 1.5 hours in total.`,
         },
       ],
-      venue: 'LH - 13, LH - 14',
+      venue: 'LH 13, LH 14 (Old Block)',
       date: 'Oct. 6',
       winner: '1500',
       runner: '1000',
@@ -389,7 +389,7 @@ export const ECEevents = {
             ● The panel shall evaluate the pitches and announce winners `,
         },
       ],
-      venue: 'EC - 1, Old Seminar Hall',
+      venue: 'EC 1 (Annexure)',
       date: 'Oct. 6',
       winner: '2500',
       runner: '1500',
@@ -407,13 +407,19 @@ export const ECEevents = {
     {
       name: 'HEXATHLON',
       description: `Hexathlon is an interesting technical event which will challenge your circuit knowledge and coding skills in six different  
-        domains :  
-        C/C++ , MATLAB , Microprocessor and Microcontrollers , Circuit theory , Electronic Circuits , Control Systems.  
+        Domains Covered:   
+        Programming (Language of your choice), 
+        Electronics Devices and Circuits, 
+        Digital Systems Design, 
+        Network Analysis, 
+        Microprocessors and Microcontrollers, 
+        Digital Communication  
         General instructions :  
-        1. The participants are required to assemble at the venue 5 minutes before the event starts.  
-        2. Teams qualified for round 2 will be intimidated via their emails given during registration.  
-        3. The team must comprise of at least 2 students.  
-        4. The participants can be from the same department or different department as well.`,
+        1.  The participants are required to assemble at the venue 5 minutes before the event starts.  
+        2.  Teams qualified for round 2 will be intimidated via their emails given during registration.   
+        3.  The team must comprise at least 2 students.  
+        4.  The participants can be from the same department or different department as well.  
+        5.  Usage of any electronic aids other than scientific calculators is strictly prohibited and will lead to disqualification.`,
       type: 'teamORsolo',
       event_type: 'tech',
       team_size: '2 - 3',
@@ -421,29 +427,33 @@ export const ECEevents = {
       rounds: [
         {
           name: 'Round 1',
-          description: `***Duration :  25 mins***.  
-            1. The quiz will be in the format of pen and paper and will be conducted offline.  
-            2.  The questions will be based on the above mentioned domains.  
-            3.  All the answers to the questions must be answered before the time limit, extra time won't be provided.   
-            4.  The time of completion will be duly noted and would serve as a tiebreaker.  
-            5.  The answers will also be discussed once all the submissions are collected.  
-            Evaluation Criteria:   
-            1.The question paper will consist of equal number of questions of the 6 domains  
-            2.Negative marking: marks will be deducted for incorrect answers  
-            3.Each question will have equal marks. `,
+          description: `***Duration :  30 mins***.  
+          Rules:  
+          1. The quiz will be in the format of pen and paper and will be conducted offline.  
+          2.  The questions will be based on the above mentioned domains.  
+          3.  All the answers to the questions must be answered before the time limit, extra time won't be provided.  
+          4.  The time of completion will be duly noted and would serve as a tiebreaker.  
+          5.  The answers will also be discussed once all the submissions are collected.  
+          Evaluation Criteria:  
+          1.The question paper will consist of equal number of questions of the 6 domains.  
+          2.Negative marking: marks will be deducted for incorrect answers.  
+          3.Each question will have equal weightage.   
+          Shortlisting for Round 2:  
+          1. In case of tie, time taken to submit will be considered.  
+          2.One out of 5 teams will be selected for finals (if 50 teams registered, then top 10 teams will be selected - (⅕ * 50)) `,
         },
         {
           name: 'Round 2',
-          description: `***Duration: 180 mins***.  
+          description: `***Duration: 120 mins***.  
             (Task sheet will be provided for each team => easy/medium/hard randomly)  
-            1.Programming (Language of your choice) - Problem Statement to be solved will be provided, code optimisation and problem-solving approach will be tested. 
+            1.Programming (Language of your choice) - Problem Statement to be solved will be provided, code optimisation and problem-solving approach will be tested.  
             2.Electronics Devices and Circuits - Design as per the given requirements -(Problems on OpAmps, Amplifiers, Oscillator Circuits, Analog Electronics)  
             3.Digital Systems Design - Design as per the given requirements (Digital Electronics, k Maps, Counters, Finite State Machines).
             4.Network Analysis - Signals and Systems related problems, RLC circuits, Applying Circuit Theorems  
             5.Microprocessors and Microcontrollers - Assembly Language Programming (8086, 8051)  
             6.Digital Communication - MATLAB Simulation of PAM, DM, BPSK  
             Rules:  
-            1. Three sets of questions (easy, medium, hard) present - random assignment 
+            1. Three sets of questions (easy, medium, hard) present - random assignment  
             2. Easy question paper - consists of 12 questions each carrying 10 marks - all domains  
             3. Medium question paper - consists of 6 questions each carrying 20 marks - all domains  
             4. Hard question paper - consists of 3 questions each carrying 40 marks - (any 3 domains)  
@@ -456,7 +466,7 @@ export const ECEevents = {
             5. Use of mobile phones / any other electronic gadgets is strictly prohibited `,
         },
       ],
-      venue: 'EC - 5, DSP Lab',
+      venue: 'EC 5 (Annexure)',
       date: 'Oct. 7',
       winner: '3000',
       runner: '2000',
@@ -503,7 +513,7 @@ export const ECEevents = {
             5. The first team to complete the final task with all the collected clues having the highest points will be declared as the winner. `,
         },
       ],
-      venue: 'EC- 1, MPMA Lab',
+      venue: 'EC 1 (Annexure)',
       date: 'Oct. 7',
       winner: '2500',
       runner: '1500',
