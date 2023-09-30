@@ -2,57 +2,82 @@
 import { useState } from 'react';
 import { HospitalityContent } from './content';
 
+const calculateTranslateX = (display) => {
+  switch (display) {
+    case 'Instructions':
+      return 'translate-x-0';
+    case 'HowToReach':
+      return 'translate-x-[184px]';
+    case 'Accommodations':
+      return 'translate-x-[368px]';
+    case 'ContactUs':
+      return 'translate-x-[552px]';
+  }
+};
 export default function Page() {
   const [display, setDisplay] = useState('Instructions');
   return (
-    <div className="relative bg-hex w-full h-screen flex flex-col items-center lg:p-32 p-10 overflow-x-clip">
+    <div className="relative bg-hex w-full min-h-screen flex flex-col items-center justify-center px-10 pt-28 pb-10 overflow-x-clip">
       <div
-        className="bg-[#181818] p-5 rounded-[10px]"
+        className="bg-[#181818] lg:px-16 px-8 py-8 rounded-[10px] xl:w-[1200px] min-h-[700px] relative bottom-10"
         style={{
-          boxShadow: '0px 4px 7px 0px #FFFFFF12;',
+          boxShadow: '0px 4px 7px 0px #FFFFFF12',
         }}
       >
-        <div className="w-full text-white flex flex-row gap-3 justify-around">
-          <span
-            className={`${
-              display === 'Instructions' && 'border-b-2 border-[#60bff5]'
-            } cursor-pointer`}
-            onClick={() => setDisplay('Instructions')}
-          >
-            Instructions
-          </span>
-          <span
-            className={`${
-              display === 'HowToReach' && 'border-b-2 border-[#60bff5]'
-            } cursor-pointer`}
-            onClick={() => setDisplay('HowToReach')}
-          >
-            How to reach
-          </span>
-          <span
-            className={`${
-              display === 'Accommodations' && 'border-b-2 border-[#60bff5]'
-            } cursor-pointer`}
-            onClick={() => setDisplay('Accommodations')}
-          >
-            Accommodations
-          </span>
-          <span
-            className={`${
-              display === 'ContactUs' && 'border-b-2 border-[#60bff5]'
-            } cursor-pointer`}
-            onClick={() => setDisplay('ContactUs')}
-          >
-            Contact Us
-          </span>
+        <div className="relative w-fit mx-auto">
+          <div className="text-white flex flex-wrap justify-center items-center lg:gap-10 gap-5 w-fit mb-8 lg:mb-0">
+            <button
+              className={`${
+                display === 'Instructions' &&
+                'border-[#60BFF5] bg-[#60BFF5]/60 lg:bg-[#181818] lg:border-[#181818]'
+              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded`}
+              onClick={() => setDisplay('Instructions')}
+            >
+              Instructions
+            </button>
+            <button
+              className={`${
+                display === 'HowToReach' &&
+                'border-[#60BFF5] bg-[#60BFF5]/60 lg:bg-[#181818] lg:border-[#181818]'
+              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded`}
+              onClick={() => setDisplay('HowToReach')}
+            >
+              How to reach
+            </button>
+            <button
+              className={`${
+                display === 'Accommodations' &&
+                'border-[#60BFF5] bg-[#60BFF5]/60 lg:bg-[#181818] lg:border-[#181818]'
+              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded`}
+              onClick={() => setDisplay('Accommodations')}
+            >
+              Accommodations
+            </button>
+            <button
+              className={`${
+                display === 'ContactUs' &&
+                'border-[#60BFF5] bg-[#60BFF5]/60 lg:bg-[#181818] lg:border-[#181818]'
+              } w-36 py-3 hover:bg-[#4D4D4D4D] border border-[#181818] hover:border-white/20 rounded`}
+              onClick={() => setDisplay('ContactUs')}
+            >
+              Contact Us
+            </button>
+          </div>
+          <div className="mb-10 hidden lg:block">
+            <div
+              className={`h-0.5 w-36 bg-[#60BFF5] transition-all origin-left transform duration-300 ease-in-out ${calculateTranslateX(
+                display
+              )}`}
+            ></div>
+          </div>
         </div>
         <div>
           {display === 'Instructions' && (
-            <div className="flex flex-col gap-2 p-2">
+            <div className="flex flex-col gap-4 p-2">
               {HospitalityContent['instructions'].map((content, index) => (
                 <div key={index}>
                   <span className="block font-bold ">{content.heading}:</span>
-                  <ul className="list-disc relative left-5">
+                  <ul className="list-disc ml-6">
                     {content.body.map((instruction, index) => (
                       <li key={index}>{instruction}</li>
                     ))}
@@ -63,32 +88,42 @@ export default function Page() {
           )}
           {display === 'HowToReach' && (
             <div>
-              <span>{HospitalityContent['how_to_reach'].heading}</span>
-              <span>{HospitalityContent['how_to_reach'].location}</span>
-              {HospitalityContent['how_to_reach'].modes.map(
-                (content, index) => (
-                  <div key={index}>
-                    <span className="font-bold">{content.mode}</span>
-                    {content.instructions.map((content, index) => (
-                      <div key={index}>{content}</div>
-                    ))}
-                  </div>
-                )
-              )}
+              <h2 className="text-lg font-bold">
+                {HospitalityContent['how_to_reach'].heading}
+              </h2>
+              <h3 className="mb-8">
+                {HospitalityContent['how_to_reach'].location}
+              </h3>
+              <ul className="list-disc ml-5 space-y-5">
+                {HospitalityContent['how_to_reach'].modes.map(
+                  (content, index) => (
+                    <li key={index}>
+                      <span className="font-bold">{content.mode}</span>
+                      <ul className="list-disc ml-5 space-y-1">
+                        {content.instructions.map((content, index) => (
+                          <li key={index}>{content}</li>
+                        ))}
+                      </ul>
+                    </li>
+                  )
+                )}
+              </ul>
             </div>
           )}
           {display === 'Accommodations' && (
             <div className="flex flex-col gap-2 list-disc">
-              {HospitalityContent['accommodation'].map((content, index) => (
-                <div key={index}>
-                  <span className="font-bold">{content.heading}</span>:
-                  <span> {content.body}</span>
-                </div>
-              ))}
+              <ul className="list-disc ml-5 space-y-3">
+                {HospitalityContent['accommodation'].map((content, index) => (
+                  <li key={index}>
+                    <span className="font-bold">{content.heading}</span>:
+                    <span> {content.body}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           )}
           {display === 'ContactUs' && (
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center gap-8 justify-center">
               <span>Reach out to us if you have any further queries...</span>
               {HospitalityContent.contact_us.map((content, index) => (
                 <div

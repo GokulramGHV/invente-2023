@@ -29,10 +29,10 @@ export default function Footer() {
                     <Link href="/#timeline">Events</Link>
                   </li>
                   <li>
-                    <Link href="/comingsoon">Hackathons</Link>
+                    <Link href="/hackathons">Hackathons</Link>
                   </li>
                   <li>
-                    <Link href="comingsoon">Workshops</Link>
+                    <Link href="/workshops">Workshops</Link>
                   </li>
                 </ul>
               </div>
@@ -46,7 +46,7 @@ export default function Footer() {
                   </li>
 
                   <li>
-                    <Link href="/comingsoon">Sponsors</Link>
+                    <Link href="/sponsors">Sponsors</Link>
                   </li>
                 </ul>
               </div>
@@ -56,7 +56,7 @@ export default function Footer() {
                 </p>
                 <ul className="flex flex-col font-medium text-base gap-1.5">
                   <li>
-                    <Link href="/comingsoon">Contact us</Link>
+                    <Link href="/hospitality">Hospitality</Link>
                   </li>
                   <li>
                     <div className="flex gap-3 mt-2 justify-center items-center">
