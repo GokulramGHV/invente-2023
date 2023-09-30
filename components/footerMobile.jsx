@@ -34,10 +34,10 @@ export default function FooterMobile() {
                 <Link href="/#timeline">Events</Link>
               </li>
               <li>
-                <Link href="/comingsoon">Hackathons</Link>
+                <Link href="/hackathons">Hackathons</Link>
               </li>
               <li>
-                <Link href="comingsoon">Workshops</Link>
+                <Link href="/workshops">Workshops</Link>
               </li>
             </ul>
           </div>
@@ -66,7 +66,7 @@ export default function FooterMobile() {
               </li>
 
               <li>
-                <Link href="/comingsoon">Sponsors</Link>
+                <Link href="/sponsors">Sponsors</Link>
               </li>
             </ul>
           </div>
@@ -91,7 +91,7 @@ export default function FooterMobile() {
           <div className="text-[14px] text-[#FFFFFF2B]">
             <ul className="flex flex-col font-medium text-lg gap-2 text-white text-center">
               <li>
-                <Link href="/comingsoon">Contact us</Link>
+                <Link href="/hospitality">Hospitality</Link>
               </li>
               <li>
                 <div className="flex gap-3 mt-2 w-full justify-center items-center">

@@ -31,8 +31,8 @@ const links = [
     href: '/sponsors',
   },
   {
-    name: 'Contact Us',
-    href: '/comingsoon',
+    name: 'Hospitality',
+    href: '/hospitality',
   },
 ];
 
