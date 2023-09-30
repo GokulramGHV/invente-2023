@@ -13,7 +13,7 @@ export const COMevents = {
       3. The quiz will entail questions from different categories of business and will be in a mixed bag format.   
       4. The decision of the organisers and judges would be final and binding. 
       `,
-      venue: 'SNUC Seminar Hall',
+      venue: 'SNUC Seminar Hall - Academic Block 1',
       date: 'Oct. 7, 2023',
       winner: '5000',
       runner: '3000',
@@ -48,7 +48,7 @@ export const COMevents = {
       ● This event is Included in the quota of Rs.300 for 4 events (as applicable to all other events of Invente')   
       ● Additionally, separate registration for this event alone is available at Rs.100 per participant. The payment for the same can be made in the given link under the 'Market Master Challenge' Tab - ***[https://rzp.io/l/Invente-23](https://rzp.io/l/Invente-23)***. 
       `,
-      venue: 'SNUC Seminar Hall',
+      venue: 'SNUC Seminar Hall - Academic Block 1',
       date: 'Oct. 6, 2023',
       winner: '5000',
       runner: '3000',
@@ -74,7 +74,7 @@ export const COMevents = {
       4. Number of rounds will be at the judges’ discretion.  
       5. Indecent behaviour or any form of vulgarity will lead to immediate and permanent elimination.    
       6. The decision of the organisers and judges would be final and binding.  `,
-      venue: 'SNUC Seminar Hall',
+      venue: 'SNUC Seminar Hall - Academic Block 1',
       date: 'Oct. 7, 2023',
       winner: '5000',
       runner: '3000',

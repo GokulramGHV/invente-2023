@@ -7,7 +7,7 @@ export const ITevents = {
 
       type: 'teamORsolo',
       event_type: 'tech',
-      team_size: '2',
+      team_size: '1-2',
       department: 'Computer Science',
       rounds: [
         {
@@ -266,7 +266,7 @@ export const ITevents = {
             'Provide hints to guide your headphone-wearing teammate to guess the specified song solely through dance and expression.',
         },
       ],
-      venue: 'Seminar Hall',
+      venue: 'LH - 32 Classroom',
       date: 'Oct. 7, 2023',
       winner: '',
       runner: '',

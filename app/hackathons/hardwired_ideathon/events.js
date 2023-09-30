@@ -34,5 +34,7 @@ export const HARDWIREDIDEATHONEvent = {
   venue: 'SNU ACADEMIC BLOCK 1',
   date: 'Oct. 7, 2023',
   registration: '150',
-  winner: '8000',
+  winner: '4000',
+  runner: '2500',
+  third_prize: '1500',
 };
