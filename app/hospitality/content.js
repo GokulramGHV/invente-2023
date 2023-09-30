@@ -2,30 +2,30 @@ export const HospitalityContent = {
     instructions: [
         {
             heading: "Registration",
-            body: `Each person must register individually on the Invente website.
-            After registration, you will receive an acknowledgement email stating registered events and your registration event ID number.`
+            body: [`Each person must register individually on the Invente website.`,
+                `After registration, you will receive an acknowledgement email stating registered events and your registration event ID number.`]
         },
         {
             heading: "On Arrival",
-            body: `Bring your college ID card.
-            Report at the Central desk located at the Main Auditorium (Justice Pratap Singh Auditorium) to collect your ID and Event details.
-            Each team will be guided to their event location by a volunteer.`
+            body: [`Bring your college ID card.`,
+                `Report at the Central desk located at the Main Auditorium (Justice Pratap Singh Auditorium) to collect your ID and Event details.`,
+                `Each team will be guided to their event location by a volunteer.`]
         },
         {
             heading: "Accommodation",
-            body: `Participants requiring accommodation should register at the hospitality desk by presenting a soft copy/print-out of the acknowledgement mail sent to them.
-                Participants must bring their own bedsheets, pillows and other necessary items.
-             Participants must take responsibility for the safety of their belongings. The institution bears no responsibility for any loss or damage.`
+            body: [`Participants requiring accommodation should register at the hospitality desk by presenting a soft copy/print-out of the acknowledgement mail sent to them.`,
+                `Participants must bring their own bedsheets, pillows and other necessary items.`,
+                `Participants must take responsibility for the safety of their belongings. The institution bears no responsibility for any loss or damage.`]
         },
         {
             heading: "For Participants",
-            body: ` Female participants should arrive on the campus before 8:30 pm on the day of arrival.
-            Male participants should arrive on the campus before 09:00 pm on the day of arrival.`
+            body: [`Female participants should arrive on the campus before 8:30 pm on the day of arrival.`,
+                `Male participants should arrive on the campus before 09:00 pm on the day of arrival.`]
         },
         {
             heading: "Faculty Members",
-            body: ` Faculty members should also register on the site, and the same rules apply to them.
-            Please note that there are limited seats available, and they will be allocated on a first-come, first-serve basis.`
+            body: [`Faculty members should also register on the site, and the same rules apply to them.`,
+                `Please note that there are limited seats available, and they will be allocated on a first-come, first-serve basis.`]
         }
     ],
     accommodation: [
@@ -34,7 +34,7 @@ export const HospitalityContent = {
             body: "Smoking, drinking, and the use of illegal substances are strictly prohibited. The college will take appropriate action if any participant is found in possession of these items."
         },
         {
-            haeding: "Respect for Property",
+            heading: "Respect for Property",
             body: "Any damage to college facilities or property provided to participants will result in serious consequences. Participants should note that their caution deposit will not be refunded if they cause damage to the property."
         },
         {
@@ -66,19 +66,16 @@ export const HospitalityContent = {
             body: "The accommodation fare for faculty members is the same as that for students."
         }
     ],
-    contact_us: {
-        heading: "Reach out to us if you have any further queries...",
-        contact: [
-            {
-                name: "Shruthi Hariprasad",
-                number: "8939648127"
-            },
-            {
-                name: "Selvendran",
-                number: "8248742452"
-            }
-        ]
-    },
+    contact_us: [
+        {
+            name: "Shruthi Hariprasad",
+            number: "8939648127"
+        },
+        {
+            name: "Selvendran",
+            number: "8248742452"
+        }
+    ],
     how_to_reach: {
         heading: "SSN CAMPUS",
         location: "Kalavakkam (Near Thiruporur) on Rajiv Gandhi Salai (Old Mahabalipuram Road)",
