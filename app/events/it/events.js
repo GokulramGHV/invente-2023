@@ -7,7 +7,7 @@ export const ITevents = {
 
       type: 'teamORsolo',
       event_type: 'tech',
-      team_size: '2',
+      team_size: '1-2',
       department: 'Computer Science',
       rounds: [
         {

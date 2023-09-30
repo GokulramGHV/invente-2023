@@ -573,7 +573,7 @@ export const ECEevents = {
         },
       ],
       venue: 'Microwave lab',
-      date: 'Oct. 6',
+      date: 'Oct. 7',
       winner: '8000',
       runner: '6000',
       third_prize: '4000',
