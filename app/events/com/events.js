@@ -27,8 +27,9 @@ export const COMevents = {
     },
     {
       name: 'Market Master Challenge - Mock Stock Market Trading Simulation',
-      description: `The Stock Market Simulation Game immerses players in the fast-paced world of finance, providing hands-on experience with trading and investment methods. Players create teams and engage in simulated stock trading in this event, making informed judgements based on real-time market data. It's an unparalleled chance for individuals to put their financial knowledge and analytical skills to the test in a simulated but realistic setting. Participants acquire insights into the complexity of stock markets while competing with other enthusiasts, refining their trading insights and risk management skills.  
-        ***Google form Link: [https://forms.gle/R4aaGKoPAwWUuJpa9](https://forms.gle/R4aaGKoPAwWUuJpa9)***`,
+      description: `The Stock Market Simulation Game immerses players in the fast-paced world of finance, providing hands-on experience with trading and investment methods. Players create teams and engage in simulated stock trading in this event, making informed judgements based on real-time market data. It's an unparalleled chance for individuals to put their financial knowledge and analytical skills to the test in a simulated but realistic setting. Participants acquire insights into the complexity of stock markets while competing with other enthusiasts, refining their trading insights and risk management skills.
+      \nSince the event is going to be conducted in collaboration with a 3rd party software, please fill in the Google Form below to register for the event. The details of how to access the platform will be sent to your E-Mail prior to the event. 
+      \n***Google form Link: [https://forms.gle/R4aaGKoPAwWUuJpa9](https://forms.gle/R4aaGKoPAwWUuJpa9)***`,
       type: 'team',
       event_type: 'tech',
       team_size: '1-3',
