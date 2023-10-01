@@ -37,7 +37,7 @@ export default function Register() {
           <div className="bg-white rounded-lg shadow-xl p-5 sm:w-[550px] flex flex-col gap-5 h-fit">
             <div className="prose text-black text-lg">
               <ReactMarkdown>
-                {`Dear participant, you can collect your Technical event pass and the workshop pass at the **Central Registration desk**.  
+                {`Dear participant, you can collect your Technical event pass and the workshop pass at the **Central Registration desk** on the day of the event.  
                   To skip the queues do registration now!!! Kindly go through all the 12 rules before you pay!`}
               </ReactMarkdown>
             </div>
@@ -121,7 +121,7 @@ export default function Register() {
         <h2 className={`${bayon.className} xl:text-6xl text-5xl uppercase`}>
           Rules
         </h2>
-        <div className="text-lg space-y-3 mt-6 h-[60vh] overflow-y-auto">
+        <div className="text-lg space-y-3 mt-6 md:h-[60vh] overflow-y-auto">
           {rulesArray.map((rule, i) => (
             <div key={i} className="flex gap-3">
               <h3 className="font-semibold">{i + 1}. </h3>

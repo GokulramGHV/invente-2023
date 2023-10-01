@@ -70,8 +70,14 @@ const sponsors = [
   },
   {
     img: '/sponsors/amazech.png',
-    link: 'https://www.1tab.com/',
+    link: 'https://amazech.com/',
     width: 200,
+    height: 100,
+  },
+  {
+    img: '/sponsors/numax.jpeg',
+    link: 'http://www.numaxups.co.in/',
+    width: 150,
     height: 100,
   },
 ];
