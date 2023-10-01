@@ -24,7 +24,7 @@ export const MECHevents = {
         },
       ],
       venue: 'Outside Mechatronics Lab',
-      date: 'Oct. 6-7, 2023',
+      date: 'Oct. 7, 2023',
       winner: '4000',
       runner: '2000',
       coordinators: [
@@ -64,7 +64,7 @@ export const MECHevents = {
         },
       ],
       venue: '2 LH CLASSROOM',
-      date: 'Oct. 6, 2023',
+      date: 'Oct. 7, 2023',
       winner: '1500',
       runner: '1000',
       coordinators: [
@@ -179,7 +179,7 @@ export const MECHevents = {
         },
       ],
       venue: 'Ground Near The Sports Complex',
-      date: 'Oct.7, 2023',
+      date: 'Oct. 7, 2023',
       winner: '10000',
       runner: '5000',
       coordinators: [
@@ -249,7 +249,7 @@ export const MECHevents = {
         },
       ],
       venue: 'Seminar hall, Mechanical Engineering Department',
-      date: 'Oct. 6-7, 2023',
+      date: 'Oct. 7, 2023',
       winner: '3000',
       runner: '2000',
       coordinators: [
@@ -328,8 +328,8 @@ the registered participants.
           o The final will take place amongst the two best teams`,
         },
       ],
-      venue: 'Outdoor Basketball Court',
-      date: 'Oct. 6, 2023',
+      venue: 'Ground Near Tennis Court',
+      date: 'Oct. 7, 2023',
       winner: '5000',
       runner: '3000',
       coordinators: [
