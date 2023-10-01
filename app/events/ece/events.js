@@ -216,7 +216,7 @@ export const ECEevents = {
     {
       name: 'ESCAPE PLAN',
       description:
-        'Prepare for an exhilarating day of adventure at Escape Plan, hosted at the ECE (Electrical and Computer Engineering) department of SSNCE! This action-packed event features two exciting rounds designed to test your wit, teamwork, and problem-solving abilities. Join us for a Preliminary Round consisting of a picture quiz, followed by the heart-pounding "GTFO"  Escape Room. \nNote: Please arrive at least 10 minutes before your scheduled event for check-in and briefing.',
+        'Prepare for an exhilarating day of adventure at Escape Plan, hosted at the ECE (Electronics and Communication Engineering) department of SSNCE! This action-packed event features two exciting rounds designed to test your wit, teamwork, and problem-solving abilities. Join us for a Preliminary Round consisting of a picture quiz, followed by the heart-pounding "GTFO"  Escape Room. \nNote: Please arrive at least 10 minutes before your scheduled event for check-in and briefing.',
       type: 'team',
       event_type: 'non tech',
       team_size: '3 - 4',

@@ -1,6 +1,8 @@
-import Navbar from '@/components/navbar';
+'use client';
+
 import { Bayon } from 'next/font/google';
 import Image from 'next/image';
+import { useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 
 const bayon = Bayon({
@@ -24,8 +26,33 @@ const rulesArray = [
 ];
 
 export default function Register() {
+  const [open, setOpen] = useState(false);
   return (
-    <div className="bg-hex min-h-screen grid xl:grid-cols-2 w-full pt-10 pb-24">
+    <div className="relative bg-hex min-h-screen grid xl:grid-cols-2 w-full pt-10 pb-24">
+      {open && (
+        <div
+          className="absolute top-0 left-0 h-full w-full bg-black/60 z-50 flex justify-center sm:items-center px-5 py-10"
+          onClick={() => setOpen(false)}
+        >
+          <div className="bg-white rounded-lg shadow-xl p-5 sm:w-[550px] flex flex-col gap-5 h-fit">
+            <div className="prose text-black text-lg">
+              <ReactMarkdown>
+                {`Dear participant, you can collect your Technical event pass and the workshop pass at the **Central Registration desk**.  
+                  To skip the queues do registration now!!! Kindly go through all the 12 rules before you pay!`}
+              </ReactMarkdown>
+            </div>
+            <a
+              target="_blank"
+              href="https://rzp.io/l/Invente-23"
+              onClick={() => setOpen(false)}
+              className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
+            >
+              Continue to pay{'  '}→
+            </a>
+          </div>
+        </div>
+      )}
+
       <div className="flex flex-col xl:flex-row h-full w-full">
         <div className="xl:px-20 pt-10 xl:pt-0 px-8 h-full flex-1 flex flex-col justify-center items-center relative">
           <Image
@@ -54,13 +81,12 @@ export default function Register() {
             </div>
             <div className="flex flex-col gap-10">
               <div className="w-full flex items-center gap-5">
-                <a
-                  target="_blank"
-                  href="https://rzp.io/l/Invente-23"
+                <button
+                  onClick={() => setOpen(true)}
                   className="get-passes-button text-white text-base font-bold whitespace-nowrap xl:px-20 px-10 py-3 transition-all duration-200 ease-in-out uppercase w-full cursor-pointer text-center"
                 >
                   Pay Now
-                </a>
+                </button>
               </div>
               <div className="w-full flex items-center gap-5">
                 <a
@@ -95,7 +121,7 @@ export default function Register() {
         <h2 className={`${bayon.className} xl:text-6xl text-5xl uppercase`}>
           Rules
         </h2>
-        <div className="text-lg space-y-3 mt-6">
+        <div className="text-lg space-y-3 mt-6 h-[60vh] overflow-y-auto">
           {rulesArray.map((rule, i) => (
             <div key={i} className="flex gap-3">
               <h3 className="font-semibold">{i + 1}. </h3>
