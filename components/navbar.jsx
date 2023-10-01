@@ -24,7 +24,7 @@ const links = [
   },
   {
     name: 'Schedule',
-    href: '/comingsoon',
+    href: '/schedule',
   },
   {
     name: 'Sponsors',
