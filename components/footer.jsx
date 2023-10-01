@@ -42,7 +42,7 @@ export default function Footer() {
                 </p>
                 <ul className="flex flex-col font-medium text-base gap-1.5">
                   <li>
-                    <Link href="/comingsoon">Schedule</Link>
+                    <Link href="/schedule">Schedule</Link>
                   </li>
 
                   <li>

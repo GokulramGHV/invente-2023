@@ -62,7 +62,7 @@ export default function FooterMobile() {
           <div className="text-[14px] text-[#FFFFFF2B]">
             <ul className="flex flex-col font-medium text-lg gap-4 text-white text-center">
               <li>
-                <Link href="/comingsoon">Schedule</Link>
+                <Link href="/schedule">Schedule</Link>
               </li>
 
               <li>
