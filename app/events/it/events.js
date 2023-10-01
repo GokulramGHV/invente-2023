@@ -61,7 +61,7 @@ export const ITevents = {
             'In the Second round, teams will dive headfirst into hands-on app development. Multiple intriguing problem statements will be presented, and each team will have the opportunity to select one of their interest. Armed with their chosen problem statement, teams will set out to design a prototype of an app using any prototyping software of their choice. This is where innovation meets creativity, as teams craft solutions that address real-world challenges and present their work.',
         },
       ],
-      venue: 'OS Lab',
+      venue: 'IT OS Lab',
       date: 'Oct. 6, 2023',
       winner: '7000',
       runner: '3000',
@@ -137,7 +137,7 @@ export const ITevents = {
             'The contest contains 5 coding questions and the round will be conducted for 2 hours',
         },
       ],
-      venue: 'OS Lab',
+      venue: 'IT OS Lab',
       date: 'Oct. 7, 2023',
       winner: '10000',
       runner: '5000',
@@ -156,12 +156,32 @@ export const ITevents = {
     {
       name: 'Reverse Gear',
       description:
-        'This event manifests on the logic of reverse thinking of the Contestants. With hackers around, Code obfuscation is a huge relief for the companies to protect their application. The executable and perfectly logic preserved code will be given in an incomprehensible manner to the contestants, where their reverse-engineering techniques are put to test.',
+        `This event manifests on the logic of reverse thinking of the Contestants. With hackers around, Code obfuscation is a huge relief for the companies to protect their application. The executable and perfectly logic preserved code will be given in an incomprehensible manner to the contestants, where their reverse-engineering techniques are put to test.
+        \n*(Number of rounds and it’s duration may be subject to change based on the number of 
+        participants and other logistical considerations.)`,
       type: 'team',
       event_type: 'tech',
       team_size: '1',
       department: 'Information Technology',
-      rounds: [],
+      rounds: [
+        {
+          name: "Round 1*",
+          description: `20 MCQ which covers programming questions, pseudo code, data structure. 
+          \nDuration: 30 Minutes or 40 Minutes (Yet to finalize)`
+        },
+        {
+          name: "Round 2*",
+          description: `A topic will be given participant need to preserve the logic and they have to obfuscate and code as much as they can. The obfuscated code of one participant will be given to another participant. If he/she finds the topic then points will be awarded to deobfuscated individual else points will be given to obfuscated individual.
+          \nPlatform: Hackerrank
+          \nDuration: 60 Minutes`
+        },
+        {
+          name: "Round 3*",
+          description: `Reverse coding, .exe file will be given to participants along with test case input details. Participants should find the algorithm or desired function of the code for which it was intended. Then they need to code the same.
+          \nPlatform: Hackerrank
+          \nDuration: Between 60 to 80 Minutes`
+        }
+      ],
       venue: 'Alan Turing Lab',
       date: 'Oct. 7, 2023',
       winner: '5000',
@@ -193,14 +213,14 @@ export const ITevents = {
       rounds: [
         {
           name: 'Round 1',
-          description: '10 teams will be selected for next/2nd round.',
+          description: 'All the teams will be given problem statements and have to come up with an idea and present it. Top 10 teams will be selected to the second round.',
         },
         {
           name: 'Round 2',
-          description: '2 teams(winners) will be selected out of the 10.',
+          description: `Of the shortlisted teams, they will be given new set of problems and additional constraints, provide new solutions and ideas. Teams will be judged on feasibility of the idea, market value, scalability, and presentation.`
         },
       ],
-      venue: 'Seminar Hall',
+      venue: 'IT Seminar Hall',
       date: 'Oct. 7, 2023',
       winner: '5000',
       runner: '2500',
@@ -348,7 +368,7 @@ export const ITevents = {
             'The shortlisted teams will participate in the second round. This is where the creativity and spontaneity of teams come into play. Teams will be given a product related to digital media and teams will have to use their marketing skills to sell it and brand it! Judges as customers will ask any questions, they must evaluate the teams. The final winner will be chosen with the combined scores of both the rounds.',
         },
       ],
-      venue: 'PG Lab',
+      venue: 'IT PG Lab',
       date: 'Oct. 6, 2023',
       winner: '5000',
       runner: '2000',
