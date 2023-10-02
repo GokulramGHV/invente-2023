@@ -2,8 +2,8 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useEffect, useRef, useState } from 'react';
+import "./styles/navBar.css"
 
 const links = [
   {
@@ -44,6 +44,23 @@ export default function Navbar({
 }) {
   const hamburgerLine = `h-1 w-8 my-1 rounded-full bg-white transition ease transform duration-300`;
 
+  const firstRender = useRef(true)
+  const [isAnimationActive, setIsAnimationActive] = useState(false)
+  useEffect(() => {
+    if (firstRender.current && !isOpen) {
+      setIsAnimationActive(false)
+      firstRender.current = false
+      return
+    }
+    if (!isOpen) {
+      setTimeout(() => {
+        setIsAnimationActive(false)
+      }, 1000)
+    } else {
+      setIsAnimationActive(true)
+    }
+  }, [isOpen])
+
   const [url, setUrl] = useState('');
   useEffect(() => {
     setUrl(window.location.pathname);
@@ -54,28 +71,25 @@ export default function Navbar({
   return (
     <>
       <header
-        className={`sticky top-0 w-full text-gray-700 shadow-sm body-font z-[70] ${className}`}
+        className={`h-[5vh] sticky top-0 w-full text-gray-700 shadow-sm body-font z-[70] ${className}`}
       >
         <div
-          className={`${
-            isOpen && 'fixed top-0 left-0 h-screen z-40 pb-12 bg-[#161620]'
-          } w-full  text-white text-2xl uppercase font-medium flex-col flex justify-between items-center`}
+          className={`${(isOpen || isAnimationActive) && 'fixed top-0 left-0 h-screen z-40 pb-12 bg-[#161620]'
+            } w-full  text-white text-2xl uppercase font-medium flex-col flex justify-between items-center`}
         >
           <div
-            className={`flex  ${
-              isOpen ? 'bg-[#161620]' : 'bg-[#1F1F1F]/90'
-            } items-center justify-between ${paddingX} py-4 m-0 w-full`}
+            className={`flex  ${(isOpen || isAnimationActive) ? 'bg-[#161620]' : 'bg-[#1F1F1F]/90'
+              } items-center justify-between ${paddingX} py-4 m-0 w-full z-50`}
           >
             <nav className="hidden xl:flex items-center justify-left text-white text-base font-medium uppercase w-full gap-4">
               {links.map((link, i) => (
                 <Link
                   key={i}
                   href={link.href}
-                  className={`px-6 py-1.5 rounded-[5px] hover:outline outline-2 hover:outline-white transition-all duration-200 ease-in-out  ${
-                    new RegExp(link.name, 'i').test(url)
-                      ? 'outline outline-blue-300 text-blue-100'
-                      : ''
-                  }`}
+                  className={`px-6 py-1.5 rounded-[5px] hover:outline outline-2 hover:outline-white transition-all duration-200 ease-in-out  ${new RegExp(link.name, 'i').test(url)
+                    ? 'outline outline-blue-300 text-blue-100'
+                    : ''
+                    }`}
                 >
                   {link.name}
                 </Link>
@@ -86,23 +100,20 @@ export default function Navbar({
               onClick={() => setIsOpen(!isOpen)}
             >
               <div
-                className={`${hamburgerLine} ${
-                  isOpen
-                    ? 'rotate-45 translate-y-3 opacity-80 group-hover:opacity-100'
-                    : 'opacity-80 group-hover:opacity-100'
-                }`}
+                className={`${hamburgerLine} ${isOpen
+                  ? 'rotate-45 translate-y-3 opacity-80 group-hover:opacity-100'
+                  : 'opacity-80 group-hover:opacity-100'
+                  }`}
               />
               <div
-                className={`${hamburgerLine} ${
-                  isOpen ? 'opacity-0' : 'opacity-80 group-hover:opacity-100'
-                }`}
+                className={`${hamburgerLine} ${isOpen ? 'opacity-0' : 'opacity-80 group-hover:opacity-100'
+                  }`}
               />
               <div
-                className={`${hamburgerLine} ${
-                  isOpen
-                    ? '-rotate-45 -translate-y-3 opacity-80 group-hover:opacity-100'
-                    : 'opacity-80 group-hover:opacity-100'
-                }`}
+                className={`${hamburgerLine} ${isOpen
+                  ? '-rotate-45 -translate-y-3 opacity-80 group-hover:opacity-100'
+                  : 'opacity-80 group-hover:opacity-100'
+                  }`}
               />
             </button>
             <div className="flex-1 flex justify-end">
@@ -114,18 +125,19 @@ export default function Navbar({
               </Link>
             </div>
           </div>
-          {isOpen && (
-            <>
+          {(isOpen || isAnimationActive) && (
+            <div className={`flex flex-col items-center justify-between h-full bg-[#161620] w-full pb-12 z-35 mt-2
+            ${isOpen ? " navBar-down " : " navBar-up "}
+            `}>
               {links.map((link, i) => (
                 <Link
                   key={i}
                   href={link.href}
                   onClick={() => setIsOpen(false)}
-                  className={`px-6 py-1.5 rounded-[5px]  hover:outline outline-2 hover:outline-white   ${
-                    new RegExp(link.name, 'i').test(url)
-                      ? 'outline outline-blue-300 text-blue-100'
-                      : ''
-                  }`}
+                  className={`px-6 py-1.5 rounded-[5px]  hover:outline outline-2 hover:outline-white   ${new RegExp(link.name, 'i').test(url)
+                    ? 'outline outline-blue-300 text-blue-100'
+                    : ''
+                    }`}
                 >
                   {link.name}
                 </Link>
@@ -137,7 +149,7 @@ export default function Navbar({
                 width={250}
                 height={200}
               />
-            </>
+            </div>
           )}
         </div>
       </header>

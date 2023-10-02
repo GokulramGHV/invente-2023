@@ -1,0 +1,37 @@
+.navBar-down {
+    animation: down 1s ease-in-out forwards;
+}
+
+.navBar-up {
+    animation: up 1s ease-in-out forwards;
+}
+
+
+
+@keyframes down {
+    0% {
+        display: none;
+        transform: translateY(-150%);
+    }
+
+    1% {
+        display: flex;
+    }
+
+    100% {
+        transform: translateY(0);
+        display: flex;
+    }
+}
+
+@keyframes up {
+    0% {
+        display: flex;
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-150%);
+        display: none;
+    }
+}
