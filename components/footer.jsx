@@ -174,7 +174,7 @@ export default function Footer() {
               {', '}
               <span className="underline">
                 <a href="https://portfolio-madraceee.vercel.app/">
-                  Nitheesh Raja
+                  Nitheesh Raaja
                 </a>
               </span>
               {'. '}

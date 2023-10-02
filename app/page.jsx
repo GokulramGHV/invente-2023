@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <main>
       <div
-        className="relative flex min-h-screen flex-col items-center justify-center pl-5 lg:pr-2 pr-5 pt-5 bg-[#1D1D1F] bg-scroll"
+        className="relative flex min-h-[93vh] flex-col items-center justify-center pl-5 lg:pr-2 pr-5 pt-5 bg-[#1D1D1F] bg-scroll"
         id="home"
       >
         <div className="relative flex-1 flex flex-col w-full">
@@ -84,14 +84,11 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div ref={ref} className="w-full">
-          <Navbar paddingX="px-3" setIsOpen={setNavOpen} isOpen={navOpen} />
-        </div>
+      </div>
+      <div ref={ref} className="w-full sticky top-0 z-50">
+        <Navbar paddingX="px-3" setIsOpen={setNavOpen} isOpen={navOpen} />
       </div>
       <div className="bg-hex w-full h-full bg-scroll bg-contain">
-        {!inView && !navOpen && (
-          <Navbar setIsOpen={setNavOpen} isOpen={navOpen} />
-        )}
         <ThemeSection />
         <Timeline />
       </div>
