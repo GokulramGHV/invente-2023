@@ -80,6 +80,18 @@ const sponsors = [
     width: 150,
     height: 100,
   },
+  {
+    img: '/sponsors/2IIMLOGO.jpeg',
+    link: 'https://www.2iim.com/',
+    width: 300,
+    height: 134,
+  },
+  {
+    img: '/sponsors/walkNational.png',
+    link: 'https://www.walkinternational.com/',
+    width: 200,
+    height: 225,
+  }
 ];
 
 export default function SponsorsPage() {
