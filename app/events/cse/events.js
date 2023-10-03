@@ -21,7 +21,7 @@ export const CSEevents = {
         },
       ],
       venue: 'Online (Prelims), Graphics Lab (Finals)',
-      date: 'Oct. 5, 2023',
+      date: 'Oct. 5 & 6, 2023',
       winner: '6000',
       runner: '4000',
       third_prize: '2000',
@@ -124,8 +124,7 @@ export const CSEevents = {
         },
         {
           name: 'Finals',
-          description:
-            `Teams will be given 4 coding problems. Each problem will include:  
+          description: `Teams will be given 4 coding problems. Each problem will include:  
             ● Object file  
             ● Input description + format  
             ● Output description + format  
@@ -311,7 +310,7 @@ export const CSEevents = {
       ],
     },
     {
-      name: "Planetary Escape",
+      name: 'Planetary Escape',
       description:
         'Here comes our Planetary Escape Event! In 2077, Earth has become uninhabitable, so humans decide to leave the planet in a spaceship. However, there is only space for half of them on the space shuttle. After half have been chosen through a series of tasks, and the spaceship departs, there is an imposter among them. The crewmates must find and eliminate the imposter before the imposters destroy the ship. Will the crewmates prevail over the imposters, or will the imposters reign supreme? Are you ready to experience the challenges of a crewmate or the thrills of being an imposter? Register to the event right away!',
       type: 'solo',
@@ -370,6 +369,5 @@ export const CSEevents = {
         },
       ],
     },
-
   ],
 };
