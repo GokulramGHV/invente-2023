@@ -12,16 +12,16 @@ export const CSEevents = {
         {
           name: 'Prelims',
           description:
-            ' Participants take part in a coding competition consisting of 5-7 questions. The questions are of easy-medium-hard levels.  The participants are then shortlisted to the second and final round based on their performance.',
+            'Online 5th Oct. 7pm to 9pm. Participants take part in a coding competition consisting of 5-7 questions. The questions are of easy-medium-hard levels.  The participants are then shortlisted to the second and final round based on their performance.',
         },
         {
           name: 'Finals',
           description:
-            'This round is of the same pattern as the prelims , with a leader-board to determine the top three winning teams',
+            'Will be conducted offline on 6th Oct. This round is of the same pattern as the prelims, with a leader-board to determine the top three winning teams',
         },
       ],
-      venue: 'Graphics and Multimedia Lab(GML)',
-      date: 'Oct. 6, 2023',
+      venue: 'Online (Prelims), Graphics Lab (Finals)',
+      date: 'Oct. 5, 2023',
       winner: '6000',
       runner: '4000',
       third_prize: '2000',

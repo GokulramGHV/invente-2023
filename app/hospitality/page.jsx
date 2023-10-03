@@ -82,6 +82,15 @@ export default function Page() {
         <div>
           {display === 'Instructions' && (
             <div className="flex flex-col gap-4 p-2">
+              <div className="flex gap-2 flex-wrap font-medium">
+                Fill the gform for Invente accommodation:
+                <a
+                  href="https://forms.gle/SJUjgKvLGHpWpDqq8"
+                  className="text-blue-500 underline"
+                >
+                  https://forms.gle/SJUjgKvLGHpWpDqq8
+                </a>
+              </div>
               {HospitalityContent['instructions'].map((content, index) => (
                 <div key={index}>
                   <span className="block font-bold ">{content.heading}:</span>
