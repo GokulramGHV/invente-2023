@@ -214,7 +214,7 @@ export const EEEevents = {
     {
       name: 'RocketBots',
       description:
-        'Car! Ball! Goal! A spectacle that combines cutting-edge technology and intense competition, in this electrifying showdown, MicroController-powered cars take the stage in a Rocket League-inspired extravaganza. Watch as these DIY marvels compete in a high-octane race to outsmart and outmaneuver their opponents. With innovative programming, custom designs, and pure mechanical prowess, participants will navigate the arena in a heart-pounding quest for victory.',
+        `Get ready to immerse yourself in a futuristic reimagining of traditional soccer with the "Rocketbots: Robo Soccer Showdown!" We invite you to be part of an electrifying day filled with high-energy excitement as state-of-the-art robots hit the field in an exhilarating football tournament inspired by Rocket League. If you're seeking a solo challenge, don't miss our rapid-fire 1v1 Robo Soccer matches. Test your robot's skills against an opponent in an arena where strategy and quick decision-making are the keys to success.`,
 
       type: 'team',
       event_type: 'tech',
@@ -250,7 +250,7 @@ export const EEEevents = {
       rounds: [],
 
       venue: 'EEE - Department',
-      date: 'Oct. 8, 2023',
+      date: 'Oct. 6 & 7, 2023',
       winner: '3000',
       runner: '1000',
       third_prize: '',
