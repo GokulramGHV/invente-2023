@@ -91,6 +91,16 @@ export default function Page() {
                   https://forms.gle/SJUjgKvLGHpWpDqq8
                 </a>
               </div>
+              <div className="flex gap-2 flex-wrap font-medium">
+                Click here to view bus routes:
+                <a
+                target='_blank'
+                  href="https://drive.google.com/file/d/1iJYQElpGEnq-8zsn_4GOI16DAoraftcu/view?usp=drive_link"
+                  className="text-blue-500 underline"
+                >
+                  SSN Bus Routes
+                </a>
+              </div>
               {HospitalityContent['instructions'].map((content, index) => (
                 <div key={index}>
                   <span className="block font-bold ">{content.heading}:</span>

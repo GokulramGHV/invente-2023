@@ -1,3 +1,4 @@
+import { Toaster } from 'react-hot-toast';
 import './globals.css';
 import { IBM_Plex_Sans } from 'next/font/google';
 
@@ -19,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={ibm_plex.className}>{children}</body>
+      <body className={ibm_plex.className}><Toaster/>{children}</body>
     </html>
   );
 }

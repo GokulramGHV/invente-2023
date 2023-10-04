@@ -9,10 +9,20 @@ import Navbar from '@/components/navbar';
 import Footer from '../components/footer';
 import { useInView } from 'react-intersection-observer';
 import { useState, useEffect } from 'react';
+import toast from 'react-hot-toast';
 
 export default function Home() {
   //load video afer timeout
   useEffect(() => {
+    toast(
+      <Link href="/hospitality">
+        Bus routes are now available in the hospitality page!
+      </Link>,
+      {
+        icon: 'ℹ️',
+        duration: 6000,
+      }
+    );
     setTimeout(() => {
       document.getElementById('bg_video').load();
     }, 3000);
@@ -33,7 +43,6 @@ export default function Home() {
         id="home"
       >
         <div className="relative flex-1 flex flex-col w-full">
-
           <img
             src="/bg_video_pic.png"
             alt="Background Image"
@@ -47,17 +56,14 @@ export default function Home() {
             autoPlay
             loop
             muted
-
             onLoadStart={() => {
-              setIsVideoLoaded(false)
-              console.log('bg video load started')
+              setIsVideoLoaded(false);
+              console.log('bg video load started');
             }}
-
             onLoadedData={() => {
-              setIsVideoLoaded(true)
-              console.log('bg video loaded')
+              setIsVideoLoaded(true);
+              console.log('bg video loaded');
             }}
-
             style={{ opacity: isVideoLoaded ? 1 : 0 }}
             className="rounded-3xl absolute h-full w-full object-cover"
           />
