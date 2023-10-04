@@ -202,12 +202,12 @@ export const EEEevents = {
       third_prize: '',
       coordinators: [
         {
-          name: 'Jaya Yayadhi',
-          phone: ' 89398 65300 ',
-        },
-        {
           name: 'Raghul SJ',
           phone: '94456 84325',
+        },
+        {
+          name: 'Jaya Yayadhi',
+          phone: ' 89398 65300 ',
         },
       ],
     },
@@ -223,7 +223,7 @@ export const EEEevents = {
       rounds: [],
 
       venue: 'EEE - Department',
-      date: 'Oct. 8, 2023',
+      date: 'Oct. 6 & 7, 2023',
       winner: '4000',
       runner: '2000',
       third_prize: '',
