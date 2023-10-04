@@ -191,7 +191,7 @@ export const EEEevents = {
 
       type: 'solo',
       event_type: 'tech',
-      team_size: '1',
+      team_size: '2',
       department: 'EEE',
       rounds: [],
 
