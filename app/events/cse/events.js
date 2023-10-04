@@ -154,7 +154,6 @@ export const CSEevents = {
       name: 'Paper Presentation',
       description:
         `Paper Presentation is a technical event that provides a platform for participants to elevate their research ideas to new heights, fostering an environment where innovation and knowledge converge. It offers budding scholars an incredible opportunity to delve into diverse domains like IoT, Machine Learning, AI, and more, and to showcase their research in front of a distinguished panel of judges, comprising esteemed academicians and seasoned researchers.  
-          
         **PAPER PRESENTATION RESPONSES CLOSED**`,
       type: 'team',
       event_type: 'tech',
