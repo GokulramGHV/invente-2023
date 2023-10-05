@@ -305,7 +305,8 @@ export const ITevents = {
     {
       name: 'Pixel Playoff',
       description: `🎮 **Join the Ultimate Gaming Showdown!** 🎮  
-        Are you ready to showcase your gaming skills like never before? We're thrilled to invite you to our action-packed gaming tournament featuring two of the hottest esports titles around: FIFA and Valorant. Get ready to compete, strategize, and triumph in this electrifying gaming extravaganza!`,
+        Are you ready to showcase your gaming skills like never before? We're thrilled to invite you to our action-packed gaming tournament featuring two of the hottest esports titles around: FIFA and Valorant. Get ready to compete, strategize, and triumph in this electrifying gaming extravaganza!  
+        **Registration Form:** [***https://forms.gle/aB4V2gze9WgcPrXT6***](https://forms.gle/aB4V2gze9WgcPrXT6)`,
       type: 'team',
       event_type: 'Non Tech',
       team_size: '2',
