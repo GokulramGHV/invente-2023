@@ -40,12 +40,11 @@ export default function Confetti() {
   useEffect(() => {
     // if the date is greater or equal to 2023-10-06T00:00:00.000Z
     // then fire confetti
-    const date = new Date();
-    const currentDate = date.toISOString();
-    const eventDate = '2023-10-06T00:00:00.000Z';
+    // const date = new Date();
+    // const currentDate = date.toISOString();
+    // const eventDate = '2023-10-05T00:00:00.000Z';
     // get fired once from session storage
     if (sessionStorage.getItem('fired')) return;
-    if (currentDate >= eventDate) {
       setTimeout(function () {
         makeShot(0.25, {
           spread: 60,
@@ -55,7 +54,6 @@ export default function Confetti() {
           gravity: 0.7,
         });
       }, 1000);
-    }
     sessionStorage.setItem('fired', true);
   }, [makeShot]);
 
