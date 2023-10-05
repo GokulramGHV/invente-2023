@@ -175,12 +175,12 @@ export const EEEevents = {
       third_prize: '',
       coordinators: [
         {
-          name: 'Bhavaesh B R ',
-          phone: '94442 26610 ',
+          name: 'Vanaja I',
+          phone: '93452 65393',
         },
         {
-          name: 'Vanaja',
-          phone: '93452 65393',
+          name: 'Bhavaesh B R ',
+          phone: '94442 26610 ',
         },
       ],
     },
