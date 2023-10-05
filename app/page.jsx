@@ -10,14 +10,38 @@ import Footer from '../components/footer';
 import { useInView } from 'react-intersection-observer';
 import { useState, useEffect } from 'react';
 import toast from 'react-hot-toast';
+import Confetti from '../components/confetti';
 
 export default function Home() {
   //load video afer timeout
   useEffect(() => {
     toast(
-      <Link href="/hospitality">
-        Bus routes are now available in the hospitality page!
-      </Link>,
+      (t) => (
+        <div className="flex gap-2 items-center">
+          <Link href="/hospitality" className="flex-1">
+            Bus routes are now available in the hospitality page!
+          </Link>
+          <button
+            className="text-gray-500 text-xl font-bold bg-white rounded-full flex justify-center items-center"
+            onClick={() => toast.dismiss(t.id)}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="currentColor"
+              className="w-5 h-5"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+          </button>
+        </div>
+      ),
       {
         icon: 'ℹ️',
         duration: 6000,
@@ -38,6 +62,7 @@ export default function Home() {
 
   return (
     <main>
+      <Confetti />
       <div
         className="relative flex min-h-[93vh] flex-col items-center justify-center pl-5 lg:pr-2 pr-5 pt-5 bg-[#1D1D1F] bg-scroll"
         id="home"

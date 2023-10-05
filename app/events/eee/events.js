@@ -36,7 +36,7 @@ export const EEEevents = {
       rounds: [],
 
       venue: 'EEE - Department',
-      date: 'Oct. 7, 2023',
+      date: 'Oct. 6, 2023',
       winner: '3000',
       runner: '1000',
       third_prize: '',
