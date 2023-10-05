@@ -72,6 +72,7 @@ export default function ScheduleBox() {
                 dept === deptInfo.name && 'border-2 border-blue-300'
               }`}
               onClick={() => {
+                if (dept === deptInfo.name) return;
                 setLoading(true);
                 setDept(deptInfo.name);
               }}
