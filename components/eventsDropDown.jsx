@@ -30,8 +30,8 @@ export default function EventsDropDown({
       </button>
       <div
         style={{ width: width }}
-        className={`${!dropDownOpen ? 'opacity-0 -translate-y-4  ' : 'translate-y-0'
-          } absolute z-[1] top-0 left-0 bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm transition-all duration-200 ease-in-out`}
+        className={`${!dropDownOpen ? 'opacity-0 -translate-y-4  z-[-2]' : 'translate-y-0 z-[1]'
+          } absolute top-0 left-0 bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm transition-all duration-200 ease-in-out`}
       >
         <span className="text-left p-2 cursor-default font-light ">TECH</span>
         {deptEvents.events

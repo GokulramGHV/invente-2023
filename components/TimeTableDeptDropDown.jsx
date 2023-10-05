@@ -17,8 +17,9 @@ export default function TimeTableDeptDropDown({
         <span className="font-bold ml-3 text-lg">{dept}</span>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className={`w-4 h-4 mx-1 ${dropDownOpen ? 'rotate-[270deg]' : 'rotate-90'
-            } transition duration-300 ease-in-out`}
+          className={`w-4 h-4 mx-1 ${
+            dropDownOpen ? 'rotate-[270deg]' : 'rotate-90'
+          } transition duration-300 ease-in-out`}
           viewBox="0 0 13 13"
           fill="none"
         >
@@ -29,8 +30,11 @@ export default function TimeTableDeptDropDown({
         </svg>
       </button>
       <div
-        className={`${!dropDownOpen ? 'opacity-0 -translate-y-4 ' : 'translate-y-0 '
-          }  w-[220px] absolute z-[1] top-0 left-0 bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm transition-all duration-200 ease-in-out`}
+        className={`${
+          !dropDownOpen
+            ? 'opacity-0 -translate-y-4 z-[-2]'
+            : 'translate-y-0 z-[1]'
+        }  w-[220px] absolute  top-0 left-0 bg-[#24232096] px-2 pt-12 pb-2 border border-white border-white/40 rounded-lg backdrop-blur-sm flex flex-col items-start text-sm transition-all duration-200 ease-in-out`}
       >
         {deptList.map((deptInfo) => (
           <button
