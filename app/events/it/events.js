@@ -155,8 +155,7 @@ export const ITevents = {
     },
     {
       name: 'Reverse Gear',
-      description:
-        `This event manifests on the logic of reverse thinking of the Contestants. With hackers around, Code obfuscation is a huge relief for the companies to protect their application. The executable and perfectly logic preserved code will be given in an incomprehensible manner to the contestants, where their reverse-engineering techniques are put to test.
+      description: `This event manifests on the logic of reverse thinking of the Contestants. With hackers around, Code obfuscation is a huge relief for the companies to protect their application. The executable and perfectly logic preserved code will be given in an incomprehensible manner to the contestants, where their reverse-engineering techniques are put to test.
         \n*(Number of rounds and it’s duration may be subject to change based on the number of 
         participants and other logistical considerations.)`,
       type: 'team',
@@ -165,22 +164,22 @@ export const ITevents = {
       department: 'Information Technology',
       rounds: [
         {
-          name: "Round 1*",
+          name: 'Round 1*',
           description: `20 MCQ which covers programming questions, pseudo code, data structure. 
-          \nDuration: 30 Minutes or 40 Minutes (Yet to finalize)`
+          \nDuration: 30 Minutes or 40 Minutes (Yet to finalize)`,
         },
         {
-          name: "Round 2*",
+          name: 'Round 2*',
           description: `A topic will be given participant need to preserve the logic and they have to obfuscate and code as much as they can. The obfuscated code of one participant will be given to another participant. If he/she finds the topic then points will be awarded to deobfuscated individual else points will be given to obfuscated individual.
           \nPlatform: Hackerrank
-          \nDuration: 60 Minutes`
+          \nDuration: 60 Minutes`,
         },
         {
-          name: "Round 3*",
+          name: 'Round 3*',
           description: `Reverse coding, .exe file will be given to participants along with test case input details. Participants should find the algorithm or desired function of the code for which it was intended. Then they need to code the same.
           \nPlatform: Hackerrank
-          \nDuration: Between 60 to 80 Minutes`
-        }
+          \nDuration: Between 60 to 80 Minutes`,
+        },
       ],
       venue: 'Alan Turing Lab',
       date: 'Oct. 7, 2023',
@@ -213,11 +212,12 @@ export const ITevents = {
       rounds: [
         {
           name: 'Round 1',
-          description: 'All the teams will be given problem statements and have to come up with an idea and present it. Top 10 teams will be selected to the second round.',
+          description:
+            'All the teams will be given problem statements and have to come up with an idea and present it. Top 10 teams will be selected to the second round.',
         },
         {
           name: 'Round 2',
-          description: `Of the shortlisted teams, they will be given new set of problems and additional constraints, provide new solutions and ideas. Teams will be judged on feasibility of the idea, market value, scalability, and presentation.`
+          description: `Of the shortlisted teams, they will be given new set of problems and additional constraints, provide new solutions and ideas. Teams will be judged on feasibility of the idea, market value, scalability, and presentation.`,
         },
       ],
       venue: 'IT Seminar Hall',
@@ -351,22 +351,25 @@ export const ITevents = {
     },
     {
       name: 'Brand IT',
-      description:
-        'This offline event comprises two rounds, the first one being a business case study round followed by Ad-zap. In the first round, teams will be given a business case study scenario for which they will have to do the complete business analysis ranging from its financial details to the peak working hours. Shortlisted students will be moved into the next round where they will be given a product and 5 mins to prepare their marketing strategies and present it to the judges. Questions will be asked to evaluate their understanding and hence the students with maximum scores will be awarded.',
+      description: `This offline event comprises two rounds, the first one being a business case study round followed by Ad-zap. In the first round, teams will be given a business case study scenario for which they will have to do the complete business analysis ranging from its financial details to the peak working hours. Shortlisted students will be moved into the next round where they will be given a product and 5 mins to prepare their marketing strategies and present it to the judges. Questions will be asked to evaluate their understanding and hence the students with maximum scores will be awarded.  
+        **Registration Link:** [***https://forms.gle/4vPJfYCdDAkcduCo9***](https://forms.gle/4vPJfYCdDAkcduCo9)`,
       type: 'team',
       event_type: 'tech',
       team_size: '3',
       department: 'Information Technology',
       rounds: [
         {
-          name: 'Round 1: Case Study (90 mins)',
-          description:
-            'In the first round, teams will have to showcase their analytical, problem-solving and communication skills through case studies. Teams will have to choose a business scenario from the given options and perform a complete business analysis. The analysis of different sectors of a business lies in the creativity of the teams. Teams will be given 60 mins to produce a final report with all their analysis.',
+          name: 'Round 1: Ad-zap',
+          description: `- Teams will pick one product randomly and enact a creative advertisement for the same.  
+            - This round will test the participants creativity and time management skills.  
+            - Time: 3-4 mins  `,
         },
         {
-          name: 'Round 2: Ad-zap (90 mins)',
-          description:
-            'The shortlisted teams will participate in the second round. This is where the creativity and spontaneity of teams come into play. Teams will be given a product related to digital media and teams will have to use their marketing skills to sell it and brand it! Judges as customers will ask any questions, they must evaluate the teams. The final winner will be chosen with the combined scores of both the rounds.',
+          name: 'Round 2: Idea Pitch',
+          description: `- Selected teams will have to come up with a business plan for a product of their choice in the given domain and pitch their idea to investors.  
+            - Time for preparation: 40 mins  
+            - Time for pitching: 3 mins + 3 mins(Q&A)  
+            `,
         },
       ],
       venue: 'IT PG Lab',
@@ -382,6 +385,10 @@ export const ITevents = {
         {
           name: 'Aruneeswaran K',
           phone: '80560 53854',
+        },
+        {
+          name: 'Ritheesh Kumar',
+          phone: '89391 46696',
         },
       ],
     },
