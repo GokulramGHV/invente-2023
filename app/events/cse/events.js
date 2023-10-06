@@ -42,7 +42,7 @@ export const CSEevents = {
         'Embark on an action-packed journey that will test your cybersecurity knowledge and technical expertise like never before.Discover concealed vulnerabilities, decipher encrypted messages, and outwit digital foes with us @Hackers Asylum - Invente23. Ready for the ultimate cybersecurity face-off?',
       type: 'team',
       event_type: 'tech',
-      team_size: '2-4',
+      team_size: '1-4',
       department: 'Computer Science',
       rounds: [
         {

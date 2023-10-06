@@ -117,7 +117,7 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 6, 2023',
-      winner: '1500',
+      winner: '2500',
       runner: '1000',
       third_prize: '',
       coordinators: [
@@ -224,7 +224,7 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 6 & 7, 2023',
-      winner: '1500',
+      winner: '2500',
       runner: '1000',
       third_prize: '',
       coordinators: [
