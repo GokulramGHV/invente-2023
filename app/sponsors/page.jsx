@@ -10,7 +10,7 @@ const bayon = Bayon({
 const sponsors = [
   {
     img: '/sponsors/credai.jpg',
-    link: 'https://credai.org/',
+    link: 'https://credaichennai.in/',
     width: 200,
     height: 100,
   },
