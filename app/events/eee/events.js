@@ -11,7 +11,7 @@ export const EEEevents = {
       rounds: [],
       venue: 'EEE- Department',
       date: 'Oct. 6, 2023',
-      winner: '3000',
+      winner: '1500',
       runner: '1000',
       third_prize: '',
       coordinators: [
@@ -36,8 +36,8 @@ export const EEEevents = {
       rounds: [],
 
       venue: 'EEE - Department',
-      date: 'Oct. 6, 2023',
-      winner: '3000',
+      date: 'Oct. 7, 2023',
+      winner: '1500',
       runner: '1000',
       third_prize: '',
       coordinators: [
@@ -63,7 +63,7 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 7, 2023',
-      winner: '3000',
+      winner: '1500',
       runner: '1000',
       third_prize: '',
       coordinators: [
@@ -90,7 +90,7 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 6, 2023',
-      winner: '3000',
+      winner: '1500',
       runner: '1000',
       third_prize: '',
       coordinators: [
@@ -117,8 +117,8 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 6, 2023',
-      winner: '4000',
-      runner: '2000',
+      winner: '1500',
+      runner: '1000',
       third_prize: '',
       coordinators: [
         {
@@ -144,7 +144,7 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 7, 2023',
-      winner: '3000',
+      winner: '1500',
       runner: '1000',
       third_prize: '',
       coordinators: [
@@ -170,17 +170,17 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 6, 2023',
-      winner: '2000',
+      winner: '1500',
       runner: '1000',
       third_prize: '',
       coordinators: [
         {
-          name: 'Vanaja I',
-          phone: '93452 65393',
-        },
-        {
           name: 'Bhavaesh B R ',
           phone: '94442 26610 ',
+        },
+        {
+          name: 'Vanaja',
+          phone: '93452 65393',
         },
       ],
     },
@@ -197,7 +197,7 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 6, 2023',
-      winner: '3000',
+      winner: '1500',
       runner: '1000',
       third_prize: '',
       coordinators: [
@@ -224,8 +224,8 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 6 & 7, 2023',
-      winner: '4000',
-      runner: '2000',
+      winner: '1500',
+      runner: '1000',
       third_prize: '',
       coordinators: [
         {
@@ -251,7 +251,7 @@ export const EEEevents = {
 
       venue: 'EEE - Department',
       date: 'Oct. 6 & 7, 2023',
-      winner: '3000',
+      winner: '1500',
       runner: '1000',
       third_prize: '',
       coordinators: [
