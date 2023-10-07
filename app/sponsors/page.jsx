@@ -91,7 +91,19 @@ const sponsors = [
     link: 'https://www.walkinternational.com/',
     width: 200,
     height: 225,
-  }
+  },
+  {
+    img: '/sponsors/csim.jpg',
+    link: 'https://csim.in/',
+    width: 200,
+    height: 100,
+  },
+  {
+    img: '/sponsors/Data-Finz-black.png',
+    link: 'https://csim.in/',
+    width: 200,
+    height: 100,
+  },
 ];
 
 export default function SponsorsPage() {
